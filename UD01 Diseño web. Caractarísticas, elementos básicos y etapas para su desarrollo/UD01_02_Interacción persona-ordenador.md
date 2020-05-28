@@ -1,11 +1,3 @@
-# Interacción persona-ordenador (IPO)
-
-
-Tabla de contenidos
-
--   [2. Interacción persona-ordenador](#Interacción-persona-ordenador)
--   [2.1. ¿Por qué es importante estudiar la interfaz de usuario?](2.1.-Por-que-es-importante-estudiar-la-interfaz-de-usuario)
-
 # 2. Interacción persona-ordenador
 ---------------------------------
 
