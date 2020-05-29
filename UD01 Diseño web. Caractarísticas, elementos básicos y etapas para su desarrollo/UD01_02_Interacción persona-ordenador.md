@@ -29,3 +29,16 @@ Otros estudios demuestran que el **80% de los costes de mantenimiento** de una a
 **A pesar de su importancia** la interacción persona-ordenador es una disciplina a la que **no se le da el suficiente valor en los estudios de informática** y, muchas veces, no se utiliza en el momento de hacer la documentación de un proyecto.
 
 Leer más información en la página web de la **[Asociación Interacción Persona-Ordenador](https://aipo.es/content/libro-aipo)**.
+
+# 2.2. Percepción visual. Fundamentos de la composición
+
+A la hora de desarrollar un sitio web hay que tener en cuenta qué interfaz web ofrecer y qué elementos incluir en ella. Cada uno de esos elementos contribuirá a la percepción que sus potenciales usuarios tendrán de la aplicación.
+
+Una de las primeras impresiones que causará la interfaz de usuario será visual. En función de la forma, tamaño, ubicación, color, tipografía, etc., que se le asigne a cada uno de los elementos de la interfaz se influirá, de una manera u otra, en el usuario o visitante de un sitio web. El diseñador ha de tener en cuenta constantemente a lo largo de todo su trabajo estas circunstancias y saber valorar la relación directa que puede identificarse entre sus diseños y cómo estos serán percibidos.
+
+El diseñador debe buscar un equilibrio entre los elementos que constituyen la interfaz, a fin de poder así hallar un adecuado sentido gráfico de su diseño, lo que a su vez le permitirá conseguir una comunicación eficaz. Debemos tener muy presente que, por principio, nada debe ser totalmente superfluo en un diseño, aunque tampoco es conveniente excederse en la utilización de elementos por el mero hecho de ponerlos, ya que esto puede producir un excesivo ruido o distracciones que pueden enmascarar el mensaje de la comunicación. Por ejemplo, un sitio web con demasiados elementos animados distrae al usuario olvidándose por un momento de que hay un texto que leer.
+
+Una vez asimilada toda la información sobre aquello que quiere comunicar, el diseñador ha de empezar a generar soluciones de diseño adecuadas al propósito. Lo primero que determinará es el área de diseño, es decir, qué tamaño se asignará al espacio del que se dispone para la composición gráfica. Una composición gráfica puede estar formada por muchos o pocos elementos. Puede componerse exclusivamente de la presencia de texto o solo de imágenes; puede poseer grandes espacios en blanco o constituir una combinación equilibrada de elementos gráficos. Pero, en cualquier caso, debe ser adecuada con lo que se quiere comunicar. Por ejemplo, ¿es lo mismo diseñar el programa de un concierto de música clásica que el cartel de un concierto de rock? Y, ¿es lo mismo un portal de venta de ropa que un portal tipo buscador Google?
+
+Para profundizar sobre estos aspectos mira la siguiente presentación sobre *los [fundamentos de la composición](https://srey.moodlecloud.com/mod/resource/view.php?id=37 "Fundamentos de la composición") visual:*\
+<http://www.slideshare.net/amedsito/fundamentos-de-composicion-visual>
