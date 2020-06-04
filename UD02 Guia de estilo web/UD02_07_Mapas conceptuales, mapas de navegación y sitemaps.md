@@ -43,7 +43,46 @@ Sin embargo, **los mapas de navegación de las páginas web no suelen ser gráfi
 
 Uno de los objetivos principales de los mapas de navegación a la hora del diseño es **estructurar bien los contenidos** antes de crear un sitio web y que los **usuarios encuentren de forma sencilla lo que están buscando**.
 
-Cuando el diseño de una web es muy complejo, en algunos casos, es difícil entender lo que se quiere transmitir entre el diseñador del mapa de navegación y el equipo de desarrollo. Por este motivo, **los prototipos son herramientas muy interesantes para ver de forma visual un borrador de cómo será un sitio web**. Existen diferentes formas de realizar el [prototipo de una web](https://www.eniun.com/prototipos-diseno-interfaces-web/): **esquemas, bocetos, sketches, wireframes, mockups, diagramas,** etc. En el punto 12 veremos los más importantes.
+Cuando el diseño de una web es muy complejo, en algunos casos, es difícil entender lo que se quiere transmitir entre el diseñador del mapa de navegación y el equipo de desarrollo. Por este motivo, **los prototipos son herramientas muy interesantes para ver de forma visual un borrador de cómo será un sitio web**. Existen diferentes formas de realizar el [prototipo de una web](https://www.eniun.com/prototipos-diseno-interfaces-web/): **esquemas, bocetos, sketches, wireframes, mockups, diagramas,** etc. En el punto 9 veremos los más importantes.
+
+Como se puede apreciar de lo visto en las secciones anteriores, los sitios web pueden contener muchas páginas, todas ellas accesibles desde algún punto del sitio y todas con todos o algunos enlaces a las demás. Esta estructura de enlaces hace, en muchos casos, difícil que el diseñador o el usuario del sitio sepan qué páginas llevan a cuáles. Por ello, **antes de diseñar un sitio web se debe realizar un esquema que permita anticipar cuáles son las secciones en las que estará dividida el sitio web y la relación entre los diferentes bloques de contenidos**. Ese esquema recibe el **nombre de mapa de navegación** y es algo parecido al índice de contenidos de un libro, es decir, un manera de que el diseñador de un sitio web estructure bien los contenidos antes de crear el sitio y de que los usuarios encuentren más rápidamente lo que buscan una vez creado el sitio.
+
+La siguiente figura muestra un mapa del sitio web de un Hotel-Restaurante. El mapa muestra cómo están relacionados los diferentes grupos de información. Un ejemplo de mapa de navegación o mapa de un sitio web ligado a una temática de institución educativo se muestra en la siguiente figura:
+
+![Mapa de navgación](img/07_03_MapaNavegacion.png)
+
+A la hora de realizar mapas de navegación hay que tener en cuenta que las páginas que forman un sitio web no deben aportar todas ellas la misma información ni cubrir el mismo objetivo, se podrá partir de una página principal (home o homepage) y, desde ella, poder acceder al resto de páginas que conforman el sitio web.
+
+Además de los mapas de navegación, la propia complejidad del diseño hace que, en muchos casos, sea difícil entender qué es lo que el usuario quiere transmitir al resto del equipo de desarrollo y qué es lo que tienen que hacer.
+
+En los siguientes enlaces, puedes ver los mapas de navegación de los sitios Web de algunas de las\
+Comunidades Autónomas y del sitio Web del Ministerio de Educación y Ciencia
+
+-   [Generalitat Valenciana. Conselleria de Educación, Cultura y Deporte](http://www.ceice.gva.es/es/mapa-web)[.](http://www.ceice.gva.es/es/)
+-   [Comunidad Autónoma de Galicia](http://www.xunta.es/mapa-do-portal)
+-   [Comunidad Autónoma de Euskadi](http://www.euskadi.net/r33-2288/es/contenidos/informacion/mapa_web_euskadi/es_6313/sitio_web_euskadi.html)
+-   [Comunidad Autónoma de Cataluña](http://www.gencat.cat/web/cas/mapa.htm)
+-   [Amazon Eapaña](https://amazon-prensa.es/service/Mapa-Web.html)
+
+El mapa de un sitio Web va a tener una estructura que dependerá de la relación que tengan las páginas del sitio entre sí. Esta relación puede ser de diferentes tipos:
+
+-   La **estructura lineal** es adecuada en aquellos sitios compuestos por páginas donde **la lectura de las mismas es secuencia**l. Su estructura es similar a la de un libro donde avanzas de página en página, pero puedes volver a la página anterior y desde ésta a la anterior para releer algún párrafo.
+
+![Estructura Lineal](img/07_04_LINEAL.gif)
+
+-   La **estructura reticular** se emplea en aquellos sitios en los que** todas sus páginas están relacionadas entre sí**. No resulta adecuado cuando el sitio está compuesto por muchas páginas porque el usuario puede llegar a perderse.
+
+![Resultado de imagen de estructura en malla mapa navegacion](img/07_05_nodos.gif)
+
+-   La **estructura jerárquica** es la más común. Se emplea en aquellos sitios donde existen varias **secciones bien diferenciadas** pero **de poca complejidad** de modo que el usuario no tiene porque navegar de una sección a otra.
+
+![Estructura Jerárquica](img/07_06_JERARQUICA.gif)
+
+-   La **estructura lineal jerárquica** es también de las más empleadas cuando **cada una de las secciones tiene un volumen de información más elevado y conlleva una lectura secuencial del contenido de la sección**. También se emplea este método en aquellos sitios en los que sus secciones representan grados de dificultad de la información presentada y se permite la navegación entre secciones.
+
+![Estructura Mixta](img/07_07_MIXTO.gif)
+
+Revisa el siguiente enlace donde explica [como hacer mapas de navegación](https://blog.ida.cl/diseno/como-agrupar-contenidos-sueltos-en-mapas-de-navegacion/)
 
 ## 7.3. *Sitemaps* o mapas para motores de búsqueda
 
