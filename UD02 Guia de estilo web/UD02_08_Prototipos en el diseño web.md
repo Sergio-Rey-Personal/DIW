@@ -20,13 +20,17 @@ Existen diferentes formas de realizar el prototipo de una web: **esquemas, bocet
 
 Es el **dibujo o boceto inicial de un sitio web**. Los diseños no son muy detallados y se realizan de forma esquemática. Es esta fase inicial se suelen utilizar **pizarras o folios de papel.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4xsATP-X3vM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/4xsATP-X3vM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## 8.2. Wireframing
 
 Es un **dibujo** en el que se **especifican los elementos de forma más detallada.** Se establece claramente la jerarquía de la información, las llamadas de acción y la organización de los contenidos. En esta segunda fase se suelen utilizar herramientas como [**Balsamiq Mockups**](https://balsamiq.com/)**.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v8AjVL4ZdS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/v8AjVL4ZdS0" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 # 8.3. Prototipo y *mockup*
 
@@ -34,4 +38,9 @@ Los **prototipos y los *mockups***son los que representan el **diseño con más 
 
 Los prototipos, además, simulan la **interacción con la interfaz**. Por este motivo, en esta representación los usuarios pueden comprobar cómo se comporta la web y podrán **experimentar la experiencia de uso**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GVnxuWzab7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/GVnxuWzab7M" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+.
+
