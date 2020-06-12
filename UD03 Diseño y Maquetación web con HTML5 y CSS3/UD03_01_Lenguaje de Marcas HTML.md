@@ -39,6 +39,18 @@ El vídeo que acabas de ver forma parte de un [curso de Google Actívate realiza
 ## 1.2. Estructura HTML
 
 Las páginas web tienen una estructura general que explicaremos en los siguientes apartados.
+<div class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="sergio-rey-personal" data-slug-hash="xxZVBRv" data-prefill='{"title":"Estructura básica HTML","tags":[],"scripts":[],"stylesheets":[]}'>
+  <pre data-lang="html">&lt;!DOCTYPE html>
+&lt;html lang="es">  
+  &lt;head>    
+    &lt;title>Título de la WEB&lt;/title>       
+  &lt;/head>  
+  &lt;body>    
+    Estructura básica HTML
+  &lt;/body>  
+&lt;/html></pre></div>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 
 <iframe
   src="https://codepen.io/sergio-rey-personal/pen/xxZVBRv"
