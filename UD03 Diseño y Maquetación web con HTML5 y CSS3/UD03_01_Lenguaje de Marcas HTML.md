@@ -6,8 +6,7 @@ Tabla de contenidos
 -   [1\. Lenguaje de marcas HTML](#1-Lenguaje-de-marcas-HTML)
 -   [1.1. Breve historia HTML](#11-Breve-historia-HTML)
 -   [1.2. Estructura HTML](#12-Estructura-HTML)
--   [Comprueba tu aprendizaje](https://www.eniun.com/html-lenguaje-de-marcas/#Comprueba_tu_aprendizaje)
--   [Ejercicios propuestos](https://www.eniun.com/html-lenguaje-de-marcas/#Ejercicios_propuestos)
+
 
 *En la unidad anterior vimos los componentes y elementos principales necesarios en la **planificación de interfaces web**. En este punto, veremos el **lenguaje de marcado** que emplearemos para la creación o inserción de todos esos elementos.*
 
@@ -28,7 +27,6 @@ Observa que la etiqueta de cierre del final incluye una barra inclinada.
 El lenguaje HTML es un estándar reconocido en todo el mundo y sus normas están definidas por un organismo sin ánimo de lucro llamado [World Wide Web Consortium](https://www.w3.org/), conocido como **W3C**. 
 
 ## 1.1. Breve historia HTML
-------------------------
 
 En el siguiente vídeo puedes conocer de forma breve la **historia de HTML**.
 
@@ -38,90 +36,21 @@ El vídeo que acabas de ver forma parte de un [curso de Google Actívate realiza
 
 ## 1.2. Estructura HTML
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="sergio-rey-personal" data-slug-hash="xxZVBRv" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Estructura básica HTML">
-  <span>See the Pen <a href="https://codepen.io/sergio-rey-personal/pen/xxZVBRv">
-  Estructura básica HTML</a> by Sergio-Rey-Personal (<a href="https://codepen.io/sergio-rey-personal">@sergio-rey-personal</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
---------
-
-
-
 Las páginas web tienen una estructura general que explicaremos en los siguientes apartados.
-<iframe height="265" style="width: 100%;" scrolling="no" title="Estructura básica HTML" src="https://codepen.io/sergio-rey-personal/embed/preview/xxZVBRv?height=265&theme-id=light&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/sergio-rey-personal/pen/xxZVBRv'>Estructura básica HTML</a> by Sergio-Rey-Personal
-  (<a href='https://codepen.io/sergio-rey-personal'>@sergio-rey-personal</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
 
-----
-
-
-<div class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="sergio-rey-personal" data-slug-hash="xxZVBRv" data-prefill='{"title":"Estructura básica HTML","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;!DOCTYPE html>
-&lt;html lang="es">  
-  &lt;head>    
-    &lt;title>Título de la WEB&lt;/title>       
-  &lt;/head>  
-  &lt;body>    
+```html
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Título de la WEB</title>       
+  </head>  
+  <body>    
     Estructura básica HTML
-  &lt;/body>  
-&lt;/html></pre></div>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+  </body>  
+</html>
+```
+[Estructura básica HTML (Codepen)](https://codepen.io/sergio-rey-personal/pen/xxZVBRv)
 
 
-<iframe
-  src="https://codepen.io/sergio-rey-personal/pen/xxZVBRv"
-  style="width:100%; height:300px;"
-></iframe>
+![Organización de carpetas en el desarrollo web](img/estructura-de-carpetas-desarrollo-web.png)
 
-
-
-Comprueba tu aprendizaje
-------------------------
-
-#### ¿Qué significa HTML?
-
-HyperText Markup Language
-
-High Text Modeling Language
-
-eXtensible Hyper Text Modeling Language
-
-#### Selecciona los lenguajes de marcas o lenguajes de marcado:
-
-Please select 2 correct answers
-
-Java
-
-PHP
-
-XML
-
-HTML
-
-Javascript
-
-CSS
-
-#### ¿Qué es el W3C?
-
-W3C significa World Wide Web Consortium y es un organismo que define las normas HTML
-
-W3C significa Web Wide World Consortium y en su página web se puede consultar la historia de HTML
-
-W3C es una empresa privada que ofrece cursos de HTML.
-
-Ejercicios propuestos
----------------------
-
-#### Actividad 1.1
-
-Crea una carpeta llamada "**www.web.com**" y dentro de ella una carpeta llamada "**assets**". A la hora de desarrollar un sitio web es recomendable llevar a cabo una estructura lógica de carpetas para facilitar la programación y posterior mantenimiento del sitio.
-
-![Organización de carpetas en el desarrollo web](https://www.eniun.com/wp-content/uploads/estructura-de-carpetas-desarrollo-web.png)
-
-Organización de carpetas en el desarrollo web
-
-Crea también un documento **index.html** y escribe la estructura básica que hemos visto en esta sección.
