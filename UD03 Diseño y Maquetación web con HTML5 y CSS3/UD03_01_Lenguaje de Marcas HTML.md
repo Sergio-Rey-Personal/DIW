@@ -6,6 +6,7 @@ Tabla de contenidos
 -   [1\. Lenguaje de marcas HTML](#1-Lenguaje-de-marcas-HTML)
 -   [1.1. Breve historia HTML](#11-Breve-historia-HTML)
 -   [1.2. Estructura HTML](#12-Estructura-HTML)
+-   [1.3. Organización de elementos HTML](#13-Organización-de-elementos-HTML)
 
 
 *En la unidad anterior vimos los componentes y elementos principales necesarios en la **planificación de interfaces web**. En este punto, veremos el **lenguaje de marcado** que emplearemos para la creación o inserción de todos esos elementos.*
@@ -30,7 +31,7 @@ El lenguaje HTML es un estándar reconocido en todo el mundo y sus normas están
 
 En el siguiente vídeo puedes conocer de forma breve la **historia de HTML**.
 
-<iframe width="768" height="380" src="https://www.youtube.com/embed/EEttUcYhv30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Historia de HTML (youtube)](https://www.youtube.com/embed/EEttUcYhv30)
 
 El vídeo que acabas de ver forma parte de un [curso de Google Actívate realizado por la Universidad de Alicante](https://learndigital.withgoogle.com/activate/course/web-development-I) que te recomendamos realizar.
 
@@ -51,6 +52,16 @@ Las páginas web tienen una estructura general que explicaremos en los siguiente
 ```
 [Estructura básica HTML (Codepen)](https://codepen.io/sergio-rey-personal/pen/xxZVBRv)
 
+## 1.3. Organización de elementos HTML
+
+A la hora de desarrollar un sitio web es recomendable llevar a cabo una estructura lógica de carpetas para facilitar la programación y posterior mantenimiento del sitio.
 
 ![Organización de carpetas en el desarrollo web](img/estructura-de-carpetas-desarrollo-web.png)
+
+
+# Actividad
+
+Crea una carpeta llamada “www.web.com” y dentro de ella una carpeta llamada “assets” tal y como se indica en el esquema anterior. 
+
+Crea también un documento index.html y escribe la estructura básica que hemos visto en esta sección.
 
