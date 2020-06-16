@@ -32,10 +32,6 @@ Consiste en una **extensión disponible para Chrome, Firefox o IE** que nos ofre
 
 # Ejercicios propuestos
 
-#### Actividad 7.1
+- Realiza la **validación de tu código html** y corrige los errores encontrados.
 
-Realiza la **validación de tu código html** y corrige los errores encontrados.
-
-#### Actividad 7.2
-
-Instala la extensión **Web developer** en tu navegador web favorito y explora las herramientas que te ofrece.
+- Instala la extensión **Web developer** en tu navegador web favorito y explora las herramientas que te ofrece.
