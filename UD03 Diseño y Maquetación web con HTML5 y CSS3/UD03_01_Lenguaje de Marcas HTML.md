@@ -61,7 +61,7 @@ A la hora de desarrollar un sitio web es recomendable llevar a cabo una estructu
 
 # Actividad
 
-Crea una carpeta llamada “www.web.com” y dentro de ella una carpeta llamada “assets” tal y como se indica en el esquema anterior. 
+- Crea una carpeta llamada “www.web.com” y dentro de ella una carpeta llamada “assets” tal y como se indica en el esquema anterior. 
 
-Crea también un documento index.html y escribe la estructura básica que hemos visto en esta sección.
+- Crea también un documento index.html y escribe la estructura básica que hemos visto en esta sección.
 
