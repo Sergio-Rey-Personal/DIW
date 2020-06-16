@@ -74,7 +74,7 @@ $ git config --global user.email sergio@gmail.com
 
 ### 12.1.3. Otros errores en la configuración de Github con SourceTree
 
-Si los errores persisten puede que te interese realizar la integración de [Github en Visual Studio Code](https://www.eniun.com/repositorio-git-visual-studio-code-github/).
+Si los errores persisten puede que te interese realizar la integración de [Github en Visual Studio Code](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_13_Repositorio%20Git%20en%20Visual%20Studio%20Code%20con%20cuenta%20Github.md).
 
 # Ejercicios propuestos
 

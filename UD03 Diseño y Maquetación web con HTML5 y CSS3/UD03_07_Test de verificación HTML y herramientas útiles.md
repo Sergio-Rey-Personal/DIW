@@ -14,7 +14,7 @@ Tabla de contenidos
 
 El **W3C es el encargado de estandarizar el lenguaje HTML** y en su plataforma nos ofrece varias herramientas e información muy valiosa para la elaboración de nuestros desarrollos. Entre las herramientas destacadas se encuentra el [validador HTML](https://validator.w3.org/#validate_by_upload+with_options) que nos permite encontrar errores en nuestros ficheros. Si los estilos se validan correctamente y no disponen de ningún error, se puede incluir en la página web desarrollada el icono que certifica que el código cumple con el estándar.
 
-![validador html](https://www.eniun.com/wp-content/uploads/validador-html.png)
+![validador html](img/html5_validator.png)
 
 El validador HTML te permite subir tu propio fichero html o elegir la directamente la url publicada.
 

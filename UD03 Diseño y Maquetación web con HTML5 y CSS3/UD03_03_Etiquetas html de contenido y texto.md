@@ -2,12 +2,11 @@
 
 Tabla de contenidos
 
--   [3\. Contenido y texto](https://www.eniun.com/etiquetas-contenido-texto-html/#3_Contenido_y_texto)
--   [3.1. Etiquetas de contenido](https://www.eniun.com/etiquetas-contenido-texto-html/#31_Etiquetas_de_contenido)
--   [3.2. Etiquetas de texto](https://www.eniun.com/etiquetas-contenido-texto-html/#32_Etiquetas_de_texto)
-    -   [3.2.1. Hiperenlaces](https://www.eniun.com/etiquetas-contenido-texto-html/#321_Hiperenlaces)
--   [Comprueba tu aprendizaje](https://www.eniun.com/etiquetas-contenido-texto-html/#Comprueba_tu_aprendizaje)
--   [Ejercicios propuestos](https://www.eniun.com/etiquetas-contenido-texto-html/#Ejercicios_propuestos)
+-   [3. Contenido y texto](/#3-Contenido-y-texto)
+-   [3.1. Etiquetas de contenido](/#31-Etiquetas-de-contenido)
+-   [3.2. Etiquetas de texto](/#32-Etiquetas-de-texto)
+-   [3.3. Hiperenlaces](/#33_Hiperenlaces)
+-   [Ejercicios propuestos](/#Ejercicios-propuestos)
 
 # 3. Contenido y texto
 
@@ -195,7 +194,7 @@ Tabla 3.2: Etiquetas de texto
 [HTML. Etiquetas de texto (Codepen)](https://codepen.io/sergio-rey-personal/pen/bGEwOjm)
 
 
-### 3.2.1. Hiperenlaces
+## 3.3. Hiperenlaces
 
 #### Valores del atributo href
 

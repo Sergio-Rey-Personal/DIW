@@ -2,9 +2,9 @@
 
 Tabla de contenidos
 
--   [11\. Marcadores en HTML](https://www.eniun.com/marcadores-html-enlaces-locales/#11_Marcadores_en_HTML)
-    -   [11.1. HTML <a> atributo target ](https://www.eniun.com/marcadores-html-enlaces-locales/#111_HTML_ltaatributo_target)
--   [Ejercicios propuestos](https://www.eniun.com/marcadores-html-enlaces-locales/#Ejercicios_propuestos)
+-   [11. Marcadores en HTML](#11-Marcadores_en-HTML)
+    -   [11.1. HTML <a> atributo target ](#111_HTML-ltaatributo-target)
+-   [Ejercicios propuestos](#Ejercicios-propuestos)
 
 # 11. Marcadores en HTML
 -----------------------
@@ -13,7 +13,7 @@ Al crear una página web muy larga y con muchos apartados, es útil crear cierto
 
 Además, puede ser especialmente útil utilizar marcadores cuando al principio de una página colocamos una especie de índice y queremos que se pueda acceder a los distintos capítulos desde ahí mismo.
 
-La estructura de los marcadores es básicamente la misma que al crear un [hiperenlace o hipervínculo a otra página](https://www.eniun.com/etiquetas-contenido-texto-html/). Lo primero que hay que hacer es definir con un nombre cada parte de la página a la que queremos enlazar.
+La estructura de los marcadores es básicamente la misma que al crear un [hiperenlace o hipervínculo a otra página](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_03_Etiquetas%20html%20de%20contenido%20y%20texto.md). Lo primero que hay que hacer es definir con un nombre cada parte de la página a la que queremos enlazar.
 
 ```html
 <a name="nombre_marcador">Título</a>
@@ -71,7 +71,7 @@ La etiqueta para crear un enlace a esa sección de la página es la siguiente:
 
 ### 11.1. HTML `<a>` atributo target 
 
-Ya que hemos profundizado un poco más en los enlaces y dado que ya hemos visto qué son los *[frames o framesets](https://www.eniun.com/marcos-frames-html5/)*, vamos a recordar el atributo *target* y sus diferentes valores.
+Ya que hemos profundizado un poco más en los enlaces y dado que ya hemos visto qué son los *[frames o framesets](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_14_Marcos%20o%20frames%20en%20html.md)*, vamos a recordar el atributo *target* y sus diferentes valores.
 
 ```html
 <a target=" _blank | _self | _parent | _top | *framename* ">

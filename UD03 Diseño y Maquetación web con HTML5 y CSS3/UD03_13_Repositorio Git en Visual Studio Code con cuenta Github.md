@@ -72,4 +72,4 @@ $ git config --global user.name "sergio"
 $ git config --global user.email sergio@gmail.com
 ```
 
-Si los errores persisten puede que te interese [utilizar Github con SourceTree](https://www.eniun.com/como-usar-github-sourcetree-publicar-contenido-html/) para publicar tu código mediante repositorios.
+Si los errores persisten puede que te interese [utilizar Github con SourceTree](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_12_C%C3%B3mo%20usar%20Github%20y%20SourceTree%20para%20publicar%20contenido.md) para publicar tu código mediante repositorios.

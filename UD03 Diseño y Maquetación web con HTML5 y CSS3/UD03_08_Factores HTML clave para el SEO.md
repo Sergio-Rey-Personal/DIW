@@ -76,7 +76,7 @@ El texto de anclaje o *anchor text* es el texto visible en el que el usuario hac
 
 ## 8 Busca errores en tu documento HTML
 
-Utiliza el [validador HTML](https://www.eniun.com/validador-html-test-de-verificacion/) para encontrar posibles errores cometidos y soluciónalos para mejorar tu posicionamiento. Además, asegúrate de **no utilizar etiquetas html antiguas y deprecadas**.
+Utiliza el [validador HTML](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_07_Test%20de%20verificaci%C3%B3n%20HTML%20y%20herramientas%20%C3%BAtiles.md) para encontrar posibles errores cometidos y soluciónalos para mejorar tu posicionamiento. Además, asegúrate de **no utilizar etiquetas html antiguas y deprecadas**.
 
 ## 9 Incluye un favicon
 
@@ -113,7 +113,7 @@ El nombre de alt viene de *alternate text* o texto alternativo, y es lo que util
 
 ## 12 Busca mejoras mediante una herramienta especializada
 
-Hay muchos otros aspectos a tener en cuenta como por ejemplo: incluir enlaces a tus redes sociales, no utilizar frames, incluir la declaración *<!DOCTYPE html>*, etc. Todos estos aspectos van varían según las actualizaciones de las arañas de los diferentes buscadores. Así que hay que **mantenerse muy al día y utilizar herramientas especializadas** que nos ayuden a **detectar las mejoras** que podemos realizar en nuestras webs. En próximas unidades profundizaremos en este aspecto. Hasta entonces, puedes utilizar esta [herramienta online gratuita](https://seositecheckup.com/seo-audit/eniun.com) para comprobar algunos de los errores más destacados.
+Hay muchos otros aspectos a tener en cuenta como por ejemplo: incluir enlaces a tus redes sociales, no utilizar frames, incluir la declaración *<!DOCTYPE html>*, etc. Todos estos aspectos van varían según las actualizaciones de las arañas de los diferentes buscadores. Así que hay que **mantenerse muy al día y utilizar herramientas especializadas** que nos ayuden a **detectar las mejoras** que podemos realizar en nuestras webs. En próximas unidades profundizaremos en este aspecto. Hasta entonces, puedes utilizar esta [herramienta online gratuita](https://seositecheckup.com/seo-audit/google.com) para comprobar algunos de los errores más destacados.
 
 # Ejercicios propuestos
 
