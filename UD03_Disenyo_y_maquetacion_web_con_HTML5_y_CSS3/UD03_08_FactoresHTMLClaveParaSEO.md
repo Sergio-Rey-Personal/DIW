@@ -76,7 +76,7 @@ El texto de anclaje o *anchor text* es el texto visible en el que el usuario hac
 
 ## 8 Busca errores en tu documento HTML
 
-Utiliza el [validador HTML](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_07_Test%20de%20verificaci%C3%B3n%20HTML%20y%20herramientas%20%C3%BAtiles.md) para encontrar posibles errores cometidos y soluciónalos para mejorar tu posicionamiento. Además, asegúrate de **no utilizar etiquetas html antiguas y deprecadas**.
+Utiliza el [validador HTML](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_07_TestVerificacionHTML.md) para encontrar posibles errores cometidos y soluciónalos para mejorar tu posicionamiento. Además, asegúrate de **no utilizar etiquetas html antiguas y deprecadas**.
 
 ## 9 Incluye un favicon
 
