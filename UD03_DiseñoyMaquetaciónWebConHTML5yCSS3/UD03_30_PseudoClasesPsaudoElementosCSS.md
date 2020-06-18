@@ -122,7 +122,7 @@ a:link{ /*No visitado por el usuario*/
 ```html
 <a href="https://www.w3schools.com">w3schools.com</a>
 <a href="https://www.wikipedia.org">wikipedia.org</a>
-<a href="https://www.eniun.com">eniun</a>
+<a href="https://www.google.com">google.com</a>
 ```
 [CSS3. Pseudo-clases 2](https://codepen.io/sergio-rey-personal/pen/YzwpEMX)
 
@@ -165,4 +165,4 @@ p:before {
 
 -   Utiliza el pseudo-elemento ":first-child" para darle un color de fondo a la primera fila de cada tabla.
 -   Utiliza la pseudo-clase ":nth-child(argumento)" con el argumento "odd" y "even" para poner el fondo de las filas impares de un color y el de las filas pares de otro color.
--   Define las siguientes pseudo-clases para los estados de los enlaces de tu proyecto :link, :visited, :hover, :active. Ten en cuenta que tienes enlaces en el `<aside>`, en el `<nav>`, en el `<footer>` y también cualquier enlace que se pueda incluir en una entrada. Recuerda utilizar [selectores descendientes](https://www.eniun.com/selectores-css-tipos/#35_Selector_descendiente) y [combinación de selectores](https://www.eniun.com/selectores-css-tipos/#36_Combinacion_de_selectores) siempre que sea posible.
+-   Define las siguientes pseudo-clases para los estados de los enlaces de tu proyecto :link, :visited, :hover, :active. Ten en cuenta que tienes enlaces en el `<aside>`, en el `<nav>`, en el `<footer>` y también cualquier enlace que se pueda incluir en una entrada. Recuerda utilizar [selectores descendientes](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_23_SelectoresCSS.md#35-selector-descendiente) y [combinación de selectores](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_23_SelectoresCSS.md#36-combinaci%C3%B3n-de-selectores) siempre que sea posible.

@@ -2,15 +2,15 @@
 
 Tabla de contenidos
 
--   [6\. Propiedades de texto](https://www.eniun.com/atributos-propiedades-textos-css/#6-Propiedades-de-texto)
-    -   [6.1. Text-indent](https://www.eniun.com/atributos-propiedades-textos-css/#61-Text-indent)
-    -   [6.2. Text-align](https://www.eniun.com/atributos-propiedades-textos-css/#62-Text-align)
-    -   [6.3. Text-decoration](https://www.eniun.com/atributos-propiedades-textos-css/#63-Text-decoration)
-    -   [6.4. Letter-spacing](https://www.eniun.com/atributos-propiedades-textos-css/#64-Letter-spacing)
-    -   [6.5. Word-spacing](https://www.eniun.com/atributos-propiedades-textos-css/#65-Word-spacing)
-    -   [6.6. Text-transform](https://www.eniun.com/atributos-propiedades-textos-css/#66-Text-transform)
-    -   [6.7. Line-height](https://www.eniun.com/atributos-propiedades-textos-css/#67-Line-height)
--   [Ejercicios propuestos](https://www.eniun.com/atributos-propiedades-textos-css/#Ejercicios-propuestos)
+-   [6\. Propiedades de texto](#6-Propiedades-de-texto)
+    -   [6.1. Text-indent](#61-Text-indent)
+    -   [6.2. Text-align](#62-Text-align)
+    -   [6.3. Text-decoration](#63-Text-decoration)
+    -   [6.4. Letter-spacing](#64-Letter-spacing)
+    -   [6.5. Word-spacing](#65-Word-spacing)
+    -   [6.6. Text-transform](#66-Text-transform)
+    -   [6.7. Line-height](#67-Line-height)
+-   [Ejercicios propuestos](#Ejercicios-propuestos)
 
 # 6. Propiedades de texto
 

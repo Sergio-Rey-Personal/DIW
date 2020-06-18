@@ -172,7 +172,7 @@ ul.b { list-style: circle inside; }
 
 Gracias a los estilos podemos convertir una lista `<ul>` en una botonera horizontal, en una galería de fotos u en otros elementos. En el siguiente ejemplo puedes ver una barra de navegación bastante típica que puedes encontrar en cualquier web.
 
-Presta atención a que no se han utilizado clases, sólo se ha necesitado hacer uso de [selectores etiqueta](https://www.eniun.com/selectores-css-tipos/#32_Selector_etiqueta) y [selectores descendientes](https://www.eniun.com/selectores-css-tipos/#35_Selector_descendiente). Además fíjate que gracias al padding que se le ha incluido en los enlaces, serían perfectamente pulsables.
+Presta atención a que no se han utilizado clases, sólo se ha necesitado hacer uso de [selectores etiqueta](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_23_SelectoresCSS.md#32-selector-etiqueta) y [selectores descendientes](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_23_SelectoresCSS.md#35-selector-descendiente). Además fíjate que gracias al padding que se le ha incluido en los enlaces, serían perfectamente pulsables.
 
 ```css
 *{

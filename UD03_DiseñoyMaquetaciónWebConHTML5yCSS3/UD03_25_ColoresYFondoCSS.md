@@ -13,7 +13,7 @@ Los valores de los colores se pueden definir mediante su nombre, en hexadecimal 
 
 ## 5.1. Tabla de colores básicos
 
-Html soporta alrededor de [140 nombres de colores](https://www.eniun.com/lista-codigos-de-colores-html-css/) diferentes. Entre ellos puedes encontrar los siguientes colores básicos:
+Html soporta alrededor de 140 nombres de colores diferentes. Entre ellos puedes encontrar los siguientes colores básicos:
 
 | Color | HEX | RGB |
 | ----- | --- | --- |
