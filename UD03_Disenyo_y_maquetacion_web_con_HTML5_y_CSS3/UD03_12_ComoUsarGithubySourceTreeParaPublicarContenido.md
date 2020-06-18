@@ -42,7 +42,7 @@ Tabla de contenidos
     ![Clonar mediante url sourcetree](img/Clonar-mediante-url-sourcetree.png)
 
 10. En GitHub dale a "Settings / Source y selecciona "**Master Branch**".
-11. Visualiza tu web. La URL de visualización tendrá el siguiente aspecto: **https://nombredetucuenta/github.io/nombredeturepositorio/** (La página mostrada es la página index.html). En mi caso es la siguiente: https://eniun.github.io/diw/
+11. Visualiza tu web. La URL de visualización tendrá el siguiente aspecto: **https://nombredetucuenta/github.io/nombredeturepositorio/** (La página mostrada es la página index.html). En mi caso es la siguiente: https://sergio-rey-personal.github.io/diw/
 12. Si quieres seguir aprendiendo funcionalidades de Github puedes comenzar haciendo el siguiente tutorial: <https://guides.github.com/activities/hello-world/>.
 
 ## 12.1. Solución errores Github y SourceTree
@@ -74,7 +74,7 @@ $ git config --global user.email sergio@gmail.com
 
 ### 12.1.3. Otros errores en la configuración de Github con SourceTree
 
-Si los errores persisten puede que te interese realizar la integración de [Github en Visual Studio Code](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_13_Repositorio%20Git%20en%20Visual%20Studio%20Code%20con%20cuenta%20Github.md).
+Si los errores persisten puede que te interese realizar la integración de [Github en Visual Studio Code](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_13_RepositorioGitEnVisualStudioCodeGithub.md).
 
 # Ejercicios propuestos
 

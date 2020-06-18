@@ -8,13 +8,13 @@ Tabla de contenidos
   - [3. Propiedad resize](#3-Propiedad-resize)
 - [Ejercicios propuestos](#Ejercicios-propuestos)
 
-En el tema anterior vimos las [etiquetas HTML para la creación de formularios](https://www.eniun.com/etiquetas-formularios-html5/). Vamos a ver ahora cómo podemos dar estilo a esas etiquetas mediante CSS.
+En el tema anterior vimos las [etiquetas HTML para la creación de formularios](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_04_EtiquetasParaCreacionFormulariosHTML.md). Vamos a ver ahora cómo podemos dar estilo a esas etiquetas mediante CSS.
 
 # 16. Estilos CSS en formularios
 
 Gracias a los estilos podemos romper el diseño gris con líneas negras de los formularios y convertirlos en una parte más que se integra perfectamente en nuestro diseño web.
 
-Como sabemos, a la hora de crear nuestros formularios, seguiremos [buenas prácticas CSS](https://www.eniun.com/buenas-practicas-css-codigo/), no crearemos clases extra y utilizaremos, en la medida de lo posible, [selectores descendientes](https://www.eniun.com/selectores-css-tipos/#35_Selector_descendiente) y etiquetas predefinidas.
+Como sabemos, a la hora de crear nuestros formularios, seguiremos [buenas prácticas CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_32_BuenasPracticasCSS.md), no crearemos clases extra y utilizaremos, en la medida de lo posible, [selectores descendientes](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_23_SelectoresCSS.md#35-selector-descendiente) y etiquetas predefinidas.
 
 A las etiquetas de los formularios se les puede dar estilo CSS al igual que al resto de elementos de nuestro documento. Sin embargo, debemos conocer una serie de propiedades que nos ayuden a elaborar nuestros diseños de la forma más óptima posible.
 
@@ -75,7 +75,7 @@ Vamos a ver ahora ciertas propiedades que aún no conocemos y que son de mucha u
 
 ## 2. Propiedad box-sizing
 
-Por defecto en el [modelo de cajas de CSS](https://www.eniun.com/modelo-cajas-css-margenes-relleno-bordes/), el ancho y alto asignado a un elemento es aplicado solo al contenido de la caja del elemento. Si el elemento tiene algún borde (border) o relleno (padding), este es entonces añadido al ancho y alto del tamaño de la caja o contenedor. Esto significa que cuando se define el ancho y alto, se tiene que ajustar el valor para permitir cualquier borde o relleno que se pueda añadir.
+Por defecto en el [modelo de cajas de CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_33_ModeloDeCajasCSS.md), el ancho y alto asignado a un elemento es aplicado solo al contenido de la caja del elemento. Si el elemento tiene algún borde (border) o relleno (padding), este es entonces añadido al ancho y alto del tamaño de la caja o contenedor. Esto significa que cuando se define el ancho y alto, se tiene que ajustar el valor para permitir cualquier borde o relleno que se pueda añadir.
 
 La propiedad `box-sizing` puede ser usada para ajustar el siguiente comportamiento:
 
@@ -84,7 +84,7 @@ La propiedad `box-sizing` puede ser usada para ajustar el siguiente comportamien
 
 Vamos a ver un ejemplo: en el caso de los inputs, normalmente les añadimos un padding para darle algo de aire. Sin embargo, si después centramos el contenido y le dotamos de un `"width:100%"`, este ancho no tendrá en cuenta el padding añadido al input y el elemento no se encontrará perfectamente redimensionado. Realiza la prueba quitando y añadiendo la propiedad "box-sizing: border-box" en el código del formulario básico creado en el punto 1.
 
-Como puedes ver en el código, se han añadido los [prefijos para navegadores](https://www.eniun.com/prefijos-css-navegadores-propiedades/) necesarios para esta nueva propiedad.
+Como puedes ver en el código, se han añadido los [prefijos para navegadores](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_31_PrefijosNavegadoresCSS.md) necesarios para esta nueva propiedad.
 
 ```css
 -webkit-box-sizing: border-box;

@@ -30,8 +30,8 @@ No existe un estándar de metaetiquetas para representar todas las redes sociale
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="Estar al tanto de las últimas tendencias sobre diseño web es una de las prácticas de inspiración de los mejores profesionales.">
     <meta name="twitter:title" content="Inspiración para el diseño web: recursos online imprescindibles">
-    <meta name="twitter:site" content="@eniun_es">
-    <meta name="twitter:image" content="https://www.eniun.com/wp-content/uploads/PostUx1.png">
+    <meta name="twitter:site" content="@google_es">
+    <meta name="twitter:image" content="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
     <meta name="twitter:creator" content="@andylluch">
   </head>  
   <body>    
@@ -63,17 +63,17 @@ Figura 1. Aspecto del validador de metaetiquetas de Twitter.
     <!-- Etiquetas Open Graph-->
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="12 Leyes de la experiencia de usuario UX - Eniun">
-    <meta property="og:description" content="Las 12 leyes más importantes de la experiencia de usuario UX. Las reglas que nos sirven de guía para generar percepciones positivas en las personas cuando interactúen con nuestros productos. Eniun, expertos en experiencia de usuario y usabilidad web.">
-    <meta property="og:url" content="https://www.eniun.com/12-leyes-experiencia-de-usuario-ux/">
-    <meta property="og:site_name" content="Eniun">
-    <meta property="article:publisher" content="https://www.facebook.com/eniun.es">
+    <meta property="og:title" content="12 Leyes de la experiencia de usuario UX">
+    <meta property="og:description" content="Las 12 leyes más importantes de la experiencia de usuario UX. Las reglas que nos sirven de guía para generar percepciones positivas en las personas cuando interactúen con nuestros productos. Expertos en experiencia de usuario y usabilidad web.">
+    <meta property="og:url" content="https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD01_Disenyo_web_Caractaristicas_elementos_basicos_y_etapas_para_su_desarrollo/UD01_10_LeyesGestalt.md">
+    <meta property="og:site_name" content="google">
+    <meta property="article:publisher" content="https://www.facebook.com/">
     <meta property="article:section" content="UX">
     <meta property="article:published_time" content="2018-02-28T09:00:04+00:00">
     <meta property="article:modified_time" content="2019-08-22T19:41:17+00:00">
     <meta property="og:updated_time" content="2019-08-22T19:41:17+00:00">
-    <meta property="og:image" content="https://www.eniun.com/wp-content/uploads/12-leyes-de-la-experiencia-de-usuario-UX.jpg">
-    <meta property="og:image:secure_url" content="https://www.eniun.com/wp-content/uploads/12-leyes-de-la-experiencia-de-usuario-UX.jpg">
+    <meta property="og:image" content="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
+    <meta property="og:image:secure_url" content="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
   </head>  

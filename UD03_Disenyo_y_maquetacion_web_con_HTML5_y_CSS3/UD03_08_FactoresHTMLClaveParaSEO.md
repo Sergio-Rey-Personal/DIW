@@ -56,7 +56,7 @@ Como hemos visto en esta unidad, el lenguaje HTML dispone de las **etiquetas h1,
 
 ## 4 Maquetación sin tablas
 
-Siempre que sea posible es **aconsejable maquetar sin tablas** (*tableless layout*). Para la maquetación debemos utilizar las etiquetas html correspondientes y hojas de estilo en cascada CSS para favorecer la reducción del tamaño de los archivos HTML. En la siguiente unidad profundizaremos en la [creación de hojas de estilo CSS](https://www.eniun.com/como-aplicar-estilos-css-html/).
+Siempre que sea posible es **aconsejable maquetar sin tablas** (*tableless layout*). Para la maquetación debemos utilizar las etiquetas html correspondientes y hojas de estilo en cascada CSS para favorecer la reducción del tamaño de los archivos HTML. En la siguiente unidad profundizaremos en la [creación de hojas de estilo CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_22_ComoAplicarEstilosCSS.md).
 
 ## 5 Minificar el código HTML
 

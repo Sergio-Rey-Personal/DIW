@@ -58,7 +58,7 @@ Para hacer push de los cambios o pull para copiar los datos de servidor podemos 
 
 
 En GitHub dale a "Settings / Source y selecciona "**Master Branch**".\
-Visualiza tu web. La URL de visualización tendrá el siguiente aspecto: **https://nombredetucuenta/github.io/nombredeturepositorio/** (La página mostrada es la página index.html). En mi caso es la siguiente: https://eniun.github.io/diw/\
+Visualiza tu web. La URL de visualización tendrá el siguiente aspecto: **https://nombredetucuenta/github.io/nombredeturepositorio/** (La página mostrada es la página index.html). En mi caso es la siguiente: https://Sergio-Rey-Personal.github.io/diw/\
 Si quieres seguir aprendiendo funcionalidades de Github puedes comenzar haciendo el siguiente tutorial: <https://guides.github.com/activities/hello-world/>.
 
 ## 13.4. Otros errores en la configuración de Github con Visual Studio Code
@@ -72,4 +72,4 @@ $ git config --global user.name "sergio"
 $ git config --global user.email sergio@gmail.com
 ```
 
-Si los errores persisten puede que te interese [utilizar Github con SourceTree](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_12_C%C3%B3mo%20usar%20Github%20y%20SourceTree%20para%20publicar%20contenido.md) para publicar tu código mediante repositorios.
+Si los errores persisten puede que te interese [utilizar Github con SourceTree](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_12_ComoUsarGithubySourceTreeParaPublicarContenido.md) para publicar tu código mediante repositorios.

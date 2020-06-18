@@ -10,7 +10,7 @@ Tabla de contenidos
   - [5. Repositorios de iconos](#5-Repositorios-de-iconos)
 - [Ejercicios propuestos](#Ejercicios-propuestos)
 
-En la unidad 2 vimos la [importancia de elegir bien las fuentes que se van a utilizar en nuestros sitios web](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD02%20Guia%20de%20estilo%20web/UD02_05_Colores.md). Además, en este mismo tema también hemos repasado las [propiedades CSS para las fuentes](https://www.eniun.com/atributos-propiedades-fuentes-css/) que nos permiten controlar el tamaño, el tipo, el grosor o el estilo de las letras entre otras cosas. Veamos ahora los diferentes formatos de las fuentes y qué métodos tenemos para incorporarlos en nuestros proyectos web.
+En la unidad 2 vimos la [importancia de elegir bien las fuentes que se van a utilizar en nuestros sitios web](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD02%20Guia%20de%20estilo%20web/UD02_05_Colores.md). Además, en este mismo tema también hemos repasado las [propiedades CSS para las fuentes](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_27_PropiedadesFuentesCSS.md) que nos permiten controlar el tamaño, el tipo, el grosor o el estilo de las letras entre otras cosas. Veamos ahora los diferentes formatos de las fuentes y qué métodos tenemos para incorporarlos en nuestros proyectos web.
 
 # 15. Formatos de las fuentes CSS
 

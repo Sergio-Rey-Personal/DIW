@@ -5,8 +5,7 @@ Tabla de contenidos
 -   [1. ¿Qué es CSS?](#1-Que-es-CSS)
     -   [1.1. Soporte CSS en los navegadores más utilizados](#11-Soporte-CSS-en-los-navegadores-más-utilizados)
     -   [1.2. Sintaxis CSS](#12-Sintaxis-CSS)
-# 1\. ¿Qué es CSS?
-----------------
+# 1. ¿Qué es CSS?
 
 **CSS (*****Cascading Style Sheets*****)** es un lenguaje que nos permite controlar el aspecto de las páginas web escritas en HTML o en cualquier lenguaje de marcado basado en XML.  El lenguaje CSS está creado por el [World Wide Web Consortium (W3C)](https://www.w3c.es/), la comunidad internacional que desarrolla estándares que aseguran el crecimiento futuro de la web y vela por conseguir webs disponibles para todo el mundo y desde cualquier dispositivo.
 
@@ -29,10 +28,9 @@ Tabla 1.1: Soporte CSS1, CSS2 y CSS3 en los navegadores más utilizados.
 
 Para la elaboración de la tabla 1.1 se ha tenido como referencia la web *[Comparison of layout engines](https://en.wikipedia.org/wiki/Comparison_of_layout_engines_(Cascading_Style_Sheets))*, donde se detallan las características CSS de cada navegador.
 
-Los desarrolladores siempre deben comprobar que sus webs se visualizan correctamente en los diferentes navegadores. Ver más información en el apartado de ["Buenas prácticas CSS"](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_32_BuenasPracticasCSS.md).
+Los desarrolladores siempre deben comprobar que sus webs se visualizan correctamente en los diferentes navegadores. Ver más información en el apartado de ["Buenas prácticas CSS"](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_32_BuenasPracticasCSS.md).
 
-1.2. Sintaxis CSS
------------------
+## 1.2. Sintaxis CSS
 
 En CSS se utiliza la siguiente sintaxis para asignar valores a las propiedades de cada selector:
 
@@ -45,4 +43,4 @@ En CSS se utiliza la siguiente sintaxis para asignar valores a las propiedades d
 
 El estándar **CSS2** define **más de 100 propiedades**, cada una de ellas con su lista de valores permitidos. Por su parte, el estándar **CSS3** ya incluye **más de 200 propiedades o atributos**.
 
-A lo largo de todo el capítulo, se detallan en forma de tabla y mediante ejemplos las propiedades CSS más utilizadas en relación a los colores, el texto, los fondos, las listas, las tablas y el modelo de cajas. En el siguiente enlace puedes ver un [resumen de las propiedades](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03%20Dise%C3%B1o%20y%20Maquetaci%C3%B3n%20web%20con%20HTML5%20y%20CSS3/UD03_37_ResumenCSS.md) que se van a estudiar
+A lo largo de todo el capítulo, se detallan en forma de tabla y mediante ejemplos las propiedades CSS más utilizadas en relación a los colores, el texto, los fondos, las listas, las tablas y el modelo de cajas. En el siguiente enlace puedes ver un [resumen de las propiedades](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_37_ResumenCSS.md) que se van a estudiar

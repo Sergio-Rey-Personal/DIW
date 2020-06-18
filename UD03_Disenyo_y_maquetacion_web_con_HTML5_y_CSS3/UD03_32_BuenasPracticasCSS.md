@@ -72,7 +72,7 @@ Adopta una única forma de escribir tu código para que sea más fácil de mante
 
 ## 5. Combina elementos
 
-Cuando varios elementos comparten propiedades es recomendable compartir las propiedades en vez de volver a repetir el código. Puedes utilizar [selectores combinados](https://www.eniun.com/selectores-css-tipos/#36_Combinacion_de_selectores).
+Cuando varios elementos comparten propiedades es recomendable compartir las propiedades en vez de volver a repetir el código. Puedes utilizar [selectores combinados](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_23_SelectoresCSS.md#36-combinaci%C3%B3n-de-selectores).
 
 ```css
 h1, h2, h3 { font-family: Arial; font-weight: 700;  }
@@ -80,7 +80,7 @@ h1, h2, h3 { font-family: Arial; font-weight: 700;  }
 
 ## 6. Utiliza selectores descendientes
 
-Utiliza [selectores descendientes](https://www.eniun.com/selectores-css-tipos/#35_Selector_descendiente) siempre que puedas antes de crear un selector clase o un selector identificador. El código estará más limpio, dispondrá de menos selectores clase e identificador y se comprenderá mucho mejor.
+Utiliza [selectores descendientes](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_23_SelectoresCSS.md#35-selector-descendiente) siempre que puedas antes de crear un selector clase o un selector identificador. El código estará más limpio, dispondrá de menos selectores clase e identificador y se comprenderá mucho mejor.
 
 ```css
 selector1 selector2 selectorN{
@@ -140,4 +140,4 @@ Detecta errores en tu código mediante un validador CSS. El W3C proporciona una 
 
 ## 12. Agrega los prefijos de los navegadores en propiedades que no sean estables
 
-Para ahorrar tiempo y facilitarnos la tarea de incluir los prefijos de las propiedades CSS que todavía no son estables podemos hacer uso de la[**extensión "Autoprefixer" en Visual Studio Code**](https://www.eniun.com/prefijos-css-navegadores-propiedades/).
+Para ahorrar tiempo y facilitarnos la tarea de incluir los prefijos de las propiedades CSS que todavía no son estables podemos hacer uso de la[**extensión "Autoprefixer" en Visual Studio Code**](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_31_PrefijosNavegadoresCSS.md).

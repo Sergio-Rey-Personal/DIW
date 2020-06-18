@@ -40,7 +40,7 @@ Tabla 6.1: Contenido incrustado
   </head>  
     <body>  
        <h3>Etiqueta &lt;img&gt;</h3>
-       <img src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg"
+       <img src="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png"
                  alt="Usabilidad">
       
        <h3>Etiqueta &lt;iframe&gt;</h3>

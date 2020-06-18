@@ -14,7 +14,7 @@ Tabla de contenidos
 
 # 14. Posición y comportamiento de contenedores en CSS
 
-En este apartado vamos a repasar el comportamiento de los contenedores en CSS. Antes de comenzar es interesante leer el artículo sobre [elementos de ordenación](https://www.eniun.com/elementos-ordenacion-html5-bloque-linea/).
+En este apartado vamos a repasar el comportamiento de los contenedores en CSS. Antes de comenzar es interesante leer el artículo sobre [elementos de ordenación](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_15_ElementosOrdenacionHTML.md).
 
 
 | Propiedad | Descripción | Valores |
@@ -311,7 +311,7 @@ top: -210px; z-index: 2;}
 
 ## 14.6. Propiedad box-sizing
 
-Por defecto en el [modelo de cajas de CSS](https://www.eniun.com/modelo-cajas-css-margenes-relleno-bordes/), el ancho y alto asignado a un elemento es aplicado solo al contenido de la caja del elemento. Si el elemento tiene algún borde (border) o relleno (padding), este es entonces añadido al ancho y alto del tamaño de la caja o contenedor. Esto significa que cuando se define el ancho y alto, se tiene que ajustar el valor para permitir cualquier borde o relleno que se pueda añadir.
+Por defecto en el [modelo de cajas de CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_33_ModeloDeCajasCSS.md), el ancho y alto asignado a un elemento es aplicado solo al contenido de la caja del elemento. Si el elemento tiene algún borde (border) o relleno (padding), este es entonces añadido al ancho y alto del tamaño de la caja o contenedor. Esto significa que cuando se define el ancho y alto, se tiene que ajustar el valor para permitir cualquier borde o relleno que se pueda añadir.
 
 La propiedad `box-sizing` puede ser usada para ajustar el siguiente comportamiento:
 
@@ -350,7 +350,7 @@ Realiza la prueba quitando y añadiendo la propiedad "box-sizing: border-box" de
 
 > [CSS3. Box-sizing (Codepen)](https://codepen.io/sergio-rey-personal/pen/mdVOpvq)
 
-Como puedes ver en el código, se han añadido los [prefijos para navegadores](https://www.eniun.com/prefijos-css-navegadores-propiedades/) necesarios para esta nueva propiedad.
+Como puedes ver en el código, se han añadido los [prefijos para navegadores](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_31_PrefijosNavegadoresCSS.md) necesarios para esta nueva propiedad.
 
 ```css
 -webkit-box-sizing: border-box;

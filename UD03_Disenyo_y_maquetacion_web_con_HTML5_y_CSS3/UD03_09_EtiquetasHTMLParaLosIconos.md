@@ -39,26 +39,26 @@ Puedes encontrar más información sobre las etiquetas y sus usos en los siguien
 <html lang="es">  
   <head>    
     <title>Metaetiquetas útiles</title>  
-    <link rel="shortcut icon" href="https://www.eniun.com/wp-content/uploads/favicon.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://www.eniun.com/wp-content/uploads/emiun-apple.png">
-    <meta name="description" content="Eniun. Diseño y desarrollo de webs corporativas. Servicios de marketing digital y social media. ¡Haz despegar tu negocio con nosotros! Consúltanos">
-    <link rel="canonical" href="https://www.eniun.com/">
+    <link rel="shortcut icon" href="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
+    <meta name="description" content="Diseño y desarrollo de webs corporativas. Servicios de marketing digital y social media. ¡Haz despegar tu negocio con nosotros! Consúltanos">
+    <link rel="canonical" href="https://www.canonical.com/">
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Inicio - Eniun">
-    <meta property="og:description" content="Eniun. Diseño y desarrollo de webs corporativas. Servicios de marketing digital y social media. ¡Haz despegar tu negocio con nosotros! Consúltanos">
-    <meta property="og:url" content="https://www.eniun.com/">
-    <meta property="og:site_name" content="Eniun">
-    <meta property="og:image" content="https://www.eniun.com/wp-content/uploads/eniun-background-first-home.jpg">
-    <meta property="og:image:secure_url" content="https://www.eniun.com/wp-content/uploads/eniun-background-first-home.jpg">
+    <meta property="og:title" content="Inicio - Google">
+    <meta property="og:description" content="Diseño y desarrollo de webs corporativas. Servicios de marketing digital y social media. ¡Haz despegar tu negocio con nosotros! Consúltanos">
+    <meta property="og:url" content="https://www.google.com/">
+    <meta property="og:site_name" content="Google">
+    <meta property="og:image" content="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
+    <meta property="og:image:secure_url" content="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
     <meta property="og:image:width" content="1913">
     <meta property="og:image:height" content="911">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="Eniun. Diseño y desarrollo de webs corporativas. Servicios de marketing digital y social media. ¡Haz despegar tu negocio con nosotros! Consúltanos">
-    <meta name="twitter:title" content="Inicio - Eniun">
-    <meta name="twitter:site" content="@eniun_es">
-    <meta name="twitter:image" content="https://www.eniun.com/wp-content/uploads/eniun-background-first-home.jpg">
-    <meta name="twitter:creator" content="@eniun_es">
+    <meta name="twitter:description" content="Diseño y desarrollo de webs corporativas. Servicios de marketing digital y social media. ¡Haz despegar tu negocio con nosotros! Consúltanos">
+    <meta name="twitter:title" content="Inicio - Google">
+    <meta name="twitter:site" content="@google_es">
+    <meta name="twitter:image" content="https://www.gva.es/portal-gva-theme/images/GVA/logo_gva.png">
+    <meta name="twitter:creator" content="@google_es">
   </head>  
   <body>    
     Etiquetas útiles

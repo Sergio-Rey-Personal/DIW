@@ -10,7 +10,7 @@ Tabla de contenidos
 
 # 13. Elementos de ordenación en HTML5
 
-En el proceso de **maquetación de una web** es necesario organizar **elementos tales como imágenes, textos o tablas**. Tal y como vimos en el punto de la [**evolución de la web**](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD01%20Dise%C3%B1o%20web.%20Caractar%C3%ADsticas%2C%20elementos%20b%C3%A1sicos%20y%20etapas%20para%20su%20desarrollo/UD01_01_Edici%C3%B3n%20del%20dise%C3%B1o%20web.md), en un primer momento los elementos de una página web se organizaban en tablas. En ese momento no había ni [**hojas de estilo CSS**](https://www.eniun.com/que-es-css-cascading-style-sheets/) ni ninguna otra herramienta que nos permitiera poner varios elementos seguidos uno detrás del otro.
+En el proceso de **maquetación de una web** es necesario organizar **elementos tales como imágenes, textos o tablas**. Tal y como vimos en el punto de la [**evolución de la web**](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD01_Disenyo_web_Caractaristicas_elementos_basicos_y_etapas_para_su_desarrollo/UD01_01_EdicionDelDisenyoWeb.md), en un primer momento los elementos de una página web se organizaban en tablas. En ese momento no había ni [**hojas de estilo CSS**](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD02%20Guia_de_estilo_web/UD02_01_QueEsUnaGuiaDeEstilos.md) ni ninguna otra herramienta que nos permitiera poner varios elementos seguidos uno detrás del otro.
 
 En la actualidad, gracias a las **hojas de estilo** podemos crear nuestros propios estilos para maquetar cualquier página web. Para ello, necesitaremos conocer **cómo se ordenan los elementos en un documento web**.
 
