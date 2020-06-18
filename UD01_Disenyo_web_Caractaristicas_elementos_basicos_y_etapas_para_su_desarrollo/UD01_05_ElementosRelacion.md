@@ -8,7 +8,7 @@ Tabla de contenidos
 -   [5.3. El espacio](#53-El-espacio)
 -   [5.4. La gravedad](#54-La-gravedad)
 
-En los dos artículos anteriores vimos los [elementos básicos conceptuales](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD01_Dise%C3%B1o_web_Caractar%C3%ADsticas_elementos_basicos_y_etapas_para_su_desarrollo/UD01_03_ElementosConceputales.md) que nos permiten crear formas de todo tipo y las [características visuales](https://www.eniun.com/elementos-visuales-forma-medida-color-textura/) que las definen. Ahora vamos a ver los elementos de relación que nos ayudan a definir la ubicación y la relación entre las distintas formas.
+En los dos artículos anteriores vimos los [elementos básicos conceptuales](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD01_Disenyo_web_Caractaristicas_elementos_basicos_y_etapas_para_su_desarrollo/UD01_03_ElementosConceputales.md) que nos permiten crear formas de todo tipo y las [características visuales](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD01_Disenyo_web_Caractaristicas_elementos_basicos_y_etapas_para_su_desarrollo/UD01_04_ElementosVisuales.md) que las definen. Ahora vamos a ver los elementos de relación que nos ayudan a definir la ubicación y la relación entre las distintas formas.
 
 Los elementos de relación son la **dirección, la posición, el espacio y la gravedad**.
 
