@@ -87,8 +87,6 @@ selector1 + selector2{
 
 * * * * *
 
-* * * * *
-
 #### Ejemplos
 
 ```css
