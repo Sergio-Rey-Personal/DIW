@@ -32,28 +32,5 @@ Tabla 6.1: Propiedades de texto
 
 ## 6.1. Text-indent
 
-```css
-.a { text-indent: 50px; }
-.b { text-indent: 3em; }
-.c { text-indent: 30%; }
-.d { text-indent: -50px; }
-```
-
-```html
-<html>
-<head>
-   <meta charset="utf-8"> 
-   <title>Propiedad text-indent</title> 
-   <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
-    <h3>Propiedad text-indent</h3>
-    <p class="a">text-indent: 50px</p>
-    <p class="b">text-indent: 3em</p>
-    <p class="c">text-indent: 20%</p>
-    <p class="d">text-indent: -50px</p>
-</body>
-</html>
-``` 
 
 
