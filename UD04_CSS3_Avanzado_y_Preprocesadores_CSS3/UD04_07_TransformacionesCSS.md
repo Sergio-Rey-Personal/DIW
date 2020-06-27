@@ -1,4 +1,4 @@
-# **Transformaciones en CSS: rotar, torcer, escalar o deplazar**
+# **Transformaciones en CSS: rotar, torcer, escalar o desplazar**
 
 Tabla de contenidos
 

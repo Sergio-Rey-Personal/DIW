@@ -1,7 +1,15 @@
 # **Cómo usar Sass**
 
+Tabla de contenidos
 
-# 10. Cómo usar Sass
+- [12. Cómo usar Sass](#12-Cómo-usar-Sass)
+  - [12.1. Instalar Sass](#121-Instalar-Sass)
+  - [12.2. Compilar archivos de Sass a CSS](#122-Compilar-archivos-de-Sass-a-CSS)
+  - [12.3. Compilar Sass de manera automática con un "watcher"](123-Compilar-Sass-de-manera-automática-con-un-watcher)
+  - [12.4. Usar los archivos de código generado](#124-Usar-los-archivos-de-código-generado)
+
+
+# 12. Cómo usar Sass
 
 Para usar Sass tienes dos alternativas fundamentales.
 
@@ -11,7 +19,7 @@ Para usar Sass tienes dos alternativas fundamentales.
 
 Las anteriores alternativas pueden marear un poco si no estás acostumbrado a oir acerca de tantas tecnologías. No te preocupes demasiado porque vamos a irnos a una opción sencilla que te permita comenzar a usar Sass, sin demasiado esfuerzo ni configuración. En concreto te vamos a explicar ahora a usar Sass desde tu terminal, con las herramientas "oficiales" del propio preprocesador (la alternativa planteada en el punto 2 anterior). Es una posibilidad al alcance de cualquier lector. Nuestro siguiente paso entonces será comenzar por instalar el preprocesador.
 
-## 10.1. Instalar Sass
+## 12.1. Instalar Sass
 
 La instalación de Sass depende del sistema operativo con el que estás trabajando. Aunque todos requieren comenzar instalando el lenguaje Ruby, ya que el compilador de Sass está escrito en Ruby.
 
@@ -61,7 +69,7 @@ Eso nos debería devolver la versión de Sass instalada en nuestro sistema.
 
 ![](img/sass-version.png)
 
-### Compilar archivos de Sass a CSS
+## 12.2. Compilar archivos de Sass a CSS
 
 Ahora que tienes Sass instalado querrás compilar el código de Sass para convertirlo a CSS estándar. Para ese paso, necesitamos partir de un archivo con código Sass.
 
@@ -100,7 +108,7 @@ sass --style = compressed file.scss output_file.scss
 sass --watch file.scss output_file.scss
 ```
 
-### Compilar Sass de manera automática con un "watcher"
+## 12.3. Compilar Sass de manera automática con un "watcher"
 
 Habrás observado lo rápido que se ha compilado el archivo Sass para convertirse en código CSS estándar. Pero sin embargo, ejecutar ese comando para compilación cada vez que cambia tu código es un poco tedioso, porque te obliga ir a la consola y lanzar nuevamente el comando con cada pequeña edición que hagas.
 
@@ -110,7 +118,7 @@ Paralelamente, el watch nos permite observar un archivo en concreto, o todos los
 
 ### Vigilar las modificaciones de un archivo en concreto
 
-Lo consigues con la opción --watch, indicando el archivo origen y destino, igual que hacíamos antes.
+Lo consigues con la opción `--watch`, indicando el archivo origen y destino, igual que hacíamos antes.
 
 ```
 sass --watch origen.scss destino.css
@@ -144,7 +152,7 @@ Una vez que crees código SCSS en la carpeta "sass", se irán generando los arch
 
 cuando abordemos la organización del código mediante diversos archivos fuente de SCSS, explicaremos cómo puedes evitar que se compilen todos los archivos de Sass y sólo se compile uno de ellos, el raíz. Te adelantamos que puedes evitar que el watcher los procese simplemente nombrando esos archivos con un guión bajo en su inicio. Algo como "_variables.css".
 
-### Usar los archivos de código generado
+## 12.4. Usar los archivos de código generado
 
 Como hemos dicho, el código SCSS no es compatible con los navegadores, por lo que tenemos que usar el código compilado. Esto quiere decir que, en tu index.html, así como en cualquier otro archivo HTML de tu proyecto, tendrás que enlazar con el código generado y nunca con el código fuente Sass.
 

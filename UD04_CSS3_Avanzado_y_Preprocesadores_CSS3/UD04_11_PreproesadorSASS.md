@@ -1,8 +1,16 @@
 # **Preprocesadores CSS**
 
+Tabla de contenidos
+
+- [11. Preprocesacores CSS](#11-Preprocesacores-CSS)
+  - [11.1. Ventajas de utilizar Sass](#111-Ventajas-de-utilizar-Sass)
+  - [11.2. Desventajas de utilizar Sass](#112-Desventajas-de-utilizar-Sass)
+  - [11.3. Cómo funciona SASS](#113-Cómo-funciona-SASS)
+  - [11.4. SASS vs SCSS](#114-SASS-vs-SCSS)
+
  Los **preprocesadores CSS** son herramientas para los desarrolladores de sitios web, que permiten traducir un código de hojas de estilo no estándar, específico del preprocesador en cuestión, a un código CSS estándar, entendible por los navegadores.
 
-# 9. Preprocesacores CSS
+# 11. Preprocesacores CSS
 
 Los preprocesadores básicamente nos ofrecen diversas utilidades que a día de hoy no se encuentran en el lenguaje CSS, o bien no son compatibles con todos los navegadores. Ejemplos pueden ser variables, anidación de selectores, funciones (denominadas mixins), etc.
 
@@ -21,7 +29,7 @@ Así pues, Un preprocesador CSS es una herramienta que nos permite generar, de m
 
 Estas características de los procesadores nos permiten, además, que el CSS que se genera sea más fácil de mantener y más reutilizable.
 
-## 9.1. Ventajas de utilizar Sass
+## 11.1. Ventajas de utilizar Sass
 
 El uso de una herramienta como Sass proporciona una serie de ventajas, como son las siguientes:
 
@@ -39,7 +47,7 @@ El uso de una herramienta como Sass proporciona una serie de ventajas, como son 
 
 -   Existen muchas herramientas asociadas, muchas librerías hechas con Sass y una comunidad muy importante de usuarios.
 
-## 9.2. Desventajas de utilizar Sass
+## 11.2. Desventajas de utilizar Sass
 
 Como todo, Sass tiene algunas desventajas, que son extensibles a cualquier otro preprocesador que se utilice:
 
@@ -49,13 +57,13 @@ Como todo, Sass tiene algunas desventajas, que son extensibles a cualquier otro 
 
 -   Tiene una sintaxis más compleja que CSS.
 
-## 9.3. Como funciona SASS
+## 11.3. Cómo funciona SASS
 
 El funcionamiento de un preprocesador, se basa en la creación de los archivos que posteriormente serán procesados y generarán los ficheros css.
 
 ![Compilacion SASS](img/compilacion-sass.png)
 
-## 9.4. SASS vs SCSS
+## 11.4. SASS vs SCSS
 
 La principal diferencia de ambos viene dada por su sintaxis.
 
