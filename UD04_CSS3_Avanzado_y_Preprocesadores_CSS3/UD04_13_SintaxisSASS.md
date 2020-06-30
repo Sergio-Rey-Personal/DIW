@@ -1103,12 +1103,11 @@ body {
 # Ejercicios propuestos
 
 Vamos a modificar el fichero de estilos de nuestro proyecto y vamos a generarlo desde un scss. 
-Para ello, debes definir almenos:
-- Definir Variables (colores y formas básicas)
+Para ello, debes definir al menos:
+- Definir variables (colores y formas básicas)
 - Define correctemente los anidamientos que tengas.
-- Divide los estilos por zonas (menu, slide, resto) y crea un fichero para cada uno de ellos e infocalos llamando a `@import`
-- Definir almenos un `@mixin`
-- Definir almenos un `@extend`
-- Definir almenos una funcion.
+- Divide los estilos por zonas (menú, slide, resto) y crea un fichero para cada uno de ellos e integalos llamando a `@import`
+- Definir al menos un `@mixin`
+- Definir al menos un `@extend`
+- Definir al menos una funcion.
 - Inserta comentarios, y comprueba cono funcionan las directivas `@error`, `@warn` y `@debug` 
-Define una sombra inferior en el menú de tu proyecto web. Puedes elegir aplicar la sombra en otro lugar de tu sitio.

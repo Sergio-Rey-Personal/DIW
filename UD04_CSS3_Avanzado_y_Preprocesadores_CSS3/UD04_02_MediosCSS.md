@@ -76,19 +76,14 @@ Las hojas de estilo auditivas proporcionan información para usuarios invidentes
 
 # Ejercicios propuestos
 
-#### Actividad 2.1
-
 Cuando se imprime una página web normalmente lo que queremos es el contenido, no la presentación visual de la página como logotipos e imágenes decorativas. Además, los elementos de la interfaz como menús, listas desplegables y botones no tiene sentido imprimirlos porque no se puede interactuar con ellos.
 
 Por ejemplo, al imprimir una página web puede interesar no imprimir la cabecera (`<header>`), el pie de página (`<footer>`), el menú de navegación principal (`<nav>`) e información adicional al contenido (`<aside>`).
 
--   Añade una nueva hoja de estilo utilizando medios definidos con `<link>` para que no se imprima el `<header>`), el `<footer>`), el `<nav>` y el `<aside>`
+- Añade una nueva hoja de estilo utilizando medios definidos con `<link>` para que no se imprima el `<header>`), el `<footer>`), el `<nav>` y el `<aside>`
+- Crea un fichero HTML como el de la actividad anterior pero ahora agrega los estilos utilizando la opción `@import`
 
-#### Actividad 2.2
-
-Crea un fichero HTML como el de la actividad anterior pero ahora agrega los estilos utilizando la opción `@import`
-
-#### Actividad 2.3
+### Actividad Extra
 
 Interpreta el siguiente código y explica las diferentes propiedades y sus valores.
 
