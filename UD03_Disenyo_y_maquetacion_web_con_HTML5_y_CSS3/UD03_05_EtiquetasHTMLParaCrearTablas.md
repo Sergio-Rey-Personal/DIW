@@ -2,7 +2,7 @@
 
 Tabla de contenidos
 
--   [5\. Tablas de contenido](#5-Tablas-de-contenido)
+-   [5. Tablas de contenido](#5-Tablas-de-contenido)
 -   [5.1. Etiquetas para la creación de tablas de contenido](#51-Etiquetas-para-la-creacion-de-tablas-de-contenido)
 -   [Ejercicios propuestos](#Ejercicios-propuestos)
 

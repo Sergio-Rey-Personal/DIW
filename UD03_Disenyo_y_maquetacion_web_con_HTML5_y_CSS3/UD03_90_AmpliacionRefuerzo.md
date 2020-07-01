@@ -12,4 +12,4 @@ A continuación puedes encontrar información adicional para ampliar y reforzar 
 - [Qué es CSS: tutorial introductorio a las hojas de estilo en cascada](https://www.ionos.es/digitalguide/paginas-web/diseno-web/que-es-css-un-tutorial-con-lo-que-necesitas-saber/)
 - [Tutorial de CSS. Comenzando con HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.es.html)
 - [CSS Básico](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics)
--
+- [Manual de Maquetaión CSS](https://desarrolloweb.com/manuales/maquetacion-css.html)
