@@ -28,7 +28,7 @@ Para empezar a utilizar **flexbox** lo primero que debemos hacer es conocer algu
 
 ![Flexbox CSS: ¿Cómo funciona?](img/flexbox-como-funciona.png)
 
-- **Contenedor**: Existe un elemento padre que es el contenedor que tendrá en su interior cada uno de los ítems flexibles y adaptables.
+- **Contenedor**: Existe un elemento padre que es el contenedor que tendrá en su interior cada uno de los ítems flexibles y adaptables. (`display:flex`)
 
   - **Eje principal**: Los contenedores flexibles tendrán una orientación principal específica. Por defecto, es en horizontal (*fila*).
   - **Eje secundario**: De la misma forma, los contenedores flexibles tendrán una orientación secundaria, perpendicular a la principal. Si la principal es en horizontal, la secundaria será en vertical, y viceversa.
@@ -50,6 +50,33 @@ Para activar el modo **`flexbox`** hay que utilizar sobre el elemento contenedor
 | --- | --- |
 | inline-flex | Establece un contenedor de ítems flexible en línea, de forma equivalente a inline-block. |
 | flex | Establece un contenedor de ítems flexible en bloque, de forma equivalente a block. |
+
+```css
+* {
+  box-sizing: border-box;
+}
+
+#contenedor {
+  background-color: lightyellow;
+  height: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 60%;
+  border: 1px solid yellow;
+  
+  display: flex;
+}
+
+.item{
+  background-color: blue;
+  border: 1px solid black;
+  height: 50%;
+}
+```
+
+![Flexbox: `Display: Flex`](img/Flexbox-Flex.PNG)
+
+> [Comprueba el uso de `display: flex` (Codepen)](https://codepen.io/sergio-rey-personal/pen/jOWYydK)
 
 Por defecto, y sólo con esto, observaremos que los elementos se disponen todos sobre una misma línea. Esto ocurre porque estamos utilizando el modo **`flexbox`** y estaremos trabajando con ítems flexibles básicos, garantizando que no se desbordarán ni mostrarán los problemas que, por ejemplo, tienen los porcentajes sobre elementos que no utilizan flexbox.
 
@@ -75,16 +102,11 @@ Esto nos permite tener un control muy alto sobre el orden de los elementos en un
 
 ```css
 #contenedor {
-  background: #CCC;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
-
-.item {
-  background: #777;
-}
-
 ```
+![Flexbox: `Display: Flex`](img/Flexbox-Flex-column-reverse.PNG)
 
 Por otro lado, existe otra propiedad llamada `flex-wrap` con la que podemos especificar el comportamiento del contenedor respecto a evitar que se desborde (*nowrap, valor por defecto*) o permitir que lo haga, en cuyo caso, estaríamos hablando de un **contenedor flexbox multilinea**.
 
@@ -96,23 +118,39 @@ Por otro lado, existe otra propiedad llamada `flex-wrap` con la que podemos espe
 
 Teniendo en cuenta estos valores de la propiedad `flex-wrap`, podemos conseguir cosas como la siguiente:
 
-```css
-#contenedor {
-  background: #CCC;
-  display: flex;
-  width: 200px;
-  flex-wrap: wrap;  /* Comportamiento por defecto: nowrap */
-}
-
-.item {
-  background: #777;
-  width: 50%;
-}
-```
-
 En el caso de especificar **nowrap** (*u omitir la propiedad `flex-wrap`*) en el contenedor, los 3 ítems se mostrarían en una misma línea del contenedor. En ese caso, cada ítem debería tener un 50% de ancho (*o sea, 100px de los 200px del contenedor*). Un tamaño de **100px** por ítem, sumaría un total de **300px**, que no cabrían en el contenedor de **200px**, por lo que **flexbox** reajusta los ítems flexibles para que quepan todos en la misma línea, manteniendo las mismas proporciones.
 
+```css
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  /* Comportamiento por defecto: nowrap */
+}
+```
+![Flexbox: Wrap](img/Flexbox-Flex-wrap.PNG)
+
 Sin embargo, si especificamos **wrap** en la propiedad `flex-wrap`, lo que permitimos es que el contenedor se pueda desbordar, pasando a ser un contenedor **multilínea**, que mostraría el **ítem 1 y 2** en la primera linea (*con un tamaño de 100px cada uno*) y el **ítem 3** en la línea siguiente, dejando un espacio libre para un posible **ítem 4**.
+
+```css
+#contenedor {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;  /* Comportamiento por defecto: nowrap */
+}
+```
+![Flexbox: Wrap](img/Flexbox-Flex-wrap-reverse.PNG)
+
+Observa si cambiamos el orden a `row-reverse`
+
+```css
+#contenedor {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;  /* Comportamiento por defecto: nowrap */
+}
+```
+![Flexbox: Wrap](img/Flexbox-Flex-wrap-reverse-reverse.PNG)
+
 
 ## 5.2.1. Atajo: Dirección de los ejes
 
@@ -120,11 +158,14 @@ Recuerda que existe una propiedad de atajo (short-hand) llamada `flex-flow`, con
 
 ```css
 #contenedor {
+  display: flex;
   /* flex-flow: <flex-direction> <flex-wrap>; */
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
-
 ```
+![Flexbox: Wrap](img/Flexbox-Flex-wrap-column.PNG)
+
+En este caso, como el alto del elemento no cabe en el contenedor, el `wrap` provoca que se ponga uno al lado del otro al no caber ninguno debajo del anterior.
 
 ## 5.3. Propiedades de alineación
 
@@ -158,7 +199,31 @@ Con cada uno de estos valores, modificaremos la disposición de los ítems del c
 
 ![Propiedad justify-content de Flexbox CSS](img/flexbox-justify-content.png)
 
-Una vez entendido este caso, debemos atender a la propiedad `align-content`, que es un caso particular del anterior. Nos servirá cuando estemos tratando con un contenedor flex multilinea, que es un contenedor en el que los ítems no caben en el ancho disponible, y por lo tanto, el eje principal se divide en múltiples líneas.
+```css
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+```
+![Flexbox: Wrap](img/flexbox-flex-justify-content.PNG)
+
+Ejemplo con `space-between` para el que reducimos el tamaño de los items y así verlo mejor.
+```css
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item{
+  width: 20%;
+}
+```
+
+![Flexbox: Wrap](img/flexbox-flex-justify-content-between.PNG)
+
+Una vez entendido este caso, debemos atender a la propiedad `align-content`, que es un caso particular del anterior. Nos servirá cuando estemos tratando con un ***contenedor flex multilinea***, que es un contenedor en el que los ítems no caben en el ancho disponible, y por lo tanto, el eje principal se divide en múltiples líneas.
 
 De esta forma, `align-content` servirá para alinear cada una de las líneas del contenedor multilinea. Los valores que puede tomar son los siguientes:
 
@@ -169,7 +234,7 @@ De esta forma, `align-content` servirá para alinear cada una de las líneas del
 | `center` | Agrupa los ítems al centro del eje principal. |
 | `space-between` | Distribuye los ítems desde el inicio hasta el final. |
 | `space-around` | Distribuye los ítems dejando el mismo espacio a los lados de cada uno. |
-| `stretch` | Estira los ítems para ocupar de forma equitativa todo el espacio. |
+| `stretch` | Estira los ítems para ocupar de forma equitativa todo el espacio. Los items no deben tener asignada **height** |
 
 Con estos valores, vemos como cambiamos la disposición en vertical (*porque partimos de un ejemplo en el que estamos utilizando flex-direction: row, y el eje principal es horizontal*) de los ítems que están dentro de un contenedor multilinea.
 
@@ -179,22 +244,37 @@ En el ejemplo siguiente, veremos que al indicar un contenedor de **200 píxels d
 
 ```css
 #contenedor {
-  background: #CCC;
-  display: flex;
-  width: 200px;
   height: 200px;
 
+  display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
 }
 
-.item {
-  background: #777;
-  width: 50%;
+.item{
   height: 50px;
 }
-
 ```
+
+![Propiedad align-content de Flexbox CSS](img/Flexbox-Flex-align-content-end.PNG)
+
+Ojo. Para el valor `stretch`, los elementos no deben tener asignada altura;
+
+```css
+#contenedor {
+  height: 200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.item{
+  //height: 50px;
+}
+```
+
+![Propiedad align-content de Flexbox CSS](img/Flexbox-Flex-align-content-stretch.PNG)
 
 ### 5.3.2. Sobre el eje secundario
 
@@ -208,7 +288,28 @@ La otra propiedad importante de este apartado es `align-items`, que se encarga d
 | `stretch` | Alinea los ítems estirándolos de modo que cubran desde el inicio hasta el final del contenedor. |
 | `baseline` | Alinea los ítems en el contenedor según la base del contenido de los ítems del contenedor. |
 
-Por otro lado, la propiedad `align-self` actúa exactamente igual que `align-items`, sin embargo es la primera propiedad de flexbox que vemos que se utiliza sobre un ítem hijo específico y no sobre el elemento contenedor. Salvo por este detalle, funciona exactamente igual que `align-items`.
+Veamos un ejemplo usadno `baseline`, alineando la base de los items.
+
+```css
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.item-2{
+  padding-top: 30px;
+}
+
+.item-3{
+  padding-top: 60px;
+}
+```
+
+![Propiedad align-content de Flexbox CSS](img/Flexbox-Flex-align-items-baseline.PNG)
+
+Por otro lado, la propiedad `align-self` actúa exactamente igual que `align-items`, sin embargo es la primera propiedad de flexbox que vemos que ***se utiliza sobre un ítem hijo*** específico y no sobre el elemento contenedor. Salvo por este detalle, funciona exactamente igual que `align-items`.
 
 ![Propiedad align-items y align-self de Flexbox CSS](img/flexbox-align-items.png)
 
@@ -225,6 +326,22 @@ Gracias a ese detalle, `align-self` nos permite cambiar el comportamiento de `al
 
 Si se especifica el valor **auto** a la propiedad `align-self`, el navegador le asigna el valor de la propiedad `align-items` del contenedor padre, y en caso de no existir, el valor por defecto: **stretch**.
 
+```css
+#contenedor {
+  display: flex;
+}
+
+.item-2{
+  align-self: center;
+}
+
+.item-3{
+  align-self: flex-end;
+}
+```
+
+![Propiedad align-content de Flexbox CSS](img/Flexbox-Flex-align-self.PNG)
+
 ### 5.3.3. Atajo: Alineaciones
 
 Existe una propiedad de atajo con la que se pueden establecer los valores de `align-content` y de `justify-content` de una sola vez, denominada `place-content`:
@@ -238,7 +355,6 @@ Existe una propiedad de atajo con la que se pueden establecer los valores de `al
   align-content: flex-start;
   justify-content: flex-end;
 }
-
 ```
 
 ## 5.4. Propiedades de hijos
@@ -254,9 +370,45 @@ A excepción de la propiedad `align-self`, todas las propiedades que hemos visto
 
 En primer lugar, tenemos la propiedad `flex-grow` para indicar el factor de crecimiento de los ítems en el caso de que no tengan un ancho específico. Por ejemplo, si con `flex-grow` indicamos un valor de **1** a todos sus ítems, tendrían el mismo tamaño cada uno de ellos. Pero si colocamos un valor de **1** a todos los elementos, salvo a uno de ellos, que le indicamos **2**, ese ítem será más grande que los anteriores. Los ítems a los que no se le especifique ningún valor, tendrán por defecto valor de **0**.
 
+![Propiedad align-self de Flexbox CSS](img/Flexbox-Flex-grow.PNG)
+
 En segundo lugar, tenemos la propiedad `flex-shrink` que es la opuesta a `flex-grow`. Mientras que la anterior indica un factor de crecimiento, `flex-shrink` hace justo lo contrario, aplica un factor de decrecimiento. De esta forma, los ítems que tengan un valor numérico más grande, serán más pequeños, mientras que los que tengan un valor numérico más pequeño serán más grandes, justo al contrario de como funciona la propiedad `flex-grow`.
 
+![Propiedad align-self de Flexbox CSS](img/Flexbox-Flex-shrink.PNG)
+
 Por último, tenemos la propiedad `flex-basis`, que define el tamaño por defecto (*de base*) que tendrán los ítems antes de aplicarle la distribución de espacio. Generalmente, se aplica un tamaño (*unidades, porcentajes, etc...*), pero también se puede aplicar la palabra clave **content** que ajusta automáticamente el tamaño al contenido del ítem, que es su valor por defecto.
+
+En el siguiente **ejemplo** cambiamos el orden de los elementos, y aplicamos diferentes tasas de crecimiento y decrecimiento a cada unos de los elementos.
+
+```css
+#contenedor {
+  display: flex;
+}
+
+.item{
+  //width: 25%;
+  flex-basis: 100px;
+}
+
+.item-1{
+  flex-grow: 1;
+  order: 1;
+}
+
+.item-2{
+  flex-grow: 0;
+  flex-shrink: 2;
+  order: 2;
+}
+
+.item-3{
+  flex-grow: 2;
+  flex-shrink: 5;
+  order: 0;
+}
+```
+
+![Propiedad align-self de Flexbox CSS](img/Flexbox-Flex-align-self.gif)
 
 ### 5.4.1. Atajo: Propiedades de hijos
 
