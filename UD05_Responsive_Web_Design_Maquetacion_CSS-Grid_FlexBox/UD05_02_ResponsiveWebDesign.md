@@ -2,15 +2,15 @@
 
 Tabla de contenidos
 
-- [1. Responsive web Design](#1-Responsive-Web-Design)
-  - [1.1. Conceptos básicos](#11-Conceptos-básicos)
-  - [1.2. Preparación previa](#12-Preparación-previa)
-  - [1.3. Estrategias de diseño](#13-Estrategias-de-diseño)
+- [2. Responsive web Design](#2-Responsive-Web-Design)
+  - [2.1. Conceptos básicos](#21-Conceptos-básicos)
+  - [2.2. Preparación previa](#22-Preparación-previa)
+  - [2.3. Estrategias de diseño](#23-Estrategias-de-diseño)
 
 En la actualidad, el uso de todo tipo de **dispositivos móviles** se ha disparado, no sólo de `smartphones`, sino también de tablets, `smartwatchs`, lectores de ebooks y múltiples tipos de dispositivos con capacidad de conexión a Internet.
 
 
-# 1. Responsive Web Design
+# 2. Responsive Web Design
 
 Cada vez es más frecuente acceder a Internet con diferentes tipos de dispositivos, que a su vez tienen **diferentes pantallas y resoluciones**, con distintos tamaños y formas, que hacen que se consuman las páginas webs de formas diferentes, apareciendo por el camino también diferentes necesidades, problemas y soluciones.
 
@@ -26,7 +26,7 @@ Hoy en día se le denomina **Responsive Web Design** (*o RWD*) a los diseños we
 
 Aunque en principio el concepto de **web adaptativa** es muy sencillo de comprender, aplicarlo puede ser todo un quebradero de cabeza si no se conocen bien las bases y se adquiere experiencia. En [MediaQueri.es](http://mediaqueri.es/) puedes encontrar algunos ejemplos de páginas que utilizan Responsive Web Design para tener clara la idea.
 
-## 1.1. Conceptos básicos
+## 2.1. Conceptos básicos
 
 En el excelente artículo [9 basic principles of responsive web design, de Froont](https://blog.froont.com/9-basic-principles-of-responsive-web-design/), hay una estupenda explicación visual de algunos conceptos básicos necesarios para entender correctamente el **Responsive Web Design**. Son los siguientes:
 
@@ -64,7 +64,7 @@ Esta forma de trabajar nos proporciona múltiples ventajas:
 -   Ayuda a evitar la mala práctica de ocultar bloques de información en dispositivos móviles.
 -   Incentiva a diseñar siguiendo buenas prácticas para facilitar la creación responsive.
 
-## 1.2. Preparación previa
+## 2.2. Preparación previa
 
 Antes de comenzar a crear un diseño web preparado para móviles, es importante tener claro ciertos detalles:
 
@@ -78,7 +78,7 @@ Una vez estés familiarizado con estos detalles, es importante **conocer el púb
 
 Consulta con algún sistema de estadísticas como [Google Analytics](https://marketingplatform.google.com/about/analytics/) para comprobar que tipo de público tienes actualmente. También es aconsejable echar un vistazo a información externa como las que nos proporcionan estadísticas globales anónimas de [Global StatCounter](https://gs.statcounter.com/screen-resolution-stats), para hacernos una idea de los atributos más comunes.
 
-## 1.3. Estrategias de diseño
+## 2.3. Estrategias de diseño
 
 Por último, es aconsejable decidirse por una estrategia de diseño antes de comenzar. Aunque existen otras estrategias, las dos vertientes principales más populares son las siguientes:
 

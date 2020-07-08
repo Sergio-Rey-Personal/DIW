@@ -2,16 +2,16 @@
 
 Tabla de contenidos
 
-- [2. Bases del diseño responsive](2-Bases-del-diseño-responsive)
-  - [2.1. Diseño con porcentajes](#21-Diseño-con-porcentajes)
-  - [2.2. Tamaños máximos y mínimos](#22-Tamaños-máximos-y-mínimos)
-  - [2.3. El viewport](#23-El-viewport)
+- [3. Bases del diseño responsive](2-Bases-del-diseño-responsive)
+  - [3.1. Diseño con porcentajes](#31-Diseño-con-porcentajes)
+  - [3.2. Tamaños máximos y mínimos](#32-Tamaños-máximos-y-mínimos)
+  - [3.3. El viewport](#33-El-viewport)
 
 Como explicamos en el punto anterior, hay ciertos conceptos que hay que tener claros antes de comenzar con el **Responsive Design**. En esta sección vamos a ver como llevarlos a la práctica con código.
 
-# 2. Bases del diseño responsive
+# 3. Bases del diseño responsive
 
-## 2.1. Diseño con porcentajes
+## 3.1. Diseño con porcentajes
 
 El primer paso para crear un diseño que se adapte correctamente, es comenzar a familiarizarse con un tipo de unidades relativas: **los porcentajes**. Recordemos que los porcentajes son relativos al contenedor padre, por lo que si especificamos un porcentaje a un elemento, el navegador va a tomar dicho porcentaje del contenedor.
 
@@ -90,7 +90,7 @@ Una forma simple de solucionar el problema en el ejemplo anterior, es hacer los 
 
 De esta forma, conseguimos que nuestro diseño se adapte de forma adecuada a la página, sin necesidad de tener que ajustar los márgenes, rellenos, bordes o tamaño de los contenidos.
 
-## 2.2. Tamaños máximos y mínimos
+## 3.2. Tamaños máximos y mínimos
 
 Si buscamos un cierto grado de control aún mayor, podríamos recurrir a las propiedades `max-width` y `min-width` , con las que podemos indicar el ancho de un elemento como máximo y el ancho de un elemento como mínimo respectivamente, consiguiendo así garantizar cierto control del diseño:
 
@@ -121,7 +121,7 @@ embed {
 
 ```
 
-## 2.3. El viewport
+## 3.3. El viewport
 
 En muchos casos puede que oigas hablar del **viewport** del navegador. Esa palabra hace referencia a la **región visible del navegador**, o sea, la parte de la página que está visualizándose actualmente en el navegador. Los usuarios podemos redimensionar la ventana del navegador para reducir el tamaño del viewport y simular que se trata de una pantalla y dispositivo más pequeño.
 

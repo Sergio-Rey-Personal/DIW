@@ -2,31 +2,31 @@
 
 Tabla de contenidos
 
-- [6. Grid CSS](#6-Grid-CSS)
-  - [6.1. Conceptos](#61-Conceptos)
-  - [6.2. Grid con filas y columnas](#62-Grid-con-filas-y-columnas)
-    - [6.2.1. Unidad fracción restante (fr)](#621-Unidad-fracción-restante-fr)
-    - [6.2.2. Filas y columnas repetitivas](#622-Filas-y-columnas-repetitivas)
-  - [6.3. Grid con líneas nombradas](#63-Grid-con-líneas-nombradas)
-  - [6.4. Grid por áreas](#64-Grid-por-áreas)
-  - [6.5. Huecos en grid](#65-Huecos-en-grid)
-    - [6.5.1. Atajo: Grid con huecos](#651-Atajo-Grid-con-huecos)
-  - [6.6. Posición en el grid](#66-Posición-en-el-grid)
-    - [6.6.1. Atajo de posiciones grid](#661-Atajo-de-posiciones-grid)
-  - [6.7. Propiedades para ítems hijos](#67-Propiedades-para-ítems-hijos)
-    - [6.7.1. Atajo: grid-column y grid-row](#671-Atajo-grid-column-y-grid-row)
-  - [6.8. Ajuste automático de celdas](#68-Ajuste-automático-de-celdas)
-  - [6.9. Atajo: Grid](#69-Atajo-Grid)
+- [7. Grid CSS](#7-Grid-CSS)
+  - [7.1. Conceptos](#71-Conceptos)
+  - [7.2. Grid con filas y columnas](#72-Grid-con-filas-y-columnas)
+    - [7.2.1. Unidad fracción restante (fr)](#721-Unidad-fracción-restante-fr)
+    - [7.2.2. Filas y columnas repetitivas](#722-Filas-y-columnas-repetitivas)
+  - [7.3. Grid con líneas nombradas](#73-Grid-con-líneas-nombradas)
+  - [7.4. Grid por áreas](#74-Grid-por-áreas)
+  - [7.5. Huecos en grid](#75-Huecos-en-grid)
+    - [7.5.1. Atajo: Grid con huecos](#751-Atajo-Grid-con-huecos)
+  - [7.6. Posición en el grid](#76-Posición-en-el-grid)
+    - [7.6.1. Atajo de posiciones grid](#761-Atajo-de-posiciones-grid)
+  - [7.7. Propiedades para ítems hijos](#77-Propiedades-para-ítems-hijos)
+    - [7.7.1. Atajo: grid-column y grid-row](#771-Atajo-grid-column-y-grid-row)
+  - [7.8. Ajuste automático de celdas](#78-Ajuste-automático-de-celdas)
+  - [7.9. Atajo: Grid](#79-Atajo-Grid)
 
 Uno de los procesos más problematicos y frustrantes de CSS, sobre todo para novatos o principiantes, es el proceso de colocar y distribuir los elementos a lo largo de una página. Mecanismos como posicionamiento, floats o elementos en bloque o en línea, suelen ser insuficientes (*o muy complejos*) para crear un layout o estructuras para páginas web actuales.
 
 El sistema **flexbox** es una gran mejora, sin embargo, está orientado a estructuras de una sola dimensión, por lo que aún necesitamos algo más potente para estructuras web más específicas o complejas. Con el paso del tiempo, muchos frameworks y librerías utilizan un **sistema grid** donde definen una cuadrícula determinada, y modificando los nombres de las clases de los elementos HTML, podemos darle tamaño, posición o colocación.
 
-# 6. Grid CSS
+# 7. Grid CSS
 
 **Grid CSS** nace de esa necesidad, y recoge las ventajas de ese sistema, añadiendole numerosas mejoras y características que permiten crear rápidamente cuadrículas sencillas y potentes de forma prácticamente instantánea.
 
-## 6.1. Conceptos
+## 7.1. Conceptos
 
 Antes de comenzar con **Grid CSS**, quizás sería conveniente dominar el sistema **Flexbox**, ya que Grid toma la filosofía y bases de él. Para utilizar **Grid CSS** necesitaremos tener en cuenta una serie de conceptos que utilizaremos a partir de ahora y que definiremos a continuación:
 
@@ -64,7 +64,7 @@ Para activar la cuadrícula **grid** hay que utilizar sobre el elemento contened
 
 Una vez elegido uno de estos dos valores, y establecida la propiedad `display` al elemento contenedor, hay varias formas de configurar nuestra cuadrícula grid. Comencemos con las propiedades que se aplican al elemento contenedor (*padre*).
 
-## 6.2. Grid con filas y columnas
+## 7.2. Grid con filas y columnas
 
 Es posible crear cuadrículas con un tamaño explícito. Para ello, sólo tenemos que usar las propiedades CSS `grid-template-columns` y `grid-template-rows`, que sirven para indicar las dimensiones de cada **celda** de la cuadrícula, diferenciando entre columnas y filas. Las propiedades son las siguientes:
 
@@ -87,7 +87,7 @@ Esto significa que tendremos una cuadricula con **2 columnas** (*la primera con 
 
 ![Cuadrículas explícitas (grid-template-rows y grid-template-columns)](img/grid-template-rows-columns.png)
 
-### 6.2.1. Unidad fracción restante (fr)
+### 7.2.1. Unidad fracción restante (fr)
 
 En el ejemplo anterior he utilizado **píxels** como unidades de las celdas de la cuadrícula, sin embargo, también podemos utilizar otras unidades (*o incluso combinarlas*) como porcentajes, la palabra clave **auto** (*que obtiene el tamaño restante*) o la unidad especial de Grid CSS **fr** (*fraction*), que simboliza una **fracción de espacio restante en el grid**. Veamos un código de ejemplo en acción:
 
@@ -107,7 +107,7 @@ De esta forma, podemos tener un mejor control del espacio restante de la cuadrí
 
 > **Nota**: Se pueden combinar varias unidades diferentes, pudiendo utilizar píxeles (*px*) y fracciones restantes (*fr*), porcentajes (*%*) y fracciones restantes (*fr*) o combinaciónes similares.
 
-### 6.2.2. Filas y columnas repetitivas
+### 7.2.2. Filas y columnas repetitivas
 
 En algunos casos, en las propiedades `grid-template-columns` y `grid-template-rows` podemos necesitar indicar las mismas cantidades un número alto de veces, resultando repetitivo y molesto. Se puede utilizar la expresión `repeat()` para indicar repetición de valores, indicando el número de veces que se repiten y el tamaño en cuestión.
 
@@ -177,7 +177,7 @@ El ejemplo anterior sería equivalente al código CSS siguiente:
 > [Grid CSS. Conceptos. Ejemplo (codepen)](https://codepen.io/sergio-rey-personal/pen/bGEvGxB)
 
 
-## 6.3. Grid con líneas nombradas
+## 7.3. Grid con líneas nombradas
 
 Con Grid CSS también tenemos la posibilidad de usar «**linenames**», o lo que es lo mismo, ponerle nombre a las líneas de nuestro sistema grid. Vamos a verlo con un ejemplo, donde probablemente se vea mucho mejor. Partamos de esta estructura HTML:
 
@@ -254,7 +254,7 @@ Un poco más adelante veremos más detalladamente estas últimas propiedades.
 
 > > **Nota:** Ten en cuenta que sería necesario darle un tamaño de alto con `height` al contenedor padre para que el navegador sepa cuanto ocupará la estructura completa. También podemos modificar las medidas `1fr` para dar menos proporción, por ejemplo utilizando en `grid-template-rows` un `[y0] 0.5fr` y un `[y2] 0.25fr`.
 
-## 6.4. Grid por áreas
+## 7.4. Grid por áreas
 
 Mediante los **grids CSS** es posible indicar el nombre y posición concreta de cada área de una cuadrícula. Para ello utilizaremos la propiedad `grid-template-areas`, donde debemos especificar el orden de las áreas en la cuadrícula. Posteriormente, en cada ítem hijo, utilizamos la propiedad `grid-area` para indicar el nombre del área del que se trata:
 
@@ -351,7 +351,7 @@ En la propiedad `grid-template-areas`, en lugar de indicar el nombre del área a
 
 > [Grid CSS. Ejemplo uso de áreas (Codepen)](https://codepen.io/sergio-rey-personal/pen/vYLRExK)
 
-## 6.5. Huecos en grid
+## 7.5. Huecos en grid
 
 Por defecto, la cuadrícula tiene todas sus celdas pegadas a sus celdas contiguas. Aunque sería posible darle un `margin` a las celdas dentro del contenedor, existe una forma más apropiada, que evita los problemas clásicos de los modelos de caja: los huecos (*gutters*).
 
@@ -375,7 +375,7 @@ Con esto, obtendríamos un resultado como el siguiente, indicando huecos entre c
 
 ![Huecos en grid CSS (Grid gaps)](img/grid-gap.png)
 
-### 6.5.1. Atajo: Grid con huecos
+### 7.5.1. Atajo: Grid con huecos
 
 Existe una propiedad de atajo para las propiedades `grid-column-gap` y `grid-row-gap`, permitiéndonos la posibilidad de no tener que indicarlas por separado.
 
@@ -432,7 +432,7 @@ De esta forma, podemos controlar prácticamente todos los aspectos de posicionam
 
 ![Grid CSS: Propiedades de distribución de elementos con justify-* y align-*](img/justify-align-grid-css.gif)
 
-### 6.6.1. Atajo de posiciones grid
+### 7.6.1. Atajo de posiciones grid
 
 Si vamos a crear estructuras grid donde necesitamos utilizar las cuatro propiedades anteriores, quizás sería mejor utilizar un atajo donde simplificaríamos mucho el código resultante. Es el caso de las siguientes propiedades:
 
@@ -443,7 +443,7 @@ Si vamos a crear estructuras grid donde necesitamos utilizar las cuatro propieda
 
 Con ellas conseguiremos que nuestro código sea menos verboso.
 
-## 6.7. Propiedades para ítems hijos
+## 7.7. Propiedades para ítems hijos
 
 Hasta ahora, salvo algunas excepciones como `justify-self`, `align-self` o `grid-area`, hemos visto propiedades CSS que se aplican solamente al contenedor padre de una cuadrícula. A continuación, vamos a ver ciertas propiedades que en su lugar, se aplican a cada ítem hijo de la cuadrícula, para alterar o cambiar el comportamiento específico de dicho elemento, que no se comporta como la mayoría.
 
@@ -624,7 +624,7 @@ Veamos el siguiente ejemplo donde se define un grid de 4 columas y 3 filas, y se
 > [Extensión de áreas dentro del grid. Usando grid-column y grid-row (Codepen)](https://codepen.io/sergio-rey-personal/pen/OJMvVmB)
 
 
-### 6.7.1. Atajo: grid-column y grid-row
+### 7.7.1. Atajo: grid-column y grid-row
 
 El módulo grid de CSS proporciona las propiedades de atajo `grid-column` y `grid-row` donde se nos permite escribir en un formato abreviado las propiedades anteriores. Su sintaxis sería la siguiente:
 
@@ -644,7 +644,7 @@ El módulo grid de CSS proporciona las propiedades de atajo `grid-column` y `gri
 
 ```
 
-## 6.8. Ajuste automático de celdas
+## 7.8. Ajuste automático de celdas
 
 Es posible utilizar las propiedades `grid-auto-columns` y `grid-auto-rows` para darle un tamaño automático a las celdas de la cuadrícula. Para ello, sólo hay que especificar el tamaño deseado en cada una de las propiedades. Además, también podemos utilizar `grid-auto-flow` para indicar el flujo de elementos en la cuadrícula, y especificar por donde se irán añadiendo. Las propiedades son las siguientes:
 
@@ -719,7 +719,7 @@ Veamos el siguiente ejemplo, en el que se distribuyen 5 elementos, y 3 de ellos,
 
 > [Ejemplo de uso de `grid-auto-flow` (Codepen)](https://codepen.io/sergio-rey-personal/pen/NWxYqqE)
 
-## 6.9. Atajo: Grid
+## 7.9. Atajo: Grid
 
 Por último, existe una propiedad `grid` que sirve de atajo para la mayoría de propiedades CSS relativas a cuadrículas. Su esquema de utilización sería el siguiente, junto a algunos ejemplos:
 

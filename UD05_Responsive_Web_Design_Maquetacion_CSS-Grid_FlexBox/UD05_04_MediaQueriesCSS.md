@@ -2,12 +2,12 @@
 
 Tabla de contenido
 
-- [3. Media queries en CSS](#3-Media-queries-en-CSS)
-  - [3.1. ¿Qué son las media queries?](#31-¿Qué-son-las-media-queries?)
-  - [3.2. Ejemplos de media queries](#32-Ejemplos-de-media-queries)
-  - [3.3. Propiedades o condiciones](#33-Propiedades-o-condiciones)
-  - [3.4. Condicionales CSS](#34-Condicionales-CSS)
-  - [3.5. Operadores lógicos en media queries](#35-Operadores-lógicos-en-media-queries)
+- [4. Media queries en CSS](#4-Media-queries-en-CSS)
+  - [4.1. ¿Qué son las media queries?](#41-¿Qué-son-las-media-queries?)
+  - [4.2. Ejemplos de media queries](#42-Ejemplos-de-media-queries)
+  - [4.3. Propiedades o condiciones](#43-Propiedades-o-condiciones)
+  - [4.4. Condicionales CSS](#44-Condicionales-CSS)
+  - [4.5. Operadores lógicos en media queries](#45-Operadores-lógicos-en-media-queries)
 -[Ejercicios propuestos](#Ejercicios-propuestos)
 
 Una vez nos adentramos en el mundo del **Responsive Design**, nos damos cuenta en que hay situaciones en las que determinados aspectos o componentes visuales deben aparecer en un tipo de dispositivos, o deben existir ciertas diferencias.
@@ -16,11 +16,11 @@ Por ejemplo, una zona donde se encuentra el buscador de la página puede estar c
 
 Para ello, utilizaremos un concepto denominado **media queries**, con los que podemos hacer esas excepciones para que sólo se apliquen a un tipo de diseño concreto.
 
-## 3. Media queries en CSS
+## 4. Media queries en CSS
 
 Las media queries se introdujeron en CSS3 para dar respuesta a las necesidades del diseño web responsive. Mediante ellas podemos definir estilos condicionales, aplicables únicamente en determinadas situaciones. El uso más extendido de las media queries es para establecer estilos diferentes para cada ancho de pantalla.
 
-## 3.1. ¿Qué son las media queries?
+## 4.1. ¿Qué son las media queries?
 
 Las reglas **media queries** (*también denominadas **MQ** a veces*) son un tipo de reglas de CSS que permiten crear un bloque de código que sólo se procesará en los dispositivos que cumplan los criterios especificados como condición:
 
@@ -65,7 +65,7 @@ Recordemos que con el siguiente fragmento de código HTML estamos indicando que 
 
 Con esto conseguiremos preparar nuestra web para dispositivos móviles y prepararnos para la introducción de reglas **media query** en el documento CSS.
 
-## 3.2. Ejemplos de media queries
+## 4.2. Ejemplos de media queries
 
 Veamos un ejemplo clásico de **media queries** en el que definimos diferentes estilos dependiendo del dispositivo que estamos utilizando. Observese que en el código existen 3 bloques `@media` donde se definen estilos CSS para cada uno de esos tipos de dispositivos.
 
@@ -145,7 +145,7 @@ Hay que tener en cuenta que los **media queries** también es posible indicarlos
 
 Estos estilos quedarán separados en varios archivos diferentes. Ten en cuenta que todos serán descargados al cargar la página, sólo que no serán aplicados al documento hasta que cumplan los requisitos indicados en el atributo `media`.
 
-## 3.3. Propiedades o condiciones
+## 4.3. Propiedades o condiciones
 
 A parte del ancho hay muchas otras propiedades que se pueden comprobar para aplicar o no los estilos. Las siguientes son algunas de ellas:
 
@@ -166,7 +166,7 @@ A parte del ancho hay muchas otras propiedades que se pueden comprobar para apli
 | `monochrome` | Bits por pixel en el buffer de marco monocromático del dispositivo, o 0 si el dispositivo no es monocromático. |
 | `hover` | Si se puede posicionar el puntero sobre los elementos |
 
-## 3.4. Condicionales CSS
+## 4.4. Condicionales CSS
 
 Aunque no forman parte de las media queries en sí, podemos utilizar la regla `@supports` para establecer condicionales y crear reglas similares a `@media` pero dependiendo de si el navegador del usuario soporta una característica concreta.
 
@@ -191,7 +191,7 @@ Estas reglas son muy interesantes para casos particulares donde queremos dar sop
 [](https://lenguajecss.com/css/responsive-web-design/bases-responsive/ "Bases del Responsive Design")
 
 
-## 3.5. Operadores lógicos en media queries
+## 4.5. Operadores lógicos en media queries
 
 Las *media queries* nos permiten utilizar operadores lógicos para comprobar si se cumple una condición.
 

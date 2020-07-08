@@ -2,27 +2,27 @@
 
 Tabla de contenidos
 
-- [5. Flexbox CSS](#5-Flexbox-CSS)
-  - [5.1. Conceptos](#51-Conceptos)
-  - [5.2. Dirección de los eje](#52-Dirección-de-los-ejes)
-    - [5.2.1. Atajo: Dirección de los ejes](#521-Atajo-Dirección-de-los-ejes)
-  - [5.3. Propiedades de alineación](#53-Propiedades-de-alineación)
-    - [5.3.1. Sobre el eje principal](#531-Sobre-el-eje-principal)
-    - [5.3.2. Sobre el eje secundario](#532-Sobre-el-eje-secundario)
-    - [5.3.3. Atajo: Alineaciones](#533-Atajo-Alineaciones)
-  - [5.4. Propiedades de hijos](#54-Propiedades-de-hijos)
-    - [5.4.1. Atajo: Propiedades de hijos](#541-Atajo-Propiedades-de-hijos)
-  - [5.5. Huecos (gaps)](#55-Huecos-gaps)
-    - [5.5.1. Atajo: Huecos](#551-Atajo-Huecos)
-  - [5.6. Orden de los ítems](#56-Orden-de-los-ítems)
+- [6. Flexbox CSS](#6-Flexbox-CSS)
+  - [6.1. Conceptos](#61-Conceptos)
+  - [6.2. Dirección de los eje](#62-Dirección-de-los-ejes)
+    - [6.2.1. Atajo: Dirección de los ejes](#621-Atajo-Dirección-de-los-ejes)
+  - [6.3. Propiedades de alineación](#63-Propiedades-de-alineación)
+    - [6.3.1. Sobre el eje principal](#631-Sobre-el-eje-principal)
+    - [6.3.2. Sobre el eje secundario](#632-Sobre-el-eje-secundario)
+    - [6.3.3. Atajo: Alineaciones](#633-Atajo-Alineaciones)
+  - [6.4. Propiedades de hijos](#64-Propiedades-de-hijos)
+    - [6.4.1. Atajo: Propiedades de hijos](#641-Atajo-Propiedades-de-hijos)
+  - [6.5. Huecos (gaps)](#65-Huecos-gaps)
+    - [6.5.1. Atajo: Huecos](#651-Atajo-Huecos)
+  - [6.6. Orden de los ítems](#66-Orden-de-los-ítems)
 
 Tradicionalmente, en CSS se ha utilizado el posicionamiento (*static, relative, absolute...*), los elementos en línea o en bloque (*y derivados*) o los **float**, lo que a grandes rasgos no dejaba de ser un sistema de creación de diseños bastante tradicional que no encaja con los retos que tenemos hoy en día: sistemas de escritorio, dispositivos móviles, múltiples resoluciones, etc...
 
-# 5. Flexbox CSS
+# 6. Flexbox CSS
 
 **Flexbox** es un sistema de **elementos flexibles** que llega con la idea de olvidar estos mecanismos y acostumbrarnos a una mecánica más potente, limpia y personalizable, en la que los elementos HTML se adaptan y colocan automáticamente y es más fácil personalizar los diseños. Está especialmente diseñado para crear, mediante CSS, estructuras de **una sóla dimensión**.
 
-## 5.1. Conceptos
+## 6.1. Conceptos
 
 Para empezar a utilizar **flexbox** lo primero que debemos hacer es conocer algunos de los elementos básicos de este nuevo esquema, que son los siguientes:
 
@@ -80,7 +80,7 @@ Para activar el modo **`flexbox`** hay que utilizar sobre el elemento contenedor
 
 Por defecto, y sólo con esto, observaremos que los elementos se disponen todos sobre una misma línea. Esto ocurre porque estamos utilizando el modo **`flexbox`** y estaremos trabajando con ítems flexibles básicos, garantizando que no se desbordarán ni mostrarán los problemas que, por ejemplo, tienen los porcentajes sobre elementos que no utilizan flexbox.
 
-## 5.2. Dirección de los ejes
+## 6.2. Dirección de los ejes
 
 Existen dos propiedades principales para manipular la dirección y comportamiento de los ítems a lo largo del eje principal del contenedor. Son las siguientes:
 
@@ -152,7 +152,7 @@ Observa si cambiamos el orden a `row-reverse`
 ![Flexbox: Wrap](img/Flexbox-Flex-wrap-reverse-reverse.PNG)
 
 
-## 5.2.1. Atajo: Dirección de los ejes
+## 6.2.1. Atajo: Dirección de los ejes
 
 Recuerda que existe una propiedad de atajo (short-hand) llamada `flex-flow`, con la que podemos resumir los valores de las propiedades `flex-direction` y `flex-wrap`, especificándolas en una sola propiedad y ahorrándonos utilizar las propiedades concretas:
 
@@ -167,7 +167,7 @@ Recuerda que existe una propiedad de atajo (short-hand) llamada `flex-flow`, con
 
 En este caso, como el alto del elemento no cabe en el contenedor, el `wrap` provoca que se ponga uno al lado del otro al no caber ninguno debajo del anterior.
 
-## 5.3. Propiedades de alineación
+## 6.3. Propiedades de alineación
 
 Ahora que tenemos un control básico del contenedor de estos ítems flexibles, necesitamos conocer las propiedades existentes dentro de flexbox para disponer los ítems dependiendo de nuestro objetivo. Vamos a echar un vistazo a cuatro propiedades interesantes para ello:
 
@@ -183,7 +183,7 @@ De esta pequeña lista, hay que centrarse en primer lugar en la primera y la ter
 -   `justify-content`: Se utiliza para alinear los ítems del **eje principal** (*por defecto, el horizontal*).
 -   `align-items`: Usada para alinear los ítems del **eje secundario** (*por defecto, el vertical*).
 
-### 5.3.1. Sobre el eje principal
+### 6.3.1. Sobre el eje principal
 
 La primera propiedad, `justify-content`, sirve para colocar los ítems de un contenedor mediante una disposición concreta a lo largo del **eje principal**:
 
@@ -276,7 +276,7 @@ Ojo. Para el valor `stretch`, los elementos no deben tener asignada altura;
 
 ![Propiedad align-content de Flexbox CSS](img/Flexbox-Flex-align-content-stretch.PNG)
 
-### 5.3.2. Sobre el eje secundario
+### 6.3.2. Sobre el eje secundario
 
 La otra propiedad importante de este apartado es `align-items`, que se encarga de alinear los ítems en el eje secundario del contenedor. Hay que tener cuidado de no confundir `align-content` con `align-items`, puesto que el primero actúa sobre cada una de las líneas de un contenedor multilinea (*no tiene efecto sobre contenedores de una sola línea*), mientras que `align-items` lo hace sobre la línea actual. Los valores que puede tomar son los siguientes:
 
@@ -342,7 +342,7 @@ Si se especifica el valor **auto** a la propiedad `align-self`, el navegador le 
 
 ![Propiedad align-content de Flexbox CSS](img/Flexbox-Flex-align-self.PNG)
 
-### 5.3.3. Atajo: Alineaciones
+### 6.3.3. Atajo: Alineaciones
 
 Existe una propiedad de atajo con la que se pueden establecer los valores de `align-content` y de `justify-content` de una sola vez, denominada `place-content`:
 
@@ -357,7 +357,7 @@ Existe una propiedad de atajo con la que se pueden establecer los valores de `al
 }
 ```
 
-## 5.4. Propiedades de hijos
+## 6.4. Propiedades de hijos
 
 A excepción de la propiedad `align-self`, todas las propiedades que hemos visto hasta ahora se aplican sobre el elemento **contenedor**. Las siguientes propiedades, sin embargo, se aplican sobre los ítems hijos. Echemos un vistazo:
 
@@ -410,7 +410,7 @@ En el siguiente **ejemplo** cambiamos el orden de los elementos, y aplicamos dif
 
 ![Propiedad align-self de Flexbox CSS](img/Flexbox-Flex-align-self.gif)
 
-### 5.4.1. Atajo: Propiedades de hijos
+### 6.4.1. Atajo: Propiedades de hijos
 
 Existe una propiedad llamada `flex` que sirve de atajo para estas tres propiedades de los ítems hijos. Funciona de la siguiente forma:
 
@@ -422,7 +422,7 @@ Existe una propiedad llamada `flex` que sirve de atajo para estas tres propiedad
 
 ```
 
-## 5.5. Huecos (gaps)
+## 6.5. Huecos (gaps)
 
 Existen dos propiedades de flexbox que han surgido recientemente: `row-gap` y `column-gap`. Dichas propiedades, permiten establecer el tamaño de un «hueco» entre ítems desde el elemento padre contenedor, y sin necesidad de estar utilizando `padding` o `margin` en los elementos hijos.
 
@@ -433,7 +433,7 @@ Existen dos propiedades de flexbox que han surgido recientemente: `row-gap` y `c
 
 Ten en cuenta que sólo una de las dos propiedades tendrá efecto, dependiendo de si la propiedad `flex-direction` está establecida en `column` o en `row`. Eso sí, es posible usar ambas si tenemos la propiedad `flex-wrap` definida a `wrap` y, por lo tanto, disponemos de multicolumnas flexbox.
 
-### 5.5.1. Atajo: Huecos
+### 6.5.1. Atajo: Huecos
 
 En el caso de que queramos utilizar una propiedad de atajo para los huecos, podemos utilizar la propiedad `gap`. Eso sí, ten en cuenta que estas propiedades de huecos en flexbox, aún no tienen un soporte demasiado extendido entre navegadores:
 
@@ -448,7 +448,7 @@ En el caso de que queramos utilizar una propiedad de atajo para los huecos, pode
 
 ```
 
-## 5.6. Orden de los ítems
+## 6.6. Orden de los ítems
 
 Por último, y quizás una de las propiedades más interesantes, es `order`, que modificar y establece el orden de los ítems según una secuencia numérica.
 

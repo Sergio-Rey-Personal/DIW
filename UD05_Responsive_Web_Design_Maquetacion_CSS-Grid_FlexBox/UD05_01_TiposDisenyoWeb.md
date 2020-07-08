@@ -2,13 +2,13 @@
 
 Tabla de contenidos
 
--   [Tipos de diseño web, ¿cuál utilizo?](#1-Tipos-de-diseno-web-cual-utilizo)
--   [1\. Diseño fijo](#11-Diseño-fijo)
--   [2\. Diseño elástico](#12-Diseño-elaático)
--   [3\. Diseño líquido o fluido](#13-Diseño-líquido-o-fluido)
--   [4\. Diseño web responsivo o adaptable](#14-Diseño-web-responsivo-o-adaptable)
--   [5\. Diseño flexible](#15-Diseño-flexible)
--   [6\. ¿Qué tipo de diseño utilizo?](#16-Qué-tipo-de-diseño-utilizo)
+- [1. Tipos de diseño web, ¿cuál utilizo?](#1-Tipos-de-diseno-web-cual-utilizo)
+  - [1.1. Diseño fijo](#11-Diseño-fijo)
+  - [1.2. Diseño elástico](#12-Diseño-elaático)
+  - [1.3. Diseño líquido o fluido](#13-Diseño-líquido-o-fluido)
+  - [1.4. Diseño web responsivo o adaptable](#14-Diseño-web-responsivo-o-adaptable)
+  - [1.5. Diseño flexible](#15-Diseño-flexible)
+  - [1.6. ¿Qué tipo de diseño utilizo?](#16-Qué-tipo-de-diseño-utilizo)
 
 # 1.Tipos de diseño web, ¿cuál utilizo?
 

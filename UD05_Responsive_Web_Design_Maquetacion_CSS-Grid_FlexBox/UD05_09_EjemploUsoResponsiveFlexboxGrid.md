@@ -2,11 +2,11 @@
 
 Tabla de contenidos
 
-- [8. Ejemplo práctico responsive con media queries](#8-Ejemplo-práctico-responsive-con-media-queries)
-  - [8.1. Flexbox](#81-Flexbox)
-  - [8.2. CSS Grid](#82-CSS-Grid)
+- [9. Ejemplo práctico responsive con media queries](#9-Ejemplo-práctico-responsive-con-media-queries)
+  - [9.1. Flexbox](#91-Flexbox)
+  - [9.2. CSS Grid](#92-CSS-Grid)
 
-# 8. Ejemplo práctico responsive con media queries
+# 9. Ejemplo práctico responsive con media queries
 
 A continuación, veremos un ejemplo práctico para resolver tanto en Flexbox como en Grid, situaciones que se nos pueden dar a la hora de realizar un proyecto.
 
@@ -18,7 +18,7 @@ y lo haremos responsive con la ayuda de media queries
 
 ![Ejemplo maquetacion flexbox y grid responsive](img/flexbox-grid-ejemplo-responsive.png)
 
-## 8.1. Flexbox
+## 9.1. Flexbox
 
 ### Posición de las secciones de la página
 
@@ -95,7 +95,7 @@ footer {
 
 > [Ejemplo maquetación responsive con media queries y Flexbox (Codepen)](https://codepen.io/sergio-rey-personal/pen/GRodqre)
 
-## 8.2. CSS Grid
+## 9.2. CSS Grid
 
 ### Posición de las secciones de la página
 
