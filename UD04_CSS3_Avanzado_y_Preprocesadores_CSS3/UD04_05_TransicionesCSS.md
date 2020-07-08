@@ -1,6 +1,6 @@
 # **Transiciones en CSS, estilos diferentes entre estados**
 
-# 6. Transiciones en CSS
+# 5. Transiciones en CSS
 
 Las transiciones nos permiten aplicar un **cambio de estilo gradual a los elementos**. Además, nos ofrecen la ventaja de poder **especificar el tiempo** para que se produzca la transformación entre estilos, de esta forma podríamos utilizarlas para dar un **efecto de animación**.
 

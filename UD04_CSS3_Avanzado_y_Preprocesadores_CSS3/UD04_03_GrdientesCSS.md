@@ -2,18 +2,18 @@
 
 Tabla de contenidos
 
--   [4. Gradientes en CSS: gradiente lineal y radial](#4_Gradientes-en-CSS-gradiente-lineal-y-radial)
--   [4.1. Gradiente lineal](#41-Gradiente-lineal)
--   [4.2. Gradiente radial](#42-Gradiente-radial)
--   [4.3. Generadores de gradientes](#43-Generadores-de-gradientes)
--   [4.4. Patrones de gradientes](#44-Patrones-de-gradientes)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [3. Gradientes en CSS: gradiente lineal y radial](#3_Gradientes-en-CSS-gradiente-lineal-y-radial)
+  - [3.1. Gradiente lineal](#31-Gradiente-lineal)
+  - [3.2. Gradiente radial](#32-Gradiente-radial)
+  - [3.3. Generadores de gradientes](#33-Generadores-de-gradientes)
+  - [3.4. Patrones de gradientes](#34-Patrones-de-gradientes)
+- [Ejercicios propuestos](#Ejercicios-propuestos)
 
-# 4. Gradientes en CSS: gradiente lineal y radial
+# 3. Gradientes en CSS: gradiente lineal y radial
 
 Los **gradientes** nos permiten añadir efectos de **colores degradados** en nuestros diseños. Los gradientes se configuran como fondos, por lo que tendremos que usar la propiedad "**background**". Disponemos de dos tipos de gradientes: "l**inear-gradient**" y "**radial-gradient**".
 
-# 4.1. Gradiente lineal
+# 3.1. Gradiente lineal
 
 El formato es el siguiente:
 
@@ -36,7 +36,7 @@ background: rgb(176,174,238);
 background: linear-gradient(90deg, rgba(176,174,238,1) 0%, rgba(29,30,31,1) 100%);
 ```
 
-## 4.2. Gradiente radial
+## 3.2. Gradiente radial
 
 El formato para los **gradientes radiales** es muy parecido al anterior. En este caso, debemos usar la función radial-gradient() y un nuevo atributo para la forma.
 
@@ -50,14 +50,14 @@ background: rgb(176,174,238);
 background: radial-gradient(circle, rgba(176,174,238,1) 0%, rgba(29,30,31,1) 100%);
 ```
 
-# 4.3. Generadores de gradientes
+# 3.3. Generadores de gradientes
 
 Para facilitarnos la tarea de la **creación de gradientes** podemos utilizar un **generador de gradientes online** que nos proporcione el código CSS necesario para nuestro diseño. Algunas herramientas online útiles son las siguientes:
 
 -   [cssgradient.io](https://cssgradient.io/)
 -   [css3gen.com/gradient-generator](http://css3gen.com/gradient-generator/)
 
-## 4.4. Patrones de gradientes
+## 3.4. Patrones de gradientes
 
 Podemos aplicar diseños muy trabajados creando **patrones** sin necesidad de cargar imágenes con mucho peso. Existen diversos artistas dedicados a hacer este tipo de diseños. Algunos ejemplos de diseños de este tipo se pueden obtener en la siguiente plataforma:
 

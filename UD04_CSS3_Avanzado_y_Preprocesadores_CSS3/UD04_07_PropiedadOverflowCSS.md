@@ -1,12 +1,17 @@
 # **Propiedad CSS overflow, excedente de contenido**
 
+Tabla de contenidos
+- [7. Propiedad CSS **`overflow`**](#7-Propiedad-CSS-overflow)
+  -[7.1. Valores de **`overflow`**](#71-Valores-de-overflow)
+- [Ejercicios propuestos](#Ejercicios-propuestos)
+
 En la unidad anterior vimos el [comportamiento de los contenedores en CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD04_CSS3_Avanzado_y_Preprocesadores_CSS3/UD04_06_TransformacionesCSS.md), veamos ahora cómo controlar el **comportamiento del contenido** que se encuentra en esos contenedores.
 
-# Propiedad CSS *overflow*
+# 7. Propiedad CSS **`overflow`**
 
 La propiedad ***overflow*** (desbordamiento o excedente) nos permite controlar el **comportamiento del contenido que se encuentra en una caja o contenedor**. Por lo tanto, mediante esta propiedad podremos especificar si queremos recortar un contenido, mostrar barras de desplazamiento o mostrar el contenido que excede de un elemento a nivel de bloque.
 
-## Valores de *overflow*
+## 7.1. Valores de **`overflow`**
 
 La propiedad *overflow* solo funciona sobre elementos de tipo bloque con una altura definida. Sus valores son los siguientes:
 

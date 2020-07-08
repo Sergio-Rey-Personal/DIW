@@ -2,18 +2,18 @@
 
 Tabla de contenidos
 
--   [7. Transformaciones en CSS](#Transformaciones-en-CSS)
--   [7.1. Tipos de transformaciones](#71-Tipos-de-transformaciones)
+-   [6. Transformaciones en CSS](#6-Transformaciones-en-CSS)
+-   [6.1. Tipos de transformaciones](#61-Tipos-de-transformaciones)
 -   [Ejercicios propuestos](#Ejercicios-propuestos)
 
-# 7. Transformaciones en CSS
+# 6. Transformaciones en CSS
 
 Las **transformaciones CSS** nos permiten **rotar, torcer, escalar o desplazar** los elementos de nuestra página web. Este tipo de propiedades de CSS3 son muy interesantes para convertir el lenguaje de hojas de estilo en un sistema capaz de realizar todo tipo de **efectos visuales**. Las dos propiedades que nos sirven para definir las transformaciones son `**transform**`y `**transform-origin**`.
 
 -   `transform-origin`La posición de origen que se utilizará para la transformación es por defecto el lado superior izquierdo del elemento.
 -   `transform`La posición de origen para realizar la transformación es el eje central del elemento.
 
-# 7.1. Tipos de transformaciones
+# 6.1. Tipos de transformaciones
 
 Las transformaciones que podemos aplicar son las siguientes:
 

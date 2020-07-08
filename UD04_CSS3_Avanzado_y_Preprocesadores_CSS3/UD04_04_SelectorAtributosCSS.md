@@ -2,7 +2,7 @@
 
 En la unidad anterior vimos [pseudo-clases](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_30_PseudoClasesPsaudoElementosCSS.md) de CSS que nos permitían realizar una selección más específica de los elementos a los que queremos aplicar un cierto estilo. Por ejemplo, utilizábamos la jerarquía de los elementos para especificar la selección. En esta sección vamos a ver los selectores de atributos que nos permitirán también realizar una selección más específica de los elementos a los que queremos aplicar un cierto estilo en función de los atributos o valores que tengan asignados.
 
-# 5. Selector de atributos en CSS
+# 4. Selector de atributos en CSS
 
 Los **selectores de atributos** permiten elegir elementos HTML en función de sus atributos y/o **valores** de esos atributos.
 

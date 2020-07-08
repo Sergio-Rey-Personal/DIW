@@ -2,17 +2,17 @@
 
 Tabla de contenidos
 
--   [3. Sombras en texto y contenedores o cajas con CSS](#Sombras-en-texto-y-contenedores-o-cajas-con-CSS)
--   [3.1. Propiedades text-shadow y box-shadow](#1-Propiedades-text-shadow-y-box-shadow)
--   [3.2. Generadores de sombra online](#2-Generadores-de-sombra-online)
+- [2. Sombras en texto y contenedores o cajas con CSS](#2Sombras-en-texto-y-contenedores-o-cajas-con-CSS)
+  - [2.1. Propiedades text-shadow y box-shadow](#21-Propiedades-text-shadow-y-box-shadow)
+  - [2.2. Generadores de sombra online](#22-Generadores-de-sombra-online)
 -   [Ejercicios propuestos](#Ejercicios-propuestos)
 
-# 3. Sombras en texto y contenedores o cajas con CSS
+# 2. Sombras en texto y contenedores o cajas con CSS
 -----------------------------------------------
 
 Gracias a las propiedades de CSS3 "**text-shado**w" y "**box-shadow**" podemos aplicar sombras en los textos y en los contenedores y así enriquecer nuestras interfaces.
 
-## 3.1. Propiedades text-shadow y box-shadow
+## 2.1. Propiedades text-shadow y box-shadow
 
 El formato es el mismo para las dos propiedades. Veamos por ejemplo qué significan los valores de la propiedad "text-shadow" que tenemos a continuación:
 
@@ -50,7 +50,7 @@ Recuerda que para este tipo de propiedades debemos incluir los [prefijos para na
 
 [Text-shadow & box-shadow (Codepen)](https://codepen.io/sergio-rey-personal/pen/dyGRqVQ)
 
-## 3.2. Generadores de sombra online
+## 2.2. Generadores de sombra online
 
 Para facilitarnos la tarea de la creación de sombras podemos utilizar un generador de sombras tanto para los textos como para las cajas o contenedores. Algunas herramientas online útiles son las siguientes:
 

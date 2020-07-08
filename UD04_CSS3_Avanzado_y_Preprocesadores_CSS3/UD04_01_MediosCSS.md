@@ -2,14 +2,14 @@
 
 Tabla de contenidos
 
--   [2. Estilos para diferentes medios en CSS](#2-stilos-para-diferentes-medios-en-CSS)
--   [2.1. Medios definidos con `<link>`](#21-Medios-definidos-con-link)
--   [2.2. Medios definidos con @media](#22-Medios-definidos-con-media)
--   [2.3. Medios definidos con @import](#23-Medios-definidos-con-import)
--   [2.4. Hojas de estilo auditivas, CSS Speech Module](#24-Hojas-de-estilo-auditivas-CSS-Speech-Module)
+-   [1. Estilos para diferentes medios en CSS](#1-stilos-para-diferentes-medios-en-CSS)
+-   [1.1. Medios definidos con `<link>`](#11-Medios-definidos-con-link)
+-   [1.2. Medios definidos con @media](#12-Medios-definidos-con-media)
+-   [1.3. Medios definidos con @import](#13-Medios-definidos-con-import)
+-   [1.4. Hojas de estilo auditivas, CSS Speech Module](#14-Hojas-de-estilo-auditivas-CSS-Speech-Module)
 -   [Ejercicios propuestos](#Ejercicios-propuestos)
 
-# 2. Estilos para diferentes medios en CSS
+# 1. Estilos para diferentes medios en CSS
 
 Las hojas de estilos CSS permiten **definir diferentes estilos para diferentes medios** o dispositivos: pantallas, impresoras, proyectores, televisores, etc. La tabla siguiente muestra el nombre que se utiliza en CSS para identificar cada medio:
 
@@ -22,7 +22,7 @@ Las hojas de estilos CSS permiten **definir diferentes estilos para diferentes m
 
 Una de las ventajas de CSS es que nos permite modificar los estilos de una página en función del medio en el que se visualiza. Hay tres formas diferentes de indicar el medio en el que se deben aplicar los estilos CSS. Veamos cada una de ellas.
 
-## 2.1. Medios definidos con `<link>`
+## 1.1. Medios definidos con `<link>`
 
 Se puede utilizar la etiqueta `<link>` en el código html **para enlazar los archivos CSS externos**. Para ello utilizaremos el atributo media para indicar el `medio` en el que se aplica el estilo de cada archivo mencionado en el atributo `href`.
 
@@ -31,7 +31,7 @@ Se puede utilizar la etiqueta `<link>` en el código html **para enlazar los arc
 <link rel="stylesheet" type="text/css" media="print" href="especialStyle.css" />
 ```
 
-## 2.2. Medios definidos con @media
+## 1.2. Medios definidos con @media
 
 Mediante la **regla**`**@media**` podemos **indicar de forma directa el medio o medios en los que se aplicarán los estilos**. Para especificar el medio en el que se aplican los estilos, se incluye su nombre después de `@media`. Si los estilos se aplican a varios medios, se incluyen los nombres separados mediante comas.
 
@@ -45,7 +45,7 @@ En el siguiente ejemplo se define que el tamaño de letra de la página visualiz
 
 * * * * *
 
-## 2.3. Medios definidos con `@import`
+## 1.3. Medios definidos con `@import`
 
 Gracias a las reglas de tipo `@import` se pueden **enlazar archivos CSS externos para indicar los estilos que se aplican en cada medio**. Este método viene muy bien para no tener todos los estilos en una misma hoja.
 
@@ -58,7 +58,7 @@ En el ejemplo siguiente se carga el archivo "estilosPantalla.css" cuando la pág
 ```
 * * * * *
 
-## 2.4. Hojas de estilo auditivas, CSS Speech Module
+## 1.4. Hojas de estilo auditivas, CSS Speech Module
 
 Las hojas de estilo auditivas proporcionan información para usuarios invidentes y de navegadores de voz de manera parecida a la que se proporciona visualmente.
 
