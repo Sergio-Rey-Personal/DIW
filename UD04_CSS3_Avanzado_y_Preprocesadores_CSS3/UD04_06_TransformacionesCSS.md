@@ -23,7 +23,7 @@ Las transformaciones que podemos aplicar son las siguientes:
 -   **Skew**: distorsiona los elementos.
 -   **Matrix**: mueve o transforma los elementos con precisión de píxel.
 
-La propiedad transform se usa junto con la propiedad [transition](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD04_CSS3_Avanzado_y_Preprocesadores_CSS3/UD04_06_TransicionesCSS.md) vista en el apartado anterior:
+La propiedad transform se usa junto con la propiedad [transition](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD04_CSS3_Avanzado_y_Preprocesadores_CSS3/UD04_05_TransicionesCSS.md) vista en el apartado anterior:
 
 ```css
 .caja1{

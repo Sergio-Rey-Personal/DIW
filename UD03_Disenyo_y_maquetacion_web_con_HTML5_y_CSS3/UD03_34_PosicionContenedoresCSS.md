@@ -47,7 +47,7 @@ Valores:
 ```
 
 ```html
-<htm>
+<html>
 <head>
     <meta charset="utf-8"> 
     <title>Propiedad display</title> 
@@ -80,9 +80,8 @@ Valores:
     <p class="d">Bloque2 </p> 
     <p class="d">Bloque3 </p> 
 </body>
-</htm
-l>
-``> `
+</html>
+```
 
 [CSS3. Propiedad Display (Codepen)](https://codepen.io/sergio-rey-personal/pen/QWyGamV)
 
@@ -337,15 +336,14 @@ Realiza la prueba quitando y añadiendo la propiedad "box-sizing: border-box" de
 
 ```html
 <div class="img-container">
-  <img src="https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_960_720.jpg">
-  </div>
-  <div class="img-container">
-  <img src="https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_960_720.jpg">
-  </div>
-  <div class="img-container">
-  <img src="https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_960_720.jpg">
-  </div
-  >
+  <img src="https://github.com/Sergio-Rey-Personal/DIW/blob/master/img/img1.jpg?raw=true">
+</div>
+<div class="img-container">
+  <img src="https://github.com/Sergio-Rey-Personal/DIW/blob/master/img/img2.jpg?raw=true">
+</div>
+<div class="img-container">
+  <img src="https://github.com/Sergio-Rey-Personal/DIW/blob/master/img/img3.jpg?raw=true">
+</div>
   ```
 
 > [CSS3. Box-sizing (Codepen)](https://codepen.io/sergio-rey-personal/pen/mdVOpvq)

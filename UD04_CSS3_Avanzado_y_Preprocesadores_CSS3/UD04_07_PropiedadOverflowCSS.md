@@ -1,6 +1,6 @@
 # **Propiedad CSS overflow, excedente de contenido**
 
-En la unidad anterior vimos el [comportamiento de los contenedores en CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD04_CSS3_Avanzado_y_Preprocesadores_CSS3/UD04_07_TransformacionesCSS.md), veamos ahora cómo controlar el **comportamiento del contenido** que se encuentra en esos contenedores.
+En la unidad anterior vimos el [comportamiento de los contenedores en CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD04_CSS3_Avanzado_y_Preprocesadores_CSS3/UD04_06_TransformacionesCSS.md), veamos ahora cómo controlar el **comportamiento del contenido** que se encuentra en esos contenedores.
 
 # Propiedad CSS *overflow*
 

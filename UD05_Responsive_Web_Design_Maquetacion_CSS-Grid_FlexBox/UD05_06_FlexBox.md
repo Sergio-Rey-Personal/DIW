@@ -68,7 +68,7 @@ Para activar el modo **`flexbox`** hay que utilizar sobre el elemento contenedor
 }
 
 .item{
-  background-color: blue;
+  background-color: aquamarine;
   border: 1px solid black;
   height: 50%;
 }
