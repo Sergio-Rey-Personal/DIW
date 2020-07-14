@@ -47,7 +47,7 @@ Bootstrap 4 nos ofrece la clase **`.img-fluid`** para que las imágenes se adapt
 Ejemplo:
 
 ```html
-<img src="img1.jpg" class="**img-fluid**" alt="Imagen Responsive">
+<img src="img1.jpg" class="img-fluid" alt="Imagen Responsive">
 ```
 
 ![Bootstrap. Imagen responsive](img/bootstrap-imagen-responsive.png)

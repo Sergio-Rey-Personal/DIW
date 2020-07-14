@@ -1,8 +1,8 @@
-# **Componentes Bootstrap**
+# **Componentes Bootstrap 4**
 
 Tabla de contenidos
 
-- [**Componentes Bootstrap**](#componentes-bootstrap)
+- [**Componentes Bootstrap 4**](#componentes-bootstrap-4)
 - [8. Componentes responsive](#8-componentes-responsive)
   - [8.1. Botones](#81-botones)
     - [8.1.1. Elemento tipo botón.](#811-elemento-tipo-botón)
