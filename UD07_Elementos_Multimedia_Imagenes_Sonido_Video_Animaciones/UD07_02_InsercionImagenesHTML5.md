@@ -52,12 +52,14 @@ Una de las primeras ventajas que nos ofrecen estas etiquetas es la de utilizar f
   <source srcset="imagen.webp" />
   <!-- Formato WebP -->
   <source srcset="imagen.png" />
-  <!-- Formato JPEG XR -->
+  <!-- Formato PNG -->
   <img src="imagen.jpg" alt="Descripción de la imagen" />
   <!-- Fallback -->
 </picture>
 
 ```
+
+> [Seguir ejemplos en Codepen](https://codepen.io/sergio-rey-personal/pen/PoZdwMP?editors=1010)
 
 En este caso, indicamos que el navegador utilice la imagen con el formato **WebP**. En caso de no soportarlo, lo intentará con el formato **PNG**. Si tampoco lo soporta, mostrará la imagen en formato **JPEG**, que es la que está soportada por todos los navegadores, y si utilizamos algún navegador de texto como Lynx u otro que no pueda mostrar imágenes, mostrará el texto alternativo.
 
