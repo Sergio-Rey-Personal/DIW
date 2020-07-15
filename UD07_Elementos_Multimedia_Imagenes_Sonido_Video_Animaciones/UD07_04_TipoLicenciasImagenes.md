@@ -1,16 +1,21 @@
-# **Tipos de licencia de imágenes y usos permitidos** 
+# 4. **Tipos de licencia de imágenes y usos permitidos** 
 
 Tabla de contenidos
 
-- [4. Licencias de imágenes](#4-licencias-de-imágenes)
+- [4. **Tipos de licencia de imágenes y usos permitidos**](#4-tipos-de-licencia-de-imágenes-y-usos-permitidos)
   - [4.1. La Ley que protege el uso de las imágenes](#41-la-ley-que-protege-el-uso-de-las-imágenes)
   - [4.2. Copyright vs Derecho de Autor](#42-copyright-vs-derecho-de-autor)
   - [4.3. El uso de Licencias para la protección legal de las imágenes](#43-el-uso-de-licencias-para-la-protección-legal-de-las-imágenes)
   - [4.4. Licencias Creative Commons (CC)](#44-licencias-creative-commons-cc)
   - [4.5. Copyleft](#45-copyleft)
   - [4.6. Uso de imágenes seguras para tu web](#46-uso-de-imágenes-seguras-para-tu-web)
+    - [Sé el **propio autor de las imágenes que usas** en tu web](#sé-el-propio-autor-de-las-imágenes-que-usas-en-tu-web)
+    - [Utiliza imágenes con licencia **Creative Commons**](#utiliza-imágenes-con-licencia-creative-commons)
+    - [Consulta los bancos de imágenes](#consulta-los-bancos-de-imágenes)
+      - [Bancos de imágenes gratuitos:](#bancos-de-imágenes-gratuitos)
+      - [Bancos de imágenes de pago:](#bancos-de-imágenes-de-pago)
+      - [Iconos:](#iconos)
   
-# 4. Licencias de imágenes 
 Tener una web, especialmente si realizas tu actividad desde la Unión Europea, conlleva una serie de obligaciones legales y es necesario que lleves a cabo. Tanto es así, que se han desarrollado incluso una serie de herramientas para adecuar tu web a esta legalidad.
 
 Dentro de los diversos facetas legales de una web, la legalidad del uso de imágenes en internet es uno de los que más dudas genera y, efectivamente, da mucho de sí. Conocer algunos pilares básicos y ponerlos en práctica es obligación de todo informático que realice desarrollos web.

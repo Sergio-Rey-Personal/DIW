@@ -1,6 +1,8 @@
-# **Introducción a las anumaciones Web**
+# 10. **Introducción a las anumaciones Web**
 
-# 10. Introducción a las animaciones Web
+Tabla de contenidos
+
+- [10. **Introducción a las anumaciones Web**](#10-introducción-a-las-anumaciones-web)
 
 *Según la definición de la wikipedia: animación es un proceso utilizado para dar la sensación de movimiento a imágenes o dibujos. Los cuadros se pueden generar dibujando, pintando o fotografiando los minúsculos cambios hechos repetidamente a un modelo de la realidad o a un modelo tridimensional virtual.*
 

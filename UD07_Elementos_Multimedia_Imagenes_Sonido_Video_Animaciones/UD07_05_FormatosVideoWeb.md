@@ -1,13 +1,12 @@
-# **Formatos de archivos de vídeo y conversiones**
+# 5. **Formatos de archivos de vídeo y conversiones**
 
-- [5. Formatos de archivos de vídeo y conversiones](#5-formatos-de-archivos-de-vídeo-y-conversiones)
+- [5. **Formatos de archivos de vídeo y conversiones**](#5-formatos-de-archivos-de-vídeo-y-conversiones)
   - [5.1. Formatos de archivos de vídeo](#51-formatos-de-archivos-de-vídeo)
   - [5.2. Optimización de archivos de vídeo](#52-optimización-de-archivos-de-vídeo)
   - [5.3. Conversión y edición de vídeos](#53-conversión-y-edición-de-vídeos)
       - [VLC media player](#vlc-media-player)
   - [5.4. Sitios web para la descarga de vídeos](#54-sitios-web-para-la-descarga-de-vídeos)
 
-# 5. Formatos de archivos de vídeo y conversiones
 Gracias al avance en la velocidad de la conexión de datos, hoy en día es de lo más común descargar y ver vídeos dentro de cualquier página web. En la unidad 3 vimos cómo insertar un [vídeo incrustado en HTML](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_06_EtiquetasHTMLParaContenidoIncrustado.md) mediante la etiqueta `<iframe>`, en esta unidad vamos a ver cómo insertar un vídeo mediante la etiqueta `<video>` de HTML5 y cómo podemos mostrar y modificar sus controles.
 
 Antes de conocer cómo podemos insertar un vídeo en HTML5 vamos a ver los distintos tipos de formatos de vídeo y sus conversiones.

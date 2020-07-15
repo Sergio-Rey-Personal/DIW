@@ -1,9 +1,8 @@
-# **Imágenes en las páginas web**
+# 1. **Imágenes en las páginas web**
 
 Tabla de contenidos
 
-- [**Imágenes en las páginas web**](#imágenes-en-las-páginas-web)
-- [1. Imágenes en las páginas web](#1-imágenes-en-las-páginas-web)
+- [1. **Imágenes en las páginas web**](#1-imágenes-en-las-páginas-web)
   - [1.1. Tipos de imágenes](#11-tipos-de-imágenes)
   - [1.2. Mapas de bits](#12-mapas-de-bits)
     - [1.2.1. Imágenes JPG](#121-imágenes-jpg)
@@ -18,8 +17,6 @@ Tabla de contenidos
 
 
 Bien sea para ilustrar la información contenida en nuestras páginas o para integrar un largo texto o, por que no, por cuestiones estéticas, es prácticamente imposible (y poco aconsejable) evitar colocar alguna que otra imagen en nuestras páginas. 
-
-# 1. Imágenes en las páginas web
 
 Al emplear las imágenes debemos guiarnos por unas cuantas reglas básicas:
 

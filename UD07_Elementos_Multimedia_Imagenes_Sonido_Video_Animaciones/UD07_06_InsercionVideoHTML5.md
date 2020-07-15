@@ -1,18 +1,19 @@
-# **Inserción de vídeo en HTML5**
+# 6. **Inserción de vídeo en HTML5**
 
 Tabla de contenidos
 
-- [6. Elemento `<video>` en HTML5](#6-elemento-video-en-html5)
-  - [6.1. Tipos MIME](#61-tipos-mime)
-  - [6.2. Inserción de videos responsive](#62-inserción-de-videos-responsive)
-  - [6.3. Inserción de videos responsive con tamaño máximo.](#63-inserción-de-videos-responsive-con-tamaño-máximo)
-  - [6.4. Videos Responsive con Bootstrap](#64-videos-responsive-con-bootstrap)
+- [6. **Inserción de vídeo en HTML5**](#6-inserción-de-vídeo-en-html5)
+  - [6.1. Elemento `<video>` en HTML5](#61-elemento-video-en-html5)
+  - [6.2. Tipos MIME](#62-tipos-mime)
+  - [6.3. Inserción de videos responsive](#63-inserción-de-videos-responsive)
+  - [6.4. Inserción de videos responsive con tamaño máximo.](#64-inserción-de-videos-responsive-con-tamaño-máximo)
+  - [6.5. Videos Responsive con Bootstrap](#65-videos-responsive-con-bootstrap)
 
 En la sección anterior hemos estudiado los distintos formatos de los vídeos. Además, hemos visto algunos bancos de vídeos gratuitos y hemos convertido un vídeo en los distintos formatos habituales en la web: ***MP4***, ***OGG*** y ***WebM***.
 
 En esta sección vamos a estudiar con detalle la inserción de vídeo en una página web, sin utilizar complementos ni reproductores externos. Para ello vamos a utilizar la etiqueta de HTML5 `<video>`.
 
-# 6. Elemento `<video>` en HTML5
+## 6.1. Elemento `<video>` en HTML5
 
 El elemento `<video>` dispone de varios atributos que nos permiten establecer sus diferentes valores de comportamiento.
 
@@ -46,7 +47,7 @@ El elemento `<video>` dispone de varios atributos que nos permiten establecer su
 </video>
 ```
 
-## 6.1. Tipos MIME
+## 6.2. Tipos MIME
 
 Conviene especificar el contenido de un vídeo para que el navegador sepa identificar el tipo de formatos de nuestros archivos y sepa cómo manejarlos. En el siguiente ejemplo el navegador elegirá solamente un vídeo. Al especificar el atributo type (no obligatorio), permitimos que el navegador conozca el tipo MIME y los tipos de codecs que debe utilizar antes de descargar el vídeo. Si no indicamos dicho atributo, el navegador intentará averiguar, mediante prueba y error, cuál es el tipo adecuado.
 
@@ -60,7 +61,7 @@ Conviene especificar el contenido de un vídeo para que el navegador sepa identi
 </video>
 ```
 
-## 6.2. Inserción de videos responsive
+## 6.3. Inserción de videos responsive
 
 Podemos hacer que nuestros vídeos sean responsive mediante la propiedad `width` si le asignamos un valor de 100%, con lo que el video se autoescalará.
 
@@ -73,7 +74,7 @@ video {
 
 ![Video Responsive en HTML5](img/video-responsive.png)
 
-## 6.3. Inserción de videos responsive con tamaño máximo.
+## 6.4. Inserción de videos responsive con tamaño máximo.
 
 Usando la propiedad `.max-width` a 100%, el vídeo se escalará a un tamaño menor del propio del vídeo, pero no crecerá jamas a un tamaño mayor.
 
@@ -85,7 +86,7 @@ video {
 ```
 ![Video Responsive en HTML5](img/video-responsive-max.png)
 
-## 6.4. Videos Responsive con Bootstrap
+## 6.5. Videos Responsive con Bootstrap
 
 Crear videos inscrustados responsivos mediante bootstrap basados en el acho del padre creadn una relación intrinseca que se escala a cualquier dispositivo
 

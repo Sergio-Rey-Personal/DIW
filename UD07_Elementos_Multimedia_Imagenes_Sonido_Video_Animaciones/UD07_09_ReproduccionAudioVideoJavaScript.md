@@ -1,10 +1,13 @@
-# **Control de reproducción de vídeo y audio con JavaScript**
+# 9. **Control de reproducción de vídeo y audio con JavaScript**
 
 Tabla de contenidos
 
-Como hemos visto en las secciones anteriores, los navegadores trabajan de forma diferente y algunos de los atributos de <audio> y <video> pueden estar o no habilitados por defecto.
+- [9. **Control de reproducción de vídeo y audio con JavaScript**](#9-control-de-reproducción-de-vídeo-y-audio-con-javascript)
+  - [9.1. Métodos](#91-métodos)
+  - [9.2. Propiedades](#92-propiedades)
+  - [9.3. Eventos](#93-eventos)
 
-# 9.1. Control de reproducción de vídeo y audio con JavaScript
+Como hemos visto en las secciones anteriores, los navegadores trabajan de forma diferente y algunos de los atributos de <audio> y <video> pueden estar o no habilitados por defecto.
 
 Para poder controlar todos los elementos de nuestro reproductor podemos utilizar JavaScript y aprovechar los nuevos métodos, propiedades y eventos incorporados en HTML5.
 

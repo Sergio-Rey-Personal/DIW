@@ -1,14 +1,11 @@
-# **Inserción de audio en HTML5**
+# 8. **Inserción de audio en HTML5**
 
 Tabla de contenidos
 
-- [8. Inserción de audio en HTML5](#8-inserción-de-audio-en-html5)
+- [8. **Inserción de audio en HTML5**](#8-inserción-de-audio-en-html5)
   - [8.1. Atributos elemento <audio>](#81-atributos-elemento-audio)
   - [8.2. Soporte navegadores](#82-soporte-navegadores)
   - [8.3. Tipos MIME](#83-tipos-mime)
-
-
-# 8. Inserción de audio en HTML5
 
 El elemento <audio> de HTML5 dispone de prácticamente los mismos atributos que el elemento <video> visto en la sección anterior:
 

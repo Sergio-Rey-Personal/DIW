@@ -1,14 +1,16 @@
-# **Imagenes de fordo en CSS3**
+# 3. **Imagenes de fordo en CSS3**
 
-- [3. Imágenes de fondo](#3-imágenes-de-fondo)
-  - [3.1. Opacidad](#31-opacidad)
-  - [3.1. Fondos múltiples](#31-fondos-múltiples)
-  - [3.2. Tamaño de fondos](#32-tamaño-de-fondos)
+- [3. **Imagenes de fordo en CSS3**](#3-imagenes-de-fordo-en-css3)
+  - [3.1. Inserción de imágenes con CSS3](#31-inserción-de-imágenes-con-css3)
+    - [3.1.1. Atajo clásico: Fondos](#311-atajo-clásico-fondos)
+  - [3.2. Opacidad](#32-opacidad)
+  - [3.3. Fondos múltiples](#33-fondos-múltiples)
+  - [3.4. Tamaño de fondos](#34-tamaño-de-fondos)
+    - [Atajo moderno: Fondos](#atajo-moderno-fondos)
 
 Es posible que, buscando hacer un diseño más avanzado, en lugar de utilizar un color de fondo quieras utilizar imágenes. Para ello, CSS te proporciona la propiedad `background-image`, con la cuál puedes indicar imágenes de fondo o, como veremos más adelante, incluso degradados de varios colores.
 
-# 3. Imágenes de fondo
-
+## 3.1. Inserción de imágenes con CSS3
 En el caso de querer utilizar una imagen de fondo, como ya hemos dicho, utilizaremos la propiedad `background-image` y en el valor, el nombre de la imagen (*o la dirección donde está alojada*), siempre rodeada del texto `url()`.
 
 | Propiedad | Valor | Significado |
@@ -84,7 +86,7 @@ Por último, `background-position` coloca la imagen en la zona especificada por 
 
 Si sólo se especifica un valor, se tomará para el eje x, mientras que el valor del eje Y será automáticamente establecido a **center** (*o 50%*).
 
-### Atajo clásico: Fondos
+### 3.1.1. Atajo clásico: Fondos
 
 Es posible establecer todas estas propiedades anteriores en una sola regla de CSS a modo de atajo, y así ahorrar mucho espacio en escribir las propiedades anteriores por separado. Aunque no es estrictamente obligatorio, se aconseja respetar el siguiente orden (*acostumbrarse a usar el mismo orden es una buena práctica*):
 
@@ -97,7 +99,7 @@ div {
 
 Y con esto, ya conocemos las ventajas básicas de CSS a través de propiedades tan interesantes como `background-color` o `background-image` . Sin embargo, la llegada de CSS3 incorporó novedades muy interesantes en nuestros navegadores, que mediante versiones anteriores a CSS3 no era posible realizar (*o era algo bastante complejo*).
 
-## 3.1. Opacidad
+## 3.2. Opacidad
 
 Es posible utilizar la propiedad *CSS3* `opacity` para establecer una transparencia total sobre el elemento indicado. Cuando decimos «**transparencia total**» nos referimos a que la transparencia se aplicará al elemento en cuestión y a todos los elementos HTML que estén en su interior.
 
@@ -146,7 +148,7 @@ div {
 
 De este modo, sólo aplicamos la transparencia al color de fondo, mientras que con **opacity** se aplica a toda la capa en sí, por lo que afecta a todos los elementos que están dentro de la capa.
 
-## 3.1. Fondos múltiples
+## 3.3. Fondos múltiples
 
 **CSS3** ofrece nuevas características a la hora de utilizar imágenes de fondo, como por ejemplo la posibilidad de establecer **múltiples imágenes de fondo** de forma simultánea:
 
@@ -187,7 +189,7 @@ Ambas propiedades pueden tomar uno de los siguientes valores:
 
 > **Consejo**: Una buena forma de darse cuenta del funcionamiento de estas propiedades es establecer un borde grueso punteado. Usando `border-box` la imagen de fondo se extenderá en todo el elemento, incluyendo borde, espaciado y contenido. El valor `padding-box` extenderá la imagen de fondo sólo mediante el padding y el contenido, y por último, la propiedad `content-box` extenderá la imagen de fondo sólo en la zona del contenido.
 
-## 3.2. Tamaño de fondos
+## 3.4. Tamaño de fondos
 
 Una de las últimas incorporaciones a la familia de propiedades de fondos de imagen es la propiedad `background-size`, la cuál ajusta el tamaño (*ancho y alto*) de la imagen de fondo, por si deseamos escalarla a un tamaño diferente. Por defecto, una imagen de fondo toma automáticamente el tamaño de la imagen (*que podría ser demasiado grande, por ejemplo*). Para no tener que modificar la imagen original de forma manual con un editor de imágenes, podemos utilizar esta propiedad y ajustarla a nuestro agrado mediante CSS:
 

@@ -1,8 +1,8 @@
-# **Formatos de archivos de audio y optimizaciones**
+# 7. **Formatos de archivos de audio y optimizaciones**
 
 Tabla de contenidos
 
-- [7. Formatos de archivos de audio y optimizaciones](#7-formatos-de-archivos-de-audio-y-optimizaciones)
+- [7. **Formatos de archivos de audio y optimizaciones**](#7-formatos-de-archivos-de-audio-y-optimizaciones)
   - [7.1. Formatos de archivos de audio](#71-formatos-de-archivos-de-audio)
     - [7.1.1. Formato WAV](#711-formato-wav)
     - [7.1.2. Formato MP3](#712-formato-mp3)
@@ -12,9 +12,6 @@ Tabla de contenidos
   - [7.3. Conversiones entre formatos](#73-conversiones-entre-formatos)
     - [7.3.1. Audacity](#731-audacity)
   - [7.4. Sitios web para la descarga de sonidos](#74-sitios-web-para-la-descarga-de-sonidos)
-
-
-# 7. Formatos de archivos de audio y optimizaciones
 
 La incorporación de **audio digital** en una página web es una necesidad que surge en múltiples contextos: **grabación de locuciones, lecturas, entrevistas, debates, noticias, composiciones musicales, interpretaciones instrumentales, etc**.
 

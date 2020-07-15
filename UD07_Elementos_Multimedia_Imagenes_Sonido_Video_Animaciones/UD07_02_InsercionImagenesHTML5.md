@@ -1,7 +1,14 @@
-# **Inserción de imágenes en HTML5**
+# 2. **Inserción de imágenes en HTML5**
 
+Tabla de contenidos
 
-# 2. Imagenes en HTML5
+- [2. **Inserción de imágenes en HTML5**](#2-inserción-de-imágenes-en-html5)
+  - [2.1. Etiquetas para imágenes](#21-etiquetas-para-imágenes)
+  - [2.2. Nuevas etiquetas de imágenes](#22-nuevas-etiquetas-de-imágenes)
+    - [2.2.1. Imágenes alternativas](#221-imágenes-alternativas)
+    - [2.2.2. Imágenes responsive](#222-imágenes-responsive)
+    - [2.2.3. Diferentes densidades](#223-diferentes-densidades)
+
 Antes de colocar una imagen en una página web debemos tener claro en que clasificación se encuentra. Las imágenes utilizadas en una página web pueden ser de dos tipos: de **contenido** o de **decoración**. En el primer caso, si la imagen pertenece al contenido y tema tratado en esa página, debería incluirse mediante una etiqueta HTML `<img>`, pero si por el contrario pertenece a la decoración de la página, deberíamos incluirla como un fondo mediante la propiedad CSS `background-image`.
 
 ## 2.1. Etiquetas para imágenes
