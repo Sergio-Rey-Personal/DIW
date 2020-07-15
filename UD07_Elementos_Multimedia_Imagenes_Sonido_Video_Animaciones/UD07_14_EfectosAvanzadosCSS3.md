@@ -1,5 +1,14 @@
 # 14. **Efectos avanzados en CSS3**
 
+Tabla de contenidos
+
+- [14. **Efectos avanzados en CSS3**](#14-efectos-avanzados-en-css3)
+  - [14.1. Efecto Parallax](#141-efecto-parallax)
+  - [14.2. Scrolling](#142-scrolling)
+  - [14.3. Efectos con textos](#143-efectos-con-textos)
+  - [14.4. Efectos diversos.](#144-efectos-diversos)
+
+
 Para finalizar, veamos 4 efectos que seguramente habrás visto en alguna web y que transmiten sensación de profesionalidad en tu web 
 
 ## 14.1. Efecto Parallax
@@ -441,7 +450,7 @@ p:nth-child(1) a:hover{
 
 Con el siguiente resultado : 
 
-[!Efectos de animación con textos](img/Efecto-textos.gif)
+![Efectos de animación con textos](img/Efecto-textos.gif)
 
 > [Ejemplo de efectos con texto en Codepen](https://codepen.io/sergio-rey-personal/pen/QWyVZQq)
 
@@ -640,3 +649,9 @@ figure.hover figcaption {
   transform: rotateY(0);
 }
 ```
+
+y el resultado será:
+
+![Ejemplos de efectos con cajas e imágenes (Codepen)](img/Efecto-diversos.gif)
+
+> [Ejemplos de efectos con cajas e imágenes (Codepen)]([img/Efecto-diversos.gif](https://codepen.io/sergio-rey-personal/pen/yLexRxE))
