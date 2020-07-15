@@ -1,9 +1,10 @@
 # 13. Animaciones en Canvas
 
-*En el apartado anterior hemos visto cómo pintar gráficos en un lienzo de `<canvas>`. Veamos ahora cómo realizar una pequeña animación y cómo interactuar con los elementos del lienzo mediante el teclado.*
+Tabla de contenidos.
 
-# 13.1. Animaciones en Canvas
--------------------------
+- [13. Animaciones en Canvas](#13-animaciones-en-canvas)
+
+*En el apartado anterior hemos visto cómo pintar gráficos en un lienzo de `<canvas>`. Veamos ahora cómo realizar una pequeña animación y cómo interactuar con los elementos del lienzo mediante el teclado.*
 
 Para crear animaciones o videojuegos en Canvas seguiremos los siguientes pasos:
 
