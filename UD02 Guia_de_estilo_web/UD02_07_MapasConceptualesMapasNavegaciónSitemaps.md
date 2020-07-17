@@ -1,4 +1,14 @@
-# 7. Mapas conceptuales, mapas de navegación y sitemaps
+# 7. **Mapas conceptuales, mapas de navegación y sitemaps**
+
+Tabla de contenidos
+
+- [7. **Mapas conceptuales, mapas de navegación y sitemaps**](#7-mapas-conceptuales-mapas-de-navegación-y-sitemaps)
+  - [7.1. Mapas conceptuales](#71-mapas-conceptuales)
+    - [7.1.1. Herramientas para hacer mapas conceptuales](#711-herramientas-para-hacer-mapas-conceptuales)
+  - [7.2. Mapas de navegación](#72-mapas-de-navegación)
+  - [7.3. *Sitemaps* o mapas para motores de búsqueda](#73-sitemaps-o-mapas-para-motores-de-búsqueda)
+    - [7.3.1. ¿Es necesario un *sitemap*?](#731-es-necesario-un-sitemap)
+  - [7.4. Herramientas para la generación de mapas](#74-herramientas-para-la-generación-de-mapas)
 
 En una guía de estilos debe quedar reflejada no sólo la disposición de estos bloques en cada una de las páginas del sitio, sino también el esquema de navegación que va a existir entre las diferentes páginas del sitio.
 
@@ -13,7 +23,7 @@ Es muy común en los sitios Web de gran tamaño que la página de portada o prin
 - También se deberán reflejar los huecos que se quieran dejar a propósito.
 - Cómo se van a mostrar los submenús de navegación, si los hubiera.
 
-# 7.1. Mapas conceptuales
+## 7.1. Mapas conceptuales
 
 El **mapa conceptual** es una representación gráfica de conceptos interrelacionados. Consiste en un **esquema visual** que detalla ideas o conceptos y sus diferentes relaciones. El principal objetivo de un mapa conceptual es representar la **estructura conceptual de un tema** en concreto. 
 
@@ -22,7 +32,7 @@ El **mapa conceptual** es una representación gráfica de conceptos interrelacio
 
 Los mapas conceptuales se suelen organizar de arriba abajo o de izquierda a derecha y **parten de un concepto principal o raíz**. A partir de esta idea central se establecen las relaciones con los nuevos conceptos formando una estructura arbórea.
 
-### **Herramientas para hacer mapas conceptuales**
+### 7.1.1. Herramientas para hacer mapas conceptuales
 
 Hay muchas formas de hacer mapas conceptuales. En las siguientes páginas puedes ver algunas **herramientas online para hacer mapas conceptuales** y algunos de los estilos de mapas que se utilizan actualmente.
 
@@ -88,7 +98,7 @@ Revisa el siguiente enlace donde explica [como hacer mapas de navegación](https
 
 Los **sitemaps o mapas para motores de búsqueda** son archivos en los que se proporciona **información sobre las páginas, los vídeos y otros archivos de un sitio web**, así como sobre las relaciones entre ellos. Los buscadores, como Google, leen estos archivos para rastrear los sitios web de forma más eficaz. Los sitemaps **informan a los rastreadores de qué archivos de un sitio web son importantes** y, además, incluyen datos relevantes sobre ellos; por ejemplo, en el caso de las páginas, pueden indicar cuándo se actualizaron por última vez, cada cuánto se modifican y si existen versiones en otros idiomas.
 
-### **¿Es necesario un *sitemap*?**
+### 7.3.1. ¿Es necesario un *sitemap*?
 
 Por lo general, si las páginas de tu sitio web están bien enlazadas, los rastreadores web podrán detectar la mayoría de ellas. Aun así, un ***sitemap* puede mejorar el rastreo de tu sitio** web, sobre todo si este cumple uno de los siguientes criterios:
 
@@ -98,6 +108,6 @@ Por lo general, si las páginas de tu sitio web están bien enlazadas, los rastr
 
 [Ver más información sobre sitemaps y herramientas de generación de mapas](https://support.google.com/webmasters/answer/156184?hl=es)
 
-# 7.4. Herramientas para la generación de mapas
+## 7.4. Herramientas para la generación de mapas
 
 Hay disponible multitud de herramientas para la generación de mapas tanto online como en aplicaciones, así como gratuitas o de pago. Además, los gestores de contenido nos ofrecen la posibilidad de utilizar plugins específicos para la creación de nuestros *sitemaps* y mapas de navegación. En la [wiki de Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki) puedes encontrar un listado muy extenso de herramientas que puedes utilizar.

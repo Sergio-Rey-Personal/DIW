@@ -1,4 +1,4 @@
-# 6. Iconografía
+# 6. **Iconografía**
 
 Los **iconos** de los sitios web **representan acciones** y **evitan el uso excesivo de textos**. Elegir correctamente los iconos es necesario para que los usuarios interpreten fácilmente su significado y así ahorrar tiempo en la visualización del sitio web. Es importante respetar una apariencia similar entre todos los iconos para disponer de una buena armonía y navegabilidad.
 

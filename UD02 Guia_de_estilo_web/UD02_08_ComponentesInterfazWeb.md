@@ -1,4 +1,14 @@
-# 8. Componentes de una interfaz web.
+# 8. **Componentes de una interfaz web.**
+
+Tabla de contenidos
+
+- [8. **Componentes de una interfaz web.**](#8-componentes-de-una-interfaz-web)
+  - [8.1. Elementos de identificación](#81-elementos-de-identificación)
+  - [8.2. Elementos de navegación](#82-elementos-de-navegación)
+  - [8.3. Elementos de contenidos](#83-elementos-de-contenidos)
+  - [8.4. Elementos de interacción](#84-elementos-de-interacción)
+  - [8.5. El pie de página](#85-el-pie-de-página)
+  - [8.6. Los espacios en blanco](#86-los-espacios-en-blanco)
 
 **Elementos de un sitio web**
 

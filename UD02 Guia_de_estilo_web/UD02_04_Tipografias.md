@@ -1,4 +1,4 @@
-# Tipografías
+# 4. **Tipografías**
 
 Los **textos son la base de la mayoría de sitios web** ya que lo más normal es transmitir la información mediante letras. Por este motivo, debemos prestar mucha atención en hacer una correcta elección de fuentes para nuestro sitio web.
 

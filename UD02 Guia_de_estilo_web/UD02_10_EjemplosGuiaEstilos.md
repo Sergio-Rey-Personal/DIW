@@ -1,4 +1,4 @@
-# 9. Ejemplos de guias de estilo
+# 9. **Ejemplos de guias de estilo**
 
 - [Universidad de Alicante](http://www.ua.es/es/internet/estilo/guia/estilo.htm)
 - [Gobierno de Navarra](http://www.navarra.es/home_es/ManualEstilo/) 

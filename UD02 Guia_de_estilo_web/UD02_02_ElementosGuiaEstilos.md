@@ -1,13 +1,14 @@
-# 2. Elementos de una guia de estilos
+# 2. **Elementos de una guia de estilos**
 
 Tabla de contenidos
 
--   [2.1. Cómo crear el manual de estilo ideal](#21-Cómo-crear-el-manual-de-estilo-ideal)
--   [2.2. Analizar al público objetivo y determinar la filosofía empresarial](#22-Analizar-al-público-objetivo-y-determinar-la-filosofía-empresarial)
--   [2.3. Definir la terminología, los colores y la tipografía](#23-Definir-la-terminología-los-colores-y-la-tipografía)
--   [2.4. La guía de estilo también debe entrar en detalles](#24-La-guía-de-estilo-también-debe-entrar-en-detalles)
--   [2.5. Mantenimiento y actualización](#25-Mantenimiento-y-actualización)
--   [2.6. En resumen](#26-En-resumen)
+- [2. **Elementos de una guia de estilos**](#2-elementos-de-una-guia-de-estilos)
+  - [2.1. Cómo crear el manual de estilo ideal](#21-cómo-crear-el-manual-de-estilo-ideal)
+  - [2.2. Analizar al público objetivo y determinar la filosofía empresarial](#22-analizar-al-público-objetivo-y-determinar-la-filosofía-empresarial)
+  - [2.3. Definir la terminología, los colores y la tipografía](#23-definir-la-terminología-los-colores-y-la-tipografía)
+  - [2.4. La guía de estilo también debe entrar en detalles](#24-la-guía-de-estilo-también-debe-entrar-en-detalles)
+  - [2.5. Mantenimiento y actualización](#25-mantenimiento-y-actualización)
+  - [2.6. En resumen](#26-en-resumen)
 
 
 Las guías de estilo recogen los criterios y normas que deben seguir los desarrolladores de un sitio web para que tenga una apariencia uniforme y atractiva para el usuario.

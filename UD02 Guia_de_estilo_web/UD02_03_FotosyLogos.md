@@ -1,4 +1,4 @@
-# 3 Fotos y logos
+# 3. **Fotos y logos**
 
 Los recursos gráficos se emplean mucho en la Web. Si se utilizan adecuadamente, pueden mejorar el aprendizaje del usuario y añadir valor a nuestro sitio. Ahora bien, si se utilizan inadecuadamente, producen el efecto contrario.
 

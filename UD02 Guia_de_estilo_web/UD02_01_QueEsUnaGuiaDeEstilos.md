@@ -1,4 +1,4 @@
-# 1. ¿Qué es una guia de estilos?
+# 1. **¿Qué es una guia de estilos?**
 
 Según la Wikipedia, un manual de estilo es un conjunto de normas para el diseño y la redacción de documentos, ya sea para el uso general, o para una publicación u organización específica.
 Los manuales de estilo son frecuentes en el uso general y especializado, en medios escritos, orales y gráficos. También dice que el manual de estilo se compone tanto de normas lingüísticas, como de estilo, para que el mensaje sea más coherente, eficaz y correcto.

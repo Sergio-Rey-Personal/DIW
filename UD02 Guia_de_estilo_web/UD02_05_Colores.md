@@ -1,4 +1,13 @@
-# 5. Colores
+# 5. **Colores**
+
+Tabla de contenidos 
+
+- [5. **Colores**](#5-colores)
+  - [5.1. Teoria del color](#51-teoria-del-color)
+  - [5.2. El sistema RGB. Colores Seguros](#52-el-sistema-rgb-colores-seguros)
+    - [5.2.1. El Sistema RGB](#521-el-sistema-rgb)
+    - [5.2.2. Colores seguros](#522-colores-seguros)
+
 
 En una guía de estilo deben figurar los colores a emplear en el sitio Web en todos los textos, fondos, e imágenes según sea su ubicación y finalidad. La información debe suministrarse aportando los valores para el modelo RGB tanto en hexadecimal como en decimal.
 
@@ -58,7 +67,7 @@ En los siguientes enlaces puedes ver una página Web donde podrás ir comproband
 
 ## 5.2. El sistema RGB. Colores Seguros
 
-### **El Sistema RGB**
+### 5.2.1. El Sistema RGB
 
 El ojo humano percibe los colores: rojo, verde y azul y, el resto de los colores se consiguen con la adición de estos tres colores en diferentes proporciones. El blanco se consigue con la mezcla de los tres colores puros y se considera el negro como la ausencia de color. A estos colores se les llama colores aditivos y el ordenador se basa en este sistema para la representación de los colores dando lugar a lo que conocemos como Modo de color RGB. RGB es el acrónimo de los nombres de los colores rojo, verde y azul en inglés: Red, Green, Blue.
 
@@ -66,7 +75,7 @@ Los ordenadores emplean estos tres colores para representar cualquier color de l
 
 A la hora de representar cada color utilizamos este modelo RGB y lo podemos hacer empleando tanto el sistema de numeración decimal como el sistema de numeración hexadecimal.
 
-### **Colores seguros**
+### 5.2.2. Colores seguros
 
 Recuerda que una misma página se puede ver de distinta forma según la plataforma, sistema operativo, navegador y monitor empleados. ¿Acaso los colores no son siempre los mismos?
 

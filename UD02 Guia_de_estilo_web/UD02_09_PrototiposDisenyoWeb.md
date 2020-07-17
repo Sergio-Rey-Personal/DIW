@@ -1,11 +1,12 @@
-# 9. Prototipos en el diseño de interfaces web
+# 9. **Prototipos en el diseño de interfaces web**
 
 
 Tabla de contenidos
 
--   [9.1. Sketching](#91-Sketching)
--   [9.2. Wireframing](#82-Wireframing)
--   [9.3. Prototipo y mockup](#83-Prototipo-y-mockup)
+- [9. **Prototipos en el diseño de interfaces web**](#9-prototipos-en-el-diseño-de-interfaces-web)
+  - [9.1. Sketching](#91-sketching)
+  - [9.2. Wireframing](#92-wireframing)
+  - [9.3. Prototipo y *mockup*](#93-prototipo-y-mockup)
 
 Los **prototipos web son dibujos o diseños de las diferentes páginas y secciones que van a componer un sitio web**. El prototipado es una parte esencial a la hora de definir los menús y los diferentes elementos que constituyen una web.
 
@@ -32,7 +33,7 @@ Es un **dibujo** en el que se **especifican los elementos de forma más detallad
   <iframe src="https://www.youtube.com/embed/v8AjVL4ZdS0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-# 9.3. Prototipo y *mockup*
+## 9.3. Prototipo y *mockup*
 
 Los **prototipos y los *mockups***son los que representan el **diseño con más detalle**. De hecho, en este tipo de diseños ya se incluyen detalles visuales como el **color, la tipografía o las imágenes**. En esta fase se utilizan herramientas de diseño avanzadas como por ejemplo [**Sketch**](https://www.sketch.com/).
 
