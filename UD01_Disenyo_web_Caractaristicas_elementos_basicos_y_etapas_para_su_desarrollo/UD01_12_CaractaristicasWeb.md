@@ -1,4 +1,4 @@
-# 12. Características de una web
+# 12. **Características de una web**
 
 Cuando diseñamos un sitio Web debemos tener en cuenta muchos detalles:
 

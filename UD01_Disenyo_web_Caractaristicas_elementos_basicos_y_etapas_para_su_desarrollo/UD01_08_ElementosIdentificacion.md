@@ -1,11 +1,12 @@
-# 8. Elementos de una interfaz web: identificación, navegación, contenidos e interacción
+# 8. **Elementos de una interfaz web: identificación, navegación, contenidos e interacción**
 
 Tabla de contenidos
 
--   [8.1. Elementos de identificación](#81-Elementos-de-identificación)
--   [8.2. Elementos de navegación](#82-Elementos-de-navegación)
--   [8.3. Elementos de contenidos](#83-Elementos-de-contenidos)
--   [8.4. Elementos de interacción](#84-Elementos-de-interacción)
+- [8. **Elementos de una interfaz web: identificación, navegación, contenidos e interacción**](#8-elementos-de-una-interfaz-web-identificación-navegación-contenidos-e-interacción)
+  - [8.1. Elementos de identificación](#81-elementos-de-identificación)
+  - [8.2. Elementos de navegación](#82-elementos-de-navegación)
+  - [8.3. Elementos de contenidos](#83-elementos-de-contenidos)
+  - [8.4. Elementos de interacción](#84-elementos-de-interacción)
 
 La interfaz web es el medio por el que se comunican los usuarios con un sitio web y está compuesta de numerosos elementos que dependen de su complejidad y objetivo. Así, por ejemplo, una página web de una tienda online o un portal de noticias dispondrá de mayor número de elementos que una página personal o una landing page de un restaurante. Los elementos más destacados de un sitio web son: identificación, navegación, contenidos e interacción. Veámos cada uno de ellos.
 

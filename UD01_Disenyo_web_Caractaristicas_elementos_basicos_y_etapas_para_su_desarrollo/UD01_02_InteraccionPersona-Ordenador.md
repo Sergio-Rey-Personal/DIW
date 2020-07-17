@@ -1,5 +1,11 @@
-# 2. Interacción persona-ordenador
----------------------------------
+# 2. **Interacción persona-ordenador**
+
+Tabla de contenidos
+
+- [2. **Interacción persona-ordenador**](#2-interacción-persona-ordenador)
+  - [2.1. ¿Por qué es importante estudiar la interfaz de usuario?](#21-por-qué-es-importante-estudiar-la-interfaz-de-usuario)
+  - [2.2. Percepción visual. Fundamentos de la composición](#22-percepción-visual-fundamentos-de-la-composición)
+
 
 La **interacción persona-ordenador (IPO),** también conocida como Human-Computer Interaction (HCI) o Computer-Human Interaction (CHI), es la disciplina dedicada a estudiar cómo se produce la **interacción entre las personas y los sistemas informáticos** para tratar de mejorar esta relación por medio del diseño gráfico.
 
@@ -30,7 +36,7 @@ Otros estudios demuestran que el **80% de los costes de mantenimiento** de una a
 
 Leer más información en la página web de la **[Asociación Interacción Persona-Ordenador](https://aipo.es/content/libro-aipo)**.
 
-# 2.2. Percepción visual. Fundamentos de la composición
+## 2.2. Percepción visual. Fundamentos de la composición
 
 A la hora de desarrollar un sitio web hay que tener en cuenta qué interfaz web ofrecer y qué elementos incluir en ella. Cada uno de esos elementos contribuirá a la percepción que sus potenciales usuarios tendrán de la aplicación.
 

@@ -1,19 +1,20 @@
-# 10. Leyes Gestalt en el diseño de interfaces digitales
+# 10. **Leyes Gestalt en el diseño de interfaces digitales**
 
 Tabla de contenidos
 
--   [10.1. Ley de la proximidad](#101-Ley-de-la-proximidad)
--   [10.2. Ley de la semejanza](#102-Ley-de-la-semejanza)
--   [10.3. Ley del cierre](#103-Ley-del-cierre)
--   [10.4. Ley de continuidad o destino común](#104-Ley-de-continuidad-o-destino-común)
--   [10.5. Ley del contraste](105-Ley-del-contraste)
--   [10.6. Ley de la experiencia](106-Ley-de-la-experiencia)
+- [10. **Leyes Gestalt en el diseño de interfaces digitales**](#10-leyes-gestalt-en-el-diseño-de-interfaces-digitales)
+  - [10.1. Ley de la proximidad](#101-ley-de-la-proximidad)
+  - [10.2. Ley de la semejanza](#102-ley-de-la-semejanza)
+  - [10.3. Ley del cierre](#103-ley-del-cierre)
+  - [10.4. Ley de continuidad o destino común](#104-ley-de-continuidad-o-destino-común)
+  - [10.5. Ley del contraste](#105-ley-del-contraste)
+  - [10.6. Ley de la experiencia](#106-ley-de-la-experiencia)
+  - [Leyes Gestalt para mejorar el criterio en el diseño](#leyes-gestalt-para-mejorar-el-criterio-en-el-diseño)
 
 
 **¿Cómo podemos aplicarlas para conseguir simplicidad y claridad en nuestros diseños?**
 
 ![GESTALT](img/10_01_gestalt.png)
-
 
 Los diseñadores saben de la gran importancia que tienen aspectos de diseño como el uso de márgenes, la distancia entre los diferentes elementos de la página, el contraste entre las figuras y el fondo, la aplicación de diferentes patrones gráficos de diseño para diferenciar elementos, etc. Me atrevería a decir que aplican estos recursos sobre todo basándose en su experiencia, de una manera instintiva, y con el objetivo de conseguir un diseño claro. En el fondo, lo que están aplicando de una manera más o menos consciente son algunas de las Leyes Gestalt. En este *post* vamos a reflexionar sobre cómo podemos aplicar las Leyes Gestalt para conseguir un diseño claro.
 
@@ -32,8 +33,6 @@ Lo que necesitamos como espectadores o usuarios es claridad, porque sino se difi
 ![Página web desconcertante](img/10_02_webDesconcertante.jpg)
 
 Porque cuesta horrores percibir un esquema organizativo global. Como diseñadores, cuando aplicamos las Leyes Gestalt, éstas nos ayudan a construir un esquema organizativo global.
-
-# Aplicando las Leyes Gestalt
 
 ## 10.1. Ley de la proximidad
 

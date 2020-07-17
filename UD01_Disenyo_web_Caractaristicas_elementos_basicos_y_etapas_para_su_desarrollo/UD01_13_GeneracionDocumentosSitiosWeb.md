@@ -1,5 +1,9 @@
-# 13. Generación de documentos y sitios web
--------------------------------------
+# 13. **Generación de documentos y sitios web**
+
+Tabla de contenidos
+
+- [13. **Generación de documentos y sitios web**](#13-generación-de-documentos-y-sitios-web)
+  - [13.1. Gestores de contenidos](#131-gestores-de-contenidos)
 
 Cuando nos enfrentamos a nuevo proyecto Web debemos tener muy claro que es tan importante el resultado final, visible para el usuario, como todo el trabajo previo de diseño y toda la documentación que habrá que realizar durante el proceso.\
 Como en cualquier proyecto de software, el proceso de generación de un sitio Web pasa por unas fases. Estas fases, que pueden ser más o menos complejas dependiendo de la envergadura del sitio, son:
@@ -13,7 +17,7 @@ En la siguiente imagen puedes ver una propuesta de fases a seguir en el desarrol
 
 ![](img/13_01_etapas-del-diseno-de-una-pagina-web-fases.jpg)
 
-## Gestores de contenidos
+## 13.1. Gestores de contenidos
 
 Como se ha comentado antes, crear sitios web no tiene que ser en todos los casos algo que se empiece desde cero. Desde que aparecieron en escena los Gestores de Contenidos, conocidos por CMS (Content Management Systems), muchas son las empresas o instituciones que tienen creados sitios web con ellos, sin partir de cero. En España, a día de hoy se puede afirmar que WordPress, J*oomla o Drupal* son unos de los gestores de contenidos más extendidos.
 

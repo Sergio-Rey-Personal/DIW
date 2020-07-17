@@ -1,11 +1,12 @@
-# 3. Elementos conceptuales: punto, línea, plano y volumen
+# 3. **Elementos conceptuales: punto, línea, plano y volumen**
 
 Tabla de contenidos
 
--   [3.1. El punto](#31-El-punto)
--   [3.2. La línea](#32-La-linea)
--   [3.3. El plano](#33-El-plano)
--   [3.4. El volumen](#34-El-volumen)
+- [3. **Elementos conceptuales: punto, línea, plano y volumen**](#3-elementos-conceptuales-punto-línea-plano-y-volumen)
+  - [3.1. El punto](#31-el-punto)
+  - [3.2. La línea](#32-la-línea)
+  - [3.3. El plano](#33-el-plano)
+  - [3.4. El volumen](#34-el-volumen)
 
 
 Un diseñador de interfaces web debe conocer los elementos conceptuales básicos del diseño y utilizar un lenguaje común que describa de manera genérica las acciones y los elementos, incluso antes de que estos sean visibles en la interfaz.
@@ -13,7 +14,6 @@ Un diseñador de interfaces web debe conocer los elementos conceptuales básicos
 Los elementos conceptuales se utilizan durante las primeras etapas del diseño, cuando aún se está prototipando. Son efímeros e invisibles, ya que son utilizados únicamente para plasmar una idea, una posición o una dirección dentro de un determinado espacio visual.
 
 ## 3.1. El punto
--------------
 
 Cuando se habla de un punto se hace para indicar una posición dentro de un espacio determinado. Cuando hacemos foco en un punto concreto tenemos que tener en cuenta los elementos adyacentes y su influencia.
 

@@ -1,4 +1,4 @@
-# 7. Características: usable, visual, educativa y actualizada
+# 7. **Características: usable, visual, educativa y actualizada**
 
 Para que un diseño web sea efectivo los usuarios deben encontrarse cómodos navegando entre las contenidos y las páginas del sitio. Para ello, a la hora de diseñar un sitio web debemos hacernos las siguientes preguntas: ¿es **fácil interactuar con su interfaz**? ¿la **experiencia visual es positiva**? ¿es **fácil aprender a utilizarla**? ¿se **actualiza** de forma periódica?
 

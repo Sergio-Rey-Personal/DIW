@@ -1,4 +1,4 @@
-# 14. Aplicaciones para el desarrollo web
+# 14. **Aplicaciones para el desarrollo web**
 
 Durante el curso utilizaremos diversas herramientas para realizar nuestras actividades y proyectos, no obstante aquí hablaremos de algunas de las aplicaciones más comunes, e incluso las clasificaremos de una de las múltiples maneras.
 

@@ -1,4 +1,4 @@
-# 11. Objetivos del diseño.
+# 11. **Objetivos del diseño.**
 
 Aunque cuando estudiemos la [usabilidad](https://es.wikipedia.org/wiki/Usabilidad) web abordaremos de nuevo el tema de los objetivos conviene ahora que establezcamos unas ideas generales.
 

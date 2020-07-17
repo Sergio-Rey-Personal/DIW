@@ -1,11 +1,12 @@
 
-# 6. Elementos prácticos del diseño: representación, significado y función
+# 6. **Elementos prácticos del diseño: representación, significado y función**
 
 Tabla de contenidos
 
--   [6.1. Representación](#61-Representación)
--   [6.2. Significado](#62-Significado)
--   [6.3. Función](#63-Función)
+- [6. **Elementos prácticos del diseño: representación, significado y función**](#6-elementos-prácticos-del-diseño-representación-significado-y-función)
+  - [6.1. Representación](#61-representación)
+  - [6.2. Significado](#62-significado)
+  - [6.3. Función](#63-función)
 
 Los elementos prácticos son aquellos que tienen una interpretación subjetiva y a los que podemos dotar de un significado. Los elementos prácticos son la representación, el significado y la función.
 

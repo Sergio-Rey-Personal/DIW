@@ -1,18 +1,17 @@
-# 9. Componentes de una interfaz web
+# 9. **Componentes de una interfaz web**
 
 Tabla de contenidos
 
--   [9.1. Cabecera o header](#91-Cabecera-o-header)
--   [9.2. Cuerpo de la página](#92-Cuerpo-de-la-pagina)
--   [9.3. Pie de página o footer](#93-Pie-de-pagina-o-footer)
--   [9.4. Otros elementos](#94-Otros-elementos)
--   [9.5. Ejemplos](#95-Ejemplos)
+- [9. **Componentes de una interfaz web**](#9-componentes-de-una-interfaz-web)
+  - [9.1. Cabecera o *header*](#91-cabecera-o-header)
+  - [9.2. Cuerpo de la página](#92-cuerpo-de-la-página)
+  - [9.3. Pie de página o *footer*](#93-pie-de-página-o-footer)
+  - [9.4. Otros elementos](#94-otros-elementos)
+  - [9.5. Ejemplos](#95-ejemplos)
 
 En prácticamente todas las páginas web hay elementos que son comunes. Algunos ejemplos son: la cabecera, el menú de navegación, el cuerpo o el pie de página. Conocer el nombre de cada una de las partes de un sitio web es esencial ya que forma parte del vocabulario utilizado por los desarrolladores y diseñadores. La siguiente figura muestra la estructura general de un sitio web.
 
 ![componentes interfaz web](img/09_01_componentes-interfaz-web.png)
-
-Figura 9.1. Componentes de una interfaz web
 
 ## 9.1. Cabecera o *header*
 
