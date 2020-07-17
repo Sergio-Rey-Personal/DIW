@@ -1,14 +1,15 @@
-# Test de verificación HTML y herramientas útiles
+# 7. Test de verificación HTML y herramientas útiles
 
 Tabla de contenidos
 
--   [7.1. Test de verificación HTML](#71-Test-de-verificacion-HTML)
--   [7.2. Herramientas útiles de desarrollo en navegadores](#72-Herramientas-utiles-de-desarrollo-en-navegadores)
-    -   [7.2.1. Firefox developer edition](#721-Firefox-developer-edition)
-    -   [7.2.2. Web developer](#722-Web-developer)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [7. Test de verificación HTML y herramientas útiles](#7-test-de-verificación-html-y-herramientas-útiles)
+  - [7.1. Test de verificación HTML](#71-test-de-verificación-html)
+  - [7.2. Herramientas útiles de desarrollo en navegadores](#72-herramientas-útiles-de-desarrollo-en-navegadores)
+    - [7.2.1. Firefox developer edition](#721-firefox-developer-edition)
+    - [7.2.2. Web developer](#722-web-developer)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
-# 7.1. Test de verificación HTML
+## 7.1. Test de verificación HTML
 
 ***Validador HTML, W3C***
 
@@ -18,15 +19,15 @@ El **W3C es el encargado de estandarizar el lenguaje HTML** y en su plataforma n
 
 El validador HTML te permite subir tu propio fichero html o elegir la directamente la url publicada.
 
-# 7.2. Herramientas útiles de desarrollo en navegadores
+## 7.2. Herramientas útiles de desarrollo en navegadores
 
 Hay una gran cantidad de **herramientas muy útiles** que se añaden a los navegadores en forma de extensiones o plugins y que nos permiten **funcionalidades extra**. A continuación comentamos algunas de ellas.
 
-## 7.2.1. Firefox developer edition
+### 7.2.1. Firefox developer edition
 
 Se trata de un **navegador creado específicamente para desarrolladores web**. Ofrece herramientas muy interesantes como por ejemplo: panel de tipografías, editor de formas, inspector, consola, depurador. [Saber más](https://www.mozilla.org/es-ES/firefox/developer/)
 
-## 7.2.2. Web developer
+### 7.2.2. Web developer
 
 Consiste en una **extensión disponible para Chrome, Firefox o IE** que nos ofrece **un control exhaustivo de varias partes de la web, tales como el CSS, los formularios o las imágenes**. Con Web Developer instalado podemos, por ejemplo, alterar casi cualquier elemento final de la web en tiempo real y así aplicarlo a los archivos finales.
 

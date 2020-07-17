@@ -1,18 +1,16 @@
-# **Posición y comportamiento de contenedores en CSS**
+# 24. **Posición y comportamiento de contenedores en CSS**
 
 Tabla de contenidos
 
-- [14\. Posición y comportamiento de contenedores en CSS](#14-Posicion-y-comportamiento-de-contenedores-en-CSS)
-  - [14.1. Display](#141-Display)
-  - [14.2. Position](#142-Position)
-  - [14.3. Float](#143-Float)
-  - [14.4. Clear](#144-Clear)
-  - [14.5. Z-index](#145-Z-index)
-  - [14.6. Propiedad box-sizing](#146-Propiedad-box-sizing)
-  - [14.7. Diferencia entre visibility: hidden y display: none](#147-Diferencia-entre-visibility-hidden-y-display-none)
-- [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 14. Posición y comportamiento de contenedores en CSS
+- [24. **Posición y comportamiento de contenedores en CSS**](#24-posición-y-comportamiento-de-contenedores-en-css)
+  - [24.1. Display](#241-display)
+  - [24.2. Position](#242-position)
+  - [24.3. Float](#243-float)
+  - [24.4. Clear](#244-clear)
+  - [24.5. Z-index](#245-z-index)
+  - [24.6. Propiedad box-sizing](#246-propiedad-box-sizing)
+  - [24.7. Diferencia entre visibility: hidden y display: none](#247-diferencia-entre-visibility-hidden-y-display-none)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 En este apartado vamos a repasar el comportamiento de los contenedores en CSS. Antes de comenzar es interesante leer el artículo sobre [elementos de ordenación](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_15_ElementosOrdenacionHTML.md).
 
@@ -28,9 +26,9 @@ En este apartado vamos a repasar el comportamiento de los contenedores en CSS. A
 | `box-sizing` | Control de bordes y relleno en el comportamiento del contenedor | content-box | border-box |
 Tabla: Posición y comportamiento de las cajas o contenedores
 
-# 14.1. Display
+## 24.1. Display
 
-### Ejemplo `display`
+**Ejemplo `display`**
 
 Valores:
 
@@ -85,11 +83,11 @@ Valores:
 
 [CSS3. Propiedad Display (Codepen)](https://codepen.io/sergio-rey-personal/pen/QWyGamV)
 
-## 14.2. Position
+## 24.2. Position
 
-### Ejemplo `position: static`
+**Ejemplo `position: static`**
 
-#### **static:** posición natural de los elementos:
+- **static:** posición natural de los elementos:
 
 En el ejemplo siguiente se puede comprobar que los elementos mantienen su posición natural.
 
@@ -118,9 +116,9 @@ En el ejemplo siguiente se puede comprobar que los elementos mantienen su posici
 
 > [CSS3. Propiedad Position Static (Codepen)](https://codepen.io/sergio-rey-personal/pen/bGEBaMK)
 
-### Ejemplo `position: relative`
+**Ejemplo `position: relative`**
 
-#### **relative:** toma como referencia la posición del elemento en el flujo normal de la página.
+- **relative:** toma como referencia la posición del elemento en el flujo normal de la página.
 
 En el ejemplo siguiente se puede ver que con las propiedades `left: 20px` y `top: 10px` el elemento se desplaza 20px hacia la derecha y 10 px hacia abajo desde su posición por defecto.
 
@@ -146,9 +144,9 @@ En el ejemplo siguiente se puede ver que con las propiedades `left: 20px` y `top
 
 > [CSS3. Propiedad Position relative (Codepen)](https://codepen.io/sergio-rey-personal/pen/RwroxJg)
 
-### Ejemplo `position: absolute`
+**Ejemplo `position: absolute`**
 
-#### **absolute:** toma como referencia la posición del elemento con respecto al documento html.
+- **absolute:** toma como referencia la posición del elemento con respecto al documento html.
 
 En el siguiente ejemplo se muestra cómo el elemento deja de seguir la posición del flujo normal de la página y tiene como referencia su posición con respecto a la del documento html.
 
@@ -175,9 +173,9 @@ En el siguiente ejemplo se muestra cómo el elemento deja de seguir la posición
 
 > [CSS3. Propiedad Position absolute (Codepen)](https://codepen.io/sergio-rey-personal/pen/xxZRpJw)
 
-### Ejemplo `position: fixed`
+**Ejemplo `position: fixed`**
 
-#### **fixed:** toma como referencia la ventana del navegador.
+- **fixed:** toma como referencia la ventana del navegador.
 
 Tal y como puedes comprobar en el siguiente ejemplo, los elementos con `position: fixed` toman como referencia la ventana del navegador y no respetan el tener un contenedor padre que esté posicionado. 
 
@@ -204,7 +202,7 @@ Tal y como puedes comprobar en el siguiente ejemplo, los elementos con `position
 
 > [CSS3. Propiedad Position fixed (Codepen)](https://codepen.io/sergio-rey-personal/pen/NWxbXLL)
 
-## 14.3. Float
+## 24.3. Float
 
 El comportamiento de los elementos se puede modificar haciendo que floten. Cuando a un elemento html se le aplica un estilo con la propiedad de `float`, el **elemento sale del flujo normal y aparece posicionado a la izquierda o a la derecha de su contenedor**, donde el resto de elementos de la página se posicionarán alrededor. 
 
@@ -265,7 +263,7 @@ h2{
 
 > [CSS3. Contenedores con float (Codepen)](https://codepen.io/sergio-rey-personal/pen/NWxbXOL)
 
-## 14.4. Clear
+## 24.4. Clear
 
 La propiedad `clear` establece si un elemento debe estar al lado de los elementos flotantes que lo preceden o si debe situarse bajo de ellos. Se suele utilizar para restaurar el flujo normal del documento y así los elementos dejan de flotar hacia la izquierda, la derecha o ambos lados. Puede tener los siguientes valores:
 
@@ -273,13 +271,13 @@ clear: none [|](https://developer.mozilla.org/es/docs/CSS/Value_definition_synta
 
 [Ver ejemplos](https://developer.mozilla.org/es/docs/Web/CSS/clear)
 
-## 14.5. Z-index
+## 24.5. Z-index
 
 Mediante el atributo `z-index` podemos organizar cada uno de los elementos del contenido de una página web.
 
 ![Propiedad Z-index](img/Propiedad-Z-index.png)
 
-### Ejemplo `z-index`
+**Ejemplo `z-index`**
 
 ```css
 .a { width: 150px; height: 200px; background-color: purple; position: relative; z-index: 3;}
@@ -308,7 +306,7 @@ top: -210px; z-index: 2;}
 
 > [CSS3. Propiedad Position Z-index (Codepen)](https://codepen.io/sergio-rey-personal/pen/wvMopRx)
 
-## 14.6. Propiedad box-sizing
+## 24.6. Propiedad box-sizing
 
 Por defecto en el [modelo de cajas de CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_33_ModeloDeCajasCSS.md), el ancho y alto asignado a un elemento es aplicado solo al contenido de la caja del elemento. Si el elemento tiene algún borde (border) o relleno (padding), este es entonces añadido al ancho y alto del tamaño de la caja o contenedor. Esto significa que cuando se define el ancho y alto, se tiene que ajustar el valor para permitir cualquier borde o relleno que se pueda añadir.
 
@@ -355,7 +353,7 @@ Como puedes ver en el código, se han añadido los [prefijos para navegadores](h
 box-sizing: border-box;
 ```
 
-## 14.7. Diferencia entre visibility: hidden y display: none
+## 24.7. Diferencia entre visibility: hidden y display: none
 
 La diferencia principal es que **`display: none` no reserva el espacio del elemento mientras que `visibility: hidden` sí**. A continuación se muestra un ejemplo:
 

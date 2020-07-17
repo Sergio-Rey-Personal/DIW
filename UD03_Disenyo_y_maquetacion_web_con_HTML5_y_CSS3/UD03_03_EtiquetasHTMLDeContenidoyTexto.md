@@ -1,14 +1,15 @@
-# **Etiquetas html de contenido y texto**
+# 3. **Etiquetas html de contenido y texto**
 
 Tabla de contenidos
 
--   [3. Contenido y texto](/#3-Contenido-y-texto)
--   [3.1. Etiquetas de contenido](/#31-Etiquetas-de-contenido)
--   [3.2. Etiquetas de texto](/#32-Etiquetas-de-texto)
--   [3.3. Hiperenlaces](/#33_Hiperenlaces)
--   [Ejercicios propuestos](/#Ejercicios-propuestos)
-
-# 3. Contenido y texto
+- [3. **Etiquetas html de contenido y texto**](#3-etiquetas-html-de-contenido-y-texto)
+  - [3.1. Etiquetas de contenido](#31-etiquetas-de-contenido)
+  - [3.2. Etiquetas de texto](#32-etiquetas-de-texto)
+  - [3.3. Hiperenlaces](#33-hiperenlaces)
+    - [3.3.1. Valores del atributo href](#331-valores-del-atributo-href)
+    - [3.3.2. Valores del atributo target](#332-valores-del-atributo-target)
+- [Ejercicios propuestos](#ejercicios-propuestos)
+- [Actividad extra](#actividad-extra)
 
 En este apartado vamos a ver dos tipos de **etiquetas HTML**: las etiquetas que agrupan el **contenido** y las etiquetas que contienen fragmentos de **texto** (dan significado a esas palabras o fragmentos). Veamos cada una de ellas.
 
@@ -31,7 +32,7 @@ En este apartado vamos a ver dos tipos de **etiquetas HTML**: las etiquetas que 
 | `<div>` | Representa un contenedor genérico sin ningún significado especial. |
 Tabla 3.1: Etiquetas de contenido
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <!DOCTYPE html>
@@ -94,7 +95,7 @@ Tabla 3.1: Etiquetas de contenido
 [Estructura básica HTML (Codepen)](https://codepen.io/sergio-rey-personal/pen/xxZVBRv)
 
 
-# 3.2. Etiquetas de texto
+## 3.2. Etiquetas de texto
 
 | Elemento | Descripción |
 | --- | --- |
@@ -122,7 +123,7 @@ Tabla 3.1: Etiquetas de contenido
 | `<wbr>` | Representa una oportunidad de salto de línea, es decir, un punto sugerido donde el texto puede ser dividido para mejorar su legibilidad. |
 Tabla 3.2: Etiquetas de texto
 
-#### Ejemplo
+**Ejemplo**
 ```html
 <h3>Etiqueta &lt;a&gt;</h3>
 <a href="https://www.google.com">Esto es un hiperenlace</a>
@@ -196,22 +197,22 @@ Tabla 3.2: Etiquetas de texto
 
 ## 3.3. Hiperenlaces
 
-#### Valores del atributo href
+### 3.3.1. Valores del atributo href
 
 Vamos a ver cómo crear un enlace para llamar por teléfono con `tel` y para enviar un correo con `mailto`
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <a href="mailto:info@google.com">Enviar correo a info de Google</a><br>
 <a href="tel:+34666666666">Llamar por teléfono a 666 666 666</a>
 ```
 
-#### Valores del atributo target
+### 3.3.2. Valores del atributo target
 
 Vamos a abrir un enlace en una página aparte mediante el atributo `target` y el valor `_blank`:
 
-#### Ejemplo
+**Ejemplo**
 ```html
 <!-- En una página aparte -->
 <a href="https://www.google.com" target="_blank">Google</a>

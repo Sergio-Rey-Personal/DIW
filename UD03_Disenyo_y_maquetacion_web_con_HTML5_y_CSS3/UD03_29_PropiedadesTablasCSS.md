@@ -1,16 +1,13 @@
-# **Propiedades de las tablas en CSS**
+# 29. **Propiedades de las tablas en CSS**
 
 Tabla de contenidos
 
--   [9\. Propiedades de las tablas](#9-Propiedades-de-las-tablas)
-    -   [9.1. Caption-side](#91-Caption-side)
-    -   [9.2. Table-layout](#92-Table-layout)
-    -   [9.3. Border-collapse](#93-Border-collapse)
-    -   [9.4. Border-spacing](#94-Border-spacing)
-    -   [9.5. Empty-cells](#95-Empty-cells)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 9. Propiedades de las tablas
+- [29. **Propiedades de las tablas en CSS**](#29-propiedades-de-las-tablas-en-css)
+  - [29.1. Caption-side](#291-caption-side)
+  - [29.2. Table-layout](#292-table-layout)
+  - [29.3. Border-collapse](#293-border-collapse)
+  - [29.4. Border-spacing](#294-border-spacing)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Las propiedades CSS de las tablas son las que nos permiten controlar los estilos de los títulos de la tabla, el tamaño de las celdas, las filas y las columnas o espaciado entre los bordes, entre otras. En la tabla 9.1 se muestran **las propiedades de las tablas** más utilizadas.
 
@@ -22,11 +19,9 @@ Las propiedades CSS de las tablas son las que nos permiten controlar los estilos
 | `**border-spacing**` | Espaciado entre los bordes de celdas adyacentes | longitud |
 | `**empty-cells**` | Visibilidad de los bordes de celdas sin contenido | show | hide |
 
-Tabla 9.1: Propiedades de las tablas
-
 * * * * *
 
-## 9.1. Caption-side
+## 29.1. Caption-side
 
 ```css
 .a { caption-side: bottom; }
@@ -98,7 +93,7 @@ Tabla 9.1: Propiedades de las tablas
 
 * * * * *
 
-## 9.2. Table-layout
+## 29.2. Table-layout
 
 ```css
 .a { table-layout: auto; width: 200px; }
@@ -192,7 +187,7 @@ Tabla 9.1: Propiedades de las tablas
 
 * * * * *
 
-## 9.3. Border-collapse
+## 29.3. Border-collapse
 
 ```css
 .a { border-collapse: separate; }
@@ -262,7 +257,7 @@ Tabla 9.1: Propiedades de las tablas
 
 * * * * *
 
-## 9.4. Border-spacing
+## 29.4. Border-spacing
 
 ```css
 .a { border-collapse: separate; border-spacing: 50px 10px;}

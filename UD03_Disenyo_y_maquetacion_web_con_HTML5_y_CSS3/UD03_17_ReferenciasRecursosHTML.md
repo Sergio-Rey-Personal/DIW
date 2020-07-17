@@ -1,6 +1,4 @@
-# **Referencias y recursos HTML**
-
-# 17. Referencias y recursos
+# 17. **Referencias y recursos HTML**
 
 **Especificación de la W3C:**
 

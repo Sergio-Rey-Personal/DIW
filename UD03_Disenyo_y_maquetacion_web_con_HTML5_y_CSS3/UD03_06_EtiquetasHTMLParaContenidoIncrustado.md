@@ -1,16 +1,15 @@
-# Etiquetas html para el contenido incrustado
+# 6. Etiquetas html para el contenido incrustado
 
 Tabla de contenidos
 
--   [6\. Contenido incrustado](#6-Contenido-incrustado)
--   [6.1. Etiquetas para incrustar contenido](#61-Etiquetas-para-incrustar-contenido)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [6. Etiquetas html para el contenido incrustado](#6-etiquetas-html-para-el-contenido-incrustado)
+  - [6.1. Etiquetas para incrustar contenido](#61-etiquetas-para-incrustar-contenido)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
-# 6. Contenido incrustado
 
 El contenido HTML incrustado se utiliza para mostrar recursos externos como, por ejemplo, mapas, previsiones meteorológicas, fórmulas matemáticas, vídeos y audios, entre otros. Este método permite utilizar un sitio de terceros como un servicio de alojamiento e interfaz de carga. 
 
-# 6.1. Etiquetas para incrustar contenido
+## 6.1. Etiquetas para incrustar contenido
 
 | Elemento | Descripción |
 | --- | --- |
@@ -30,7 +29,7 @@ El contenido HTML incrustado se utiliza para mostrar recursos externos como, por
 | `<math>` | Define una fórmula matemática. |
 Tabla 6.1: Contenido incrustado
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <!DOCTYPE html>
@@ -55,15 +54,15 @@ Tabla 6.1: Contenido incrustado
 
 # Ejercicios propuestos
 
-#### Actividad 6.1
+- Actividad 6.1
 
 Añade el logotipo de la empresa en la cabecera de tu blog, el logotipo debe contener un enlace que te lleve a la página de inicio. Recuerda ubicar las imágenes dentro de la carpeta adecuada.
 
-#### Actividad 6.2
+- Actividad 6.2
 
 Incluye en el footer de tu blog los iconos de redes sociales con sus enlaces correspondientes. Incluye mínimo el icono de Whatsapp, Twitter y Facebook.
 
-#### Actividad 6.3
+- Actividad 6.3
 
 Añade una nueva entrada en tu blog que contenga los siguientes elementos:
 
@@ -71,7 +70,7 @@ Añade una nueva entrada en tu blog que contenga los siguientes elementos:
 -   Una descripción con *lorem ipsum*.
 -   Un mapa con la ubicación de la empresa.
 
-#### Actividad 6.4
+- Actividad 6.4
 
 Añade una nueva entrada en tu blog que contenga los siguientes elementos:
 

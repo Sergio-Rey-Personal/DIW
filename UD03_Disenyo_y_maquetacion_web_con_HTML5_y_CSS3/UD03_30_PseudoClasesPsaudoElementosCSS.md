@@ -1,18 +1,18 @@
-# **Pseudo-clases y pseudo-elementos en CSS**
+# 3. **Pseudo-clases y pseudo-elementos en CSS**
 
 Tabla de contenidos
 
--   [10. Pseudo-clases y pseudo-elementos en CSS](#10-Pseudo-clases-y-pseudo-elementos-en-CSS)
-    -   [10.1. Pseudo-clases para selección de hijos o hermanos](#101-Pseudo-clases-para-seleccin-de-hijos-o-hermanos)
-    -   [10.2. Pseudo-clases para los estados de un elemento](#102-Pseudo-clases-para-los-estados-de-un-elemento)
-    -   [10.3. Pseudo-elementos](#103-Pseudo-elementos)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 10. Pseudo-clases y pseudo-elementos en CSS
+- [3. **Pseudo-clases y pseudo-elementos en CSS**](#3-pseudo-clases-y-pseudo-elementos-en-css)
+  - [30.1. Pseudo-clases para selección de hijos o hermanos](#301-pseudo-clases-para-selección-de-hijos-o-hermanos)
+    - [30.1.1. Pseudo-clase nth-child](#3011-pseudo-clase-nth-child)
+    - [30.1.2. Valores *odd* (impar) y *even* (par)](#3012-valores-odd-impar-y-even-par)
+  - [30.2. Pseudo-clases para los estados de un elemento](#302-pseudo-clases-para-los-estados-de-un-elemento)
+  - [30.3. Pseudo-elementos](#303-pseudo-elementos)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Gracias a las pseudo-clases y los pseudo-elementos de CSS podemos realizar una selección más específica de los elementos a los que queremos aplicar un cierto estilo sin necesidad de crear una clase concreta.
 
-## 10.1. Pseudo-clases para selección de hijos o hermanos
+## 30.1. Pseudo-clases para selección de hijos o hermanos
 
 | Pseudo-clase | Descripción |
 | --- | --- |
@@ -56,7 +56,7 @@ p:last-child{ color: green; }
 ```
 [CSS3.  Pseudo-clases](https://codepen.io/sergio-rey-personal/pen/MWKbOXQ)
 
-### Pseudo-clase nth-child
+### 30.1.1. Pseudo-clase nth-child
 
 Veamos como funciona la pseudo-clase `nth-child` mediante un ejemplo en el que aprovechamos la jerarquía de los elementos para referenciar una etiqueta:
 
@@ -79,11 +79,11 @@ En el siguiente código, seleccionaremos todos los párrafos que sean el primer 
 p:nth-child(1){ color: red; }
 ```
 
-### Valores *odd* (impar) y *even* (par)
+### 30.1.2. Valores *odd* (impar) y *even* (par)
 
 Los valores *odd* y *even* son muy útiles para seleccionar elementos pares e impares. El valor *`even`* representa elementos en posición par y el valor *`odd`* representa los elementos en posición impar.
 
-### Ejemplos:
+**Ejemplos:**
 
 `tr:nth-child(odd)` o `tr:nth-child(2n+1)`Selecciona las filas impares de una tabla.
 
@@ -95,7 +95,7 @@ Los valores *odd* y *even* son muy útiles para seleccionar elementos pares e im
 
 `:nth-child(3n+4)`Selecciona los elementos 4, 7, 10, 13, etc.
 
-## 10.2. Pseudo-clases para los estados de un elemento
+## 30.2. Pseudo-clases para los estados de un elemento
 
 Podemos utilizar diferentes pseudo-clases para definir las propiedades de ciertos elementos con diferentes estados. Uno de los usos más comunes es en los enlaces `<a>` aunque se pueden aplicar en otros elementos.
 
@@ -126,7 +126,7 @@ a:link{ /*No visitado por el usuario*/
 ```
 [CSS3. Pseudo-clases 2](https://codepen.io/sergio-rey-personal/pen/YzwpEMX)
 
-## 10.3. Pseudo-elementos
+## 30.3. Pseudo-elementos
 
 | Pseudo-elemento | Descripción |
 | :first-line | Primera línea de texto de un elemento |

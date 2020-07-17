@@ -1,14 +1,12 @@
-# **Metaetiquetas o metatags para redes sociales en HTML**
+# 10. **Metaetiquetas o metatags para redes sociales en HTML**
 
 Tabla de contenidos
 
--   [10. Metaetiquetas o metatags para redes sociales en HTML](#10-Metaetiquetas-o-metatags-para-redes-sociales-en-HTML)
-    -   [10.1. Metaetiquetas en Twitter](#101-Metaetiquetas-en-Twitter)
-    -   [10.2. Metaetiquetas en Facebook o Pinterest, Open Graph](#102-Metaetiquetas-en-Facebook-o-Pinterest-Open-Graph)
-    -   [10.3. Incluir los botones de para compartir tweets, momentos, likes...](#103-Incluir-los-botones-de-para-compartir-tweets-momentos-likes8230)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 10. Metaetiquetas o *metatags* para redes sociales en HTML
+- [10. **Metaetiquetas o metatags para redes sociales en HTML**](#10-metaetiquetas-o-metatags-para-redes-sociales-en-html)
+  - [10.1. Metaetiquetas en Twitter](#101-metaetiquetas-en-twitter)
+  - [10.2. Metaetiquetas en Facebook o Pinterest, Open Graph](#102-metaetiquetas-en-facebook-o-pinterest-open-graph)
+  - [10.3. Incluir los botones de para compartir tweets, momentos, likes...](#103-incluir-los-botones-de-para-compartir-tweets-momentos-likes)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 A la hora de compartir una página web en una red social hay que tener en cuenta diferentes aspectos para **presentar el contenido de una forma atractiva**. Por ejemplo, es necesario **definir el título, una fotografía, la descripción o el autor,** entre otras cosas. Para ello **utilizaremos las metaetiquetas o** ***metatags*** (también conocidas por etiquetas *meta* o *meta tags*).
 

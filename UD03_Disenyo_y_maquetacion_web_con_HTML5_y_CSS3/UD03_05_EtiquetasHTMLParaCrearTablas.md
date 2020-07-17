@@ -1,12 +1,10 @@
-# Etiquetas html para crear tablas de contenido
+# 5. Etiquetas html para crear tablas de contenido
 
 Tabla de contenidos
 
--   [5. Tablas de contenido](#5-Tablas-de-contenido)
--   [5.1. Etiquetas para la creación de tablas de contenido](#51-Etiquetas-para-la-creacion-de-tablas-de-contenido)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 5. Tablas de contenido
+- [5. Etiquetas html para crear tablas de contenido](#5-etiquetas-html-para-crear-tablas-de-contenido)
+  - [5.1. Etiquetas para la creación de tablas de contenido](#51-etiquetas-para-la-creación-de-tablas-de-contenido)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Las tablas de contenido nos permiten almacenar los datos de forma ordenada.
 
@@ -30,7 +28,7 @@ La etiqueta `<table>` puede incluir diferentes opciones, como puedes ver en la s
 | `<tfoot>` | Representa los bloques de filas que describen los resúmenes de columna de una tabla. |
 Tabla 5.1: Tablas de contenido
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <!DOCTYPE html>

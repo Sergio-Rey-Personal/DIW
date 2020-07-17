@@ -1,16 +1,14 @@
-# Repositorio Git en Visual Studio Code con cuenta Github
+# 13. **Repositorio Git en Visual Studio Code con cuenta Github**
 
 Tabla de contenidos
 
--   [13. Usar Github y Visual Studio Code para publicar contenido](#13-Usar-Github-y-Visual-Studio-Code-para-publicar-contenido)
--   [13.1. Crear cuenta en Github](#131-Crear-cuenta-en-Github)
--   [13.2. Clonar el repositorio con Visual Studio Code](#132-Clonar-el-repositorio-con-Visual-Studio-Code)
--   [13.3. Ver los cambios en Github](#133-Ver-los-cambios-en-Github)
--   [13.4. Otros errores en la configuración de Github con Visual Studio Code](#134-Otros-errores-en-la-configuracion-de-Github-con-Visual-Studio-Code)
+- [13. **Repositorio Git en Visual Studio Code con cuenta Github**](#13-repositorio-git-en-visual-studio-code-con-cuenta-github)
+  - [13.1. Crear cuenta en Github](#131-crear-cuenta-en-github)
+  - [13.2. Clonar el repositorio con Visual Studio Code](#132-clonar-el-repositorio-con-visual-studio-code)
+  - [13.3. Ver los cambios en Github](#133-ver-los-cambios-en-github)
+  - [13.4. Otros errores en la configuración de Github con Visual Studio Code](#134-otros-errores-en-la-configuración-de-github-con-visual-studio-code)
 
 Mediante la plataforma de ***social coding*** [GitHub](https://github.com/) puedes **publicar repositorios de código** para que se alojen en un **sistema de control de versiones** Git. Este sistema te ofrece la posibilidad de **colaborar en otros proyectos y publicar los tuyos propios**. La plataforma es de **código abierto** por defecto, por lo que cualquier persona puede utilizar tu código y tú también puedes ver el código de otros proyectos. Este artículo es una **guía básica para publicar contenido usando GitHub y Visual Studio Code**.
-
-# 13. Usar Github y Visual Studio Code para publicar contenido
 
 ## 13.1. Crear cuenta en Github
 

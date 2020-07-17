@@ -1,21 +1,20 @@
-# **Resumen de etiquetas HTML**
+# 16. **Resumen de etiquetas HTML**
 
 
 Tabla de contenidos
 
--   [16. Resumen HTML](/#16_Resumen_HTML)
-    -   [16.1. Elementos semánticos ](/#161_Elementos_semanticos)
-    -   [16.2. Elementos raíz](/#162_Elementos_raiz)
-    -   [16.3. Metadatos](/#163_Metadatos)
-    -   [16.4. Scripting](/#164_Scripting)
-    -   [16.5. Secciones](/#165_Secciones)
-    -   [16.6. Contenido](/#166_Contenido)
-    -   [16.7. Etiquetas de texto](/#167_Etiquetas_de_texto)
-    -   [16.8. Formulario](/#168_Formulario)
-    -   [16.9. Tablas de contenido](/#169_Tablas_de_contenido)
-    -   [16.10. Contenido incrustrado](/#1610_Contenido_incrustrado)
+- [16. **Resumen de etiquetas HTML**](#16-resumen-de-etiquetas-html)
+  - [16.1. Elementos semánticos](#161-elementos-semánticos)
+  - [16.2. Elementos raíz](#162-elementos-raíz)
+  - [16.3. Metadatos](#163-metadatos)
+  - [16.4. Scripting](#164-scripting)
+  - [16.5. Secciones](#165-secciones)
+  - [16.6. Contenido](#166-contenido)
+  - [16.7. Etiquetas de texto](#167-etiquetas-de-texto)
+  - [16.8. Formulario](#168-formulario)
+  - [16.9. Tablas de contenido](#169-tablas-de-contenido)
+  - [16.10. Contenido incrustrado](#1610-contenido-incrustrado)
 
-# 16. Resumen HTML
 
 ## 16.1. Elementos semánticos 
 

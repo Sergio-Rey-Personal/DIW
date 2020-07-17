@@ -1,41 +1,39 @@
-# **Tipos de selectores en CSS**
+# 23. **Tipos de selectores en CSS**
 
 Tabla de contenidos
 
--   [3\. Selectores](#3-Selectores)
-    -   [3.1. Selector universal](#31-Selector-universal)
-    -   [3.2. Selector etiqueta](#32-Selector-etiqueta)
-    -   [3.3. Selector clase](#33-Selector-clase)
-    -   [3.4. Selector identificador](#34-Selector-identificador)
-    -   [3.5. Selector descendiente](#35-Selector-descendiente)
-    -   [3.6. Combinación de selectores](#36-Combinación-de-selectores)
-    -   [3.7. Selector de hijos](#37-Selector-de-hijos)
-    -   [3.8. Selector adyacente](#38-Selector-adyacente)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-## 3. Selectores
+- [23. **Tipos de selectores en CSS**](#23-tipos-de-selectores-en-css)
+  - [23.1. Selector universal](#231-selector-universal)
+  - [23.2. Selector etiqueta](#232-selector-etiqueta)
+  - [23.3. Selector clase](#233-selector-clase)
+  - [23.4. Selector identificador](#234-selector-identificador)
+  - [23.5. Selector descendiente](#235-selector-descendiente)
+  - [23.6. Combinación de selectores](#236-combinación-de-selectores)
+  - [23.7. Selector de hijos](#237-selector-de-hijos)
+  - [23.8. Selector adyacente](#238-selector-adyacente)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Veamos ahora cuáles son los selectores básicos que podemos utilizar en CSS.
 
-## 3.1. Selector universal
+## 23.1. Selector universal
 
 **Sintaxis:** * { atributo:valor; }
 
 **Ejemplo:**`* { color: grey; }`/* El estilo se aplicará a todos los elementos de la página*/
 
-## 3.2. Selector etiqueta
+## 23.2. Selector etiqueta
 
 **Sintaxis:** etiqueta { atributo:valor }
 
 **Ejemplo:** `p {color: green;} ` /* El estilo se aplicará a todos los elementos <p>.*/
 
-## 3.3. Selector clase
+## 23.3. Selector clase
 
 **Sintaxis:** .clase { atributo:valor }
 
 **Ejemplo:** `.index {color: red;}` /* El estilo se aplicará a cualquier elemento que tenga la clase .index*/
 
-## 3.4. Selector identificador
+## 23.4. Selector identificador
 
 El **selector identificador** utiliza el atributo id para seleccionar un elemento. Solo puede haber un elemento con un id dado en un documento.
 
@@ -43,7 +41,7 @@ El **selector identificador** utiliza el atributo id para seleccionar un element
 
 **Ejemplo:** `#cent {color: blue;}` /* El estilo se aplicará al elemento que tenga el id #cent */
 
-## 3.5. Selector descendiente
+## 23.5. Selector descendiente
 
 Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del elemento padre. Su sintaxis es: selector1 selector2... slectorN. Siendo el selector N el elemento sobre el que se aplica el estilo.
 
@@ -53,7 +51,7 @@ selector1 selector2 selectorN{
 }
 ```
 
-## 3.6. Combinación de selectores
+## 23.6. Combinación de selectores
 
 La combinación de selectores nos permite dar un estilo a todos los selectores indicados.
 
@@ -63,7 +61,7 @@ selector1, selector2, selector3{
 }
 ```
 
-## 3.7. Selector de hijos
+## 23.7. Selector de hijos
 
 Se usa para seleccionar un elemento que es *hijo* de otro elemento y se indica mediante el signo "mayor que" (`>`).
 
@@ -73,7 +71,7 @@ selector1 > selector2{
 }
 ```
 
-## 3.8. Selector adyacente
+## 23.8. Selector adyacente
 
 Se usa para seleccionar elementos que son *hermanos*, es decir, su elemento padre es el mismo y están seguidos en el código HTML. Se indica mediante el signo "más" (`+`).
 
@@ -87,7 +85,7 @@ selector1 + selector2{
 
 * * * * *
 
-#### Ejemplos
+**Ejemplos**
 
 ```css
 /*style.css*/

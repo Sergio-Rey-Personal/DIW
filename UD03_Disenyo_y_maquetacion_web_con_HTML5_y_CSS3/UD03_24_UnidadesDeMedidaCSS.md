@@ -1,13 +1,11 @@
-# **Unidades de medida en CSS**
+# 24. **Unidades de medida en CSS**
 
 Tabla de contenidos
 
--   [4. Unidades de medida](#4-Unidades-de-medida)
-    -   [4.1. Utilización de píxeles](#41-Utilización-de-pixeles)
-    -   [4.2. Utilización de ems](#42-Utilización-de-ems)
-    -   [4.3. Convertidor Pixel a Ems](#43-Convertidor-Pixel-a-Ems)
-
-# 4. Unidades de medida
+- [24. **Unidades de medida en CSS**](#24-unidades-de-medida-en-css)
+  - [24.1. Utilización de píxeles](#241-utilización-de-píxeles)
+  - [24.2. Utilización de ems](#242-utilización-de-ems)
+  - [24.3. Convertidor Pixel a Ems](#243-convertidor-pixel-a-ems)
 
 Los valores de las propiedades se pueden expresar en **longitudes absolutas y longitudes relativas.** Veamos las diferentes opciones en la siguiente tabla.
 
@@ -28,15 +26,15 @@ Los valores de las propiedades se pueden expresar en **longitudes absolutas y lo
 
 > Normalmente es recomendable usar unidades relativas en la medida de lo posible, ya que mejora la accesibilidad de la página web y permite que los documentos se adapten fácilmente a cualquier medio. En concreto, el organismo W3C, recomienda el uso de la unidad `em` para indicar el tamaño del texto.
 
-## 4.1. Utilización de píxeles
+## 24.1. Utilización de píxeles
 
 El único inconveniente que puede darnos trabajar con píxeles es que no todas las pantallas son iguales y que un píxel no es igual en todas las pantallas. Este inconveniente se soluciona fácilmente siempre que se pueda redimensionar el texto en la pantallas.
 
-## 4.2. Utilización de ems
+## 24.2. Utilización de ems
 
 El tamaño de los ems se establece en base al tamaño que tenga definido el navegador. El único problema es que el usuario haya modificado ese tamaño base, aunque los navegadores permiten ajustar estos parámetros nuevamente.
 
-## 4.3. Convertidor Pixel a Ems
+## 24.3. Convertidor Pixel a Ems
 
 Normalmente el tamaño de una fuente por defecto en los navegadores es de 16px ( 16px = 1em). Por lo que tendríamos la siguiente conversión:
 

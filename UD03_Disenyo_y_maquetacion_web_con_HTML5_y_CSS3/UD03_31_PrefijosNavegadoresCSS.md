@@ -1,12 +1,10 @@
-# **Prefijos CSS de los navegadores**
+# 31. **Prefijos CSS de los navegadores**
 
 Tabla de contenidos
 
--   [11\. Prefijos CSS de los navegadores](#11-Prefijos-CSS-de-los-navegadores)
-    -   [11.1. Prefijos para los navegadores más comunes](#111-Prefijos-para-los-navegadores-más-comunes)
-    -   [11.2. Extensión Autoprefixer para Visual Studio Code](#112-Extension-Autoprefixer-para-Visual-Studio-Code)
-
-# 11. Prefijos CSS de los navegadores
+- [31. **Prefijos CSS de los navegadores**](#31-prefijos-css-de-los-navegadores)
+  - [31.1. Prefijos para los navegadores más comunes](#311-prefijos-para-los-navegadores-más-comunes)
+  - [31.2. Extensión Autoprefixer para Visual Studio Code](#312-extensión-autoprefixer-para-visual-studio-code)
 
 Actualmente los navegadores tienen implementadas muchas de las nuevas características de CSS3 utilizando sus **propias versiones de cada propiedad mediante prefijos**.
 
@@ -14,7 +12,7 @@ Puede parecer que esto limita los beneficios de CSS3, pero los desarrolladores d
 
 Después de un tiempo, cuando las especificaciones son estables, se eliminaran las propiedades con prefijo.
 
-# 11.1. Prefijos para los navegadores más comunes
+## 31.1. Prefijos para los navegadores más comunes
 
 Los prefijos para los navegadores más comunes son los siguientes:
 
@@ -30,7 +28,7 @@ Así por ejemplo para transformar un elemento en Firefox, es necesario utilizar 
 
 Puedes ver los navegadores que soportan una determinada propiedad CSS o un elemento HTML5 en la [siguiente página web](http://caniuse.com).
 
-# 11.2. Extensión Autoprefixer para Visual Studio Code
+## 31.2. Extensión Autoprefixer para Visual Studio Code
 
 Para ahorrar tiempo y facilitarnos la tarea de incluir los prefijos de las propiedades CSS que todavía no son estables podemos hacer uso de la **extensión "Autoprefixer" en Visual Studio Code**.
 

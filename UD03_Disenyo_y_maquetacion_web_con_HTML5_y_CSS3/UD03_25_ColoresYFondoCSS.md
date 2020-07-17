@@ -1,17 +1,15 @@
-# Colores y fondo en CSS, atributos y propiedades
+# 25. **Colores y fondo en CSS, atributos y propiedades**
 
 Tabla de contenidos
 
--   [5. Colores y fondo](#5-Colores-y-fondo)
-    -   [5.1. Tabla de colores básicos](#51-Tabla-de-colores-básicos)
-    -   [5.2. Propiedades más utilizadas](#52-Propiedades-más-utilizadas)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 5. Colores y fondo
+- [25. **Colores y fondo en CSS, atributos y propiedades**](#25-colores-y-fondo-en-css-atributos-y-propiedades)
+  - [25.1. Tabla de colores básicos](#251-tabla-de-colores-básicos)
+  - [25.2. Propiedades más utilizadas](#252-propiedades-más-utilizadas)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Los valores de los colores se pueden definir mediante su nombre, en hexadecimal o mediante los valores RGB (Red, Green, Blue) , HSL (Hue, Saturation, Lightness), RGBA (Red, Green, Blue, Alpha) y HSLA (Hue, Saturation, Lightness, Alpha).
 
-## 5.1. Tabla de colores básicos
+## 25.1. Tabla de colores básicos
 
 Html soporta alrededor de 140 nombres de colores diferentes. Entre ellos puedes encontrar los siguientes colores básicos:
 
@@ -28,7 +26,7 @@ Table 5.1. Colores básicos
 
 [Ver lista completa de colores expresados por nombre, hexadecimal y en RGB](https://www.w3schools.com/cssref/css_colors.asp)
 
-# 5.2. Propiedades más utilizadas
+## 25.2. Propiedades más utilizadas
 
 Algunas de las propiedades relacionadas con el color y el fondo más utilizadas son las siguientes:
 
@@ -41,7 +39,6 @@ Algunas de las propiedades relacionadas con el color y el fondo más utilizadas 
 | `background-attachment` | Desplazamiento de la imagen de fondo | scroll | fixed |
 | `background-position` | Posición de la imagen de fondo | percentage | length | left | center | right |
 | `Opacity` | Transparencia de un elemento | [ 0 -- 1 ] |
-Tabla 5.2: Propiedades colores y fondo
 
 ***`ejemplo`***
 

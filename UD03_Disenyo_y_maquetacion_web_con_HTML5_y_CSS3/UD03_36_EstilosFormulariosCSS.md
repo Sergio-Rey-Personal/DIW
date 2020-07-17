@@ -1,16 +1,14 @@
-# **Estilos en formularios CSS, propiedades necesarias**
+# 36. **Estilos en formularios CSS, propiedades necesarias**
 
 Tabla de contenidos
 
-- [16. Estilos CSS en formularios](#16-Estilos-CSS-en-formularios)
-  - [1. Formulario básico en CSS](#1-Formulario-básico-en-CSS)
-  - [2. Propiedad box-sizing](#2-Propiedad-box-sizing)
-  - [3. Propiedad resize](#3-Propiedad-resize)
-- [Ejercicios propuestos](#Ejercicios-propuestos)
+- [36. **Estilos en formularios CSS, propiedades necesarias**](#36-estilos-en-formularios-css-propiedades-necesarias)
+  - [36.1. Formulario básico en CSS](#361-formulario-básico-en-css)
+  - [36.2. Propiedad box-sizing](#362-propiedad-box-sizing)
+  - [36.3. Propiedad resize](#363-propiedad-resize)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 En el tema anterior vimos las [etiquetas HTML para la creación de formularios](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_04_EtiquetasParaCreacionFormulariosHTML.md). Vamos a ver ahora cómo podemos dar estilo a esas etiquetas mediante CSS.
-
-# 16. Estilos CSS en formularios
 
 Gracias a los estilos podemos romper el diseño gris con líneas negras de los formularios y convertirlos en una parte más que se integra perfectamente en nuestro diseño web.
 
@@ -18,7 +16,7 @@ Como sabemos, a la hora de crear nuestros formularios, seguiremos [buenas práct
 
 A las etiquetas de los formularios se les puede dar estilo CSS al igual que al resto de elementos de nuestro documento. Sin embargo, debemos conocer una serie de propiedades que nos ayuden a elaborar nuestros diseños de la forma más óptima posible.
 
-## 1. Formulario básico en CSS
+## 36.1. Formulario básico en CSS
 
 En el siguiente ejemplo puedes ver un formulario básico en CSS que permite ser visualizado en cualquier dispositivo:
 
@@ -73,7 +71,7 @@ En este ejemplo se han utilizado muchas de las propiedades que hemos visto a lo 
 
 Vamos a ver ahora ciertas propiedades que aún no conocemos y que son de mucha utilidad en la creación de nuestros formularios.
 
-## 2. Propiedad box-sizing
+## 36.2. Propiedad box-sizing
 
 Por defecto en el [modelo de cajas de CSS](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_33_ModeloDeCajasCSS.md), el ancho y alto asignado a un elemento es aplicado solo al contenido de la caja del elemento. Si el elemento tiene algún borde (border) o relleno (padding), este es entonces añadido al ancho y alto del tamaño de la caja o contenedor. Esto significa que cuando se define el ancho y alto, se tiene que ajustar el valor para permitir cualquier borde o relleno que se pueda añadir.
 
@@ -91,7 +89,7 @@ Como puedes ver en el código, se han añadido los [prefijos para navegadores](h
 box-sizing: border-box;
 ```
 
-## 3. Propiedad resize
+## 36.3. Propiedad resize
 
 Por defecto, los elementos `<textarea>` permiten cambiar el tamaño por el usuario. Podemos anular este comportamiento utilizando la propiedad "resize:none".
 

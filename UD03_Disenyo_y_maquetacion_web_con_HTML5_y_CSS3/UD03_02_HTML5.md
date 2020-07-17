@@ -1,23 +1,22 @@
-# **HTML5, estructura básica y elementos semánticos**
+# 2. **HTML5, estructura básica y elementos semánticos**
 
 Tabla de contenidos
 
--   [2. HTML5](#2_HTML5)
--   [2.1. Elementos semánticos HTML5](#21-Elementos-semanticosnbspHTML5)
--   [2.2. Estructura básica de un documento HTML5](#22-Estructura-basica-de-un-documento-HTML5)
-    -   [2.2.1. Elementos raíz](#221-Elementos-raiz)
-    -   [2.2.2. Metadatos](#222-Metadatos)
-    -   [2.2.3. Scripting](#223-Scripting)
-    -   [2.2.4. Secciones](#224-Secciones)
--   [Actividad](#Actividad)
+- [2. **HTML5, estructura básica y elementos semánticos**](#2-html5-estructura-básica-y-elementos-semánticos)
+  - [2.1. Elementos semánticos HTML5](#21-elementos-semánticos-html5)
+  - [2.2. Estructura básica de un documento HTML5](#22-estructura-básica-de-un-documento-html5)
+    - [2.2.1. Elementos raíz](#221-elementos-raíz)
+    - [2.2.2. Metadatos](#222-metadatos)
+    - [2.2.3. Scripting](#223-scripting)
+    - [2.2.4. Secciones](#224-secciones)
+- [Actividad](#actividad)
 
-# 2. HTML5
 
 La última versión del lenguaje de programación HTML es **HTML5**. Las webs implementadas con lenguaje HTML5 no son correctamente visualizadas en los navegadores antiguos ya que esta versión incluye nuevas etiquetas que no son soportadas.
 
 [HTML: de HTML4 a HTML5Historia de HTML (youtube)](https://www.youtube.com/embed/vRqQRrULSxI)
 
-# 2.1. Elementos semánticos HTML5
+## 2.1. Elementos semánticos HTML5
 
 Una de las principales ventajas de HTML5 es la inclusión de **elementos semánticos, o marcados semánticos**, que nos ayudan a definir las distintas divisiones de una página web. En las versiones anteriores se solía utilizar la etiqueta `<div>`, pero actualmente es recomendado utilizar los elementos semánticos ya que describen claramente su propósito. Veámos los elementos semánticos de HTML5.
 

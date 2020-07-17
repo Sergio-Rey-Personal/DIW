@@ -1,16 +1,14 @@
-# **Propiedades de las fuentes en CSS**
+# 27. **Propiedades de las fuentes en CSS**
 
 Tabla de contenidos
 
--   [7. Propiedades de las fuentes](/#7-Propiedades-de-las-fuentes)
-    -   [7.1. Font-family](/#71-Font-family)
-    -   [7.2. Font-style](/#72-Font-style)
-    -   [7.3. Font-variant](/#73-Font-variant)
-    -   [7.4. Font-weight](/#74-Font-weight)
-    -   [7.5. Font-size](/#75-Font-size)
--   [Ejercicios propuestos](/#Ejercicios-propuestos)
-
-# 7. Propiedades de las fuentes
+- [27. **Propiedades de las fuentes en CSS**](#27-propiedades-de-las-fuentes-en-css)
+  - [27.1. Font-family](#271-font-family)
+  - [27.2. Font-style](#272-font-style)
+  - [27.3. Font-variant](#273-font-variant)
+  - [27.4. Font-weight](#274-font-weight)
+  - [27.5. Font-size](#275-font-size)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Las propiedades CSS de las fuentes son las que permiten controlar el tamaño, el tipo, el grosor o el estilo de las letras entre otras cosas.
 
@@ -25,7 +23,7 @@ Tabla 7.1: Propiedades de las fuentes
 
 * * * * *
 
-## 7.1. Font-family
+## 27.1. Font-family
 
 ```css
 .a  { font-family: "Times New Roman", Times, serif; }
@@ -53,7 +51,7 @@ Tabla 7.1: Propiedades de las fuentes
 
 * * * * *
 
-## 7.2. Font-style
+## 27.2. Font-style
 
 ```css
 .a  { font-style: normal; }
@@ -81,7 +79,7 @@ Tabla 7.1: Propiedades de las fuentes
 
 * * * * *
 
-## 7.3. Font-variant
+## 27.3. Font-variant
 
 ```css
 .a  { font-variant: normal; }
@@ -108,7 +106,7 @@ Tabla 7.1: Propiedades de las fuentes
 
 * * * * *
 
-## 7.4. Font-weight
+## 27.4. Font-weight
 
 ```css
 .a  { font-weight: normal; }
@@ -135,7 +133,7 @@ Tabla 7.1: Propiedades de las fuentes
 
 * * * * *
 
-## 7.5. Font-size
+## 27.5. Font-size
 
 ```css
 .a  { font-size: 20px; }

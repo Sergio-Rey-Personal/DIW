@@ -1,11 +1,10 @@
-# **¿Qué es CSS (Cascading Style Sheets)?**
+# 21. **¿Qué es CSS (Cascading Style Sheets)?**
 
 Tabla de contenidos
 
--   [1. ¿Qué es CSS?](#1-Que-es-CSS)
-    -   [1.1. Soporte CSS en los navegadores más utilizados](#11-Soporte-CSS-en-los-navegadores-más-utilizados)
-    -   [1.2. Sintaxis CSS](#12-Sintaxis-CSS)
-# 1. ¿Qué es CSS?
+- [21. **¿Qué es CSS (Cascading Style Sheets)?**](#21-qué-es-css-cascading-style-sheets)
+  - [21.1. Soporte CSS en los navegadores más utilizados](#211-soporte-css-en-los-navegadores-más-utilizados)
+  - [21.2. Sintaxis CSS](#212-sintaxis-css)
 
 **CSS (*****Cascading Style Sheets*****)** es un lenguaje que nos permite controlar el aspecto de las páginas web escritas en HTML o en cualquier lenguaje de marcado basado en XML.  El lenguaje CSS está creado por el [World Wide Web Consortium (W3C)](https://www.w3c.es/), la comunidad internacional que desarrolla estándares que aseguran el crecimiento futuro de la web y vela por conseguir webs disponibles para todo el mundo y desde cualquier dispositivo.
 
@@ -13,7 +12,7 @@ El lenguaje CSS se ha ido creando a lo largo del tiempo en varios niveles. Cada 
 
 ![CSS1 CSS2 CSS3](img/CSS1-CSS2-y-CSS3.png)
 
-## 1.1. Soporte CSS en los navegadores más utilizados
+## 21.1. Soporte CSS en los navegadores más utilizados
 
 Cada navegador ofrece un soporte CSS distinto. Por este motivo, es de esencial importancia conocer las características de los diferentes navegadores. En este sentido, lo más importante es conocer el tipo de motor ya que es el encargado de interpretar los códigos HTML y CSS. La tabla siguiente detalla el soporte de CSS1, CSS2 y CSS3 de los navegadores más utilizados actualmente.
 
@@ -30,7 +29,7 @@ Para la elaboración de la tabla 1.1 se ha tenido como referencia la web *[Compa
 
 Los desarrolladores siempre deben comprobar que sus webs se visualizan correctamente en los diferentes navegadores. Ver más información en el apartado de ["Buenas prácticas CSS"](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_32_BuenasPracticasCSS.md).
 
-## 1.2. Sintaxis CSS
+## 21.2. Sintaxis CSS
 
 En CSS se utiliza la siguiente sintaxis para asignar valores a las propiedades de cada selector:
 

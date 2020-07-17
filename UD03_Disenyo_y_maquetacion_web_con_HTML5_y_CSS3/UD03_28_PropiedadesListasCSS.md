@@ -1,16 +1,14 @@
-# **Propiedades de las listas en CSS**
+# 28. **Propiedades de las listas en CSS**
 
 Tabla de contenidos
 
--   [8\. Propiedades de las listas](#8-Propiedades-de-las-listas)
-    -   [8.1. List-style-type](#81-List-style-type)
-    -   [8.2. List-style-image](#82-List-style-image)
-    -   [8.3. List-style-position](#83-List-style-position)
-    -   [8.4. List-style](#84-List-style)
-    -   [8.5. Lista convertida en botonera horizontal](#85-Lista-convertida-en-botonera-horizontal)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 8. Propiedades de las listas
+- [28. **Propiedades de las listas en CSS**](#28-propiedades-de-las-listas-en-css)
+  - [28.1. List-style-type](#281-list-style-type)
+  - [28.2. List-style-image](#282-list-style-image)
+  - [28.3. List-style-position](#283-list-style-position)
+  - [28.4. List-style](#284-list-style)
+  - [28.5. Lista convertida en botonera horizontal](#285-lista-convertida-en-botonera-horizontal)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Las propiedades CSS de las listas son las que nos permiten controlar los estilos de los marcadores y la posición de los elementos dentro de las listas, entre otras. En la tabla 8.1 se muestran **las propiedades de las listas** más utilizadas.
 
@@ -24,7 +22,7 @@ Tabla 8.1: Propiedades de las listas
 
 * * * * *
 
-## 8.1. List-style-type
+## 28.1. List-style-type
 
 ```css
 .a {list-style-type: circle;}
@@ -71,7 +69,7 @@ Tabla 8.1: Propiedades de las listas
 
 * * * * *
 
-## 8.2. List-style-image
+## 28.2. List-style-image
 
 ```css
 ul.a { list-style-image: url('https://i.racjonalista.pl/img/em/lol.gif'); }
@@ -104,7 +102,7 @@ ul.b { list-style-image: url('https://media.giphy.com/media/tBik70kZOJKOk/giphy.
 
 * * * * *
 
-## 8.3. List-style-position
+## 28.3. List-style-position
 
 ```css
 ul.a { list-style-position: outside; }
@@ -137,7 +135,7 @@ ul.b { list-style-position: inside; }
 
 * * * * *
 
-## 8.4. List-style
+## 28.4. List-style
 
 ```css
 ul.a { list-style: square inside; }
@@ -168,7 +166,7 @@ ul.b { list-style: circle inside; }
 ```
 
 [CSS3. Propiedad list-style](https://codepen.io/sergio-rey-personal/pen/vYLyewv)
-## 8.5. Lista convertida en botonera horizontal
+## 28.5. Lista convertida en botonera horizontal
 
 Gracias a los estilos podemos convertir una lista `<ul>` en una botonera horizontal, en una galería de fotos u en otros elementos. En el siguiente ejemplo puedes ver una barra de navegación bastante típica que puedes encontrar en cualquier web.
 

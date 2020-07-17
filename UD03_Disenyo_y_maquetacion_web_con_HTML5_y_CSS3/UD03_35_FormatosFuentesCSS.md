@@ -1,18 +1,16 @@
-# **Formatos de las fuentes en CSS y utilización de repositorios**
+# 35. **Formatos de las fuentes en CSS y utilización de repositorios**
 
 Tabla de contenidos
 
-- [15. Formatos de las fuentes CSS](#15-Formatos-de-las-fuentes-CSS)
-  - [1. La regla @font-face en CSS](#1-La-regla-font-face-en-CSS)
-  - [2. Incorporar una fuente utilizando el repositorio de fuentes de Google Fonts](#2-Incorporar-una-fuente-utilizando-el-repositorio-de-fuentes-de-Google-Fonts)
-  - [3. Fuentes web online](#3-Fuentes-web-online)
-  - [4. Convertidores de fuentes online](#4-Convertidores-de-fuentes-online)
-  - [5. Repositorios de iconos](#5-Repositorios-de-iconos)
-- [Ejercicios propuestos](#Ejercicios-propuestos)
+- [35. **Formatos de las fuentes en CSS y utilización de repositorios**](#35-formatos-de-las-fuentes-en-css-y-utilización-de-repositorios)
+  - [35.1. La regla @font-face en CSS](#351-la-regla-font-face-en-css)
+- [2. Incorporar una fuente utilizando el repositorio de fuentes de Google Fonts](#2-incorporar-una-fuente-utilizando-el-repositorio-de-fuentes-de-google-fonts)
+  - [35.3. Fuentes web online](#353-fuentes-web-online)
+  - [35.4. Convertidores de fuentes online](#354-convertidores-de-fuentes-online)
+  - [35.5. Repositorios de iconos](#355-repositorios-de-iconos)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 En la unidad 2 vimos la [importancia de elegir bien las fuentes que se van a utilizar en nuestros sitios web](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD02%20Guia%20de%20estilo%20web/UD02_05_Colores.md). Además, en este mismo tema también hemos repasado las [propiedades CSS para las fuentes](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_27_PropiedadesFuentesCSS.md) que nos permiten controlar el tamaño, el tipo, el grosor o el estilo de las letras entre otras cosas. Veamos ahora los diferentes formatos de las fuentes y qué métodos tenemos para incorporarlos en nuestros proyectos web.
-
-# 15. Formatos de las fuentes CSS
 
 Actualmente no todas las fuentes están instaladas en los dispositivos y tampoco hay un formato único para todos los navegadores. Por lo tanto, debemos incluir las fuentes en todos los formatos para que sean visibles en todos los navegadores. Los formatos más famosos son los siguientes:
 
@@ -24,7 +22,7 @@ Actualmente no todas las fuentes están instaladas en los dispositivos y tampoco
 | **WOFF2** | Mejora de WOFF |
 | **SVG** (obsoleto) | Scalar Vector Graphics |
 
-## 1. La regla @font-face en CSS
+## 35.1. La regla @font-face en CSS
 
 La regla `@font-face` nos permite descargar una fuente o tipografía, cargarla en el navegador y utilizarla en nuestras páginas. Así pues, tendríamos el siguiente código para incluir la fuente Open Sans:
 
@@ -72,7 +70,7 @@ p{ font-family: 'Tangerine', cursive;}
 
 Ver código y resultado en Code Pen: [CSS3. Incorporar una fuente utilizando el repositorio de Google Fonts (Codepen)](https://codepen.io/sergio-rey-personal/pen/YzwpeGe)
 
-## 3. Fuentes web online
+## 35.3. Fuentes web online
 
 | **Nombre** | **URL** |
 | --- | --- |
@@ -80,7 +78,7 @@ Ver código y resultado en Code Pen: [CSS3. Incorporar una fuente utilizando el 
 | Da Font | dafont.com |
 | Google Fonts | google.com/fonts |
 
-## 4. Convertidores de fuentes online
+## 35.4. Convertidores de fuentes online
 
 | **Nombre** | **URL** |
 | --- | --- |
@@ -89,7 +87,7 @@ Ver código y resultado en Code Pen: [CSS3. Incorporar una fuente utilizando el 
 | Files conversion | files-conversion.com/font-converter.php |
 | Font converter | fontconverter.org |
 
-## 5. Repositorios de iconos
+## 35.5. Repositorios de iconos
 
 Al igual que con las fuentes, podemos utilizar repositorios de iconos para representar cualquier parte de nuestra interfaz. A continuación ponemos un ejemplo utilizando el repositorio de **[Font Awesome](https://fontawesome.com)**.
 

@@ -1,23 +1,21 @@
-# **Tabla resumen de propiedades CSS y sus valores**
+# 37. **Tabla resumen de propiedades CSS y sus valores**
 
 Tabla de contenidos
 
-- [17. Tabla resumen CSS](#17-Tabla-resumen-CSS)
-- [Sintaxis selector](#Sintaxis-selector)
-- [Unidades de medida](#Unidades-de-medida)
-- [Colores básicos](#Colores-básicos)
-- [Color y fondo](#Color-y-fondo)
-- [Texto](#Texto)
-- [Fuentes](#Fuentes)
-- [Listas](#Listas)
-- [Tablas](#Tablas)
-- [Modelo de cajas](#Modelo-de-cajas)
-- [Pseudo-clases para selección de hijos o hermanos](#Pseudo-clases-para-selección-de-hijos-o-hermanos)
-- [Pseudo-clases para los estados de un elemento](#Pseudo-clases-para-los-estados-de-un-elemento)
-- [Pseudo-elementos](#Pseudo-elementos)
-- [Prefijos para los navegadores](#Prefijos-para-los-navegadores)
-
-# 17. Tabla resumen CSS
+- [37. **Tabla resumen de propiedades CSS y sus valores**](#37-tabla-resumen-de-propiedades-css-y-sus-valores)
+  - [Sintaxis selector](#sintaxis-selector)
+  - [Unidades de medida](#unidades-de-medida)
+  - [## Colores básicos](#h2-idcolores-básicos-5colores-básicosh2)
+  - [## Color y fondo](#h2-idcolor-y-fondo-5color-y-fondoh2)
+  - [## Texto](#h2-idtexto-5textoh2)
+  - [## Fuentes](#h2-idfuentes-5fuentesh2)
+  - [## Listas](#h2-idlistas-5listash2)
+  - [## Tablas](#h2-idtablas-5tablash2)
+  - [## Modelo de cajas](#h2-idmodelo-de-cajas-5modelo-de-cajash2)
+  - [## Pseudo-clases para selección de hijos o hermanos](#h2-idpseudo-clases-para-selección-de-hijos-o-hermanos-5pseudo-clases-para-selección-de-hijos-o-hermanosh2)
+  - [## Pseudo-clases para los estados de un elemento](#h2-idpseudo-clases-para-los-estados-de-un-elemento-5pseudo-clases-para-los-estados-de-un-elementoh2)
+  - [## Pseudo-elementos](#h2-idpseudo-elementos-5pseudo-elementosh2)
+  - [## Prefijos para los navegadores](#h2-idprefijos-para-los-navegadores-5prefijos-para-los-navegadoresh2)
 
 ## Sintaxis selector
 

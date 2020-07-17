@@ -1,19 +1,17 @@
-# Cómo usar Github y SourceTree para publicar contenido
+# 12. Cómo usar Github y SourceTree para publicar contenido
 
 Tabla de contenidos
 
--   [12. Usar Github y SourceTree para publicar contenido](#12-Usar-Github-y-SourceTree-para-publicar-contenido)
--   [12.1. Solución errores Github y SourceTree](#121-Solucion-errores-Github-y-SourceTree)
-    -   [12.1.1. Errores en la configuración de la cuenta Github en SourceTree](#1211-Errores-en-la-configuracion-de-la-cuenta-Github-en-SourceTree)
-    -   [12.1.2. Error de configuración de usuario](#1212-Error-de-configuracion-de-usuario)
-    -   [12.1.3. Otros errores en la configuración de Github con SourceTree](#1213-Otros-errores-en-la-configuracion-de-Github-con-SourceTree)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [12. Cómo usar Github y SourceTree para publicar contenido](#12-cómo-usar-github-y-sourcetree-para-publicar-contenido)
+  - [12.1. Solución errores Github y SourceTree](#121-solución-errores-github-y-sourcetree)
+    - [12.1.1. Errores en la configuración de la cuenta Github en SourceTree](#1211-errores-en-la-configuración-de-la-cuenta-github-en-sourcetree)
+    - [12.1.2. Error de configuración de usuario](#1212-error-de-configuración-de-usuario)
+    - [12.1.3. Otros errores en la configuración de Github con SourceTree](#1213-otros-errores-en-la-configuración-de-github-con-sourcetree)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 [GitHub](https://github.com/) es una **plataforma de** ***social coding*** que te permite **subir repositorios de código** que se alojan en un **sistema de control de versiones** Git. Este sistema te ofrece la posibilidad de **colaborar en otros proyectos y crear los tuyos propios**. La plataforma es de **código abierto** por defecto, por lo que cualquier persona puede utilizar tu código y tú también puedes ver el código de otros proyectos. Este artículo es una **guía básica para publicar contenido usando GitHub y SourceTree**.
 
 ![Github](img/Github.png)
-
-# 12. Usar Github y SourceTree para publicar contenido
 
 1.  Accede a <https://github.com/> y **crea una cuenta**. Selecciona el plan personal gratuito con repositorio público. No te olvides de terminar la verificación mediante correo electrónico.
 2.  Crea un proyecto en la opción "**Create a Proyect**". Incluye el nombre de tu repositorio y selecciona la opción "Create repository". No cierres esta ventana porque vas a necesitar algunos de los datos que ahí se muestran para clonar el repositorio mediante URL. (Si por error cierras esta página, puedes volver a entrar mediante una url con el siguiente aspecto: https://github.com/tunombredeusuario/nombredeturepositorio/ (en mi caso es la siguiente: https://github.com/Sergio-Rey-Personal/DIW/).

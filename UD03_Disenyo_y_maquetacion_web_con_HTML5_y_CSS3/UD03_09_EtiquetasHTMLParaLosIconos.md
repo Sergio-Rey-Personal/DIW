@@ -1,20 +1,21 @@
-# Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones
+# 9. **Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones**
 
 Tabla de contenidos
 
--   [9.1. Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones](#91-Etiquetas-HTML-para-los-iconos-de-acceso-directo-en-Android-iPhone-y-otras-aplicaciones)
-    -   [9.1.1. Pasos a seguir para incluir los iconos de acceso directo a tu web en Android, iPhone u otros.](#911-Pasos-a-seguir-para-incluir-los-iconos-de-acceso-directo-a-tu-web-en-Android-iPhone-u-otros)
--   [9.2. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Google Chrome? ](#92-¿Cómo-añadir-el-acceso-directo-de-mi-web-al-escritorio-de-mi-Smartphone-mediante-Google-Chrome?)
--   [9.3. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Firefox? ](#93-¿Cómo-añadir-el-acceso-directo-de-mi-web-al-escritorio-de-mi-Smartphone-mediante-Firefox?)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [9. **Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones**](#9-etiquetas-html-para-los-iconos-de-acceso-directo-en-android-iphone-y-otras-aplicaciones)
+  - [9.1. Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones](#91-etiquetas-html-para-los-iconos-de-acceso-directo-en-android-iphone-y-otras-aplicaciones)
+    - [9.1.1. Pasos a seguir para incluir los iconos de acceso directo a tu web en Android, iPhone u otros.](#911-pasos-a-seguir-para-incluir-los-iconos-de-acceso-directo-a-tu-web-en-android-iphone-u-otros)
+  - [9.2. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Google Chrome?](#92-cómo-añadir-el-acceso-directo-de-mi-web-al-escritorio-de-mi-smartphone-mediante-google-chrome)
+  - [9.3. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Firefox?](#93-cómo-añadir-el-acceso-directo-de-mi-web-al-escritorio-de-mi-smartphone-mediante-firefox)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
-# 9.1. Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones
+## 9.1. Etiquetas HTML para los iconos de acceso directo en Android, iPhone y otras aplicaciones
 
 Insertar el a**cceso directo** a las webs que más utilizamos es extremadamente útil tanto en el "**escritorio**" de nuestro **smartphone** o **tablet**, como en la página principal de nuestros **navegadores** favoritos. De esta forma en un solo click conseguimos estar en la web o aplicación que deseemos.
 
 Para incluir estos **accesos directos o iconos identificativos** en las pantallas de los smartphones, tablets o navegadores podemos insertar **etiquetas** especiales en nuestro **código HTML**. Lo que conseguiremos mediante estas etiquetas es incluir los **iconos tipo App** de nuestra web en **diferentes resoluciones** para que sean visibles y con buena calidad.
 
-## 9.1.1. Pasos a seguir para incluir los iconos de acceso directo a tu web en Android, iPhone u otros.
+### 9.1.1. Pasos a seguir para incluir los iconos de acceso directo a tu web en Android, iPhone u otros.
 
 1.  Crea el icono de tu web tipo App de un tamaño grande para no perder calidad (ejemplo **1024x1024px**).
 2.  Crea los **diferentes tamaños exigidos** para cada tipo de dispositivo. Mediante esta [aplicación online gratuita](https://makeappicon.com/) puedes subir la imagen creada en el punto 1 y te llega un correo electrónico con todas las imágenes preparadas en un archivo comprimido.
@@ -68,13 +69,13 @@ Puedes encontrar más información sobre las etiquetas y sus usos en los siguien
 
 [Etiquetas útiles (Codepen)]https://codepen.io/sergio-rey-personal/pen/OJMRdmG)
 
-# 9.2. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Google Chrome? 
+## 9.2. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Google Chrome? 
 
 -   Abre Google Chrome y carga la página que quieres añadir como acceso directo en tu smartphone.
 -   Pulsa sobre el menú, los tres puntos de la esquina superior derecha.
 -   Elige "Añadir a pantalla de inicio" y tendrás el acceso directo a la web en tu escritorio principal.
 
-# 9.3. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Firefox? 
+## 9.3. ¿Cómo añadir el acceso directo de mi web al escritorio de mi Smartphone mediante Firefox? 
 
 -   Abre Firefox y carga la página que quieres añadir como acceso directo en tu smartphone.
 -   Ve al menú superior derecho, el de los tres puntos, y selecciona "Página".

@@ -1,16 +1,15 @@
-# **Etiquetas para la creación de formularios HTML**
+# 4. **Etiquetas para la creación de formularios HTML**
 
 
 Tabla de contenidos
 
--   [4\. Formularios](#4-Formularios)
--   [4.1. Etiquetas para la creación de formularios](#41-Etiquetas-para-la-creacion-de-formularios)
--   [4.2. Tipos de inputs](#42-Tipos-de-inputs)
--   [4.3. Atributos para la validación de campos en los formularios](#43-Atributos-para-la-validacion-de-campos-en-los-formularios)
-    -   [4.3.1. Atributo Pattern](#431-Atributo-Pattern)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [4. **Etiquetas para la creación de formularios HTML**](#4-etiquetas-para-la-creación-de-formularios-html)
+  - [4.1. Etiquetas para la creación de formularios](#41-etiquetas-para-la-creación-de-formularios)
+  - [4.2. Tipos de inputs](#42-tipos-de-inputs)
+  - [4.3. Atributos para la validación de campos en los formularios](#43-atributos-para-la-validación-de-campos-en-los-formularios)
+    - [4.3.1. Atributo *Pattern*](#431-atributo-pattern)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
-# 4. Formularios
 Los formularios son el soporte en el que se integran los botones y las áreas de texto que se utilizan para que los usuarios introduzcan sus datos o que puedan elegir entre varias opciones. En este apartado veremos las etiquetas que se utilizan para la **creación de formularios en *HTML5*.**
 
 ## 4.1. Etiquetas para la creación de formularios
@@ -36,7 +35,7 @@ Tabla 4.1: Etiquetas para la creación de formularios
 
 [Ver atributos para formularios](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form)
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <!DOCTYPE html>

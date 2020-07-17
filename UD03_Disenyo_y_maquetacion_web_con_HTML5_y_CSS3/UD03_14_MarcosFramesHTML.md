@@ -1,12 +1,10 @@
-# Marcos o frames en html, una tecnología obsoleta
+# 14. **Marcos o frames en html, una tecnología obsoleta**
 
 Tabla de contenidos
 
--   [14. Marcos o frames](#14-Marcos-o-frames)
--   [14.1. Algunos motivos por los que ya no se utilizan los marcos frames o framesets](#141-Algunos-motivos-por-los-que-ya-no-se-utilizan-los-marcos-frames-o-framesets)
--   [14.2. Marcos o frames en HTML](#142-Marcos-o-frames-en-HTML)
-
-# 14. Marcos o *frames*
+- [14. **Marcos o frames en html, una tecnología obsoleta**](#14-marcos-o-frames-en-html-una-tecnología-obsoleta)
+  - [14.1. Algunos motivos por los que ya no se utilizan los marcos *frames* o *framesets*](#141-algunos-motivos-por-los-que-ya-no-se-utilizan-los-marcos-frames-o-framesets)
+  - [14.2. Marcos o frames en HTML](#142-marcos-o-frames-en-html)
 
 Aunque **HTML5 considera obsoleto el uso de marcos** y está **desaconsejado su uso**, es imprescindible conocer su funcionamiento ya que todavía hay una gran cantidad de sitios web implementados con este método.
 
@@ -49,9 +47,9 @@ En el ejemplo siguiente se crearán tres marcos. El marco superior tendrá 100 p
 rows = 100,25%,*
 ```
 
-#### Ejemplo
+**Ejemplo**
 
-#### 1) Marco de 3 ventanas verticales (cols)
+- ***1) Marco de 3 ventanas verticales (cols)***
 
 Vista:
 
@@ -67,7 +65,7 @@ Código:
  </frameset>
 ```
 
-#### 2) Marco de 3 ventanas horizontales (rows)
+- ***2) Marco de 3 ventanas horizontales (rows)***
 
 Vista:
 
@@ -83,7 +81,7 @@ Código:
  </frameset>
 ``` 
 
-#### 3) Marco con un área vertical y dos horizontales
+- ***3) Marco con un área vertical y dos horizontales***
 
 Vista:
 
@@ -101,7 +99,7 @@ Código:
  </frameset>
 ```
 
-#### 4) Marco con un área horizontal y dos verticales
+- ***4) Marco con un área horizontal y dos verticales***
 
 ![vista](img/frameset4.png)
 

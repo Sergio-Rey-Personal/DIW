@@ -1,18 +1,16 @@
-# **Propiedades de texto en CSS**
+# 26. **Propiedades de texto en CSS**
 
 Tabla de contenidos
 
--   [6\. Propiedades de texto](#6-Propiedades-de-texto)
-    -   [6.1. Text-indent](#61-Text-indent)
-    -   [6.2. Text-align](#62-Text-align)
-    -   [6.3. Text-decoration](#63-Text-decoration)
-    -   [6.4. Letter-spacing](#64-Letter-spacing)
-    -   [6.5. Word-spacing](#65-Word-spacing)
-    -   [6.6. Text-transform](#66-Text-transform)
-    -   [6.7. Line-height](#67-Line-height)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 6. Propiedades de texto
+- [26. **Propiedades de texto en CSS**](#26-propiedades-de-texto-en-css)
+  - [26.1. Text-indent](#261-text-indent)
+  - [26.2. Text-align](#262-text-align)
+  - [26.3. Text-decoration](#263-text-decoration)
+  - [26.4. Letter-spacing](#264-letter-spacing)
+  - [26.5. Word-spacing](#265-word-spacing)
+  - [26.6. Text-transform](#266-text-transform)
+  - [26.7. Line-height](#267-line-height)
+  - [## Ejercicios propuestos](#h2-idejercicios-propuestos-24ejercicios-propuestosh2)
 
 Las propiedades de texto son las que nos permiten controlar el texto como bloque, es decir, afectan al interlineado, a la separación entre palabras, al tabulado, etc. En la tabla 6.1 se muestran **las propiedades de texto** más utilizadas.
 
@@ -30,7 +28,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-## 6.1. Text-indent
+## 26.1. Text-indent
 
 ```css
 .a { text-indent: 50px; }
@@ -60,7 +58,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-## 6.2. Text-align
+## 26.2. Text-align
 
 ```css
 .a { text-align: center; }
@@ -92,7 +90,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-## 6.3. Text-decoration
+## 26.3. Text-decoration
 
 ```css
 .a { text-decoration: underline; }
@@ -112,8 +110,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-6.4. Letter-spacing
--------------------
+## 26.4. Letter-spacing
 
 ```css
 .a { letter-spacing: 3px;  }
@@ -141,7 +138,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-## 6.5. Word-spacing
+## 26.5. Word-spacing
 
 ```css
 .a { word-spacing: 5px; }
@@ -168,7 +165,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-## 6.6. Text-transform
+## 26.6. Text-transform
 
 ```css
 .a { text-transform: capitalize; }
@@ -195,7 +192,7 @@ Tabla 6.1: Propiedades de texto
 
 * * * * *
 
-## 6.7. Line-height
+## 26.7. Line-height
 
 ```css
 .a { line-height: 50px; }

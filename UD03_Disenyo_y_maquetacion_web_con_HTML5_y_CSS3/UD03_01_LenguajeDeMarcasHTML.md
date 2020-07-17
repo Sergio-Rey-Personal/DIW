@@ -1,17 +1,16 @@
-Lenguaje de marcas HTML
-=======================
+# 1. **Lenguaje de marcas HTML**
+
 
 Tabla de contenidos
 
--   [1\. Lenguaje de marcas HTML](#1-Lenguaje-de-marcas-HTML)
--   [1.1. Breve historia HTML](#11-Breve-historia-HTML)
--   [1.2. Estructura HTML](#12-Estructura-HTML)
--   [1.3. Organización de elementos HTML](#13-Organización-de-elementos-HTML)
+- [1. **Lenguaje de marcas HTML**](#1-lenguaje-de-marcas-html)
+  - [1.1. Breve historia HTML](#11-breve-historia-html)
+  - [1.2. Estructura HTML](#12-estructura-html)
+  - [1.3. Organización de elementos HTML](#13-organización-de-elementos-html)
+- [Actividad](#actividad)
 
 
 *En la unidad anterior vimos los componentes y elementos principales necesarios en la **planificación de interfaces web**. En este punto, veremos el **lenguaje de marcado** que emplearemos para la creación o inserción de todos esos elementos.*
-
-# 1\. Lenguaje de marcas HTML
 
 El **lenguaje de marcas o lenguaje de marcado** es un tipo de lenguaje de programación que no tiene funciones aritméticas o variables. En este tipo de lenguaje se combina el texto con etiquetas que contienen información adicional sobre la estructura del texto o su presentación. Algunos ejemplos de este lenguaje son HTML, XML o RDF.
 

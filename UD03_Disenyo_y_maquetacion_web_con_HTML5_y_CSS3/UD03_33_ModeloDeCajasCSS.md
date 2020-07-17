@@ -1,19 +1,17 @@
-# **Modelo de cajas: márgenes, relleno y bordes**
+# 33. **Modelo de cajas: márgenes, relleno y bordes**
 
 Tabla de contenidos
 
-- [13\. Modelo de cajas: márgenes, relleno y bordes](#13-Modelo-de-cajas-margenes-relleno-y-bordes)
-  - [13.1. Padding o relleno](#131-Padding-o-relleno)
-  - [13.2. Margin](#132-Margin)
-  - [13.3. Bordes](#133-Bordes)
-
-# 13. Modelo de cajas: márgenes, relleno y bordes
+- [33. **Modelo de cajas: márgenes, relleno y bordes**](#33-modelo-de-cajas-márgenes-relleno-y-bordes)
+  - [33.1. Padding o relleno](#331-padding-o-relleno)
+  - [33.2. Margin](#332-margin)
+  - [33.3. Bordes](#333-bordes)
 
 Cualquier elemento incluido en un documento HTML dispone de una estructura tipo caja que se puede modificar usando las propiedades CSS. Las propiedades más importantes de las cajas o contenedores son las siguientes:
 
 ![Propiedades CSS contenedores](img/Propiedades-cajas-y-contenedores-en-CSS.png)
 
-## 13.1. Padding o relleno
+## 33.1. Padding o relleno
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
@@ -21,7 +19,7 @@ Cualquier elemento incluido en un documento HTML dispone de una estructura tipo 
 | `padding` | Tamaño del relleno | longitud | porcentaje {1,4} |
 Tabla 13.1: Padding
 
-### Ejemplo `Padding`
+**Ejemplo `Padding`**
 
 ```css
 div.a {
@@ -62,7 +60,7 @@ div.b { /*Propiedad corta*/
 
 * * * * *
 
-## 13.2. Margin
+## 33.2. Margin
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
@@ -70,7 +68,7 @@ div.b { /*Propiedad corta*/
 | `margin` | Ancho de los margenes | longitud | porcentaje | auto {1,4} |
 Tabla 13.2: Margin
 
-### Ejemplo `margin`
+***Ejemplo `margin`***
 
 ```css
 div.a {
@@ -112,7 +110,7 @@ div.a {
 
 * * * * *
 
-## 13.3. Bordes
+## 33.3. Bordes
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
@@ -127,7 +125,7 @@ div.a {
 | `border-radius` | Curvatura del borde | 1-4 length | % |
 Tabla 13.3: Bordes
 
-#### Ejemplo `border`
+**Ejemplo `border`**
 
 ```css
 .a { border: 4px solid blue; }

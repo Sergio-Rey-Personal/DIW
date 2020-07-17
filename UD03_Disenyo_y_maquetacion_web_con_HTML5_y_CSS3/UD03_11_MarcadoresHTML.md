@@ -1,13 +1,10 @@
-# **Marcadores en HTML. Enlaces locales para movernos fácilmente en una página**
+# 11. **Marcadores en HTML. Enlaces locales para movernos fácilmente en una página**
 
 Tabla de contenidos
 
--   [11. Marcadores en HTML](#11-Marcadores_en-HTML)
-    -   [11.1. HTML <a> atributo target ](#111_HTML-ltaatributo-target)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 11. Marcadores en HTML
------------------------
+- [11. **Marcadores en HTML. Enlaces locales para movernos fácilmente en una página**](#11-marcadores-en-html-enlaces-locales-para-movernos-fácilmente-en-una-página)
+  - [11.1. HTML `<a>` atributo target](#111-html-a-atributo-target)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Al crear una página web muy larga y con muchos apartados, es útil crear ciertos enlaces que nos permitan saltar directamente a la parte de la página que nos interesa. Este tipo de hipervínculos se llaman marcadores o enlaces locales.
 
@@ -27,7 +24,8 @@ La etiqueta para crear un enlace a esa sección de la página es la siguiente:
 <a href="#nombre_marcador">Ir al título</a>
 ```
 
-#### Ejemplo
+**Ejemplo** 
+
 ```html
 <html>
 <head>
@@ -69,7 +67,7 @@ La etiqueta para crear un enlace a esa sección de la página es la siguiente:
 
 [Marcadores HTML (Codepen)](https://codepen.io/sergio-rey-personal/pen/yLeaZZg)
 
-### 11.1. HTML `<a>` atributo target 
+## 11.1. HTML `<a>` atributo target 
 
 Ya que hemos profundizado un poco más en los enlaces y dado que ya hemos visto qué son los *[frames o framesets](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_14_MarcosFramesHTML.md)*, vamos a recordar el atributo *target* y sus diferentes valores.
 
