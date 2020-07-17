@@ -1,16 +1,25 @@
-# **Introducción e instalación de Bootstrap**
+# 2. **Introducción e instalación de Bootstrap**
 
 Tabla de contenidos
 
-- [2. Instroducción e instalación de Bootstrap](#2. Instroducción e instalación de Bootstrap)
-  - [2.1. ¿Qué es Bootstrap?](#21-¿Qué-es-Bootstrap?)
-  - [2.2. Funciomamiento de Bootstrap](#22-Funciomamiento-de-Bootstrap)
-  - [2.3. Funcionalidades de Bootstrap](#23-Funcionalidades-de-Bootstrap)
-  - [2.4. Configuración y uso de Bootstrap](#24-Configuración-y-uso-de-Bootstrap)
-  - [2.5. Descargando Bootstrap](#25-Descargando-Bootstrap)
-
-
-# 2. Introducción e instalación de Bootstrap
+- [2. **Introducción e instalación de Bootstrap**](#2-introducción-e-instalación-de-bootstrap)
+  - [2.1. ¿Qué es Bootstrap?](#21-qué-es-bootstrap)
+  - [## 2.2. Funciomamiento de Bootstrap](#h2-id22-funciomamiento-de-bootstrap-3222-funciomamiento-de-bootstraph2)
+  - [2.3. Funcionalidades de Bootstrap](#23-funcionalidades-de-bootstrap)
+    - [2.3.1 Diseño responsive](#231-diseño-responsive)
+    - [2.3.2. Biblioteca de componentes](#232-biblioteca-de-componentes)
+      - [Alertas](#alertas)
+      - [Carrusel](#carrusel)
+      - [Barra de navegación](#barra-de-navegación)
+  - [2.4. Configuración y uso de Bootstrap](#24-configuración-y-uso-de-bootstrap)
+  - [2.5. Descargando Bootstrap](#25-descargando-bootstrap)
+    - [2.5.1. Descargando los archivos CSS y JavaScript compilados](#251-descargando-los-archivos-css-y-javascript-compilados)
+    - [2.5.2. Descargando el código fuente](#252-descargando-el-código-fuente)
+    - [2.5.3. Gestores de paquetes](#253-gestores-de-paquetes)
+      - [npm](#npm)
+      - [RubyGems](#rubygems)
+      - [Composer](#composer)
+      - [NuGet](#nuget)
 
 ## 2.1. ¿Qué es Bootstrap?
 
@@ -51,7 +60,7 @@ Por lo tanto, al cargar la imagen, se aplicarán al elemento las característica
 
 Bootstrap ofrece una serie de características que se pueden implementar en un sitio web. A continuación hablaremos de las posibilidades de esta herramienta.
 
-### Diseño responsive
+### 2.3.1 Diseño responsive
 
 Una de las características principales de Bootstrap es permitir que la adaptación de la página se realice según el tipo de dispositivo utilizado. Para garantizar la responsividad, el framework funciona con:
 
@@ -72,7 +81,7 @@ Básicamente, o framework funciona con tres tipos de containers:
 -   **Container-fluid:** considera la longitud total de la tela del dispositivo para definir el diseño. Para esto, se considera la propiedad width ---100% en todos los límites de tamaño de tela---.
 -   **Container-{ breakpoint}:** considera width ---100% hasta alcanzar un cierto tamaño---.
 
-### Biblioteca de componentes
+### 2.3.2. Biblioteca de componentes
 
 Otra interesante función de este framework es la cantidad de componentes que pueden ser usados para **proporcionar una mejor interacción y perfeccionar la comunicación con el usuario**.
 
@@ -153,17 +162,17 @@ Las referencias a los archivos JavaScript deben colocarse en la parte inferior d
 
 Además de enlazar directamente los archivos CSS y JavaScript ofrecidos por BootstrapCDN (tal y como se explicó [en la primera sección de este capítulo](https://uniwebsidad.com/libros/bootstrap-4/capitulo-1)), existen otras formas de integrar Bootstrap en tus proyectos.
 
-### Descargando los archivos CSS y JavaScript compilados
+### 2.5.1. Descargando los archivos CSS y JavaScript compilados
 
 Visita la [página oficial de descargas de Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/download/) para descargar un archivo ZIP comprimido con los archivos CSS y JavaScript listos para usar. Los archivos se entregan compilados y minimizados, pero no incluyen ni documentación, ni el código fuente, ni las dependencias JavaScript como jQuery y Popper.js.
 
-### Descargando el código fuente
+### 2.5.2. Descargando el código fuente
 
 Visita la [página oficial de descargas de Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/download/) para descubrir la forma en la que puedes descargar el código fuente original de los archivos CSS y JavaScript de Bootstrap.
 
 Para integrar esos archivos en tu aplicación, necesitarás herramientas adicionales como un compilador Sass, la librería [Autoprefixer](https://github.com/postcss/autoprefixer), etc.
 
-### Gestores de paquetes
+### 2.5.3. Gestores de paquetes
 
 Otra alternativa para incluir el código fuente de Bootstrap en tus aplicaciones es añadir Bootstrap como dependencia de tu proyecto usando cualquiera de los siguientes gestores de paquetes.
 

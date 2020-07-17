@@ -1,17 +1,14 @@
-# **Tablas en Bootstrap 4**
+# 6. **Tablas en Bootstrap 4**
 
 Tabla de contenidos
 
-- [6. Tablas](#6-Tablas)
-  - [6.1. Definición de tablas en Bootstrap](#61-Definición-de-tablas-en-Bootstrap)
-  - [6.2. Tablas pequeñas](#62-Tablas-pequeñas)
-  - [6.3. Colores alternos](#63-Colores-alternos)
-  - [6.4. Tablas con bordes](#64-Tablas-con-bordes)
-  - [6.5. Clases contextuales para colores en tablas](#65-Clases-contextuales-para-colores-en-tablas)
-  - [6.6. Tablas Responsive](#66-Tablas-Responsive)
-
-
-# 6. Tablas
+- [6. **Tablas en Bootstrap 4**](#6-tablas-en-bootstrap-4)
+  - [6.1. Definición de tablas en Bootstrap](#61-definición-de-tablas-en-bootstrap)
+  - [6.2. Tablas pequeñas](#62-tablas-pequeñas)
+  - [6.3. Colores alternos](#63-colores-alternos)
+  - [6.4. Tablas con bordes](#64-tablas-con-bordes)
+  - [6.5. Clases contextuales para colores en tablas](#65-clases-contextuales-para-colores-en-tablas)
+  - [6.6. Tablas Responsive](#66-tablas-responsive)
 
 En este punto veremos el uso de clases para tablas en bootstrap
 

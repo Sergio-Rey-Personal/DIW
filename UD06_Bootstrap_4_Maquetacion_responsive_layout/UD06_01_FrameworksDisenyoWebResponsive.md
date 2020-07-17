@@ -1,8 +1,6 @@
-# **Frameworks de diseño web responsive**
+# 1. **Frameworks de diseño web responsive**
 
 Los **frameworks de diseño** ofrecen un esqueleto basado en columnas que facilita mucho la tarea de construir una web que se adapte a cualquier dispositivo. Además, ofrecen una serie de clases *CSS* y funciones de *JavaScript* que se pueden utilizar directamente y que nos ahorran tiempo a la hora de crear código.
-
-# 1. Frameworks de diseño web
 
 Hoy en día existe en el mercado una amplia variedad de **frameworks de diseño web *responsive*** que nos ayudan a implementar nuestras interfaces gráficas. Algunos de los **frameworks más utilizados** son los siguientes.
 

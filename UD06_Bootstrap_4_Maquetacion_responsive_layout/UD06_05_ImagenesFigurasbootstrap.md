@@ -1,17 +1,15 @@
-# **Imágenes y figuras en Bootstrap 4**
+# 5. **Imágenes y figuras en Bootstrap 4**
 
 Tabla de contenido
 
-- [5. Imágenes y figuras en Bootstrap 4](#5-Imágenes-y-figuras-en-Bootstrap-4)
-  - [5.1. Imágenes](#51-Imágenes)
-  - [5.1.1. Imagen responsive](#511-Imagen-responsive)
-  - [5.1.2. Imagen con esquinas redondeadas](#512-Imagen-con-esquinas-redondeadas)
-  - [5.1.3. Imagen con forma de círculo](#513-Imagen-con-forma-de-círculo)
-  - [5.1.4. Imagen tipo miniatura](#514-Imagen-tipo-miniatura)
-  - [5.1.5. Alineación de imágenes](#515-Alineación-de-imágenes)
-- [5.2. Figuras](#52-Figuras)
-
-# 5. Imágenes y figuras en Bootstrap 4
+- [5. **Imágenes y figuras en Bootstrap 4**](#5-imágenes-y-figuras-en-bootstrap-4)
+  - [5.1. Imágenes](#51-imágenes)
+    - [5.1.1. Imagen responsive](#511-imagen-responsive)
+  - [5.1.2. Imagen con esquinas redondeadas](#512-imagen-con-esquinas-redondeadas)
+  - [5.1.3. Imagen con forma de círculo](#513-imagen-con-forma-de-círculo)
+  - [5.1.4. Imagen tipo miniatura](#514-imagen-tipo-miniatura)
+    - [5.1.5. Alineación de imágenes](#515-alineación-de-imágenes)
+  - [5.2. Figuras](#52-figuras)
 
 Para aquellos que no tengan claro la diferencia entre imágenes y figuras podemos resumirlo de la siguiente manera:
 
@@ -32,7 +30,7 @@ Para aquellos que no tengan claro la diferencia entre imágenes y figuras podemo
 
 BootStrap 4, por supuesto, nos proporciona una serie de clases para tratar y dar estilos a este tipo de contenidos.
 
-#### Ejemplos
+**Ejemplos**
 
 > [Ejemplos de uso de imágenes y figuras (Codesite)](https://codepen.io/sergio-rey-personal/pen/YzwvqLV?editors=1010)
 

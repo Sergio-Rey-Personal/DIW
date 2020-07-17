@@ -1,36 +1,33 @@
-# **Sistema de rejilla en bootstrap**
+# 3. **Sistema de rejilla en bootstrap**
 
 Tabla de contenidos
 
-- [3. Sistema de rejilla en bootstrap](#3-Sistema-de-rejilla-en-bootstrap)
-  - [3.1. Elemento contenedor](#31-Elemento-contenedor)
-  - [3.2. El sistema de rejilla](#32-El-sistema-de-rejilla)
-  - [3.3. Columnas de tamaño especifico](#33-Columnas-de-tamaño-especifico)
-    -[3.3.1. Selección de tamaño de las columnas solo para pantallas medianas](#331-Selección-de-tamaño-de-las-columnas-solo-para-pantallas-medianas)
-    - [3.3.2. Selección de dos tamaños de columna: pequeño y mediano](#332-Selección-de-dos-tamaños-de-columna-pequeño-y-mediano)
-    - [3.3.3. Selección de tres tamaños: extra pequeño, pequeño y mediano](#333-Selección-de-tres-tamaños-extra-pequeño-pequeño-y-mediano)
-  - [3.4. Columnas de ancho automático](#34-Columnas-de-ancho-automático)
-    - [3.4.1. Modo mixto](#341-Modo-mixto)
-    - [3.4.2. Ancho de columna variable](#342-Ancho-de-columna-variable)
-  - [3.5. Forzar cambio de fila](#35-Forzar-cambio-de-fila)
-  - [3.6. Anidamiento de columnas](#36-Anidamiento-de-columnas)
-  - [3.7. Márgenes o espaciado entre columnas](#37-Márgenes-o-espaciado-entre-columnas)
+- [3. **Sistema de rejilla en bootstrap**](#3-sistema-de-rejilla-en-bootstrap)
+  - [3.1. Elemento contenedor](#31-elemento-contenedor)
+  - [3.2. El sistema de rejilla](#32-el-sistema-de-rejilla)
+  - [3.3. Columnas de tamaño especifico](#33-columnas-de-tamaño-especifico)
+    - [3.3.1. Selección de tamaño de las columnas solo para pantallas medianas](#331-selección-de-tamaño-de-las-columnas-solo-para-pantallas-medianas)
+    - [3.3.2. Selección de dos tamaños de columna: pequeño y mediano](#332-selección-de-dos-tamaños-de-columna-pequeño-y-mediano)
+    - [3.3.3. Selección de tres tamaños: extra pequeño, pequeño y mediano](#333-selección-de-tres-tamaños-extra-pequeño-pequeño-y-mediano)
+  - [3.4. Columnas de ancho automático](#34-columnas-de-ancho-automático)
+    - [3.4.1. Modo mixto](#341-modo-mixto)
+    - [3.4.2. Ancho de columna variable](#342-ancho-de-columna-variable)
+  - [3.5. Forzar cambio de fila](#35-forzar-cambio-de-fila)
+  - [3.6. Anidamiento de columnas](#36-anidamiento-de-columnas)
+  - [3.7. Márgenes o espaciado entre columnas](#37-márgenes-o-espaciado-entre-columnas)
     - [3.7.1. offset](#371-offset)
-    - [3.7.2. Márgenes](#372-Márgenes)
-  - [3.8. Ordenación de columnas](#38-Ordenación-de-columnas)
-  - [3.9. Alineación](#39-Alineación)
-    - [3.9.1. Alineación vertical](#391-Alineación-vertical)
-    - [3.9.2. Alineación horizontal](#392-Alineación-horizontal)
-    - [3.9.3. Alineación responsive](#393-Alineación-responsive)
-    
+    - [3.7.2. Márgenes](#372-márgenes)
+  - [3.8. Ordenación de columnas](#38-ordenación-de-columnas)
+  - [3.9. Alineación](#39-alineación)
+    - [3.9.1. Alineación vertical](#391-alineación-vertical)
+    - [3.9.2. Alineación horizontal](#392-alineación-horizontal)
+    - [3.9.3. Alineación responsive](#393-alineación-responsive)
 
 El sistema de rejilla de Bootstrap se basa en la creación o disposición del contenido de nuestra web dentro de rejillas flexibles, las cuales se escalarán al tamaño y posición adecuada de forma automática dependiendo del tamaño de la pantalla en la que se rendericen.
 
-# 3. Sistema de rejilla en bootstrap
-
 El sistema de rejilla de Bootstrap se basa en la creación o disposición del contenido de nuestra web dentro de rejillas flexibles, las cuales se escalarán al tamaño y posición adecuada de forma automática dependiendo del tamaño de la pantalla en la que se rendericen.
 
-# 3.1. Elemento contenedor 
+## 3.1. Elemento contenedor 
 
 El sistema de rejilla tiene que ser utilizado dentro de uno de los dos elementos contenedores que provee Bootstrap: `container` ó `container-fluid`. Es importante tener en cuenta que estos elementos se utilizan como raíz de la rejilla y no se podrán anidar unos dentro de otros.
 

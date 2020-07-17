@@ -1,9 +1,8 @@
-# **Componentes Bootstrap 4**
+# 8. **Componentes Bootstrap 4**
 
 Tabla de contenidos
 
-- [**Componentes Bootstrap 4**](#componentes-bootstrap-4)
-- [8. Componentes responsive](#8-componentes-responsive)
+- [8. **Componentes Bootstrap 4**](#8-componentes-bootstrap-4)
   - [8.1. Botones](#81-botones)
     - [8.1.1. Elemento tipo botón.](#811-elemento-tipo-botón)
     - [8.1.2. Tamaño de los botones](#812-tamaño-de-los-botones)
@@ -25,7 +24,6 @@ Tabla de contenidos
     - [8.4.5. Contenedores](#845-contenedores)
     - [8.4.6. Colores de la barra de navegación](#846-colores-de-la-barra-de-navegación)
 
-# 8. Componentes responsive
 Además del sistema de rejilla, Bootstrap incluye un completo conjunto de componentes para facilitarnos aún más el diseño de una web responsive. Estos componentes aplican estilos a los elementos HTML existentes para crear un diseño más moderno y además adaptable a todos los dispositivos como hemos visto en tablas y formularios.
 
 Algunos de estos componentes son:

@@ -1,17 +1,15 @@
-# **Formularios**
+# 7. **Formularios**
 
 Tabla de contenidos
 
-- [7. Formularios](#7-Formularios)
-  - [7.1. Formularios resnponsive. `form-group` y `form-control`](#71-Formularios-responsive-form-group-y-form-control)
-  - [7.2. Formulario inline](#72-Formulario-inline)
-  - [7.3. Formulario horizontal](#73-Formulario-horizontal)
-  - [7.4. Estados de validación de un formulario](#74-Estados-de-validación-de-un-formulario)
-  - [7.5. Agrupar inputs con otros elementos](#75-Agrupar-inputs-con-otros-elementos)
+- [7. **Formularios**](#7-formularios)
+  - [7.1. Formularios responsive. `form-group` y `form-control`](#71-formularios-responsive-form-group-y-form-control)
+  - [7.2. Formulario inline](#72-formulario-inline)
+  - [7.3. Formulario horizontal](#73-formulario-horizontal)
+  - [7.4. Estados de validación de un formulario](#74-estados-de-validación-de-un-formulario)
+  - [7.5. Agrupar inputs con otros elementos](#75-agrupar-inputs-con-otros-elementos)
 
 Aunque en la documentación oficial los formularios se encuentran en la sección de componentes lo cierto es que son un elemento fundamental que se incluye en páginas de registro, de consulta, de búsqueda etc. Por esa razón se ha decidido tratarlos de manera breve en este punto.
-
-# 7. Formularios
 
 BootStrap proporciona una serie de clases para dar estilos a los distintos elementos de los formularios. De manera general podemos describir estas clases y la jerarquía que deben ocupar de la siguiente manera:
 

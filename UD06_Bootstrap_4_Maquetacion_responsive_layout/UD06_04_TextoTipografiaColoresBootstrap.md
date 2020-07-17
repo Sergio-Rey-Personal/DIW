@@ -1,24 +1,21 @@
-# **Texto, tipografía y colores en Bootstrap 4**
+# 4. **Texto, tipografía y colores en Bootstrap 4**
 
 Tabla de contenidos
 
-- [4. Texto, tipografía y colores en Bootstrap 4](#4-Texto-tipografía-y-colores-en-Bootstrap-4)
-  - [4.1. Configuración predeterminada de Bootstrap 4](#41-Configuración-predeterminada-de-Bootstrap-4)
-  - [4.2. Estilos de los encabezados `<h1>` -- `<h6>`](#42-Estilos-de-los-encabezados-h1-h6)
-  - [4.3. Clase display-x](#43-Clase-display-x)
-  - [4.4. Clases h1, h2, h3...](#44-Clases-h1-h2-h3)
-  - [4.5. Etiqueta `<small>`](#45-Etiqueta-small)
-  - [4.6. Etiqueta `<mark>`](#46-Etiqueta-mark)
-  - [4.7. Etiqueta `<abbr>`](#47-Etiqueta-abbr)
-  - [4.8. Etiqueta `<blockquote>`](#48-Etiqueta-ltblockquotegt)
-  - [4.9. Más clases para tipografías](#49-Más-clases-para-tipografías)
-  - [4.10. Etiquetas HTML y su estilo predefinido](#410-Etiquetas-HTML-y-su-estilo-predefinido)
-  - [4.11. Colores de texto y fondo](#411-Colores-de-texto-y-fondo)
-    - [4.11.1. Colores de texto](#4111-Colores-de-texto)
-    - [4.11.2. Colores de fondo](#4112-Colores-de-fondo)
-
-
-# 4. Texto, tipografía y colores en Bootstrap 4
+- [4. **Texto, tipografía y colores en Bootstrap 4**](#4-texto-tipografía-y-colores-en-bootstrap-4)
+  - [4.1. Configuración predeterminada de Bootstrap 4](#41-configuración-predeterminada-de-bootstrap-4)
+  - [4.2. Estilos de los encabezados `<h1>` -- `<h6>`](#42-estilos-de-los-encabezados-h1----h6)
+  - [4.3. Clase display-x](#43-clase-display-x)
+  - [4.4. Clases h1, h2, h3...](#44-clases-h1-h2-h3)
+  - [4.5. Etiqueta `<small>`](#45-etiqueta-small)
+  - [4.6. Etiqueta `<mark>`](#46-etiqueta-mark)
+  - [4.7. Etiqueta `<abbr>`](#47-etiqueta-abbr)
+  - [4.8. Etiqueta `<blockquote>`](#48-etiqueta-blockquote)
+  - [4.9. Más clases para tipografías](#49-más-clases-para-tipografías)
+  - [4.10. Etiquetas HTML y su estilo predefinido](#410-etiquetas-html-y-su-estilo-predefinido)
+  - [4.11. Colores de texto y fondo](#411-colores-de-texto-y-fondo)
+    - [4.11.1. Colores de texto](#4111-colores-de-texto)
+    - [4.11.2. Colores de fondo](#4112-colores-de-fondo)
 
 ## 4.1. Configuración predeterminada de Bootstrap 4
 
@@ -182,7 +179,7 @@ Casi todas las etiquetas HTML5 tienen su estilo predefinido en Bootstrap. Puedes
 
 Las clases para los colores del texto son: **`.text-primary`, `.text-secondary`, `.text-muted`, `.text-success`, `.text-danger`, `.text-warning`, `.text-info`, `.text-white`, `.text-dark` y `.text-light`.**
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <p class="text-primary">.text-primary</p>
@@ -204,7 +201,7 @@ Las clases para los colores del texto son: **`.text-primary`, `.text-secondary`,
 
 Las clases anteriores también se pueden usar en enlaces y tendrán un color más oscuro al hacer `:hover` con el ratón.
 
-#### Ejemplo
+**Ejemplo**
 
 ```html
 <p><a href="#" class="text-primary">Primary link</a></p>
@@ -221,7 +218,7 @@ Las clases anteriores también se pueden usar en enlaces y tendrán un color má
 
 ![Bootstrap. Colores enlaces](img/bootstrap-textos-colores-enlaces.png)
 
-### 11.2. Colores de fondo
+### 4.11.2. Colores de fondo
 
 Las clases de colores de fondo son: **`.bg-primary` , `.bg-success` , `.bg-info` , `.bg-warning` , `.bg-danger` , `.bg-secondary` , `.bg-dark` y `.bg-light` .**
 
