@@ -1,17 +1,19 @@
-# **Cómo usar Sass**
+# 12. **Cómo usar Sass**
 
 Tabla de contenidos
 
-- [12. Cómo usar Sass](#12-Cómo-usar-Sass)
-  - [12.1. Instalar Sass](#121-Instalar-Sass)
-  - [12.2. Compilar archivos de Sass a CSS](#122-Compilar-archivos-de-Sass-a-CSS)
-  - [12.3. Compilar Sass de manera automática con un "watcher"](123-Compilar-Sass-de-manera-automática-con-un-watcher)
-  - [12.4. Usar los archivos de código generado](#124-Usar-los-archivos-de-código-generado)
+- [12. **Cómo usar Sass**](#12-cómo-usar-sass)
+  - [12.1. Instalar Sass](#121-instalar-sass)
+    - [11.1.1. Windows](#1111-windows)
+    - [11.1.2. Linux](#1112-linux)
+    - [11.1.3. Mac OS X](#1113-mac-os-x)
+  - [12.2. Compilar archivos de Sass a CSS](#122-compilar-archivos-de-sass-a-css)
+  - [12.3. Compilar Sass de manera automática con un "watcher"](#123-compilar-sass-de-manera-automática-con-un-watcher)
+    - [12.3.1. Vigilar las modificaciones de un archivo en concreto](#1231-vigilar-las-modificaciones-de-un-archivo-en-concreto)
+    - [12.3.2. Vigilar todos los archivos de una carpeta](#1232-vigilar-todos-los-archivos-de-una-carpeta)
+  - [12.4. Usar los archivos de código generado](#124-usar-los-archivos-de-código-generado)
 
-
-# 12. Cómo usar Sass
-
-Para usar Sass tienes dos alternativas fundamentales.
+Para usar Sass tenemos tres alternativas fundamentales.
 
 1.  **Preprocesar con alguna herramienta de interfaz gráfica**, como el caso de Prepros, CodeKit o Scout-App. En principio puede ser más sencillo, ya que no requiere trabajar con la línea de comandos, pero necesitas usar un programa en concreto y no siempre puede estar disponible para ti, o no integrarse en otro flujo de trabajo que puedas tener ya asumido en tu proyecto. Además, las mejores herramientas de interfaz gráfica tienen la desventaja de ser de pago, o necesitar una licencia para desbloquear todo su poder.
 2.  **Usar la línea de comandos para preprocesar**. Esta es la opción preferida por la mayoría de desarrolladores. No sólo porque no requiere la compra de una licencia por el software de interfaz gráfica, sino principalmente porque la puedes integrar con todo un ecosistema de herramientas para optimizar multitud de aspectos en un sitio web. Además, está al alcance de cualquier desarrollador, ya que todos tenemos un terminal en nuestro sistema operativo y finalmente, permite personalizar completamente el comportamiento del preprocesador.
@@ -31,7 +33,7 @@ Veamos, para cada sistema, cómo hacernos con Ruby.
 
 Una vez instalado el lenguaje Ruby tendremos el comando "gem", que instala paquetes (software) basados en este lenguaje. Así que usaremos ese comando para instalar Sass. De nuevo, puede haber diferencias entre los distintos sistemas operativos.
 
-### Windows
+### 11.1.1. Windows
 
 Tendrás que abrir un terminal, ya sea Power Shell, "cmd" o cualquiera que te guste usar. Si no usas ninguno simplemente escribe "cmd" después de pulsar el botón de inicio. Luego tendrás que lanzar el comando.
 
@@ -39,7 +41,7 @@ Tendrás que abrir un terminal, ya sea Power Shell, "cmd" o cualquiera que te gu
 gem install sass
 ```
 
-### Linux
+### 11.1.2. Linux
 
 Para instalar Sass, una vez tienes Ruby anteriormente, podrás hacerlo con el siguiente comando en tu terminal.
 
@@ -47,7 +49,7 @@ Para instalar Sass, una vez tienes Ruby anteriormente, podrás hacerlo con el si
 sudo gem install sass --no-user-install
 ```
 
-### Mac OS X
+### 11.1.3. Mac OS X
 
 En Mac usarás generalmente "sudo", igual que en Linux. Aunque puedes probar antes sin sudo y usar sudo si realmente te lo pide la consola por no tener los suficientes permisos.
 
@@ -116,7 +118,7 @@ Lo que generalmente querrás es tener un vigilante "watcher" que se encargue de 
 
 Paralelamente, el watch nos permite observar un archivo en concreto, o todos los archivos de una carpeta.
 
-### Vigilar las modificaciones de un archivo en concreto
+### 12.3.1. Vigilar las modificaciones de un archivo en concreto
 
 Lo consigues con la opción `--watch`, indicando el archivo origen y destino, igual que hacíamos antes.
 
@@ -124,7 +126,7 @@ Lo consigues con la opción `--watch`, indicando el archivo origen y destino, ig
 sass --watch origen.scss destino.css
 ```
 
-### Vigilar todos los archivos de una carpeta
+### 12.3.2. Vigilar todos los archivos de una carpeta
 
 En este caso puedes decirle a Sass la carpeta de origen y la carpeta de destino, donde colocará el código CSS estándar. Separas la carpeta origen de la carpeta de destino con el caracter dos puntos ":".
 

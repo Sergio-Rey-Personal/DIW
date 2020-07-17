@@ -1,19 +1,17 @@
-# **Transformaciones en CSS: rotar, torcer, escalar o desplazar**
+# 6. **Transformaciones en CSS: rotar, torcer, escalar o desplazar**
 
 Tabla de contenidos
 
--   [6. Transformaciones en CSS](#6-Transformaciones-en-CSS)
--   [6.1. Tipos de transformaciones](#61-Tipos-de-transformaciones)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 6. Transformaciones en CSS
+- [6. **Transformaciones en CSS: rotar, torcer, escalar o desplazar**](#6-transformaciones-en-css-rotar-torcer-escalar-o-desplazar)
+  - [6.1. Tipos de transformaciones](#61-tipos-de-transformaciones)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Las **transformaciones CSS** nos permiten **rotar, torcer, escalar o desplazar** los elementos de nuestra página web. Este tipo de propiedades de CSS3 son muy interesantes para convertir el lenguaje de hojas de estilo en un sistema capaz de realizar todo tipo de **efectos visuales**. Las dos propiedades que nos sirven para definir las transformaciones son `**transform**`y `**transform-origin**`.
 
 -   `transform-origin`La posición de origen que se utilizará para la transformación es por defecto el lado superior izquierdo del elemento.
 -   `transform`La posición de origen para realizar la transformación es el eje central del elemento.
 
-# 6.1. Tipos de transformaciones
+## 6.1. Tipos de transformaciones
 
 Las transformaciones que podemos aplicar son las siguientes:
 
@@ -39,7 +37,7 @@ La propiedad transform se usa junto con la propiedad [transition](https://github
 ```
 [Recuerda utilizar la extensión que te facilita la tarea de crear los prefijos para navegadores.](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_31_PrefijosNavegadoresCSS.md)
 
-#### Ejemplo
+**Ejemplo**
 
 Transformaciones y transiciones sobre elementos:
 

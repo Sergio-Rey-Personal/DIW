@@ -1,14 +1,12 @@
-# **Sombras CSS en texto y contenedores o cajas**
+# 2. **Sombras CSS en texto y contenedores o cajas**
 
 Tabla de contenidos
 
-- [2. Sombras en texto y contenedores o cajas con CSS](#2Sombras-en-texto-y-contenedores-o-cajas-con-CSS)
-  - [2.1. Propiedades text-shadow y box-shadow](#21-Propiedades-text-shadow-y-box-shadow)
-  - [2.2. Generadores de sombra online](#22-Generadores-de-sombra-online)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 2. Sombras en texto y contenedores o cajas con CSS
------------------------------------------------
+- [2. **Sombras CSS en texto y contenedores o cajas**](#2-sombras-css-en-texto-y-contenedores-o-cajas)
+  - [2.1. Propiedades text-shadow y box-shadow](#21-propiedades-text-shadow-y-box-shadow)
+      - [Ejemplo](#ejemplo)
+  - [2.2. Generadores de sombra online](#22-generadores-de-sombra-online)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Gracias a las propiedades de CSS3 "**text-shado**w" y "**box-shadow**" podemos aplicar sombras en los textos y en los contenedores y así enriquecer nuestras interfaces.
 

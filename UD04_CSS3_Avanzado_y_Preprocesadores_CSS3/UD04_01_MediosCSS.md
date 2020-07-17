@@ -1,15 +1,15 @@
-# **Medios en CSS**
+# 1. **Estilos para diferentes medios en CSSS**
 
 Tabla de contenidos
 
--   [1. Estilos para diferentes medios en CSS](#1-stilos-para-diferentes-medios-en-CSS)
--   [1.1. Medios definidos con `<link>`](#11-Medios-definidos-con-link)
--   [1.2. Medios definidos con @media](#12-Medios-definidos-con-media)
--   [1.3. Medios definidos con @import](#13-Medios-definidos-con-import)
--   [1.4. Hojas de estilo auditivas, CSS Speech Module](#14-Hojas-de-estilo-auditivas-CSS-Speech-Module)
--   [Ejercicios propuestos](#Ejercicios-propuestos)
+- [1. **Estilos para diferentes medios en CSSS**](#1-estilos-para-diferentes-medios-en-csss)
+  - [1.1. Medios definidos con `<link>`](#11-medios-definidos-con-link)
+  - [1.2. Medios definidos con @media](#12-medios-definidos-con-media)
+  - [1.3. Medios definidos con `@import`](#13-medios-definidos-con-import)
+  - [1.4. Hojas de estilo auditivas, CSS Speech Module](#14-hojas-de-estilo-auditivas-css-speech-module)
+- [Ejercicios propuestos](#ejercicios-propuestos)
+    - [Actividad Extra](#actividad-extra)
 
-# 1. Estilos para diferentes medios en CSS
 
 Las hojas de estilos CSS permiten **definir diferentes estilos para diferentes medios** o dispositivos: pantallas, impresoras, proyectores, televisores, etc. La tabla siguiente muestra el nombre que se utiliza en CSS para identificar cada medio:
 

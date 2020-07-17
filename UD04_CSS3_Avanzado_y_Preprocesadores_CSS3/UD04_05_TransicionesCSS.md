@@ -1,6 +1,9 @@
-# **Transiciones en CSS, estilos diferentes entre estados**
+# 5. **Transiciones en CSS, estilos diferentes entre estados**
 
-# 5. Transiciones en CSS
+Tabla de contenidos
+
+- [5. **Transiciones en CSS, estilos diferentes entre estados**](#5-transiciones-en-css-estilos-diferentes-entre-estados)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Las transiciones nos permiten aplicar un **cambio de estilo gradual a los elementos**. Además, nos ofrecen la ventaja de poder **especificar el tiempo** para que se produzca la transformación entre estilos, de esta forma podríamos utilizarlas para dar un **efecto de animación**.
 
@@ -53,7 +56,7 @@ En el [siguiente enlace](https://developer.mozilla.org/es/docs/Web/CSS/Transicio
 
 [Recuerda utilizar la extensión que te facilita la tarea de crear los prefijos para navegadores.](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_31_PrefijosNavegadoresCSS.md)
 
-## Ejemplo
+**Ejemplo**
 
 **Transiciones para algunas propiedades:**
 

@@ -1,19 +1,19 @@
-# **Gradientes en CSS: gradiente lineal y radial**
+# 3. **Gradientes en CSS: gradiente lineal y radial**
 
 Tabla de contenidos
 
-- [3. Gradientes en CSS: gradiente lineal y radial](#3_Gradientes-en-CSS-gradiente-lineal-y-radial)
-  - [3.1. Gradiente lineal](#31-Gradiente-lineal)
-  - [3.2. Gradiente radial](#32-Gradiente-radial)
-  - [3.3. Generadores de gradientes](#33-Generadores-de-gradientes)
-  - [3.4. Patrones de gradientes](#34-Patrones-de-gradientes)
-- [Ejercicios propuestos](#Ejercicios-propuestos)
-
-# 3. Gradientes en CSS: gradiente lineal y radial
+- [3. **Gradientes en CSS: gradiente lineal y radial**](#3-gradientes-en-css-gradiente-lineal-y-radial)
+  - [3.1. Gradiente lineal](#31-gradiente-lineal)
+      - [Ejemplo](#ejemplo)
+  - [3.2. Gradiente radial](#32-gradiente-radial)
+      - [Ejemplo](#ejemplo-1)
+  - [3.3. Generadores de gradientes](#33-generadores-de-gradientes)
+  - [3.4. Patrones de gradientes](#34-patrones-de-gradientes)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Los **gradientes** nos permiten añadir efectos de **colores degradados** en nuestros diseños. Los gradientes se configuran como fondos, por lo que tendremos que usar la propiedad "**background**". Disponemos de dos tipos de gradientes: "l**inear-gradient**" y "**radial-gradient**".
 
-# 3.1. Gradiente lineal
+## 3.1. Gradiente lineal
 
 El formato es el siguiente:
 
@@ -50,7 +50,7 @@ background: rgb(176,174,238);
 background: radial-gradient(circle, rgba(176,174,238,1) 0%, rgba(29,30,31,1) 100%);
 ```
 
-# 3.3. Generadores de gradientes
+## 3.3. Generadores de gradientes
 
 Para facilitarnos la tarea de la **creación de gradientes** podemos utilizar un **generador de gradientes online** que nos proporcione el código CSS necesario para nuestro diseño. Algunas herramientas online útiles son las siguientes:
 

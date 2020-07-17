@@ -1,25 +1,23 @@
-# **8. Herramientas útiles y referencias CSS**
+# 8. **Herramientas útiles y referencias CSS**
 
 Tabla de contenidos
 
-- [8. Herramientas útiles, recursos y referencias](#8-Herramientas-útiles-recursos-y-referencias)
-  - [8.1. Herramientas útiles](#81-Herramientas-utiles)
-    - [1.1. CSS Validation Service, W3C](#811-CSS-Validation-Service-W3C)
-    -   [1.2. Browserling](#812-Browserling)
-    -   [1.3. Caniuse](#813-Caniuse)
-    -   [1.4. Extensión Autoprefixer para Visual Studio Code](#814-Extension-Autoprefixer-para-Visual-Studio-Code)
-    -   [1.5. Repositorio de fuentes de Google Fonts](#815-Repositorio-de-fuentes-de-Google-Fonts)
-    -   [1.6. Repositorio de iconos de Font Awesome](#816-Repositorio-de-iconos-de-Font-Awesome)
-    -   [1.7. Convertidores de fuentes online](#817-Convertidores-de-fuentes-online)
-    -   [1.8. Fuentes web online](#818-Fuentes-web-online)
-    -   [1.9. Generador de sombras online](#819-Generador-de-sombras-online)
-    -   [1.10. Generadores de gradientes](#8110-Generadores-de-gradientes)
-    -   [1.11. Patrones de gradientes](#8111-Patrones-de-gradientes)
-  - [2. Referencias bibliográficas](#82-Referencias-bibliograficas)
-  - [3. Referencias web](#83-Referencias-web)
-  - [4. Cursos recomendados](#84-Cursos-recomendados)
-
-# 8. Herramientas útiles, recursos y referencias
+- [8. **Herramientas útiles y referencias CSS**](#8-herramientas-útiles-y-referencias-css)
+  - [8.1. Herramientas útiles](#81-herramientas-útiles)
+    - [8.1.1. CSS Validation Service, W3C](#811-css-validation-service-w3c)
+    - [8.1.2. Browserling](#812-browserling)
+    - [8.1.3. Caniuse](#813-caniuse)
+    - [8.1.4. Extensión Autoprefixer para Visual Studio Code](#814-extensión-autoprefixer-para-visual-studio-code)
+    - [8.1.5. Repositorio de fuentes de Google Fonts](#815-repositorio-de-fuentes-de-google-fonts)
+    - [8.1.6. Repositorio de iconos de Font Awesome](#816-repositorio-de-iconos-de-font-awesome)
+    - [8.1.7. Convertidores de fuentes online](#817-convertidores-de-fuentes-online)
+    - [8.1.8. Fuentes web online](#818-fuentes-web-online)
+    - [8.1.9. Generador de sombras online](#819-generador-de-sombras-online)
+    - [8.1.10. Generadores de gradientes](#8110-generadores-de-gradientes)
+    - [8.1.11. Patrones de gradientes](#8111-patrones-de-gradientes)
+  - [8.2. Referencias bibliográficas](#82-referencias-bibliográficas)
+  - [8.3. Referencias web](#83-referencias-web)
+  - [8.4. Cursos recomendados](#84-cursos-recomendados)
 
 Utilizar los recursos más apropiados es imprescindible para desarrollar con el mayor éxito cualquier página web. A continuación se describen varias herramientas útiles que conviene tener en cuenta a la hora de detectar errores en los desarrollos, mejorar la productividad y conseguir los mejores diseños.
 
@@ -84,14 +82,12 @@ Podemos aplicar diseños muy trabajados creando **patrones** sin necesidad de ca
 
 -   leaverou.github.io/css3patterns
 
-# 8.2. Referencias bibliográficas
-------------------------------
+## 8.2. Referencias bibliográficas
 
 -   Libro: Curso de Desarrollo Web: HTML, CSS y JavaScript. Edición 2018: amzn.to/2NcLp5u
 -   Libro: SEO Avanzado. Casi todo lo que sé de posicionamiento web (Social Media) -- Maciá Domene, Fernando: amzn.to/2Nbm4sE
 
-# 8.3. Referencias web
--------------------
+## 8.3. Referencias web
 
 -   lenguajecss.com
 -   developer.mozilla.org/es/docs/Web/CSS
@@ -103,8 +99,7 @@ Podemos aplicar diseños muy trabajados creando **patrones** sin necesidad de ca
 -   escss.blogspot.com/2012/06/css-speech-module-css-hablado.html
 -   websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf
 
-# 8.4. Cursos recomendados
------------------------
+## 8.4. Cursos recomendados
 
 -   miriadax.net/web/html5mooc/inicio
 -   es.khanacademy.org/computing/computer-programming/html-css/intro-to-css/pt/css-basics

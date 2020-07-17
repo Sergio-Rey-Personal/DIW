@@ -1,23 +1,21 @@
-# **La sintaxis de SASS al detalle**
+# 11. **La sintaxis de SASS al detalle**
 
 Tabla de contenidos
 
-- [11. Sintaxis SASS](#11-Sintaxis-SASS)
-  - [11.1. Variables](#111-Variables)
-  - [11.2. Importar](#112-Importar) 
-  - [11.3. Partials](#113-Partials)
-  - [11.4. Mixins](#114-Mixins)
-  - [11.5. Extend](#11-Extend)
-  - [11.6. Anidamientos](#116-Anidamientos)
-  - [11.7. Funciones](#117-Funciones)
-  - [11.8. Bucles](#118-Bucles)
-  - [11.9. Ramificación](#119-Ramificación)
-  - [11.10. Comentarios](#1110-Comentarios)
-  - [11.11. Error, warn y debug](#1111-Error-warn-y-debug)
-- [Ejercicios propuestos](#Ejercicios-propuestos)
+- [11. **La sintaxis de SASS al detalle**](#11-la-sintaxis-de-sass-al-detalle)
+  - [11.1. Variables](#111-variables)
+  - [11.2. Importar](#112-importar)
+  - [11.3. Partials](#113-partials)
+  - [11.4. Mixins](#114-mixins)
+  - [11.5. Extend](#115-extend)
+  - [11.6. Anidamientos](#116-anidamientos)
+  - [11.7. Funciones](#117-funciones)
+  - [11.8. Bucles](#118-bucles)
+  - [11.9. Ramificación](#119-ramificación)
+  - [11.10. Comentarios](#1110-comentarios)
+  - [11.11. Error, warn y debug](#1111-error-warn-y-debug)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
-  
-# 11. Sintaxis SASS
 
 Como ya se ha mencionado, no hay solo una sintaxis en SASS. Hoy hay **dos formatos consolidados que compiten entre sí**. Originalmente, SASS se basaba en la sintaxis que hoy se conoce como *"indented syntax"*, en la que las indentaciones (o sangrías de texto) generan el anidamiento y cada salto de línea finaliza una línea de código. SCSS, en cambio, se orienta más al formato que conocemos por CSS y requiere, por lo tanto, corchetes y puntos y comas. A continuación, nos adentraremos en las peculiaridades de SASS.
 
@@ -108,7 +106,7 @@ Los tipos de datos que tenemos son lo siguientes:
 - Las variables declaradas dentro de algún estilo son locales
 - Las
 
-### Ejemplos
+**Ejemplos**
 
 ```scss
 // Variables de colores
@@ -361,7 +359,7 @@ Al crear la mezcla, se da un nombre a la plantilla (por ejemplo, *`hidden`*) que
 
 En el código CSS final aparece el bloque completo de código fuente en lugar del mixin. Aquí, la definición de la mezcla en sí (*`@mixin`*) ya no aparece.
 
-### Ejemplo Mixin
+**Ejemplo Mixin**
 
 ```scss
 @mixin centrado {
@@ -733,7 +731,7 @@ Aquí, de nuevo, necesitas una variable. Esta asume el nombre de una de las entr
 }
 ```
 
-### Ejemplo estructuras de control y funciones
+**Ejemplo estructuras de control y funciones**
 
 ```scss
 // @if / @else if / @else example

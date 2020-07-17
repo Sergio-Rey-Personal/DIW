@@ -1,16 +1,16 @@
-# **Preprocesadores CSS**
+# 11. **Preprocesadores CSS**
 
 Tabla de contenidos
 
-- [11. Preprocesacores CSS](#11-Preprocesacores-CSS)
-  - [11.1. Ventajas de utilizar Sass](#111-Ventajas-de-utilizar-Sass)
-  - [11.2. Desventajas de utilizar Sass](#112-Desventajas-de-utilizar-Sass)
-  - [11.3. Cómo funciona SASS](#113-Cómo-funciona-SASS)
-  - [11.4. SASS vs SCSS](#114-SASS-vs-SCSS)
+- [11. **Preprocesadores CSS**](#11-preprocesadores-css)
+  - [11.1. Ventajas de utilizar Sass](#111-ventajas-de-utilizar-sass)
+  - [11.2. Desventajas de utilizar Sass](#112-desventajas-de-utilizar-sass)
+  - [11.3. Cómo funciona SASS](#113-cómo-funciona-sass)
+  - [11.4. SASS vs SCSS](#114-sass-vs-scss)
+    - [11.4.1. Sintaxis Scss](#1141-sintaxis-scss)
+    - [11.4.2. La sintaxis indentada (Sass)](#1142-la-sintaxis-indentada-sass)
 
  Los **preprocesadores CSS** son herramientas para los desarrolladores de sitios web, que permiten traducir un código de hojas de estilo no estándar, específico del preprocesador en cuestión, a un código CSS estándar, entendible por los navegadores.
-
-# 11. Preprocesacores CSS
 
 Los preprocesadores básicamente nos ofrecen diversas utilidades que a día de hoy no se encuentran en el lenguaje CSS, o bien no son compatibles con todos los navegadores. Ejemplos pueden ser variables, anidación de selectores, funciones (denominadas mixins), etc.
 
@@ -67,7 +67,7 @@ El funcionamiento de un preprocesador, se basa en la creación de los archivos q
 
 La principal diferencia de ambos viene dada por su sintaxis.
 
-### Sintaxis Scss
+### 11.4.1. Sintaxis Scss
 
 La sintaxis de Scss a diferencia de la sintaxis de Sass usa archivos con extensión .scss, a pesar de esto nos provee de las mismas características.
 
@@ -89,7 +89,7 @@ Un ejemplo de sintaxis en Scss sería:
 }
 ```
 
-### La sintaxis indentada (Sass)
+### 11.4.2. La sintaxis indentada (Sass)
 
 Aquí es donde podemos ver una mayor diferencia, la sintaxis indentada es la sintaxis original de Sass y al contrario que los archivos Scss, utilizan la extensión .sass.
 
