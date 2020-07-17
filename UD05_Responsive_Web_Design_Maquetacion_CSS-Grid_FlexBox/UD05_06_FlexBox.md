@@ -1,24 +1,22 @@
-# **Flexbox CSS**
+# 6. **Flexbox CSS**
 
 Tabla de contenidos
 
-- [6. Flexbox CSS](#6-Flexbox-CSS)
-  - [6.1. Conceptos](#61-Conceptos)
-  - [6.2. Dirección de los eje](#62-Dirección-de-los-ejes)
-    - [6.2.1. Atajo: Dirección de los ejes](#621-Atajo-Dirección-de-los-ejes)
-  - [6.3. Propiedades de alineación](#63-Propiedades-de-alineación)
-    - [6.3.1. Sobre el eje principal](#631-Sobre-el-eje-principal)
-    - [6.3.2. Sobre el eje secundario](#632-Sobre-el-eje-secundario)
-    - [6.3.3. Atajo: Alineaciones](#633-Atajo-Alineaciones)
-  - [6.4. Propiedades de hijos](#64-Propiedades-de-hijos)
-    - [6.4.1. Atajo: Propiedades de hijos](#641-Atajo-Propiedades-de-hijos)
-  - [6.5. Huecos (gaps)](#65-Huecos-gaps)
-    - [6.5.1. Atajo: Huecos](#651-Atajo-Huecos)
-  - [6.6. Orden de los ítems](#66-Orden-de-los-ítems)
+- [6. **Flexbox CSS**](#6-flexbox-css)
+  - [6.1. Conceptos](#61-conceptos)
+  - [6.2. Dirección de los ejes](#62-dirección-de-los-ejes)
+    - [6.2.1. Atajo: Dirección de los ejes](#621-atajo-dirección-de-los-ejes)
+  - [6.3. Propiedades de alineación](#63-propiedades-de-alineación)
+    - [6.3.1. Sobre el eje principal](#631-sobre-el-eje-principal)
+    - [6.3.2. Sobre el eje secundario](#632-sobre-el-eje-secundario)
+    - [6.3.3. Atajo: Alineaciones](#633-atajo-alineaciones)
+  - [6.4. Propiedades de hijos](#64-propiedades-de-hijos)
+    - [6.4.1. Atajo: Propiedades de hijos](#641-atajo-propiedades-de-hijos)
+  - [6.5. Huecos (gaps)](#65-huecos-gaps)
+    - [6.5.1. Atajo: Huecos](#651-atajo-huecos)
+  - [6.6. Orden de los ítems](#66-orden-de-los-ítems)
 
 Tradicionalmente, en CSS se ha utilizado el posicionamiento (*static, relative, absolute...*), los elementos en línea o en bloque (*y derivados*) o los **float**, lo que a grandes rasgos no dejaba de ser un sistema de creación de diseños bastante tradicional que no encaja con los retos que tenemos hoy en día: sistemas de escritorio, dispositivos móviles, múltiples resoluciones, etc...
-
-# 6. Flexbox CSS
 
 **Flexbox** es un sistema de **elementos flexibles** que llega con la idea de olvidar estos mecanismos y acostumbrarnos a una mecánica más potente, limpia y personalizable, en la que los elementos HTML se adaptan y colocan automáticamente y es más fácil personalizar los diseños. Está especialmente diseñado para crear, mediante CSS, estructuras de **una sóla dimensión**.
 
@@ -152,7 +150,7 @@ Observa si cambiamos el orden a `row-reverse`
 ![Flexbox: Wrap](img/Flexbox-Flex-wrap-reverse-reverse.PNG)
 
 
-## 6.2.1. Atajo: Dirección de los ejes
+### 6.2.1. Atajo: Dirección de los ejes
 
 Recuerda que existe una propiedad de atajo (short-hand) llamada `flex-flow`, con la que podemos resumir los valores de las propiedades `flex-direction` y `flex-wrap`, especificándolas en una sola propiedad y ahorrándonos utilizar las propiedades concretas:
 

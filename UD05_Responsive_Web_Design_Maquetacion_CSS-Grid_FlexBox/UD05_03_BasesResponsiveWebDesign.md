@@ -1,15 +1,14 @@
-# **Bases del Responsive Web Design**
+# 3. **Bases del Responsive Web Design**
 
 Tabla de contenidos
-
-- [3. Bases del diseño responsive](2-Bases-del-diseño-responsive)
-  - [3.1. Diseño con porcentajes](#31-Diseño-con-porcentajes)
-  - [3.2. Tamaños máximos y mínimos](#32-Tamaños-máximos-y-mínimos)
-  - [3.3. El viewport](#33-El-viewport)
+- [3. **Bases del Responsive Web Design**](#3-bases-del-responsive-web-design)
+  - [3.1. Diseño con porcentajes](#31-diseño-con-porcentajes)
+  - [3.2. Tamaños máximos y mínimos](#32-tamaños-máximos-y-mínimos)
+  - [3.3. El viewport](#33-el-viewport)
+    - [Ejemplo de la etiqueta *viewport* que no permite escalar la página](#ejemplo-de-la-etiqueta-viewport-que-no-permite-escalar-la-página)
+    - [Ejemplo etiqueta *viewport* que permite escalar la página](#ejemplo-etiqueta-viewport-que-permite-escalar-la-página)
 
 Como explicamos en el punto anterior, hay ciertos conceptos que hay que tener claros antes de comenzar con el **Responsive Design**. En esta sección vamos a ver como llevarlos a la práctica con código.
-
-# 3. Bases del diseño responsive
 
 ## 3.1. Diseño con porcentajes
 

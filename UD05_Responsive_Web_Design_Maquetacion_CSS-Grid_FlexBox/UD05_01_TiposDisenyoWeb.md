@@ -1,16 +1,14 @@
-# **Tipos de diseño web ¿cuál utilizo?**
+# 1. **Tipos de diseño web ¿cuál utilizo?**
 
 Tabla de contenidos
 
-- [1. Tipos de diseño web, ¿cuál utilizo?](#1-Tipos-de-diseno-web-cual-utilizo)
-  - [1.1. Diseño fijo](#11-Diseño-fijo)
-  - [1.2. Diseño elástico](#12-Diseño-elaático)
-  - [1.3. Diseño líquido o fluido](#13-Diseño-líquido-o-fluido)
-  - [1.4. Diseño web responsivo o adaptable](#14-Diseño-web-responsivo-o-adaptable)
-  - [1.5. Diseño flexible](#15-Diseño-flexible)
-  - [1.6. ¿Qué tipo de diseño utilizo?](#16-Qué-tipo-de-diseño-utilizo)
-
-# 1.Tipos de diseño web, ¿cuál utilizo?
+- [1. **Tipos de diseño web ¿cuál utilizo?**](#1-tipos-de-diseño-web-cuál-utilizo)
+  - [1.1. Diseño fijo](#11-diseño-fijo)
+  - [1.2. Diseño elástico](#12-diseño-elástico)
+  - [1.3. Diseño líquido o fluido](#13-diseño-líquido-o-fluido)
+  - [1.4. Diseño web responsivo o adaptable](#14-diseño-web-responsivo-o-adaptable)
+  - [1.5. Diseño flexible](#15-diseño-flexible)
+  - [1.6. ¿Qué tipo de diseño utilizo?](#16-qué-tipo-de-diseño-utilizo)
 
 A la hora de crear una interfaz web existen **diferentes tipos de diseño**: diseño con tamaño fijo, diseño con unidades «em», diseño mediante porcentajes, diseño que se adapta mediante puntos de ruptura o diseño definido dentro de unos márgenes predefinidos. Es importante mencionar que  estos métodos **se pueden utilizar de forma combinada**. Veamos cada uno de estos métodos mediante un ejemplo.
 
@@ -595,14 +593,11 @@ body {
 [Diseño adaptable](https://codepen.io/sergio-rey-personal/pen/YzwQjje)
 
 ## 1.5. Diseño flexible
--------------------
 
 Consiste en utilizar las propiedades CSS "**min-width**" y "**max-width**" para que las anchuras de los bloques puedan adaptarse dentro de unos mínimos y máximos.
 
 
-
 ## 1.6. ¿Qué tipo de diseño utilizo?
---------------------------------
 
 Qué tipo de método utilizar para nuestros proyectos es un tema muy debatido en la red porque crear un sitio web adaptable exige, en muchos casos, **combinar algunas de las técnicas que hemos estudiado**. Lo más habitual es declarar más de una *media query* para adaptar el diseño a múltiples dispositivos. Pero el número de puntos de interrupción y cómo se implementan estas técnicas **depende del diseño de nuestro sitio web**.
 

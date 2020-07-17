@@ -1,16 +1,13 @@
-# **¿Qué es Responsive Design?**
+# 2. **Responsive Web Design**
 
 Tabla de contenidos
 
-- [2. Responsive web Design](#2-Responsive-Web-Design)
-  - [2.1. Conceptos básicos](#21-Conceptos-básicos)
-  - [2.2. Preparación previa](#22-Preparación-previa)
-  - [2.3. Estrategias de diseño](#23-Estrategias-de-diseño)
+- [2. **Responsive Web Design**](#2-responsive-web-design)
+  - [2.1. Conceptos básicos](#21-conceptos-básicos)
+  - [2.2. Preparación previa](#22-preparación-previa)
+  - [2.3. Estrategias de diseño](#23-estrategias-de-diseño)
 
 En la actualidad, el uso de todo tipo de **dispositivos móviles** se ha disparado, no sólo de `smartphones`, sino también de tablets, `smartwatchs`, lectores de ebooks y múltiples tipos de dispositivos con capacidad de conexión a Internet.
-
-
-# 2. Responsive Web Design
 
 Cada vez es más frecuente acceder a Internet con diferentes tipos de dispositivos, que a su vez tienen **diferentes pantallas y resoluciones**, con distintos tamaños y formas, que hacen que se consuman las páginas webs de formas diferentes, apareciendo por el camino también diferentes necesidades, problemas y soluciones.
 

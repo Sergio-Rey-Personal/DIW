@@ -1,22 +1,23 @@
-# **Media Queries**
+# 4. **Media queries en CSS3**
 
 Tabla de contenido
 
-- [4. Media queries en CSS](#4-Media-queries-en-CSS)
-  - [4.1. ¿Qué son las media queries?](#41-¿Qué-son-las-media-queries?)
-  - [4.2. Ejemplos de media queries](#42-Ejemplos-de-media-queries)
-  - [4.3. Propiedades o condiciones](#43-Propiedades-o-condiciones)
-  - [4.4. Condicionales CSS](#44-Condicionales-CSS)
-  - [4.5. Operadores lógicos en media queries](#45-Operadores-lógicos-en-media-queries)
--[Ejercicios propuestos](#Ejercicios-propuestos)
+- [4. **Media queries en CSS3**](#4-media-queries-en-css3)
+  - [4.1. ¿Qué son las media queries?](#41-qué-son-las-media-queries)
+  - [4.2. Ejemplos de media queries](#42-ejemplos-de-media-queries)
+    - [Ejemplo](#ejemplo)
+  - [4.3. Propiedades o condiciones](#43-propiedades-o-condiciones)
+  - [4.4. Condicionales CSS](#44-condicionales-css)
+  - [4.5. Operadores lógicos en media queries](#45-operadores-lógicos-en-media-queries)
+    - [Operador AND](#operador-and)
+    - [Operador NOT](#operador-not)
+- [Ejercicios propuestos](#ejercicios-propuestos)
 
 Una vez nos adentramos en el mundo del **Responsive Design**, nos damos cuenta en que hay situaciones en las que determinados aspectos o componentes visuales deben aparecer en un tipo de dispositivos, o deben existir ciertas diferencias.
 
 Por ejemplo, una zona donde se encuentra el buscador de la página puede estar colocada en un sitio concreto en la versión de escritorio, pero en móvil quizás nos interesa que ocupe otra zona (*o que tenga otro tamaño o forma*) para aprovechar mejor el poco espacio que tenemos en la versión móvil de la página.
 
 Para ello, utilizaremos un concepto denominado **media queries**, con los que podemos hacer esas excepciones para que sólo se apliquen a un tipo de diseño concreto.
-
-## 4. Media queries en CSS
 
 Las media queries se introdujeron en CSS3 para dar respuesta a las necesidades del diseño web responsive. Mediante ellas podemos definir estilos condicionales, aplicables únicamente en determinadas situaciones. El uso más extendido de las media queries es para establecer estilos diferentes para cada ancho de pantalla.
 

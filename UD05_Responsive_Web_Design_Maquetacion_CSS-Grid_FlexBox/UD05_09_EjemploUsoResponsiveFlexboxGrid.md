@@ -1,13 +1,14 @@
-# **Ejemplo de uso Responsive de maquetacion en Flexbox y CSS Grid**
+# 9. **Ejemplo de uso Responsive de maquetacion en Flexbox y CSS Grid**
 
 Tabla de contenidos
 
-- [9. Ejemplo práctico responsive con media queries](#9-Ejemplo-práctico-responsive-con-media-queries)
-  - [9.1. Flexbox](#91-Flexbox)
-  - [9.2. CSS Grid](#92-CSS-Grid)
-
-# 9. Ejemplo práctico responsive con media queries
-
+- [9. **Ejemplo de uso Responsive de maquetacion en Flexbox y CSS Grid**](#9-ejemplo-de-uso-responsive-de-maquetacion-en-flexbox-y-css-grid)
+  - [9.1. Flexbox](#91-flexbox)
+    - [9.1.1. Posición de las secciones de la página](#911-posición-de-las-secciones-de-la-página)
+    - [9.1.2. Hacer Responsive una página](#912-hacer-responsive-una-página)
+  - [9.2. CSS Grid](#92-css-grid)
+    - [9.2.1. Posición de las secciones de la página](#921-posición-de-las-secciones-de-la-página)
+    - [9.2.2. Hacer Responsive una página](#922-hacer-responsive-una-página)
 A continuación, veremos un ejemplo práctico para resolver tanto en Flexbox como en Grid, situaciones que se nos pueden dar a la hora de realizar un proyecto.
 
 Realzaremos el siguiente diseño: 
@@ -20,7 +21,7 @@ y lo haremos responsive con la ayuda de media queries
 
 ## 9.1. Flexbox
 
-### Posición de las secciones de la página
+### 9.1.1. Posición de las secciones de la página
 
 **En Flexbox.** Situamos todas las secciones, una debajo de otra:
 
@@ -77,7 +78,7 @@ footer {
 }
 ```
 
-### Hacer Responsive una página
+### 9.1.2. Hacer Responsive una página
 
 ```css
 @media (max-width: 600px) {
@@ -97,7 +98,7 @@ footer {
 
 ## 9.2. CSS Grid
 
-### Posición de las secciones de la página
+### 9.2.1. Posición de las secciones de la página
 
 ```html
 <div class="container">
@@ -151,7 +152,7 @@ footer {
 }
 ```
 
-### Hacer Responsive una página
+### 9.2.2. Hacer Responsive una página
 
 En este caso, la mejor opción es redefinir el grid
 

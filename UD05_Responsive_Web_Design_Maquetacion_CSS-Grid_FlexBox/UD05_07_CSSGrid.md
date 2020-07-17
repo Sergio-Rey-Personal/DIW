@@ -1,28 +1,32 @@
-# **Grid CSS**
+# 7. **Grid CSS**
 
 Tabla de contenidos
 
-- [7. Grid CSS](#7-Grid-CSS)
-  - [7.1. Conceptos](#71-Conceptos)
-  - [7.2. Grid con filas y columnas](#72-Grid-con-filas-y-columnas)
-    - [7.2.1. Unidad fracción restante (fr)](#721-Unidad-fracción-restante-fr)
-    - [7.2.2. Filas y columnas repetitivas](#722-Filas-y-columnas-repetitivas)
-  - [7.3. Grid con líneas nombradas](#73-Grid-con-líneas-nombradas)
-  - [7.4. Grid por áreas](#74-Grid-por-áreas)
-  - [7.5. Huecos en grid](#75-Huecos-en-grid)
-    - [7.5.1. Atajo: Grid con huecos](#751-Atajo-Grid-con-huecos)
-  - [7.6. Posición en el grid](#76-Posición-en-el-grid)
-    - [7.6.1. Atajo de posiciones grid](#761-Atajo-de-posiciones-grid)
-  - [7.7. Propiedades para ítems hijos](#77-Propiedades-para-ítems-hijos)
-    - [7.7.1. Atajo: grid-column y grid-row](#771-Atajo-grid-column-y-grid-row)
-  - [7.8. Ajuste automático de celdas](#78-Ajuste-automático-de-celdas)
-  - [7.9. Atajo: Grid](#79-Atajo-Grid)
+- [7. **Grid CSS**](#7-grid-css)
+  - [7.1. Conceptos](#71-conceptos)
+  - [7.2. Grid con filas y columnas](#72-grid-con-filas-y-columnas)
+    - [7.2.1. Unidad fracción restante (fr)](#721-unidad-fracción-restante-fr)
+    - [7.2.2. Filas y columnas repetitivas](#722-filas-y-columnas-repetitivas)
+      - [ejemplo](#ejemplo)
+  - [7.3. Grid con líneas nombradas](#73-grid-con-líneas-nombradas)
+  - [7.4. Grid por áreas](#74-grid-por-áreas)
+      - [ejemplo areas en Grid CSS](#ejemplo-areas-en-grid-css)
+  - [7.5. Huecos en grid](#75-huecos-en-grid)
+    - [7.5.1. Atajo: Grid con huecos](#751-atajo-grid-con-huecos)
+  - [7.6. Posición en el grid](#76-posición-en-el-grid)
+      - [Elementos distribuidos por `justify-items`](#elementos-distribuidos-por-justify-items)
+      - [Elementos distribuidos por `align-items`](#elementos-distribuidos-por-align-items)
+      - [Elementos distribuidos por `justify-content`](#elementos-distribuidos-por-justify-content)
+      - [Elementos distribuidos por `align-content`](#elementos-distribuidos-por-align-content)
+    - [7.6.1. Atajo de posiciones grid](#761-atajo-de-posiciones-grid)
+  - [7.7. Propiedades para ítems hijos](#77-propiedades-para-ítems-hijos)
+    - [7.7.1. Atajo: grid-column y grid-row](#771-atajo-grid-column-y-grid-row)
+  - [7.8. Ajuste automático de celdas](#78-ajuste-automático-de-celdas)
+  - [7.9. Atajo: Grid](#79-atajo-grid)
 
 Uno de los procesos más problematicos y frustrantes de CSS, sobre todo para novatos o principiantes, es el proceso de colocar y distribuir los elementos a lo largo de una página. Mecanismos como posicionamiento, floats o elementos en bloque o en línea, suelen ser insuficientes (*o muy complejos*) para crear un layout o estructuras para páginas web actuales.
 
 El sistema **flexbox** es una gran mejora, sin embargo, está orientado a estructuras de una sola dimensión, por lo que aún necesitamos algo más potente para estructuras web más específicas o complejas. Con el paso del tiempo, muchos frameworks y librerías utilizan un **sistema grid** donde definen una cuadrícula determinada, y modificando los nombres de las clases de los elementos HTML, podemos darle tamaño, posición o colocación.
-
-# 7. Grid CSS
 
 **Grid CSS** nace de esa necesidad, y recoge las ventajas de ese sistema, añadiendole numerosas mejoras y características que permiten crear rápidamente cuadrículas sencillas y potentes de forma prácticamente instantánea.
 
@@ -392,7 +396,7 @@ La propiedad en cuestión sería `grid-gap` y se utilizaría de la siguiente for
 }
 ```
 
-## 6.6. Posición en el grid
+## 7.6. Posición en el grid
 
 Existen una serie de propiedades que se pueden utilizar para colocar los ítems dentro de la cuadrícula. Con ellas podemos distribuir los elementos de una forma muy sencilla y cómoda. Dichas propiedades son `justify-items` y `align-items`, que ya conocerás del módulo CSS **flexbox**:
 
