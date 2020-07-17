@@ -4,9 +4,11 @@ Tabla de contenidos
 
 - [15. **Referencias y recursos: sonido, vídeos y animaciones**](#15-referencias-y-recursos-sonido-vídeos-y-animaciones)
   - [15.1. Referenias a recursos adicionales](#151-referenias-a-recursos-adicionales)
-  - [15.2. Bancos de vídeos:](#152-bancos-de-vídeos)
-  - [15.3. Bancos de sonidos:](#153-bancos-de-sonidos)
-  - [15.4. Bancos de animaciones:](#154-bancos-de-animaciones)
+  - [15.2. Bancos de imágenes:](#152-bancos-de-imágenes)
+  - [15.3. Compresores de imágenes para web:](#153-compresores-de-imágenes-para-web)
+  - [15.4. Bancos de vídeos:](#154-bancos-de-vídeos)
+  - [15.5. Bancos de sonidos:](#155-bancos-de-sonidos)
+  - [15.6. Bancos de animaciones:](#156-bancos-de-animaciones)
 
 Utilizar los recursos más apropiados es imprescindible para desarrollar con éxito cualquier página web. A continuación se describen varias herramientas útiles, tutoriales y manuales que puedes tener como referencia la inclusión de sonido, vídeos y animaciones en tus desarrollos.
 
@@ -32,7 +34,24 @@ A continuación se detalla enlaces con referencias y recursos adicionales sobre 
 - Herramienta con ejemplos elegantes y muy visuales de animaciones con código incluido: animista.net/play/
 - Libro: Curso de Desarrollo Web: HTML, CSS y JavaScript. Edición 2018: amzn.to/2NcLp5u
 
-## 15.2. Bancos de vídeos:
+## 15.2. Bancos de imágenes: 
+
+- pixabay.com
+- unsplash.com
+- gratisography.com
+- www.canva.com/photos/free
+- morguefile.com/
+- picjumbo.com
+- freestocks.org
+
+## 15.3. Compresores de imágenes para web:
+
+- imagecompressor.com/es
+- compressor.io
+- compressjpeg.com/es
+- tinypng.com
+
+## 15.4. Bancos de vídeos:
 
 - Coverr.co
 - Pixabay.com
@@ -40,7 +59,7 @@ A continuación se detalla enlaces con referencias y recursos adicionales sobre 
 - Videvo.net
 - Videezy.com
 
-## 15.3. Bancos de sonidos:
+## 15.5. Bancos de sonidos:
 
 - Elongsound.com
 - Sshhtt.com
@@ -50,7 +69,7 @@ A continuación se detalla enlaces con referencias y recursos adicionales sobre 
 - Soundsnap.com
 - FreeSound.org
 
-## 15.4. Bancos de animaciones:
+## 15.6. Bancos de animaciones:
 
 - velocityjs.org
 - Bouncejs.com

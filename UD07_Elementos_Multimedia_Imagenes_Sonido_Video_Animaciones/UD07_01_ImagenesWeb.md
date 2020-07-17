@@ -158,6 +158,18 @@ etc.
 
 ## 1.5. Uso y abuso de imágenes
 
+Las imágenes debe ser tratadas antes de subirlas a la red; deben estar ***comprimidas*** y no es recomendable que ocupen mas de 100KB, puesto que en caso contrario podrían ralentizar y sobrecargar la conexión del servidor.
+
+Si es necesario, redimensiona la imagen para que se adapte correctamente a tu web y haz que todas tu imágenes tengan el mimos formato y tamaño. 
+
+Recuerda que por ejemplo, los tamaños recomendados de imágenes para las redes sociales son: :
+
+- Youtube: 1280px x 720px
+- Facebook: 1200px x 628px
+- Twitter: 1024px x 512px
+- Instagram: 1080px x 1080px
+- Pinterest: 735px x 1102px
+
 Como nota final recuerda que lo aconsejable es que las imágenes cuenten alguna historia, lógicametne relacionada con el contenido del sitio. En eta línea decir que las infografías son muy útiles y apreciadas.
 
 No hay que renunciar a las imágnes decorativas, pero procurando qeu tengan una utilidad clara como llmar la atención sobre algo, descansar la vista entre mucho texto y similares.
