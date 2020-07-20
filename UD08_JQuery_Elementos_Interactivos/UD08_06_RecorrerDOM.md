@@ -142,4 +142,4 @@ $(document).ready(function(){
 
 ![Ejemplo de filtros de elementos del DOM con JQuery](img/jquery-dom-filtros.png)
 
-[Ejemplo de filtros de elementos del DOM con JQuery (Codepen)](https://codepen.io/sergio-rey-personal/pen/qBbLjMW)
+> [Ejemplo de filtros de elementos del DOM con JQuery (Codepen)](https://codepen.io/sergio-rey-personal/pen/qBbLjMW)
