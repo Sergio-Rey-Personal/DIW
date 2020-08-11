@@ -5,17 +5,17 @@ Tabla de contenidos
 - [37. **Tabla resumen de propiedades CSS y sus valores**](#37-tabla-resumen-de-propiedades-css-y-sus-valores)
   - [Sintaxis selector](#sintaxis-selector)
   - [Unidades de medida](#unidades-de-medida)
-  - [## Colores básicos](#h2-idcolores-básicos-5colores-básicosh2)
-  - [## Color y fondo](#h2-idcolor-y-fondo-5color-y-fondoh2)
-  - [## Texto](#h2-idtexto-5textoh2)
-  - [## Fuentes](#h2-idfuentes-5fuentesh2)
-  - [## Listas](#h2-idlistas-5listash2)
-  - [## Tablas](#h2-idtablas-5tablash2)
-  - [## Modelo de cajas](#h2-idmodelo-de-cajas-5modelo-de-cajash2)
-  - [## Pseudo-clases para selección de hijos o hermanos](#h2-idpseudo-clases-para-selección-de-hijos-o-hermanos-5pseudo-clases-para-selección-de-hijos-o-hermanosh2)
-  - [## Pseudo-clases para los estados de un elemento](#h2-idpseudo-clases-para-los-estados-de-un-elemento-5pseudo-clases-para-los-estados-de-un-elementoh2)
-  - [## Pseudo-elementos](#h2-idpseudo-elementos-5pseudo-elementosh2)
-  - [## Prefijos para los navegadores](#h2-idprefijos-para-los-navegadores-5prefijos-para-los-navegadoresh2)
+  - [Colores básicos](#colores-básicos)
+  - [Color y fondo](#color-y-fondo)
+  - [Texto](#texto)
+  - [Fuentes](#fuentes)
+  - [Listas](#listas)
+  - [Tablas](#tablas)
+  - [Modelo de cajas](#modelo-de-cajas)
+  - [Pseudo-clases para selección de hijos o hermanos](#pseudo-clases-para-selección-de-hijos-o-hermanos)
+  - [Pseudo-clases para los estados de un elemento](#pseudo-clases-para-los-estados-de-un-elemento)
+  - [Pseudo-elementos](#pseudo-elementos)
+  - [Prefijos para los navegadores](#prefijos-para-los-navegadores)
 
 ## Sintaxis selector
 
@@ -39,7 +39,7 @@ Tabla de contenidos
 | `pc` | Picas (1pica = 12 puntos) |
 
 ## Colores básicos
----
+
 | Color | HEX | RGB |
 | ----- | --- | --- |
 | `black` | #000000 | 0,0,0 |
@@ -53,7 +53,7 @@ Tabla de contenidos
 [Ver lista completa de colores expresados por nombre, hexadecimal y en RGB](https://www.w3schools.com/cssref/css_colors.asp)
 
 ## Color y fondo
----
+
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
 | `color` | Color del texto | RGB | HSL | HEX | nombre del color | RGBA | HSLA |
@@ -65,7 +65,7 @@ Tabla de contenidos
 | `Opacity**` | Transparencia de un elemento | [ 0 -- 1 ] |
 
 ## Texto
----
+
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
 | `text-indent` | Desplazamiento de la primera línea del texto | longitud | porcentaje |
@@ -77,7 +77,7 @@ Tabla de contenidos
 | `line-height` | Tamaño del espacio entre líneas | longitud | porcentaje |
 
 ## Fuentes
----
+
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
 | `font-family` | Familias de fuentes | nombre-familia|nombre-familia-genérica| * |
@@ -87,7 +87,7 @@ Tabla de contenidos
 | `font-size` | Tamaño de la fuente | xx-small | x-small | small | medium | large | x-large | xx-large | larger | smaller | longitud | porcentaje |
 
 ## Listas
----
+
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
 | `list-style-type` | Estilo aplicable a los marcadores visuales de las listas | disc | circle | square | decimal | decimal-leading-zero | lower-roman | upper-roman | lower-greek | lower-latin | upper-latin | armenian | georgian | lower-alpha | upper-alpha | none |
@@ -96,7 +96,7 @@ Tabla de contenidos
 | `list-style**` | Permite establecer el estilo de la lista, la imagen y/o la posición | list-style-type | list-style-position | list-style-image |
 
 ## Tablas
----
+
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
 | `font-family` | Familias de fuentes | nombre-familia|nombre-familia-genérica| * |
@@ -106,7 +106,7 @@ Tabla de contenidos
 | `font-size` | Tamaño de la fuente | xx-small | x-small | small | medium | large | x-large | xx-large | larger | smaller | longitud | porcentaje |
 
 ## Modelo de cajas
----
+
 ![Propiedades CSS contenedores](img/Propiedades-cajas-y-contenedores-en-CSS.png)
 
 | Propiedad | Descripción | Valores |
@@ -135,7 +135,7 @@ Tabla de contenidos
 ![Propiedad Z-index](img/Propiedad-Z-index.png)
 
 ## Pseudo-clases para selección de hijos o hermanos
----
+
 | Pseudo-clase | Descripción |
 | --- | --- |
 | `:first-child` | Primer hijo |
@@ -151,7 +151,7 @@ Tabla de contenidos
 | `:nth-last-of-type(n)` | Enésimo hermano de su tipo comenzando desde el último |
 
 ## Pseudo-clases para los estados de un elemento
----
+
 | Pseudo-clase | Descripción |
 | --- | --- |
 | `:link` | No visitado por el usuario |
@@ -161,7 +161,7 @@ Tabla de contenidos
 | `:focus` | Se activa cuando tiene el foco sobre el elemento |
 
 ## Pseudo-elementos
----
+
 | Pseudo-clase | Descripción |
 | --- | --- |
 | `:first-line` | Primera línea de texto de un elemento |
@@ -170,7 +170,7 @@ Tabla de contenidos
 | `:after` | Añade contenido al final del documento |
 
 ## Prefijos para los navegadores
----
+
 | **Prefijo** | **Navegador** |
 | --- | --- |
 | `-moz-` | Firefox |

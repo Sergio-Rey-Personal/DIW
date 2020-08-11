@@ -26,3 +26,5 @@ Cursos:
 
 -   Curso en Codeacademy: codecademy.com/learn/learn-jquery
 -   Curso en Miriadax: miriadax.net/web/desarrollo-en-html5-css-y-javascript-de-apps-web-android-ios-8-ed-/
+-   JQuery. Tutorial desde cero: bluuweb.org/jquery
+-   JQeryy. Tutorial desde cero (video): youtube.com/watch?v=DVN8NWppCN0&feature=youtu.be
