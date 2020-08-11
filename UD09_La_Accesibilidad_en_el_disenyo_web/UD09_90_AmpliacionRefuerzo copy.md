@@ -9,7 +9,9 @@ Cursos de interés:
 
 Bibliografía:
 
--   Aplicación de técnicas de usabilidad y accesibilidad en el entorno cliente, IC editorial. Joaquín Pintos Fernández. ISBN: 978-84-16433-05-6
+- Aplicación de técnicas de usabilidad y accesibilidad en el entorno cliente, IC editorial. Joaquín Pintos Fernández.
+- Accesibilidad web. WCAG 2.1. de forma sencilla. O. Revilla y O. Carreras. Ed. Olga Revilla - Itakora, 20187
+- Diseño web para todos I y II. C. Egea. Icaria editorial, 2007
 
 Otros enlaces de interés:
 
