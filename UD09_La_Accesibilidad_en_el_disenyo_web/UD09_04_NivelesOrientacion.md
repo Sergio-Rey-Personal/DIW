@@ -1,8 +1,8 @@
-# 4. Niveles de orientación
+# 4. **Niveles de orientación**
 
 Tabla de contenidos
 
-- [4. Niveles de orientación](#4-niveles-de-orientación)
+- [4. **Niveles de orientación**](#4-niveles-de-orientación)
   - [4.1. Principios generales](#41-principios-generales)
     - [4.1.1. Principio 1: Perceptible](#411-principio-1-perceptible)
       - [4.1.1.1. Pauta 1.1 Alternativas textuales](#4111-pauta-11-alternativas-textuales)
@@ -32,8 +32,8 @@ Los **niveles de orientación nos orientan sobre cómo crear un contenido más a
 
 Dentro de los niveles de orientación encontramos: principios generales, pautas generales, criterios de conformidad verificables y una amplia colección de técnicas suficientes, técnicas recomendables y fallos comunes documentados con ejemplos, enlaces a recursos adicionales y código.
 
-- **Principios** generales: En el nivel más alto se sitúan los cuatro principios que proporcionan los fundamentos de la accesibilidad web: *perceptible, operable, comprensible y robusto*. 
-- **Pautas** generales: Por debajo de los principios están las pautas. Las doce pautas proporcionan los objetivos básicos que los autores deben lograr con el fin de crear un contenido más accesible para los usuarios con distintas discapacidades. 
+- **Principios generales**: En el nivel más alto se sitúan los cuatro principios que proporcionan los fundamentos de la accesibilidad web: *perceptible, operable, comprensible y robusto*. 
+- **Pautas generales**: Por debajo de los principios están las pautas. Las doce pautas proporcionan los objetivos básicos que los autores deben lograr con el fin de crear un contenido más accesible para los usuarios con distintas discapacidades. 
 - **Criterios de Conformidad**: Para cada pauta se proporcionan los criterios de conformidad verificables. Se definen tres niveles de conformidad: A (el más bajo), AA y AAA (el más alto).
 - **Técnicas suficientes y recomendables:** Para cada una de las *pautas* y *criterios de conformidad* se proporcionan técnicas que nos permiten hacer una evaluación correcta.
 

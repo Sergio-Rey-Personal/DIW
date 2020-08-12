@@ -1,8 +1,8 @@
-# 7. Checklist de verificación de accesibilidad web
+# 7. **Checklist de verificación de accesibilidad web**
 
 Tabla de contenidos
 
-- [7. Checklist de verificación de accesibilidad web](#7-checklist-de-verificación-de-accesibilidad-web)
+- [7. **Checklist de verificación de accesibilidad web**](#7-checklist-de-verificación-de-accesibilidad-web)
   - [7.1. Tabla de puntos de verificación de WCAG 1.0](#71-tabla-de-puntos-de-verificación-de-wcag-10)
   - [7.2. WCAG 2 Checklist](#72-wcag-2-checklist)
 

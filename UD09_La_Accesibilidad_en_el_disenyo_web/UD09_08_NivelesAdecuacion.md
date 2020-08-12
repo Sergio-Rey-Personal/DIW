@@ -1,11 +1,11 @@
-# 7. Niveles de adecuación
+# 8. **Niveles de adecuación**
 
 Tabla de contenidos
 
-- [7. Niveles de adecuación](#7-niveles-de-adecuación)
-  - [7.1. Requisitos](#71-requisitos)
+- [8. **Niveles de adecuación**](#8-niveles-de-adecuación)
+  - [8.1. Requisitos](#81-requisitos)
 
-## 7.1. Requisitos
+## 8.1. Requisitos
 
 Para que una página web cumpla con los niveles de adecuación de la WCAG 2.0 se deben satisfacerse los requisitos siguientes:
 

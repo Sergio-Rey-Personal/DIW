@@ -1,8 +1,8 @@
-# 9. Herramientas de evaluación, análisis y testeo de accesibilidad web
+# 9. **Herramientas de evaluación, análisis y testeo de accesibilidad web**
 
 Tabla de contenidos
 
-- [9. Herramientas de evaluación, análisis y testeo de accesibilidad web](#9-herramientas-de-evaluación-análisis-y-testeo-de-accesibilidad-web)
+- [9. **Herramientas de evaluación, análisis y testeo de accesibilidad web**](#9-herramientas-de-evaluación-análisis-y-testeo-de-accesibilidad-web)
   - [9.1. Herramientas de evaluación, análisis y testeo de accesibilidad web:](#91-herramientas-de-evaluación-análisis-y-testeo-de-accesibilidad-web)
   - [9.2. Extensiones para instalar:](#92-extensiones-para-instalar)
   - [9.3. Plugins de WordPress que ayudan a crear sitios web accesibles:](#93-plugins-de-wordpress-que-ayudan-a-crear-sitios-web-accesibles)

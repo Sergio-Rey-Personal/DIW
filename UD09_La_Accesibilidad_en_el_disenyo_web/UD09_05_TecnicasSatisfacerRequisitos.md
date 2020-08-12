@@ -1,8 +1,8 @@
-## 5. Técnicas para satisfacer los requisitos definidos en las WCAG 
+# 5. **Técnicas para satisfacer los requisitos definidos en las WCAG** 
 
 Tabla de contenidos
 
-- [5. Técnicas para satisfacer los requisitos definidos en las WCAG](#5-técnicas-para-satisfacer-los-requisitos-definidos-en-las-wcag)
+- [5. **Técnicas para satisfacer los requisitos definidos en las WCAG**](#5-técnicas-para-satisfacer-los-requisitos-definidos-en-las-wcag)
   - [5.1. Técnicas fundamentales](#51-técnicas-fundamentales)
   - [5.2. Técnicas HTML](#52-técnicas-html)
   - [5.3. Técnicas CSS](#53-técnicas-css)
@@ -10,16 +10,16 @@ Tabla de contenidos
   - [5.5. Técnicas para servidor](#55-técnicas-para-servidor)
   - [5.6. Técnicas WAI-ARIA](#56-técnicas-wai-aria)
   - [5.7. Otras técnicas](#57-otras-técnicas)
-    - [Ejercicios](#ejercicios)
-    - [Actividad 4.3](#actividad-43)
-    - [Actividad 4.4](#actividad-44)
+      - [Ejercicios](#ejercicios)
+      - [Actividad 4.3](#actividad-43)
+      - [Actividad 4.4](#actividad-44)
 
 
 Las técnicas para satisfacer los requisitos definidos en las WCAG están recogidas en la siguiente web: <https://www.w3.org/WAI/GL/WCAG20-TECHS/>
 
 Como puedes ver, hay más de 400 técnicas para satisfacer todos los requisitos definidos en las WCAG, a continuación se mencionan las más destacadas:
 
-### 5.1. Técnicas fundamentales
+## 5.1. Técnicas fundamentales
 
 - Incluir alternativas de texto al contenido multimedia.
 - Permitir pausar el contenido multimedia.
@@ -33,7 +33,7 @@ Como puedes ver, hay más de 400 técnicas para satisfacer todos los requisitos 
 - Alinear los textos de manera similar.
 - Ofrecer feedback de confirmación o negación al realizar una operación, etc.
 
-### 5.2. Técnicas HTML
+## 5.2. Técnicas HTML
 
 - Utilizar elemento title para dar un título coherente a la página.
 - Incluir la etiqueta meta description.
@@ -46,7 +46,7 @@ Como puedes ver, hay más de 400 técnicas para satisfacer todos los requisitos 
 - Crear un orden de tabulación coherente en formularios y enlaces.
 - Utilizar [etiquetas estructurales o elementos semánticos](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_02_HTML5.md).
 
-### 5.3. Técnicas CSS
+## 5.3. Técnicas CSS
 
 - Facilitar mecanismos para que se pueda modificar la hoja de estilos CSS: colores, fuentes, etc.
 - [Separar la estructura de los estilos y no utilizar estilos en línea](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_22_ComoAplicarEstilosCSS.md).
@@ -54,7 +54,7 @@ Como puedes ver, hay más de 400 técnicas para satisfacer todos los requisitos 
 - Incluir el foco en los elementos mediante la [clase :focus](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_37_ResumenCSS.md#pseudo-clases-para-los-estados-de-un-elemento).
 - Utilizar CSS para presentar el texto, controlar el espaciado, etc.
 
-### 5.4. Javascript
+## 5.4. Javascript
 
 - Aumentar los tiempos de acción.
 - Soporte para utilizar tanto ratón como teclado.
@@ -63,11 +63,11 @@ Como puedes ver, hay más de 400 técnicas para satisfacer todos los requisitos 
 - Utilizar scripts para modificar el aspecto de la página, como el fondo.
 - Utilizar scripts para hacer scroll por la página y que se pueda controlar.
 
-### 5.5. Técnicas para servidor
+## 5.5. Técnicas para servidor
 
 - Aplicar redirecciones en lado del servidor (.htaccess)  y no en el cliente.
 
-### 5.6. Técnicas WAI-ARIA
+## 5.6. Técnicas WAI-ARIA
 
 Las técnicas **WAI-ARIA (Web Accessibility Initiative -- Accessible Rich Internet Applications)** proporcionan semántica, de tal forma que se pueden transmitir comportamientos de la interfaz de usuario e información estructural a las tecnologías de apoyo (por ejemplo, lectores de pantalla). La especificación de ARIA establece componentes que definen r**oles, estados y propiedades de los elementos de la interfaz de usuario.**
 
@@ -84,7 +84,7 @@ Algunas de las técnicas que se especifican consisten en utilizar los **atributo
 
 > [Ver ejemplos atributo semántico "role"](https://www.ediciones-eni.com/open/mediabook.aspx?idR=82bf10a975d8defafd64bdcf2b089ea6)
 
-### 5.7. Otras técnicas
+## 5.7. Otras técnicas
 
 Puedes ver más técnicas relacionadas con el uso de PDF, Flash, Silverlight, etc. en la web oficial: <https://www.w3.org/WAI/GL/WCAG20-TECHS/>
 

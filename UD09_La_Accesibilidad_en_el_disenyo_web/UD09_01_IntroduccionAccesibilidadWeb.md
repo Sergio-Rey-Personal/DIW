@@ -1,9 +1,9 @@
-# 1. Introducción a la Accesibilidad Web
+# 1. **Introducción a la Accesibilidad Web**
 
 Tabla de contenidos
 
-- [1. Introducción a la Accesibilidad Web](#1-introducción-a-la-accesibilidad-web)
-  - [## 1.1. Concepto de Accesibilidad Web](#h2-id11-concepto-de-accesibilidad-web-3411-concepto-de-accesibilidad-webh2)
+- [1. **Introducción a la Accesibilidad Web**](#1-introducción-a-la-accesibilidad-web)
+  - [1.1. Concepto de Accesibilidad Web](#11-concepto-de-accesibilidad-web)
   - [1.2. Importancia de la Accesibilidad Web](#12-importancia-de-la-accesibilidad-web)
   - [1.3. Desarrollo de web accesibles](#13-desarrollo-de-web-accesibles)
   - [1.4. Hacer tu sitio Web accesible](#14-hacer-tu-sitio-web-accesible)

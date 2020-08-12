@@ -1,8 +1,8 @@
-# 3. Pautas de Accesibilidad Web  
+# 3. **Pautas de Accesibilidad Web**  
 
 Tabla de contenidos
 
-- [3. Pautas de Accesibilidad Web](#3-pautas-de-accesibilidad-web)
+- [3. **Pautas de Accesibilidad Web**](#3-pautas-de-accesibilidad-web)
   - [3.1. El Consorcio World Wide Web (W3C)](#31-el-consorcio-world-wide-web-w3c)
   - [3.2. Pautas de Accesibilidad para el Contenido en la Web (WCAG)](#32-pautas-de-accesibilidad-para-el-contenido-en-la-web-wcag)
   - [3.3. WCAG 1.0](#33-wcag-10)

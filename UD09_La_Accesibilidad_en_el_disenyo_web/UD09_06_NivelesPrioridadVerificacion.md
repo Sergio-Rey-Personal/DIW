@@ -1,8 +1,8 @@
-# 6. Niveles de prioridad  y puntos de verificación 
+# 6. **Niveles de prioridad  y puntos de verificación** 
 
 Tabla de contenidos
 
-- [6. Niveles de prioridad  y puntos de verificación](#6-niveles-de-prioridad-y-puntos-de-verificación)
+- [6. **Niveles de prioridad  y puntos de verificación**](#6-niveles-de-prioridad-y-puntos-de-verificación)
   - [6.1. Niveles de prioridad](#61-niveles-de-prioridad)
   - [6.2. Logos de conformidad](#62-logos-de-conformidad)
   - [6.3. Cómo usar los logos](#63-cómo-usar-los-logos)

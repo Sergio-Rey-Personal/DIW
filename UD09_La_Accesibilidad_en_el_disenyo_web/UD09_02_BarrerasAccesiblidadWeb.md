@@ -1,4 +1,4 @@
-# 2. Barreras de accesibilidad web 
+# 2. **Barreras de accesibilidad web **
 
 La **accesibilidad web** consiste en desarrollar **aplicaciones web** que puedan ser **utilizadas** por el mayor número de **usuarios con necesidades específicas**. Estas necesidades pueden ser debidas a **limitaciones derivadas del entorno** o **derivadas de problemas visuales, auditivos, motrices y neurológicos** (dislexia, trastornos de atención, falta de memoria...).
 
@@ -61,27 +61,7 @@ La **accesibilidad web** consiste en desarrollar **aplicaciones web** que puedan
 
 [Ver más ejemplos sobre ataques fotosensibles](https://olgacarreras.blogspot.com/2007/11/como-evitar-causar-ataques.html)
 
-#### Ejercicios
-
-#### Actividad 1.1.
-
-Indica qué tipo de perfil no podría entender las siguientes instrucciones:
-
-- Pulsa el botón amarillo para acceder.
-- El menú está en la derecha.
-- Los errores se indicarán mediante un sonido.
-
-#### Actividad 1.2
-
-Propón una solución a cada uno de los siguientes desafíos:
-
-- Usuarios que no pueden ver vídeos.
-- Usuarios que no pueden escuchar vídeos.
-- Los daltónicos no pueden representar bien los colores.
-- Usuarios que no pueden utilizar el ratón.
-- Usuarios con dificultades de concentración o comprensión cuando hay párrafos largos.
-
-[Ver más desafíos y soluciones de diseño web accesible](http://accesibilidadweb.dlsi.ua.es/?menu=persona-discapacitada-web)
+> [Ver más desafíos y soluciones de diseño web accesible](http://accesibilidadweb.dlsi.ua.es/?menu=persona-discapacitada-web)
 
 ## 2.3. Ayudas técnicas y productos de apoyo
 
@@ -123,22 +103,3 @@ Permiten, mediante un sintetizador de sonido de voz incorporado, leer en voz alt
 Transforman el movimiento de los ojos o la cara en movimientos del puntero del ratón en la pantalla simulando las pulsaciones del ratón con un parpadeo o con un gesto concreto de la cara. Estos dispositivos son adecuados para aquellas personas que tienen una discapacidad motriz severa de las extremidades y además tienen dificultad en el habla.
 
 [Ver más productos de apoyo y ayudas técnicas](http://accesibilidadweb.dlsi.ua.es/?menu=hardware)
-
-#### Ejercicios
-
-#### Actividad 1.3
-
-Instala la extensión [ChromeVox Classic Extension](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=es). Realiza una puesta en común sobre las opciones de ChromeVox que figuran en el apartado "configuración".
-
-- ¿Para trabajar con ChromeVox es preciso disponer de altavoces?
-- ¿Un usuario ciego puede instalar ChromeVox?
-- ¿Permite cambio de idioma?
-- ¿Permite cambio de voz?
-- ¿Se pueden modificar los comandos para desplazarte por una página cómodamente?
-
-#### Actividad 1.4
-
-Utiliza ChromeVox para leer la página inicial de Eniun y saca tus propias conclusiones en cuanto al uso de la herramienta. Exponlas en común en clase.
-
-- ¿La herramienta se dedica a leer el contenido o también lo "explica"?
-- Cuando utilizas el tabulado para acceder a los enlaces ¿has entendido bien dónde te lleva cada enlace? ¿Qué cambiarías?
