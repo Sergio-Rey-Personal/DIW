@@ -43,7 +43,7 @@ Las guías WCAG proporcionan unas pautas de diseño que ayudan a que un sitio we
 3.  Usar marcadores y hojas de estilo y hacerlo de forma correcta.
 4.  Especificar el lenguaje utilizado.
 5.  Crear tablas que se transformen correctamente.
-6.  Asegurarse de que las páginas que usen nuevas tecnologías se transformen\correctamente.
+6.  Asegurarse de que las páginas que usen nuevas tecnologías se transformen correctamente.
 7.  Asegurar al usuario el control de los contenidos que cambian con el tiempo.
 8.  Asegurar la accesibilidad directa de las interfaces incrustadas.
 9.  Diseñar para la independencia del dispositivo.
@@ -54,9 +54,9 @@ Las guías WCAG proporcionan unas pautas de diseño que ayudan a que un sitio we
 14. Asegurar documentos claros y simples.
 
 Proporcionaban tres prioridades, niveles de cumplimiento o niveles de adecuación (la medida en que una página web cumple las directrices). 
-1. La Prioridad 1 o Nivel de adecuación A era un requisito básico para que algunos grupos de usuarios pudieran usar el contenido web. 
-2. La Prioridad 2 o Nivel de adecuación AA indicaba una mejor accesibilidad y la eliminación de importantes barreras de acceso al contenido. 
-3. La Prioridad 3 o Nivel de adecuación AAA proporcionaba mejoras a la accesibilidad del contenido web. WCAG 1.0 estaba muy centrado en HTML. 
+1. La **Prioridad 1** o **Nivel de adecuación A** era un requisito básico para que algunos grupos de usuarios pudieran usar el contenido web. 
+2. La **Prioridad 2** o **Nivel de adecuación AA** indicaba una mejor accesibilidad y la eliminación de importantes barreras de acceso al contenido. 
+3. La **Prioridad 3** o **Nivel de adecuación AAA** proporcionaba mejoras a la accesibilidad del contenido web. WCAG 1.0 estaba muy centrado en HTML. 
 
 También fue el principal recurso a partir del cual las pautas de la [Section 508](http://webaim.org/standards/508/checklist) se elaboraron.
 
@@ -69,9 +69,9 @@ Las [Pautas de Accesibilidad al Contenido en la Web 2.0](http://www.sidar.org/tr
 
 A un nivel práctico, algunos de los cambios de las WCAG 2.0 son sutiles. Por ejemplo, los formularios todavía requieren etiquetas, las tablas de datos todavía requieren cabeceras y las imágenes todavía requieren un texto alternativo. Los desarrolladores web que ya diseñan sitios web accesibles no tendrán que cambiar mucho sus hábitos. 
 
-Por otro lado, las WCAG 2.0 representan un cambio sustancial en su filosofía. Los cambios importantes implican que las pautas están centradas en principios más que en técnicas. Esto permite que las pautas sigan siendo relevantes incluso cuando la tecnología cambie. Además, están diseñadas para que la adecuación se pueda verificar de forma fiable. Aunque la medición de una verdadera adecuación puede ser difícil, las pautas están estructuradas para permitir una menor interpretación de lo que una verdadera adecuación significa.
+Por otro lado, las **WCAG 2.0 representan un cambio sustancial en su filosofía**. Los cambios importantes implican que **las pautas están centradas en principios más que en técnicas**. Esto permite que las pautas sigan siendo relevantes incluso cuando la tecnología cambie. Además, están diseñadas para que la adecuación se pueda verificar de forma fiable. Aunque la medición de una verdadera adecuación puede ser difícil, las pautas están estructuradas para permitir una menor interpretación de lo que una verdadera adecuación significa.
 
-El cambio de pautas centradas en las técnicas a pautas centradas en principios dio lugar a un número reducido de ideas de nivel superior o *principios*. WCAG 1.0 tenía catorce principios en el nivel superior. WCAG 2.0 sitúa únicamente cuatro principios en el nivel superior en virtud de los cuales se organizan pautas más específicas, llamadas *criterios de éxito*. Cada uno de estos cuatro principios se indica con una sola palabra:
+El cambio de pautas centradas en las técnicas a pautas centradas en principios dio lugar a un número reducido de ideas de nivel superior o *principios*. WCAG 1.0 tenía catorce principios en el nivel superior. **WCAG 2.0 sitúa únicamente cuatro principios en el nivel superior en virtud de los cuales se organizan pautas más específicas, llamadas *criterios de éxito***. Cada uno de estos cuatro principios se indica con una sola palabra:
 
 - Perceptible
 - Operable
@@ -89,6 +89,6 @@ WCAG 2.1 (05/06/2018) se inició con el objetivo de mejorar la guía de accesibi
 
 Se propusieron y evaluaron muchas formas de satisfacer estas necesidades, y el Grupo de Trabajo perfeccionó una serie de ellas. Los requisitos estructurales heredados de WCAG 2.0, la claridad y el impacto de las propuestas y el cronograma llevaron al conjunto final de criterios de éxito incluidos en esta versión. El grupo de trabajo considera que WCAG 2.1 avanza gradualmente la guía de accesibilidad al contenido web para todas estas áreas, pero subraya que estas guías no satisfacen todas las necesidades de los usuarios.
 
-WCAG 2.1 se basa en WCAG 2.0 y es compatible con versiones anteriores, lo que significa que las páginas web que cumplen con WCAG 2.1 también cumplen con WCAG 2.0. Los autores que están obligados por política a cumplir con WCAG 2.0 podrán actualizar el contenido a WCAG 2.1 sin perder la conformidad con WCAG 2.0.
+**WCAG 2.1 se basa en WCAG 2.0 y es compatible con versiones anteriores, lo que significa que las páginas web que cumplen con WCAG 2.1 también cumplen con WCAG 2.0**. Los autores que están obligados por política a cumplir con WCAG 2.0 podrán actualizar el contenido a WCAG 2.1 sin perder la conformidad con WCAG 2.0.
 
 Las WCAG 2.1 tienen un enfoque aditivo pensado para evidenciar que, si una página cumple con las WCAG 2.1, también está cumpliendo con las WCAG 2.0. Todos los criterios de conformidad de las WCAG 2.0 están incluidos en las WCAG 2.1. Esto era muy importante para que los sitios que se actualizan a las WCAG 2.1 no pierdan su conformidad con las WCAG 2.0 y sigan cumpliendo los requisitos legales de accesibilidad.
