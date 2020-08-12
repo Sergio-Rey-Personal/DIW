@@ -21,6 +21,7 @@ Tabla de contenidos
 
 La **accesibilidad web** consiste en desarrollar **aplicaciones web** que puedan ser **utilizadas** por el mayor número de **usuarios con necesidades específicas**. Estas necesidades pueden ser debidas a **limitaciones derivadas del entorno** o **derivadas de problemas visuales, auditivos, motrices y neurológicos** (dislexia, trastornos de atención, falta de memoria...).
 
+
 ## 2.1. Barreras derivadas del entorno 
 
 - **Navegadores antiguos**: Proporcionar alternativas cuando se utilizan elementos que no tienen soporte en tecnologías antiguas. Si usamos Javascript para mostrar un menú, este debe funcionar igualmente aunque la tecnología no esté disponible. 
@@ -30,6 +31,11 @@ La **accesibilidad web** consiste en desarrollar **aplicaciones web** que puedan
 - **Monitores monocromos**: evitar funcionalidades que se interpretan por su color, etc.
 
 ## 2.2. Barreras por tipo de perfil
+
+En los siguientes vídeos tenemos resumidos los diferentes tipo de discapacidad en la web: 
+
+> [Accesibilidad: Discapacidad en la web (parte 1)](https://youtu.be/mhLheLgGzxs)
+> [Accesibilidad: Discapacidad en la web (parte 2)](https://youtu.be/PRo8-pfSoso)
 
 ### 2.2.1. Ceguera:
 

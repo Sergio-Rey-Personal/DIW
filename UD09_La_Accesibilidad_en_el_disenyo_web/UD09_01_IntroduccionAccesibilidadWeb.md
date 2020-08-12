@@ -8,6 +8,7 @@ Tabla de contenidos
   - [1.3. Desarrollo de web accesibles](#13-desarrollo-de-web-accesibles)
   - [1.4. Hacer tu sitio Web accesible](#14-hacer-tu-sitio-web-accesible)
   - [1.5. Evaluación de la accesibilidad de un sitio Web](#15-evaluación-de-la-accesibilidad-de-un-sitio-web)
+  - [1.6. Introducción en 2 vídeos.](#16-introducción-en-2-vídeos)
 
 
 ## 1.1. Concepto de Accesibilidad Web
@@ -19,6 +20,8 @@ La accesibilidad Web engloba muchos tipos de discapacidades, incluyendo problema
 Existen millones de personas con discapacidad que no pueden utilizar la Web. Actualmente, la mayoría de los sitios Web y los [software Web](https://www.w3c.es/Traducciones/es/WAI/intro/accessibility#software) **presentan barreras de accesibilidad**, lo que dificulta o imposibilita la utilización de la Web para muchas personas con discapacidad. Cuanto más software y sitios Web accesibles estén disponibles, más personas con discapacidad podrán utilizar la Web y contribuir de forma más eficiente.
 
 Pero la accesibilidad Web **beneficia** también a organizaciones y a personas *sin* discapacidad. Por ejemplo, un principio básico de la accesibilidad Web es la flexibilidad con el objetivo de satisfacer diferentes necesidades, situaciones y preferencias. Esta **flexibilidad** va a beneficiar a todas aquellas personas que utilizan la Web, incluyendo personas que *no tienen* ninguna discapacidad pero que, debido a determinadas situaciones, tienen dificultades para acceder a la Web (por ejemplo, una conexión lenta), también estaríamos hablando de aquellas personas que sufren una incapacidad transitoria (por ejemplo, un brazo roto), y de personas de edad avanzada. El documento "[Desarrollo de un Proyecto de Accesibilidad Web para su organización](http://www.w3.org/WAI/EO/Drafts/bcase/Overview)" describe los diferentes beneficios de la accesibilidad Web, incluyendo los **beneficios obtenidos por las empresas**.
+
+Para entender mejor que es la accesibilidad web, veamos el siguiente video del especialista en el tema Sergio Lújan Mora: [Ejemplos de problemas de accesibilidad](https://youtu.be/2Tm0zZhIxKU)
 
 ## 1.2. Importancia de la Accesibilidad Web
 
@@ -55,3 +58,11 @@ Cuando se desarrolla o rediseña un sitio Web, la evaluación de la accesibilida
 Hay [herramientas de evaluación](http://www.w3.org/WAI/ER/existingtools.html) que ayudan a realizar evaluaciones de accesibilidad. No obstante, ninguna herramienta en sí misma puede determinar si un sitio cumple o no las pautas de accesibilidad. Para determinar si un sitio Web es accesible, es **necesaria la evaluación humana**.
 
 El documento "[Evaluación de Accesibilidad de sititos Web](http://www.w3.org/WAI/eval/Overview.html)" proporciona asesoramiento sobre las [revisiones preliminares](http://www.w3.org/WAI/eval/Overview.html#prelim), utilizando técnicas para evaluar de forma rápida algunos de los problemas de accesibilidad que puede presentar un sitio Web. También proporciona procedimientos generales y consejos para evaluar el [cumplimiento de las pautas de accesibilidad](http://www.w3.org/WAI/eval/Overview.html#eval).
+
+## 1.6. Introducción en 2 vídeos. 
+
+Veamos 2 vídeos donde podemos observar elementos problemáticos a la hora de implementar una web y posteriormente ejemplos de páginas web accesibles, que será nuestro objetivo en esta unidad didáctica.
+
+> [Accesibilidad web: 4 elementos más problemáticos](https://youtu.be/aXLID5Vydgw)
+
+> [Ejemplos de sitios web accesibles](https://youtu.be/l14AQXH5WgE)
