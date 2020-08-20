@@ -2,7 +2,7 @@
 
 Tabla de contenidos
 
-- [3. Objetivos de la web y tipos de usuarios.](#3-objetivos-de-la-web-y-tipos-de-usuarios)
+- [3. **Objetivos de la web y tipos de usuarios**.](#3-objetivos-de-la-web-y-tipos-de-usuarios)
   - [3.1. Diseño web amigable](#31-diseño-web-amigable)
     - [3.1.1. Contenidos web](#311-contenidos-web)
     - [3.1.2. Diseño de la interface web](#312-diseño-de-la-interface-web)
@@ -158,9 +158,9 @@ Esta clasificación se ha hecho estableciendo unos grados en el nivel de conocim
 
 --- 
 
-    > *Ejemplo de divisiones en la clasificación*
+  > *Ejemplo de divisiones en la clasificación*
 
-    Las reglas de negocio son aquellas funcionalidades y conceptos vinculados directamente con la temática del sitio web. Por ejemplo, si se trata de un aplicativo que ayuda a llevar la contabilidad de una organización, las reglas de negocio serán todo aquello vinculado con los términos económicos, como los centros de coste, la homologación de los proveedores o indicar un pago en diferido. Un usuario experto en contabilidad pero novel en el uso de las TIC, como habrá que considerarlo en este sitio web? Y un usuario experto en el uso de las TIC pero novel en términos económicos? Aplicando esta nueva división a la clasificación anterior, esta se podría completar y hacer tan compleja y larga como consideramos.
+  Las reglas de negocio son aquellas funcionalidades y conceptos vinculados directamente con la temática del sitio web. Por ejemplo, si se trata de un aplicativo que ayuda a llevar la contabilidad de una organización, las reglas de negocio serán todo aquello vinculado con los términos económicos, como los centros de coste, la homologación de los proveedores o indicar un pago en diferido. Un usuario experto en contabilidad pero novel en el uso de las TIC, como habrá que considerarlo en este sitio web? Y un usuario experto en el uso de las TIC pero novel en términos económicos? Aplicando esta nueva división a la clasificación anterior, esta se podría completar y hacer tan compleja y larga como consideramos.
 
 ---
 
