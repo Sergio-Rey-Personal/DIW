@@ -70,7 +70,7 @@ El formato PNG es el un formato con un magnífico comportamiento para la web. Re
 
 WebP es el **formato de imagen** más reciente en el mundo de la web. Nació 2010 e la mano de Google y pretende convertirse en un estándard desbancado a JPG, Png o Gifs. Soporta **compresión** superior **sin pérdida y con pérdida** para imágenes en la web. Admite transparencias y animaciones. Puede llegar a logra compresiones de alrededor de un 25% superiores a las conseguidas en el formato png. Con respecto al formato Jpg, sus resultados son muy parecidos en fotografías, en imágnes prediseñadas si que mejora los resultados. Sin embargo si presenta una clara ventaja frente a a png y gif.
 
-![Ejemplo de imagen WepP](img/img1.wepb)
+![Ejemplo de imagen WepP](img/img1.webp)
 
 Los diferentes tipos de imágenes permiten tener más o menos colores y distintos grados de compresión
 
