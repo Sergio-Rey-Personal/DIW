@@ -3,23 +3,27 @@
 Tabla de contenidos
 
 - [8. **Eventos**](#8-eventos)
-  - [8.1. Vincular Eventos a Elementos](#81-vincular-eventos-a-elementos)
-    - [8.1.1 Vincular Eventos para Ejecutar una vez](#811-vincular-eventos-para-ejecutar-una-vez)
-    - [8.1.2 Desvincular Eventos](#812-desvincular-eventos)
-    - [8.1.3 Espacios de Nombres para Eventos](#813-espacios-de-nombres-para-eventos)
-    - [8.1.4 Vinculación de Múltiples Eventos](#814-vinculación-de-múltiples-eventos)
-  - [8.2. El Objeto del Evento](#82-el-objeto-del-evento)
-  - [8.3. Ejecución automática de Controladores de Eventos](#83-ejecución-automática-de-controladores-de-eventos)
-  - [8.4. Incrementar el Rendimiento con la Delegación de Eventos](#84-incrementar-el-rendimiento-con-la-delegación-de-eventos)
-    - [8.4.1 Desvincular Eventos Delegados](#841-desvincular-eventos-delegados)
-  - [8.5. Funciones Auxiliares de Eventos](#85-funciones-auxiliares-de-eventos)
-    - [8.5.1 `.hover`](#851-hover)
-    - [8.5.2 `.toggle`](#852-toggle)
-  - [8.6. Eventos habituales](#86-eventos-habituales)
-    - [8.6.1. Eventos del ratón](#861-eventos-del-ratón)
-    - [5.2. Eventos del teclado](#52-eventos-del-teclado)
-    - [5.3. Eventos de ventana](#53-eventos-de-ventana)
-    - [5.4. Eventos de formulario](#54-eventos-de-formulario)
+- [8.1. Escuchando eventos](#81-escuchando-eventos)
+    - [8.1.1. Event Bubbling](#811-event-bubbling)
+    - [8.1.2. Captura de eventos](#812-captura-de-eventos)
+    - [8.1.3. Eventos con nombre](#813-eventos-con-nombre)
+  - [8.2. Vincular Eventos a Elementos](#82-vincular-eventos-a-elementos)
+    - [8.2.1 Vincular Eventos para Ejecutar una vez](#821-vincular-eventos-para-ejecutar-una-vez)
+    - [8.2.2 Desvincular Eventos](#822-desvincular-eventos)
+    - [8.2.3 Espacios de Nombres para Eventos](#823-espacios-de-nombres-para-eventos)
+    - [8.2.4 Vinculación de Múltiples Eventos](#824-vinculación-de-múltiples-eventos)
+  - [8.3. El Objeto del Evento](#83-el-objeto-del-evento)
+  - [8.4. Ejecución automática de Controladores de Eventos](#84-ejecución-automática-de-controladores-de-eventos)
+  - [8.5. Incrementar el Rendimiento con la Delegación de Eventos](#85-incrementar-el-rendimiento-con-la-delegación-de-eventos)
+    - [8.5.1 Desvincular Eventos Delegados](#851-desvincular-eventos-delegados)
+  - [8.6. Funciones Auxiliares de Eventos](#86-funciones-auxiliares-de-eventos)
+    - [8.6.1 `.hover`](#861-hover)
+    - [8.6.2 `.toggle`](#862-toggle)
+  - [8.7. Eventos habituales](#87-eventos-habituales)
+    - [8.7.1. Eventos del ratón](#871-eventos-del-ratón)
+    - [8.7.2. Eventos del teclado](#872-eventos-del-teclado)
+    - [8.7.3. Eventos de ventana](#873-eventos-de-ventana)
+    - [8.7.4. Eventos de formulario](#874-eventos-de-formulario)
 
 jQuery provee métodos para asociar controladores de eventos (en inglés *event handlers*) a selectores. Cuando un evento ocurre, la función provista es ejecutada. Dentro de la función, la palabra clave `this` hace referencia al elemento en que el evento ocurre.
 
@@ -27,7 +31,136 @@ Para más detalles sobre los eventos en jQuery, puede consultar <http://api.jque
 
 La función del controlador de eventos puede recibir un objeto. Este objeto puede ser utilizado para determinar la naturaleza del evento o, por ejemplo, prevenir el comportamiento predeterminado de éste. Para más detalles sobre el objeto del evento, visite <http://api.jquery.com/category/events/event-object/>.
 
-## 8.1. Vincular Eventos a Elementos
+# 8.1. Escuchando eventos
+
+Ahora empieza lo bueno de este curso. Hasta ahora hemos visto muchas cosas, pero a partir de ahora vamos a **reaccionar** a lo que sucede en mi página para dar vida a la misma haciéndola **dinámica**.
+
+Para conseguir esta interactividad lo que haremos es usar **jQuery** para **CAPTURAR** eventos y **RESPONDER** a los mismos, entendiendo como **EVENTO** cualquier cosa que sucede en nuestra página web.
+
+Para este trabajo con eventos **jQuery** nos ofrece muchísimas posibilidades y además de ser numerosas son muy flexibles y tienen muchas opciones. Por este motivo en este curso vamos a ver una primera aproximación centrándonos en las más usadas.
+
+### 8.1.1. Event Bubbling
+
+Para realizar esa _captura_ y _respuesta_ a los eventos antes debemos entender cómo funcionan, de manera general, los eventos en una página web.
+
+Los eventos siguen lo que se llama **"event bubbling"**, y se van propagando desde el elemento en el que se han producido hacia arriba del DOM hasta que encuentran (en caso de que haya) un manejador o handler.
+
+Si se encuentran con ese handler, lo ejecutan y siguen su camino hacia arriba hasta que llegan arriba del DOM.
+
+Esto proceso se puede ilustrar con una imagen de ejemplo:
+
+![Event Bubbling](img/jquery-event_bubbling.png)
+
+Paso a paso lo que sucede es (de manera simplificada):
+
+1. Hacemos click en un li. Al tener manejador se ejecuta.
+2. El evento se propaga al ul, al no tener manejador el evento sigue hacia arriba.
+3. El evento llega al body que tiene un manejador para el evento click. Éste se ejecuta.
+4. El evento sigue subiendo pero no vuelve a encontrar ningún manejador.
+
+### 8.1.2. Captura de eventos
+
+Una vez hemos entendido cómo funcionan los eventos vamos a ver que tenemos dos posibilidades para capturarlos y reaccionar a los mismos.
+
+1. Utilizando funciones de carácter general.
+2. Utilizando funciones específicas para cada evento que tienen el nombre propio del evento.
+
+- Funciones general para la captura de eventos
+
+Son principalmente dos, las funciones **.on()** y **.one()**. Ambas son funciones análogas y la diferencia es que **.one()** ejecuta el handler como mucho una vez y luego lo desactiva.
+
+En ambas indico el nombre del evento que quiero capturar y puedo tener una **ASOCIACIÓN DIRECTA** del handler al evento o una **ASOCIACIÓN DELEGADA**. Vamos a proceder a ilustrar su funcionamiento más general (hay más opciones pero para este curso es suficiente):
+
+```js
+
+//ASOCIACIÓN DIRECTA: Se ejecuta el handler cuando sucede el evento en el elemento o en sus hijos.
+//event es opcional
+
+$("some_selector").on("event1 event2 eventN", function(event) {
+  //Tengo acceso a $(this) (El elemento donde sucedió el evento )
+});
+
+//ASOCIACIÓN DELEGADA. Se añade un parámetro y se ejecutará el handler si el evento sucede en algunos de los hijos del elemento que cumple con el selector2
+
+$("some_selector").on("event1 event2 eventN", "selector2",function(event) {
+  //Tengo acceso a $(this) (El elemento donde sucedió el evento )
+});
+
+//Análogo a on() pero se ejecuta el handler como mucho una vez
+//Luego se ELIMINA EL HANDLER. Puedo tener tambié asociación directa e indirecta.
+$("some_selector").one("event1 event2….eventN", function(event) {
+  //Tengo acceso a $this (elemento donde ocurrió el evento)
+});
+
+//Un ejemplo de este uso de handlers
+//Un li que muestra cuántas veces hemos hecho click en él o hemos pasado por
+//encima con el ratón.
+
+//ASOCIACIÓN DIRECTA
+var numVeces = 0;
+$("li#ejemplo").on("click mouseenter", function(event) {
+  $(this).html("Número de clicks:" + ++numVeces);
+});
+
+//ASOCIACIÓN DELEGADA
+var numVeces = 0;
+$("ul").on("click mouseenter","li#ejemplo", function(event) {
+  $(this).html("Número de clicks:" + ++numVeces);
+});
+
+```
+
+
+### 8.1.3. Eventos con nombre
+
+El funcionamiento es análogo a la captura con **.on()** o **.one()** pero los eventos "importantes" tienen funciones propias dedicadas. Este tipo de captura **NO** me permite **ASOCIACIÓN DELEGADA**.
+
+De manera general tienen esta sintaxis:
+
+```js
+
+    $("some_selector").nombreEvento(funcion(event) {
+        ....
+    });
+
+    //El mismo ejemplo con un selector con nombre
+    var numVeces = 0;
+    $("li#ejemplo").click(funcion(event) {
+            $(this).html("Número de clicks:"+(++numVeces));
+    });
+```
+
+Entre los eventos con nombre más destacados tenemos:
+
+|             |              |               |           |
+| :---------: | :----------: | :-----------: | :-------: |
+|  .change()  |   .hover()   | .mouseenter() | .resize() |
+|  .click()   | .keypress()  | .mouseleave() | .scroll() |
+| .dblclick() |  .keydown()  | .mousemove()  | .select() |
+|  .focus()   |   .keyup()   |  .mouseout()  | .submit() |
+| .focusout() | .mousedown() | .mouseover()  |           |
+
+Aunque algunos necesitan una explicación algo más detallada la verdad es que casi todos son autoexplicativos, dado su nombre.
+
+Veremos algunos con más detalle en el capítulos posteriores.
+
+- El objeto **EVENT**
+
+Si, como hemos hecho hasta ahora, ponemos a disposición del handler el objeto **EVENT** este objeto puede proporcionarnos muchas **información adicional** sonre el evento, **parar el event bubbling**, **evitar comportamientos por defecto** y muchas más cosas.
+
+Tiene muchas propiedades y métodos pero las más comunmente usadas son:
+
+|                    |                     |           |
+| :----------------: | :-----------------: | :-------: |
+|  e.currentTarget   | e.stopPropagation() |           |
+| e.delegatedTarget  |      e.Target       |           |
+|      e.pageX       |     e.timeStamp     | e.metaKey |
+|      e.pageY       |       e.type        |           |
+| e.preventDefault() |       e.which       |           |
+
+Aunque algunos necesitan una explicación algo más detallada la verdad es que casi todos son autoexplicativos, dado su nombre.
+
+## 8.2. Vincular Eventos a Elementos
 
 jQuery ofrece métodos para la mayoría de los eventos --- entre ellos `.click`, `.focus`, `.blur`, `.change`, etc. Estos últimos son formas reducidas del método `.on` de jQuery (`.bind` en versiones anteriores a jQuery 1.7). El método `.on` es útil para vincular (en inglés *binding*) la misma función de controlador a múltiples eventos, para cuando se desea proveer información al controlador de evento, cuando se está trabajando con eventos personalizados o cuando se desea pasar un objeto a múltiples eventos y controladores.
 
@@ -61,7 +194,7 @@ $('input').on(
 );
 ```
 
-### 8.1.1 Vincular Eventos para Ejecutar una vez
+### 8.2.1 Vincular Eventos para Ejecutar una vez
 
 A veces puede necesitar que un controlador particular se ejecute solo una vez --- y después de eso, necesite que ninguno más se ejecute, o que se ejecute otro diferente. Para este propósito jQuery provee el método `.one`.
 
@@ -76,7 +209,7 @@ $('p').one('click', function() {
 
 El método `.one` es útil para situaciones en que necesita ejecutar cierto código la primera vez que ocurre un evento en un elemento, pero no en los eventos sucesivos.
 
-### 8.1.2 Desvincular Eventos
+### 8.2.2 Desvincular Eventos
 
 Para desvincular (en ingles *unbind*) un controlador de evento, puede utilizar el método `.off` pasándole el tipo de evento a desconectar. Si se pasó como adjunto al evento una función nombrada, es posible aislar la desconexión de dicha función pasándola como segundo argumento.
 
@@ -96,7 +229,7 @@ $('p').on('click', foo).on('click', bar);
 $('p').off('click', bar); // foo esta atado aún al evento click
 ```
 
-### 8.1.3 Espacios de Nombres para Eventos
+### 8.2.3 Espacios de Nombres para Eventos
 
 Cuando se esta desarrollando aplicaciones complejas o extensiones de jQuery, puede ser útil utilizar espacios de nombres para los eventos, y de esta forma evitar que se desvinculen eventos cuando no lo desea.
 
@@ -109,7 +242,7 @@ $('p').off('.myNamespace'); // desvincula todos los eventos con
                             // el espacio de nombre 'myNamespace'
 ```
 
-### 8.1.4 Vinculación de Múltiples Eventos
+### 8.2.4 Vinculación de Múltiples Eventos
 
 Muy a menudo, elementos en una aplicación estarán vinculados a múltiples eventos, cada uno con una función diferente. En estos casos, es posible pasar un objeto dentro de `.on` con uno o más pares de nombres claves/valores. Cada clave será el nombre del evento mientras que cada valor será la función a ejecutar cuando ocurra el evento.
 
@@ -126,7 +259,7 @@ $('p').on({
 });
 ```
 
-## 8.2. El Objeto del Evento
+## 8.3. El Objeto del Evento
 
 Como se menciona en la introducción, la función controladora de eventos recibe un objeto del evento, el cual contiene varios métodos y propiedades. El objeto es comúnmente utilizado para prevenir la acción predeterminada del evento a través del método *preventDefault*. Sin embargo, también contiene varias propiedades y métodos útiles:
 
@@ -156,7 +289,7 @@ $('a').click(function(e) {
 });
 ```
 
-## 8.3. Ejecución automática de Controladores de Eventos
+## 8.4. Ejecución automática de Controladores de Eventos
 
 A través del método `.trigger`, jQuery provee una manera de disparar controladores de eventos sobre algún elemento sin requerir la acción del usuario. Si bien este método tiene sus usos, no debería ser utilizado para simplemente llamar a una función que pueda ser ejecutada con un click del usuario. En su lugar, debería guardar la función que se necesita llamar en una variable, y luego pasar el nombre de la variable cuando realiza el vinculo (*binding*). De esta forma, podrá llamar a la función cuando lo desee en lugar de ejecutar `.trigger`.
 
@@ -176,7 +309,7 @@ $('p').click(foo);
 foo(); // en lugar de realizar $('p').trigger('click')
 ```
 
-## 8.4. Incrementar el Rendimiento con la Delegación de Eventos
+## 8.5. Incrementar el Rendimiento con la Delegación de Eventos
 
 Cuando trabaje con jQuery, frecuentemente añadirá nuevos elementos a la página, y cuando lo haga, necesitará vincular eventos a dichos elementos. En lugar de repetir la tarea cada vez que se añade un elemento, es posible utilizar la delegación de eventos para hacerlo. Con ella, podrá enlazar un evento a un elemento contenedor, y luego, cuando el evento ocurra, podrá ver en que elemento sucede.
 
@@ -202,7 +335,7 @@ $('#myUnorderedList').delegate('li', 'click', function(e) {
 });
 ```
 
-### 8.4.1 Desvincular Eventos Delegados
+### 8.5.1 Desvincular Eventos Delegados
 
 Si necesita remover eventos delegados, no puede hacerlo simplemente desvinculándolos. Para eso, utilice el método `.off` para eventos conectados con `.on`, y `.undelegate` para eventos conectados con `.delegate`. Al igual que cuando se realiza un vinculo, opcionalmente, se puede pasar el nombre de una función vinculada.
 
@@ -213,11 +346,11 @@ $('#myUnorderedList').off('click', 'li');
 $('#myUnorderedList').undelegate('li', 'click');
 ```
 
-## 8.5. Funciones Auxiliares de Eventos
+## 8.6. Funciones Auxiliares de Eventos
 
 jQuery ofrece dos funciones auxiliares para el trabajo con eventos:
 
-### 8.5.1 `.hover`
+### 8.6.1 `.hover`
 
 El método `.hover` permite pasar una o dos funciones que se ejecutarán cuando los eventos `mouseenter` y `mouseleave` ocurran en el elemento seleccionado. Si se pasa una sola función, está será ejecutada en ambos eventos; en cambio si se pasan dos, la primera será ejecutada cuando ocurra el evento `mouseenter`, mientras que la segunda será ejecutada cuando ocurra `mouseleave`.
 
@@ -229,7 +362,7 @@ $('#menu li').hover(function() {
 });
 ```
 
-### 8.5.2 `.toggle`
+### 8.6.2 `.toggle`
 
 Al igual que el método anterior, `.toggle` recibe dos o más funciones; cada vez que un evento ocurre, la función siguiente en la lista se ejecutará. Generalmente, `.toggle` es utilizada con solo dos funciones. En caso que utiliza más de dos funciones, tenga cuidado, ya que puede ser dificultar la depuración del código.
 
@@ -244,11 +377,37 @@ $('p.expander').toggle(
 );
 ```
 
-## 8.6. Eventos habituales
+## 8.7. Eventos habituales
 
 En la página oficial de jQuery puedes ver la lista completa de eventos disponibles: api.jquery.com/category/events. Veamos ahora los eventos de ratón, de teclado, ventana y formulario más utilizados.
 
-### 8.6.1. Eventos del ratón
+### 8.7.1. Eventos del ratón
+
+En relación a los eventos de ratón tenemos bastantes más:
+
+- **.mousedown():** Al presionar el ratón estando dentro de un elemento.
+- **.mouseup():** Cuando libero el ratón tras hacer click en alguno de sus botones.
+- **.mousenter():** Cuando el ratón entra en un elemento.
+- **.mouseleave():** Cuando el ratón sale de un elemento.
+- **.mousemove():** Cuando muevo el ratón dentro de un elemento.
+- **.mouseover():** Cuando el ratón entra en un elemento.
+- **.mouseout():** Cuando el ratón sale de un elemento.
+- **.click():** Cuando hago click sencillo de ratón dentro de un elemento.
+- **.dblclick():** Cuando hago doble click de ratón detro de un elemento.
+
+Puede parecer que **.mouseenter()** y **.mouseleave()** son similares a **.mouseover()** y **.mouseout()** pero los dos primeros son simulaciones de eventos propios de Internet Explorer que **jQuery** incluye para que puedan ser utilizado independientemente del navegador. Adicionalmente hay otras diferencias:
+
+|      .mouseover()       |  .mouseenter()   |
+| :---------------------: | :--------------: |
+| El elemento y sus hijos | Sólo el elemento |
+
+|       .mouseout()        |   .mouseleave()    |
+| :----------------------: | :----------------: |
+| Del elemento y sus hijos | Salgo del elemento |
+
+Esto se puede apreciar claramente en el ejmplo incluido en este mismo capítulo.
+
+Veamos en ejemplos los más importantes o representativos
 
 - **`.click()`** : pulsar una vez con el puntero sobre un elemento:
 
@@ -469,7 +628,22 @@ $('#mouseleave-innerBox2').mouseleave(function(event) {
 
 > [Ejemplo de eventos de ratón (Codepen)](https://codepen.io/sergio-rey-personal/pen/PoZXBjz)
 
-### 5.2. Eventos del teclado
+### 8.7.2. Eventos del teclado
+
+on principalmente tres:
+
+- **.keydown():** Evento que se dispara cuando presiono una tecla estando dentro de un elemento.
+- **.keyup():** Evento que se dispara cuando libero la tecla presionada.
+- **.keypress():** Evento que se dispara cuando presiono una tecla estando dentro de un elemento.
+
+**IMPORTANTE:** Aunque pueden .keydown() y .keypress() pueden parecer lo mismo no son del todo iguales.
+
+Para comprender un poquito mejor las diferencias entre ambas:
+
+|       .keydown()       |         .keyup()         |
+| :--------------------: | :----------------------: |
+| Incluye "special keys" | No incluye "special keys |
+|    Case Insensitive    |      Case sensitive      |
 
 - **`.keydown()`** : El evento se produce en el momento que se presiona una tecla, independientemente de si se libera o se mantiene la presión. Se produce una única vez en el momento exacto de la presión.
 
@@ -571,7 +745,7 @@ $(function () {
 > [Ejemplo de eventos de teclado en JQuery (Codepen)](https://codepen.io/sergio-rey-personal/pen/jOWXeON)
 
 
-### 5.3. Eventos de ventana
+### 8.7.3. Eventos de ventana
 
 - **`.scroll()`**. Este evento se atiende cuando sobre un elemento que tiene barras de desplazamiento se mueve una de ellas.
 - **`.resize()`**. El evento se lanza cuando a un elemento tipo ventana se le cambia el tamaño.
@@ -659,7 +833,7 @@ Con lo que tenemos lo siguiente:
 > [Ejemplo de eventos de ventanas con JQuery](https://codepen.io/sergio-rey-personal/pen/vYLvVpQ)
 
 
-### 5.4. Eventos de formulario
+### 8.7.4. Eventos de formulario
 
 Para interactuar con los componentes de formulario utilizaremos los siguientes eventos:
 

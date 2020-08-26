@@ -17,13 +17,20 @@ $('h1').css('fontSize'); // devuelve una cadena de caracteres como "19px"
 $('h1').css('font-size'); // también funciona
 ```
 
-> Las propiedades CSS que incluyen como separador un guión del medio, en JavaScript deben ser transformadas a su estilo CamelCase. Por ejemplo, cuando se la utiliza como propiedad de un método, el estilo CSS `font-size` deberá ser expresado como `fontSize`. Sin embargo, esta regla no es aplicada cuando se pasa el nombre de la propiedad CSS al método `$.fn.css` --- en este caso, los dos formatos (en CamelCase o con el guión del medio) funcionarán.
+> Las propiedades CSS que incluyen como separador un guión del medio, en JavaScript deben ser transformadas a su estilo CamelCase. Por ejemplo, cuando se la utiliza como propiedad de un método, el estilo CSS `font-size` deberá ser expresado como `fontSize`. Sin embargo, esta regla no es aplicada cuando se pasa el nombre de la propiedad CSS al método `$(elem).css` --- en este caso, los dos formatos (en CamelCase o con el guión del medio) funcionarán.
 
-```javascript// establece una propiedad individual CSS
+```javascript
+// establece una propiedad individual CSS
 $('h1').css('fontSize', '100px');
 
 // establece múltiples propiedades CSS
 $('h1').css({ 'fontSize' : '100px', 'color' : 'red' });
+
+// obtiene el valor del color del PRIMER elemento de la lista y lo almacena en una variable
+var color = $(“li”).css(“color”);
+
+// Modifica el ancho de una imagen, haciendo que sea 50px más ancha
+$(“img”).css(“width”,”+=50”);
 ```
 
 Notar que el estilo del argumento utilizado en la segunda línea del ejemplo --- es un objeto que contiene múltiples propiedades. Esta es una forma común de pasar múltiples argumentos a una función, y muchos métodos establecedores de la biblioteca aceptan objetos para fijar varias propiedades de una sola vez.
@@ -77,7 +84,35 @@ En este ejemplo podemos observar como podemos ir cambiando las propiedades de lo
 
 > [Ejemplo de acceso a elementos en Codepen](https://codepen.io/sergio-rey-personal/pen/NWxepOJ)
 
-Para obtener valores de los estilos aplicados a un elemento, el método `$.fn.css` es muy útil, sin embargo, su utilización como método establecedor se debe evitar (ya que, para aplicar estilos a un elemento, se puede hacer directamente desde CSS). En su lugar, lo ideal, es escribir reglas CSS que se apliquen a clases que describan los diferentes estados visuales de los elementos y luego cambiar la clase del elemento para aplicar el estilo que se desea mostrar.
+Para obtener valores de los estilos aplicados a un elemento, el método `$(elem).css` es muy útil, sin embargo, su utilización como método establecedor se debe evitar (ya que, para aplicar estilos a un elemento, se puede hacer directamente desde CSS). En su lugar, lo ideal, es escribir reglas CSS que se apliquen a clases que describan los diferentes estados visuales de los elementos y luego cambiar la clase del elemento para aplicar el estilo que se desea mostrar.
+
+Tambien podemos obtener el valor de varias propiedades de elemento seleccionado y asignar de igual forma varias propiedades:
+
+```javascript
+//Obtener el valor de varias propiedades del PRIMER ELEMENTO que se obtiene del selector (array o vector)
+var props =$(“some_selector”).css([“propiedad1”,“propiedad2”,.....,”propiedadN”]);
+
+//ESTABLECER el valor de varias propiedades para los elementos seleccionados
+$(“some_selector”).css( {
+  prop1: valor (o expresion),
+  prop2: valor (o expresión),
+  ….
+  propn : valor (o expresión)
+});
+```
+
+> Hay que tener en cuenta que si la selección afecta a varios elementos, nos devuelve un array con estos elementos, y si seleccionamos el valor de las propiedades, lo estamos haciendo del primero de los elementos. Por el contrario a la hora de asignar, se asignan a todos los elementos seleccionados.
+
+```javascript
+//obtenemos el valor del color del primer elemento de la lista
+var colores = $(“li”).css([“color”, “background-color”]);
+
+//asignamos a todos los elementos tipo "li" los valores establecidos
+$(“li”).css({
+  color : #FFF,
+  background-color : #000
+});
+```
 
 ## 4.2. Cambiar clase CSS
 
@@ -141,9 +176,20 @@ $(document).ready(function()
 <div>Esto es un 'div'</div>
 ```
 
-![Ejemplo](img(img/jquery-ejemplo-css.png)
+![Ejemplo](img/jquery-ejemplo-css.png)
 
 [Ejemplo de trabajo con clases desde JQuery (Codepen)](https://codepen.io/sergio-rey-personal/pen/KKVbmXM)
+
+
+También tenemos la posibilidad de revisar si un elemento tiene o no una clase mediante **'.hasclass'**
+
+```javascript
+//TRUE si CUALQUIERA de los elementos seleccionados tiene esa clase
+$(“some_selector”).hasClass(“clase1”);
+
+//Ejemplo
+$(“.btn”).hassClass(“btn-error”);
+```
 
 ## 4.3. Dimensiones
 

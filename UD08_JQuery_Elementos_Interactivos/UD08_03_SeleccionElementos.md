@@ -59,7 +59,7 @@ $('a.external:first');
 $('tr:odd');
 
 // selecciona todos los elementos del tipo input dentro del formulario #myForm
-$('#myForm :input');
+$('#myForm:input');
 
 // selecciona todos los divs visibles
 $('div:visible');
@@ -109,7 +109,7 @@ jQuery.expr.filters.visible = function( elem ) {
 
 La elección de buenos selectores es un punto importante cuando se desea mejorar el rendimiento del código. Una pequeña especificidad --- por ejemplo, incluir el tipo de elemento (como `div`) cuando se realiza una selección por el nombre de clase --- puede ayudar bastante. Por eso, es recomendable darle algunas "pistas" a jQuery sobre en que lugar del documento puede encontrar lo que desea seleccionar. Por otro lado, demasiada especificidad puede ser perjudicial. Un selector como `#miTabla thead tr th.especial` es un exceso, lo mejor sería utilizar `#miTabla th.especial`.
 
-jQuery ofrece muchos selectores basados en atributos, que permiten realizar selecciones basadas en el contenido de los atributos utilizando simplificaciones de expresiones regulares.
+JQuery ofrece muchos selectores basados en atributos, que permiten realizar selecciones basadas en el contenido de los atributos utilizando simplificaciones de expresiones regulares.
 
 ```javascript
 // encontrar todos los <a> cuyo atributo rel terminan en "thinger"
@@ -206,7 +206,7 @@ $('#content')
     .html('nuevo texto para el tercer elemento h3');
 ```
 
-Si deseas volver a la selección original en el medio del encadenado, jQuery ofrece el método `$.fn.end` para poder hacerlo.
+Si deseas volver a la selección original en el medio del encadenado, jQuery ofrece el método `$(elem).end` para poder hacerlo.
 
 ```javascript
 $('#content')
@@ -225,7 +225,7 @@ $('#content')
 jQuery "sobrecarga" sus métodos, en otras palabras, el método para establecer un valor posee el mismo nombre que el método para obtener un valor. Cuando un método es utilizado para establecer un valor, es llamado método establecedor (en inglés *setter*). En cambio, cuando un método es utilizado para obtener (o leer) un valor, es llamado obtenedor (en inglés *getter*).
 
 ```javascript
-/*El método $.fn.html utilizado como establecedor*/
+/*El método $(elem).html utilizado como establecedor*/
 $('h1').html('hello world');
 
 /*El método html utilizado como obtenedor*/

@@ -5,6 +5,11 @@ Tabla de contenidos
 - [7. **Manipulación de elementos de DOM**](#7-manipulación-de-elementos-de-dom)
   - [7.1. Obtener y establecer información en elementos](#71-obtener-y-establecer-información-en-elementos)
   - [7.2. Mover, copiar y eliminar elementos](#72-mover-copiar-y-eliminar-elementos)
+    - [7.2.1. .empty(), .html() y .text()](#721-empty-html-y-text)
+    - [7.2.2. .append() / .prepend() / .appendTo() / .prependTo()](#722-append--prepend--appendto--prependto)
+    - [7.2.3. .wrap() / .unwrap() / .wrapAll() / .wrapInner()](#723-wrap--unwrap--wrapall--wrapinner)
+    - [7.2.4. .val()](#724-val)
+    - [7.2.5. .remove() y .detach()](#725-remove-y-detach)
   - [7.3. Crear nuevos elementos](#73-crear-nuevos-elementos)
   - [7.4. Manipulación de atributos](#74-manipulación-de-atributos)
 
@@ -19,15 +24,15 @@ Existen muchas formas por las cuales se puede modificar un elemento. Entre las t
 
 > ***Nota***: Realizar cambios en los elementos, es un trabajo trivial, pero hay debe recordar que el cambio afectará a todos los elementos en la selección, por lo que, si desea modificar un sólo elemento, tiene que estar seguro de especificarlo en la selección antes de llamar al método establecedor.
 
-> ***Nota***: Cuando los métodos actúan como obtenedores, por lo general, solamente trabajan con el primer elemento de la selección. Además no devuelven un objeto jQuery, por lo cual no es posible encadenar más métodos en el mismo. Una excepción es el método `$.fn.text`, el cual permite obtener el texto de los elementos de la selección.
+> ***Nota***: Cuando los métodos actúan como obtenedores, por lo general, solamente trabajan con el primer elemento de la selección. Además no devuelven un objeto jQuery, por lo cual no es posible encadenar más métodos en el mismo. Una excepción es el método `.text`, el cual permite obtener el texto de los elementos de la selección.
 
-- `$.fn.html` Obtiene o establece el contenido HTML de un elemento.
-- `$.fn.text` Obtiene o establece el contenido en texto del elemento; en caso se pasarle como argumento código HTML, este es despojado.
-- `$.fn.attr` Obtiene o establece el valor de un determinado atributo.
-- `$.fn.width` Obtiene o establece el ancho en pixeles del primer elemento de la selección como un entero.
-- `$.fn.height` Obtiene o establece el alto en pixeles del primer elemento de la selección como un entero.
-- `$.fn.position` Obtiene un objeto con información sobre la posición del primer elemento de la selección, relativo al primer elemento padre posicionado. Este método es solo obtenedor.
-- `$.fn.val` Obtiene o establece el valor (*value*) en elementos de formularios.
+- `.html` Obtiene o establece el contenido HTML de un elemento.
+- `.text` Obtiene o establece el contenido en texto del elemento; en caso se pasarle como argumento código HTML, este es despojado.
+- `.attr` Obtiene o establece el valor de un determinado atributo.
+- `.width` Obtiene o establece el ancho en pixeles del primer elemento de la selección como un entero.
+- `.height` Obtiene o establece el alto en pixeles del primer elemento de la selección como un entero.
+- `.position` Obtiene un objeto con información sobre la posición del primer elemento de la selección, relativo al primer elemento padre posicionado. Este método es solo obtenedor.
+- `.val` Obtiene o establece el valor (*value*) en elementos de formularios.
 
 Veamos un ejemplo de cómo se cambiaria el HTML de un elemento
 
@@ -42,11 +47,98 @@ Existen varias maneras para mover elementos a través del DOM; las cuales se pue
 - Querer colocar el/los elementos seleccionados de forma relativa a otro elemento
 - Querer colocar un elemento relativo a el/los elementos seleccionados.
 
-Por ejemplo, jQuery provee los métodos `$.fn.insertAfter` y `$.fn.after`. El método `$.fn.insertAfter` coloca a el/los elementos seleccionados después del elemento que se haya pasado como argumento; mientras que el método `$.fn.after` coloca al elemento pasado como argumento después del elemento seleccionado. Otros métodos también siguen este patrón: `$.fn.insertBefore` y `$.fn.before`; `$.fn.appendTo` y `$.fn.append`; y `$.fn.prependTo` y `$.fn.prepend`.
+Por ejemplo, jQuery provee los métodos `.insertAfter` y `.after`. El método `.insertAfter` coloca a el/los elementos seleccionados después del elemento que se haya pasado como argumento; mientras que el método `.after` coloca al elemento pasado como argumento después del elemento seleccionado. Otros métodos también siguen este patrón: `.insertBefore` y `.before`; `.appendTo` y `.append`; y `.prependTo` y `.prepend`.
+
+Estas funciones las vamos a agrupar en:
+
+* .empty(), .html() y .text()
+* .append(), .prepend(), .appendTo() , .prependTo()
+* .wrap(), .unwrap() , .wrapAll() , .wrapInner()
+* .val().
+* .remove() o .detach()
 
 La utilización de uno u otro método dependerá de los elementos que tenga seleccionados y el tipo de referencia que se quiera guardar con respecto al elemento que se esta moviendo.
 
-***Mover elementos utilizando diferentes enfoques***
+### 7.2.1. .empty(), .html() y .text()
+
+La función **.empty()** borra todos los nodos hijos(y su contenido) de los elementos seleccionados.
+
+Un ejemplo sería el siguiente:
+
+```js
+$("ul").empty();
+```
+
+De tal manera que si tenemos esta estructura HTML inicial:
+
+```html
+<ul>
+    <li>UNO</li>
+    <li>DOS</li>
+    <li>TRES</li>
+</ul>
+```
+
+La estructura resultante sería:
+
+```html
+<ul></ul>
+```
+
+La función **.html()** puede ser usada para obtener el **contenido** del **primer elemento** de los seleccionados. Esto quiere decir que obtendremos todo lo que va entre la apertura y el cierre de ese elemento.
+
+Por ejemplo:
+
+```js
+//content contienen todo lo que va dentro de esa <li>. Posible etiquetas incluidas
+var content = $("li").html();
+```
+
+Además de para obtener el contenido, con esta función podemos modificar el contenido de **TODOS** los elementos seleccionados.
+
+Vamos a ilustrar las diferentes posibilidades con ejemplos:
+
+```js
+//Hacer que el contenido de todas las listas sea un único elemento
+//Sustituye el contenido que tuviera
+$("ul").html("<li>UNO</li>"-);
+
+//Lo mismo pero usando una función que pone a nuestra disposición la posición dentro de los elementos seleccionados y el texto anterior.
+$("ul").html(function(index,oldText) {
+    return "<li>"+index+"</li>";
+});
+```
+
+El uso de la función **.text()** es totalmente análogo a .html() pero con la diferencia de que trata todo como **TEXTO** y **obvia las etiquetas** quedándose únicamente con el contenido textual de los elementos.
+
+### 7.2.2. .append() / .prepend() / .appendTo() / .prependTo()
+
+
+las funciones **.append()** y **.prepend()** son análogas en su funcionamiento. Ambas sirven para añadir nuevos elementos HTML a nuestro DOM.
+
+La diferencia principal es que:
+
+* **.append("contenido")** añade ese contenido justo al principio de los elementos seleccionados.
+* **.prepend("contenido")** añade ese contenido justo al final de los elementos seleccionados.
+
+Y cuando nos referimos al principio o al final nos referimos a justo después de la etiqueta de inicio de los elementos seleccionados o a justo antes de la etiqueta de cierre de los elementos seleccionados.
+
+Se entiende mejor con esta imágen.
+
+![Append y prepend](img/jquery-appendyprepend.png)
+
+
+Las funciones **.appendTo()** y **.prependTo()** funcionan de manera muy similar a las dos anteriores pero tenemos un par de cambios:
+
+* Donde antes estaba el contenido está el selector de los elementos en los cuales vamos añadir contenido.
+* Donde antes estaba el selector tengo el contenido.
+
+Se entiende mejor con una imagen análoga a la anterior pero usando estas funciones:
+
+![AppendToPrependTo](img/jquery-appendToPreprendTo.png)
+
+
+- Mover elementos utilizando diferentes enfoques
 
 ```javascript
 // hacer que el primer item de la lista sea el último
@@ -59,26 +151,114 @@ $('#myList').append($('#myList li:first'));
 // lista de items que se ha movido, ya que devuelve la lista en sí
 ```
 
-***Clonar elementos***
-
-Cuando se utiliza un método como `$.fn.appendTo`, lo que se está haciendo es mover al elemento; pero a veces en lugar de eso, se necesita mover un duplicado del mismo elemento. En este caso, es posible utilizar el método `$.fn.clone`.
-
-***Obtener una copia del elemento***
+- Obtener una copia del elemento
 
 ```javascript
 // copiar el primer elemento de la lista y moverlo al final de la misma
 $('#myList li:first').clone().appendTo('#myList');
 ```
 
-> ***Nota***: Si se necesita copiar información y eventos relacionados al elemento, se debe pasar `true` como argumento de `$.fn.clone`.
+- Clonar elementos
 
-***Eliminar elementos***
+Cuando se utiliza un método como `.appendTo`, lo que se está haciendo es mover al elemento; pero a veces en lugar de eso, se necesita mover un duplicado del mismo elemento. En este caso, es posible utilizar el método `.clone`.
 
-Existen dos formas de eliminar elementos de una página: Utilizando `$.fn.remove` o `$.fn.detach`. Cuando desee eliminar de forma permanente al elemento, utilize el método `$.fn.remove`. Por otro lado, el método `$.fn.detach` también elimina el elemento, pero mantiene la información y eventos asociados al mismo, siendo útil en el caso que necesite reinsertar el elemento en el documento.
 
-> ***Nota***: El método `$.fn.detach` es muy útil cuando se esta manipulando de forma severa un elemento, ya que es posible eliminar al elemento, trabajarlo en el código y luego restaurarlo en la página nuevamente. Esta forma tiene como beneficio no tocar el DOM mientras se está modificando la información y eventos del elemento.
+> ***Nota***: Si se necesita copiar información y eventos relacionados al elemento, se debe pasar `true` como argumento de `.clone`.
 
-Por otro lado, si se desea mantener al elemento pero se necesita eliminar su contenido, es posible utiliza el método `$.fn.empty`, el cual "vaciará" el contenido HTML del elemento.
+### 7.2.3. .wrap() / .unwrap() / .wrapAll() / .wrapInner()
+
+La función **.wrap()** añade cierta estructura HTML alrededor de todos y cada uno de los elementos seleccionados.
+
+Tiene varias posibilidades:
+
+```js
+
+    //Envuelve todos los article con una estructura
+    $("article").wrap("<div class="article_outer"></div>");
+
+    //O usando una función que pone a nuestra disposición la posición dentro de los elementos seleccionados
+    $("article").wrap(funcion(index) {
+        return "<div class='article-"+index+"'></div>";
+    });
+
+```
+
+Podemos entenderlo mejor con esta imagen:
+
+![Wrap](img/jquery-wrap.png)
+
+La función **.unwrap()** hace justo lo contrario que .wrap().Elimina el padre y saca el hijo a la altura del árbol que estaba el padre.
+
+Por lo tanto:
+
+```js
+    //Deshacer el cambio anterior hecho con WRAP
+    $("article").unwrap(); 
+    //Si queremos comprobar que el padre cumple condiciones
+    $("article").unwrap(".article_outer");
+
+```
+
+En relación a las otras dos funciones:
+
+* **wrapAll()** es análogo a .wrap() pero sólo añade un elemento envolvente que cubre a todos los seleccionados. Debemos tener cuidado si hay elementos _intrusos_ o diferentes entre ellos.
+* **wrapInner()**  es análogo a .wrap() pero el elemento envolvente se añade no como padre sino al contenido de los seleccionados.
+
+Vamos a entenderlo mejor con las siguientes imágenes:
+
+
+![WrapAll](img/jquery-wrapAll.png)
+
+![WrapInner](img/jquery-wrapinner.png)
+
+### 7.2.4. .val()
+
+La función **.val()**  aunque no modifica el DOM si  modifica en cierta manera el contenido de la página al cambiar el valor de los elementos, normalmente de los elementos de los formularios.
+
+Usando **.val()** podremos obtener y fijar el valor de los distintos campos de los formularios.
+
+Para ilustrar ambas posibilidades vamos a ver la síntaxis general y ejemplos:
+
+```js
+    //Para obtener el valor de un campo de formulario. El PRIMERO de los seleccionados
+    var valor = $("some_selector").val();
+
+    //Para fijar el valor para TODOS los campos seleccionados
+    $("some_selector").val("some_value");
+
+    //O usando una función. La posición, el valor actual y $(this) disponibles
+    //El valor de retorno será el valor del elemento seleccionado
+    $("some_selector").val(funcion(index,valor) {
+    ….
+    });
+```
+
+Un ejemplo para cada uno de estos casos:
+
+```js
+    //Obtengo el valor del primer input de tipo texto
+    var valor = $("input[type=text]).val();
+
+    //Todos los input de tipo text van a mostrar "Insert Value"
+    $("input[type=text).val("Insert Value");
+
+    
+    //Voy a añadir al valor que tenían -> y la posición de entre los selecciondos.
+    $("input[type=text).val(funcion(index,valor) {
+        $(this).val(valor+"->"+index);
+    });
+
+
+```
+
+
+### 7.2.5. .remove() y .detach()
+
+Existen dos formas de eliminar elementos de una página: Utilizando `.remove` o `.detach`. Cuando desee eliminar de forma permanente al elemento, utilize el método `.remove`. Por otro lado, el método `.detach` también elimina el elemento, pero mantiene la información y eventos asociados al mismo, siendo útil en el caso que necesite reinsertar el elemento en el documento.
+
+> ***Nota***: El método `.detach` es muy útil cuando se esta manipulando de forma severa un elemento, ya que es posible eliminar al elemento, trabajarlo en el código y luego restaurarlo en la página nuevamente. Esta forma tiene como beneficio no tocar el DOM mientras se está modificando la información y eventos del elemento.
+
+Por otro lado, si se desea mantener al elemento pero se necesita eliminar su contenido, es posible utiliza el método `.empty`, el cual "vaciará" el contenido HTML del elemento.
 
 ## 7.3. Crear nuevos elementos
 
@@ -140,7 +320,7 @@ $myList.append(myItems.join(''));
 
 ## 7.4. Manipulación de atributos
 
-Las capacidades para la manipulación de atributos que ofrece la biblioteca son extensos. La realización de cambios básicos son simples, sin embargo el método `$.fn.attr` permite manipulaciones más complejas.
+Las capacidades para la manipulación de atributos que ofrece la biblioteca son extensos. La realización de cambios básicos son simples, sin embargo el método `.attr` permite manipulaciones más complejas.
 
 ***Manipular un simple atributo***
 
