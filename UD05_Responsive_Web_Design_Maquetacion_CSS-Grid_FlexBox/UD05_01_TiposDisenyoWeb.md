@@ -141,7 +141,7 @@ h1 {
 </html>
 ```
 
-[Diseño fijo (Codesite)](https://codepen.io/sergio-rey-personal/pen/xxZrJgO)
+[Diseño fijo (Codepen)](https://codepen.io/sergio-rey-personal/pen/xxZrJgO)
 
 ## 1.2. Diseño elástico
 

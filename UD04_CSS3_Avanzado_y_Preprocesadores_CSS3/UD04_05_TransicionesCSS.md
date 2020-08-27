@@ -179,7 +179,7 @@ En el [siguiente enlace](https://developer.mozilla.org/es/docs/Web/CSS/Transicio
 </div>
 ```
 
-> [Transiciones en CSS (Codesite)](https://codepen.io/sergio-rey-personal/pen/xxZraNQ)
+> [Transiciones en CSS (Codepen)](https://codepen.io/sergio-rey-personal/pen/xxZraNQ)
 
 
 **Menú con transiciones:**
@@ -310,7 +310,7 @@ li a {
 </ul>
 ```
 
-> [Menú transiciones (Codesite)](https://codepen.io/sergio-rey-personal/pen/ZEQyqJq)
+> [Menú transiciones (Codepen)](https://codepen.io/sergio-rey-personal/pen/ZEQyqJq)
 
 # Ejercicios propuestos
 

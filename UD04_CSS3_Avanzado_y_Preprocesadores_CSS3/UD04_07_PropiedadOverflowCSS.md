@@ -113,7 +113,7 @@ Puede interesarte conocer también las propiedades [overflow-x](https://develope
 </div>
 ```
 
-> [Propiedad overflow (Codesite)](https://codepen.io/sergio-rey-personal/pen/pogwxxx)
+> [Propiedad overflow (Codepen)](https://codepen.io/sergio-rey-personal/pen/pogwxxx)
 
 # Ejercicios propuestos
 

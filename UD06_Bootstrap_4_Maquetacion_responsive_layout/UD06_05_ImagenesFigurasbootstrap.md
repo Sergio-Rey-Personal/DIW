@@ -32,7 +32,7 @@ BootStrap 4, por supuesto, nos proporciona una serie de clases para tratar y dar
 
 **Ejemplos**
 
-> [Ejemplos de uso de imágenes y figuras (Codesite)](https://codepen.io/sergio-rey-personal/pen/YzwvqLV?editors=1010)
+> [Ejemplos de uso de imágenes y figuras (Codepen)](https://codepen.io/sergio-rey-personal/pen/YzwvqLV?editors=1010)
 
 ## 5.1. Imágenes
 

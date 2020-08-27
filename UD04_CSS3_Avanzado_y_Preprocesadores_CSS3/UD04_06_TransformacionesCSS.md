@@ -175,7 +175,7 @@ Transformaciones y transiciones sobre elementos:
 </div>
 ```
 
-> [Transformaciones y transiciones en CSS (Codesite)](https://codepen.io/sergio-rey-personal/pen/rNxwqKR)
+> [Transformaciones y transiciones en CSS (Codepen)](https://codepen.io/sergio-rey-personal/pen/rNxwqKR)
 
 # Ejercicios propuestos
 

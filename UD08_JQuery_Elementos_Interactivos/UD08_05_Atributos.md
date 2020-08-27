@@ -40,7 +40,7 @@ $(“input”).removeAttr(“required”);
 
 ## 5.2. Ejemplo de uso de selectores, clases y atributos
 
-> [Ha llegado el momento de probar todo lo visto en los puntos anteriores mediante el siguiente ejemplo (Codesite)](https://codepen.io/sergio-rey-personal/pen/NWxejGQ)
+> [Ha llegado el momento de probar todo lo visto en los puntos anteriores mediante el siguiente ejemplo (Codepen)](https://codepen.io/sergio-rey-personal/pen/NWxejGQ)
 
 ```html
 <!DOCTYPE html>
