@@ -4,20 +4,21 @@ Tabla de contenidos
 
 - [10. **Ajax en JQuery**](#10-ajax-en-jquery)
   - [10.1 Introducción](#101-introducción)
-  - [10.2 Conceptos Clave](#102-conceptos-clave)
-    - [10.2.1 GET vs. POST](#1021-get-vs-post)
-    - [10.2.2 Tipos de Datos](#1022-tipos-de-datos)
-    - [10.2.3 Asincronismo](#1023-asincronismo)
-    - [10.2.4 Políticas de Mismo Origen y JSONP](#1024-políticas-de-mismo-origen-y-jsonp)
-    - [10.2.5 Ajax y Firebug](#1025-ajax-y-firebug)
-  - [10.3 Métodos Ajax de jQuery](#103-métodos-ajax-de-jquery)
-    - [10.3.1 $.ajax](#1031-ajax)
-      - [10.3.1.1 Opciones del método `$.ajax`](#10311-opciones-del-método-ajax)
-    - [10.3.2 Métodos Convenientes](#1032-métodos-convenientes)
-    - [10.3.3 `$.fn.load`](#1033-fnload)
-  - [10.4 Ajax y Formularios](#104-ajax-y-formularios)
-  - [10.5 Trabajar con JSONP](#105-trabajar-con-jsonp)
-  - [10.6 Eventos Ajax](#106-eventos-ajax)
+  - [10.2. Conceptos Clave](#102-conceptos-clave)
+    - [10.2.1. GET vs. POST](#1021-get-vs-post)
+    - [10.2.2. Tipos de Datos](#1022-tipos-de-datos)
+    - [10.2.3. Asincronismo](#1023-asincronismo)
+    - [10.2.4. Políticas de Mismo Origen y JSONP](#1024-políticas-de-mismo-origen-y-jsonp)
+    - [10.2.5. Ajax y Firebug](#1025-ajax-y-firebug)
+  - [10.3. Métodos Ajax de jQuery](#103-métodos-ajax-de-jquery)
+    - [10.3.1. $.ajax](#1031-ajax)
+      - [10.3.1.1. Opciones del método `$.ajax`](#10311-opciones-del-método-ajax)
+    - [10.3.2. Métodos Convenientes](#1032-métodos-convenientes)
+    - [10.3.3. `$.fn.load`](#1033-fnload)
+  - [10.4. Ajax y Formularios](#104-ajax-y-formularios)
+  - [10.5. Trabajar con JSONP](#105-trabajar-con-jsonp)
+  - [10.6. Eventos Ajax](#106-eventos-ajax)
+  - [10.7. Un ejemplo práctico](#107-un-ejemplo-práctico)
 
 
 ## 10.1 Introducción
@@ -26,17 +27,28 @@ El método *`XMLHttpRequest`* (XHR) permite a los navegadores comunicarse con el
 
 Las peticiones Ajax son ejecutadas por el código JavaScript, el cual envía una petición a una URL y cuando recibe una respuesta, una función de devolución puede ser ejecutada la cual recibe como argumento la respuesta del servidor y realiza algo con ella. Debido a que la respuesta es asíncrona, el resto del código de la aplicación continua ejecutándose, por lo cual, es imperativo que una función de devolución sea ejecutada para manejar la respuesta.
 
+Podemos ver el **esquema de funcionamiento de las peticiones Http Ajax frente a las peticiones Http tradicionales** en la siguiente imagen:
+
+![Ajax](img/jquery-Ajax.png)
+
+**NOTA:** DanielSHaischt, via Wikimedia Commons [CC BY-SA](https://creativecommons.or)
+
+En este esquema pode ver como:
+
+* A la izquierda tenemos la forma tradicional de trabajar de la web. Cada petición al servidor se traduce en que el servidor devuelve HTML+CSS y esa respuesta hace que el navegador la cargue en nuestra pantalla.
+* Sin embargo, en el esquema AJAX efectuamos una petición asíncrona al servidor a través del motor AJAX de javascript. Esta petición llega al servidor que devuelve el tipo de datos que sea (XML, HTML o JSON...) al motor Ajax. Este motor AJAX se encarga de actualizar únicamente la zona de la página que se ha  indicado sin tener que volver a _pintar_ la página completa.
+
 A través de varios métodos, jQuery provee soporte para Ajax, permitiendo abstraer las diferencias que pueden existir entre navegadores. Los métodos en cuestión son `$.get()`, `$.getScript()`, `$.getJSON()`, `$.post()` y `$().load()`.
 
 A pesar que la definición de Ajax posee la palabra "XML", la mayoría de las aplicaciones no utilizan dicho formato para el transporte de datos, sino que en su lugar se utiliza HTML plano o información en formato JSON (*JavaScript Object Notation*).
 
 En general, Ajax no trabaja a través de dominios diferentes. Sin embargo, existen excepciones, como los servicios que proveen información en formato JSONP (*JSON with Padding*), los cuales permiten una funcionalidad limitada a través de diferentes dominios.
 
-## 10.2 Conceptos Clave
+## 10.2. Conceptos Clave
 
 La utilización correcta de los métodos Ajax requiere primero la comprensión de algunos conceptos clave.
 
-### 10.2.1 GET vs. POST
+### 10.2.1. GET vs. POST
 
 Los dos métodos HTTP más comunes para enviar una petición a un servidor son **GET** y **POST**. Es importante entender la utilización de cada uno.
 
@@ -44,7 +56,7 @@ El método *GET* debe ser utilizado para operaciones no-destructivas --- es deci
 
 El método **POST** debe ser utilizado para operaciones destructivas --- es decir, operaciones en donde se está incorporando información al servidor. Por ejemplo, cuando un usuario guarda un artículo en un blog, esta acción debería utilizar **POST**. Por otro lado, este tipo de método no se guarda en la cache del navegador. Además, una cadena de datos puede ser parte de la URL, pero la información tiende a ser enviada de forma separada.
 
-### 10.2.2 Tipos de Datos
+### 10.2.2. Tipos de Datos
 
 Generalmente, jQuery necesita algunas instrucciones sobre el tipo de información que se espera recibir cuando se realiza una petición Ajax. En algunos casos, el tipo de dato es especificado por el nombre del método, pero en otros casos se lo debe detallar como parte de la configuración del método:
 
@@ -52,6 +64,8 @@ Generalmente, jQuery necesita algunas instrucciones sobre el tipo de informació
 - `html`; Para el transporte de bloques de código HTML que serán ubicados en la página.
 - `script`: Para añadir un nuevo *script* con código JavaScript a la página.
 - `json`: Para transportar información en formato JSON, el cual puede incluir cadenas de caracteres, vectores y objetos.
+
+![$.Ajax json vs xml](img/jquery-json_xml.png)
 
 > **Nota**: A partir de la versión 1.4 de la biblioteca, si la información JSON no está correctamente formateada, la petición podría fallar. Visite <http://json.org> para obtener detalles sobre un correcto formateo de datos en JSON.
 
@@ -63,7 +77,7 @@ Es recomendable utilizar los mecanismos que posea el lenguaje del lado de servid
 
 > *A pesar de los diferentes tipos de datos de que se puede utilizar, es recomendable utilizar el formato JSON, ya que es muy flexible, permitiendo por ejemplo, enviar al mismo tiempo información plana y HTML.*
 
-### 10.2.3 Asincronismo
+### 10.2.3. Asincronismo
 
 Debido a que, de forma predeterminada, las llamadas Ajax son asíncronas, la respuesta del servidor no esta disponible de forma inmediata. Por ejemplo, el siguiente código no debería funcionar:
 
@@ -79,25 +93,40 @@ En su lugar, es necesario especificar una función de devolución de llamada; di
 $.get('foo.php', function(response) { console.log(response); });
 ```
 
-### 10.2.4 Políticas de Mismo Origen y JSONP
+### 10.2.4. Políticas de Mismo Origen y JSONP
 
 En general, las peticiones Ajax están limitadas a utilizar el mismo protocolo (*`http`* o *`https`*), el mismo puerto y el mismo dominio de origen. Esta limitación no se aplica a los scripts cargados a través del método Ajax de jQuery.
 
 La otra excepción es cuando se hace una petición que recibirá una respuesta en formato ***JSONP***. En este caso, el proveedor de la respuesta debe responder la petición con un `script` que puede ser cargado utilizando la etiqueta `<script>`, evitando así la limitación de realizar peticiones desde el mismo dominio. Dicha respuesta contendrá la información solicitada, contenida en una función
 
-### 10.2.5 Ajax y Firebug
+### 10.2.5. Ajax y Firebug
 
 ***Firebug*** (o el inspector WebKit que viene incluido en Chrome o Safari) son herramientas imprescindibles para trabajar con peticiones Ajax, ya que es posible observarlas desde la pestaña Consola de Firebug (o yendo a Recursos > Panel XHR desde el inspector de Webkit) y revisar los detalles de dichas peticiones. Si algo esta fallando cuando trabaja con Ajax, este es el primer lugar en donde debe dirigirse para saber cual es el problema.
 
-## 10.3 Métodos Ajax de jQuery
+## 10.3. Métodos Ajax de jQuery
 
 Como se indicó anteriormente, jQuery posee varios métodos para trabajar con Ajax. Sin embargo, todos están basados en el método `$.ajax`, por lo tanto, su comprensión es obligatoria. A continuación se abarcará dicho método y luego se indicará un breve resumen sobre los demás métodos.
 
 *Generalmente, es preferible utilizar el método $.ajax en lugar de los otros, ya que ofrece más características y su configuración es muy comprensible.*
 
-### 10.3.1 $.ajax
+### 10.3.1. $.ajax
 
-El método `$.ajax` es configurado a través de un objeto, el cual contiene todas las instrucciones que necesita jQuery para completar la petición. Dicho método es particularmente útil debido a que ofrece la posibilidad de especificar acciones en caso que la petición haya fallado o no. Además, al estar configurado a través de un objeto, es posible definir sus propiedades de forma separada, haciendo que sea más fácil la reutilización del código. Puede visitar <http://api.jquery.com/jQuery.ajax/> para consultar la documentación sobre las opciones disponibles en el método.
+**El método `$.ajax`** es configurado a través de un objeto, el cual **contiene todas las instrucciones que necesita jQuery para completar la petición**. Dicho método es particularmente útil debido a que ofrece la posibilidad de especificar acciones en caso que la petición haya fallado o no. Además, al estar configurado a través de un objeto, es posible definir sus propiedades de forma separada, haciendo que sea más fácil la reutilización del código. 
+
+La sistensis del método `$.ajax` es la siguiente:
+
+```js
+$(function() {
+  //Estructura general SIMPLIFICADA
+  $.ajax(url[,settings]);
+});
+```
+
+La **`url`** indica la dirección a donde se realiza la petición, y es necesario y a continuación **Settings** es un objeto jSON que tiene multitud de propiedades y funciones que se ejecutarán dependiendo del valor de retorno de la petición o de si la petición ha podido realizarse.
+
+Puedes visitar <http://api.jquery.com/jQuery.ajax/> para consultar la documentación sobre las opciones disponibles en el método.
+
+- *Ejemplo*
 
 ```javascript
 $.ajax({
@@ -139,23 +168,23 @@ $.ajax({
 ```
 > Una aclaración sobre el parámetro `dataType`: Si el servidor devuelve información que es diferente al formato especificado, el código fallará, y la razón de porque lo hace no siempre quedará clara debido a que la respuesta HTTP no mostrará ningún tipo de error. Cuando esté trabajando con peticiones Ajax, debe estar seguro que el servidor esta enviando el tipo de información que esta solicitando y verifique que la cabecera `Content-type` es exacta al tipo de dato. Por ejemplo, para información en formato JSON, la cabecera `Content-type` debería ser `application/json`.
 
-#### 10.3.1.1 Opciones del método `$.ajax`
+#### 10.3.1.1. Opciones del método `$.ajax`
 
 El método $.ajax posee muchas opciones de configuración, y es justamente esta característica la que hace que sea un método muy útil. Para una lista completa de las opciones disponibles, puede consultar <http://api.jquery.com/jQuery.ajax/>; a continuación se muestran las más comunes:
 
-- `async`: Establece si la petición será asíncrona o no. De forma predeterminada el valor es `true`. Debe tener en cuenta que si la opción se establece en `false`, la petición bloqueará la ejecución de otros códigos hasta que dicha petición haya finalizado.
-- `cache`: Establece si la petición será guardada en la cache del navegador. De forma predeterminada es `true` para todos los *dataType* excepto para "*script*" y "*jsonp*". Cuando posee el valor `false`, se agrega una cadena de caracteres anti-cache al final de la URL de la petición.
-- `complete`: Establece una función de devolución de llamada que se ejecuta cuando la petición esta completa, aunque haya fallado o no. La función recibe como argumentos el objeto jqXHR (en versiones anteriores o iguales a jQuery 1.4, recibe en su lugar el objeto de la petición en crudo `XMLHTTPRequest`) y un texto especificando el estatus de la misma petición (`success`, `notmodified`, `error`, `timeout`, `abort`, o `parsererror`).
-- `context`: Establece el alcance en que la/las funciones de devolución de llamada se ejecutaran (por ejemplo, define el significado de `this` dentro de las funciones). De manera predeterminada `this` hace referencia al objeto originalmente pasado al método `$.ajax`.
-- `data`: Establece la información que se enviará al servidor. Esta puede ser tanto un objeto como una cadena de datos (por ejemplo `foo=bar&baz=bim`.)
-- `dataType`: Establece el tipo de información que se espera recibir como respuesta del servidor. Si no se especifica ningún valor, de forma predeterminada, jQuery revisa el tipo de *MIME* que posee la respuesta.
-- `error`: Establece una función de devolución de llamada a ejecutar si resulta algún error en la petición. Dicha función recibe como argumentos el objeto jqXHR (en versiones anteriores o iguales a jQuery 1.4, recibe en su lugar el objeto de la petición en crudo `XMLHTTPRequest`), un texto especificando el estatus de la misma petición (`timeout`, `error`, `abort`, o `parsererror`) y un texto con la descripción del error que haya enviado el servidor (por ejemplo `Not Found` o `Internal Server Error`).
-- `jsonp`: Establece el nombre de la función de devolución de llamada a enviar cuando se realiza una petición *JSONP*. De forma predeterminada el nombre es "*callback*
-- `success`: Establece una función a ejecutar si la petición a sido satisfactoria. Dicha función recibe como argumentos el objeto jqXHR (en versiones anteriores o iguales a jQuery 1.4, recibe en su lugar el objeto de la petición en crudo `XMLHTTPRequest`), un texto especificando el estatus de la misma petición y la información de la petición (convertida a objeto JavaScript en el caso que *dataType* sea *JSON*), el estatus de la misma.
-- `timeout`: Establece un tiempo en milisegundos para considerar a una petición como fallada.
-- `traditional`: Si su valor es true, se utiliza el estilo de serialización de datos utilizado antes de jQuery 1.4. Para más detalles puede visitar <http://api.jquery.com/jQuery.param/>.
-- `type`: De forma predeterminada su valor es "GET". Otros tipos de peticiones también pueden ser utilizadas (como PUT y DELETE), sin embargo pueden no estar soportados por todos los navegadores.
-- `url`: Establece la URL en donde se realiza la petición.
+- **`async`**: Establece si la petición será asíncrona o no. De forma predeterminada el valor es `true`. Debe tener en cuenta que si la opción se establece en `false`, la petición bloqueará la ejecución de otros códigos hasta que dicha petición haya finalizado.
+- **`cache`**: Establece si la petición será guardada en la cache del navegador. De forma predeterminada es `true` para todos los *dataType* excepto para "*script*" y "*jsonp*". Cuando posee el valor `false`, se agrega una cadena de caracteres anti-cache al final de la URL de la petición.
+- **`complete`**: Establece una función de devolución de llamada que se ejecuta cuando la petición esta completa, aunque haya fallado o no. La función recibe como argumentos el objeto jqXHR (en versiones anteriores o iguales a jQuery 1.4, recibe en su lugar el objeto de la petición en crudo `XMLHTTPRequest`) y un texto especificando el estatus de la misma petición (`success`, `notmodified`, `error`, `timeout`, `abort`, o `parsererror`).
+- **`context`**: Establece el alcance en que la/las funciones de devolución de llamada se ejecutaran (por ejemplo, define el significado de `this` dentro de las funciones). De manera predeterminada `this` hace referencia al objeto originalmente pasado al método `$.ajax`.
+- **`data`**: Establece la información que se enviará al servidor. Esta puede ser tanto un objeto como una cadena de datos (por ejemplo `foo=bar&baz=bim`.)
+- **`dataType`**: Establece el tipo de información que se espera recibir como respuesta del servidor. Si no se especifica ningún valor, de forma predeterminada, jQuery revisa el tipo de *MIME* que posee la respuesta.
+- **`error`**: Establece una función de devolución de llamada a ejecutar si resulta algún error en la petición. Dicha función recibe como argumentos el objeto jqXHR (en versiones anteriores o iguales a jQuery 1.4, recibe en su lugar el objeto de la petición en crudo `XMLHTTPRequest`), un texto especificando el estatus de la misma petición (`timeout`, `error`, `abort`, o `parsererror`) y un texto con la descripción del error que haya enviado el servidor (por ejemplo `Not Found` o `Internal Server Error`).
+- **`jsonp`**: Establece el nombre de la función de devolución de llamada a enviar cuando se realiza una petición *JSONP*. De forma predeterminada el nombre es "*callback*
+- **`success`**: Establece una función a ejecutar si la petición a sido satisfactoria. Dicha función recibe como argumentos el objeto jqXHR (en versiones anteriores o iguales a jQuery 1.4, recibe en su lugar el objeto de la petición en crudo `XMLHTTPRequest`), un texto especificando el estatus de la misma petición y la información de la petición (convertida a objeto JavaScript en el caso que *dataType* sea *JSON*), el estatus de la misma.
+- **`timeout`**: Establece un tiempo en milisegundos para considerar a una petición como fallada.
+- **`traditional`**: Si su valor es true, se utiliza el estilo de serialización de datos utilizado antes de jQuery 1.4. Para más detalles puede visitar <http://api.jquery.com/jQuery.param/>.
+- **`type`**: De forma predeterminada su valor es "GET". Otros tipos de peticiones también pueden ser utilizadas (como PUT y DELETE), sin embargo pueden no estar soportados por todos los navegadores.
+- **`url`**: Establece la URL en donde se realiza la petición.
 
 La opción `url` es obligatoria para el método `$.ajax`;
 
@@ -163,9 +192,9 @@ Como se comentó anteriormente, para una lista completa de las opciones disponib
 
 > **Nota**: A partir de la versión 1.5 de jQuery, las opciones `beforeSend`, `success`, `error` y `complete` reciben como uno de sus argumentos el objeto `jqXHR` siendo este una extensión del objeto nativo `XMLHTTPRequest`. El objeto `jqXHR` posee una serie de métodos y propiedades que permiten modificar u obtener información particular de la petición a realizar, como por ejemplo sobreescribir el tipo de *MIME* que posee la respuesta que se espera por parte del servidor. Para información sobre el objeto `jqXHR` puede consultar <http://api.jquery.com/jQuery.ajax/#jqXHR>.
 
-### 10.3.2 Métodos Convenientes
+### 10.3.2. Métodos Convenientes
 
-En caso que no quiera utilizar el método `$.ajax`, y no necesite los controladores de errores, existen otros métodos más convenientes para realizar peticiones Ajax (aunque, como se indicó antes, estos están basados el método `$.ajax` con valores pre-establecidos de configuración).
+**En caso que no quiera utilizar el método `$.ajax`**, y no necesite los controladores de errores, existen otros métodos más convenientes para realizar peticiones Ajax (aunque, como se indicó antes, estos están basados el método `$.ajax` con valores pre-establecidos de configuración).
 
 Los métodos que provee la biblioteca son:
 
@@ -181,8 +210,7 @@ Los métodos deben tener los siguientes argumentos, en orden:
 - `success callback`: Una función opcional que se ejecuta en caso que petición haya sido satisfactoria. Dicha función recibe como argumentos la información de la petición y el objeto en bruto de dicha petición.
 - `data type`: El tipo de dato que se espera recibir desde el servidor. Su valor es opcional.
 
-
-Ejemplo de utilización de métodos convenientes para peticiones Ajax
+- *Ejemplo de utilización de métodos convenientes para peticiones Ajax*
 
 ```javascript
 // obtiene texto plano o html
@@ -255,7 +283,7 @@ Obtenemos el siguiente resultado:
 > [Ejemplo de Datos introducidos en tabla HTML usando el método Ajax Jquery getJSON](https://codepen.io/sergio-rey-personal/pen/BajMRaG)
 
 
-### 10.3.3 `$.fn.load`
+### 10.3.3. `$.fn.load`
 
 El método `$.fn.load` es el único que se puede llamar desde una selección. Dicho método obtiene el código HTML de una URL y rellena a los elementos seleccionados con la información obtenida. En conjunto con la URL, es posible especificar opcionalmente un selector, el cual obtendrá el código especificado en dicha selección.
 
@@ -273,9 +301,9 @@ $('#newContent').load('/foo.html #myDiv h1:first', function(html) {
 });
 ```
 
-## 10.4 Ajax y Formularios
+## 10.4. Ajax y Formularios
 
-Las capacidades de jQuery con Ajax pueden ser especialmente útiles para el trabajo con formularios. Por ejemplo, la extensión [jQuery Form Plugin](http://jquery.malsup.com/form/) es una extensión para añadir capacidades Ajax a formularios. Existen dos métodos que debe conocer para cuando este realizando este tipo de trabajos: `$.fn.serialize` y `$.fn.serializeArray`.
+Las capacidades de **jQuery** con **Ajax** pueden ser especialmente útiles para el trabajo con formularios. Por ejemplo, la extensión [jQuery Form Plugin](http://jquery.malsup.com/form/) es una extensión para añadir capacidades Ajax a formularios. Existen dos métodos que debe conocer para cuando este realizando este tipo de trabajos: `$.fn.serialize` y `$.fn.serializeArray`.
 
 - Transformar información de un formulario a una cadena de datos
 
@@ -295,7 +323,7 @@ $('#myForm').serializeArray();
 ]
 ```
 
-## 10.5 Trabajar con JSONP
+## 10.5. Trabajar con JSONP
 
 En los últimos tiempos, la introducción de JSONP, ha permitido la creación de aplicaciones híbridas de contenidos. Muchos sitios importantes ofrecen JSONP como servicio de información, el cual se accede a través de una API (en inglés *Application programming interface*) predefinida. Un servicio particular que permite obtener información en formato JSONP es [Yahoo! Query Language](http://developer.yahoo.com/yql/console/), el cual se utiliza a continuación para obtener, por ejemplo, noticias sobre gatos:
 
@@ -326,7 +354,7 @@ $.ajax({
 
 jQuery se encarga de solucionar todos los aspectos complejos de la petición JSONP. Lo único que debe hacer es especificar el nombre de la función de devolución (en este caso "*callback*", según lo especifica YQL) y el resultado final será como una petición Ajax normal.
 
-## 10.6 Eventos Ajax
+## 10.6. Eventos Ajax
 
 A menudo, querrá ejecutar una función cuando una petición haya comenzado o terminado, como por ejemplo, mostrar o ocultar un indicador. En lugar de definir estas funciones dentro de cada petición, jQuery provee la posibilidad de vincular eventos Ajax a elementos seleccionados. Para una lista completa de eventos Ajax, puede consultar <http://docs.jquery.com/Ajax_Events>.
 
@@ -335,3 +363,226 @@ $('#loading_indicator')
     .ajaxStart(function() { $(this).show(); })
     .ajaxStop(function() { $(this).hide(); });
 ```
+
+## 10.7. Un ejemplo práctico
+
+Veamos a continuación un ejemplo práctico de como usar fácilmente `$.Ajax`. 
+
+Para practicar como hacer llamadas AJAX vamos a usar los servicios WEB JSON de prueba que podemos encontrar aquí:
+
+- https://jsonplaceholder.typicode.com/
+
+Como podemos ver en esta web tenemos recursos en forma de servicios json.
+
+En el ejemplo, vamos a recuperar los datos de los usuarios y de imágenes. Dispondremos listas de usuarios y de imágenes y cuando pulsemos sobre un elemento de la lista de usuario, obtendremos la información detalla da del mismo.
+
+En este caso, vamos a obtener datos mediante Ajax de :
+
+- Usuarios: https://jsonplaceholder.typicode.com/users
+- Imágenes: https://jsonplaceholder.typicode.com/photos
+
+Así pues, para la obtención de los usuarios, vamos a usar la siguiente llamada:
+
+```js
+$.ajax("https://jsonplaceholder.typicode.com/users", {
+    dataType: 'json',
+    success: function (data) {
+        data.forEach(function (valor) {
+            $("ul.lista_usuarios").append("<li><span class='oculto'>" + valor.id + "</span>"
+                + valor.name + "</li>");
+        });
+    },
+    error: function (jqXHR, texStatus, error) {
+        alert("Error:" + texStatus + " " + error);
+    }
+});
+```
+
+Como podemos ver, hacemos la petición a la url indicada, y posteriormente mediante un JSON (abrimos y cerramos corchetes), detallamos la información y acciones a realizar. 
+
+En este caso se trata de:
+
+- obtener un fichero tipo `json`
+- cuando la descarga haya finalizado con éxito `success` ejecutamos una función en la que recorremos todos los registros del `json` recibido y los vamos añadiendo a una lista `ul.lista_usuarios`
+- en caso de `error`, se mostrará un mensaje en pantalla informando del código de error obtenido.
+
+Para la obtención de las imágenes haremos exáctamente lo mismo.
+
+Una vez completada la lista, cada vez que hagamos click sobre un elemento de la misma, recuperaremos todos los datos, los cuales los motraremos desglosados. Aquí, lo importente es cómo se hace la llamada para recuperar los datos, para lo cual a la `url`le añadiremos el `id` del usuario indicado, quedando como sigue:
+
+```js
+// Seleccioamos el id del usuario a consultar
+let id = $(this).children("span").eq(0).text();
+// genermos la url con el id al final como parámetro
+let url = "https://jsonplaceholder.typicode.com/users?id=" + id;
+
+//realizamos la llamada, de forma similar a como se ha realizado anteriormente.
+$.ajax(url, {
+  dataType: 'json',
+  success: function (data) {
+    ...
+      );
+
+  },
+  error: function (jqXHR, texStatus, error) {
+    ...
+  }
+]);
+```
+
+Con todo esto, el ejemplo completo queda de la siguiente forma:
+
+![Ejemplo Ajax con JQUery](img/jquery-ajax-ejem1.png)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo jQuery AJAX</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <p>
+        <button class="users">Obtener usuario</button>
+        <button class="fotos">Obtener Fotos</button>
+    </p>
+    <div class="ouput">
+        <ul class="lista_usuarios">
+        </ul>
+        <ul class="lista_fotos">
+        </ul>
+    </div>
+    <div class="profile">
+        <h3>DATOS DE LA PERSONA SELECCIONADA</h3>
+        <div class="personal_file">
+
+        </div>
+    </div>
+</body>
+
+</html>
+```
+
+```css
+* {
+  box-sizing: border-box;
+}
+
+.ouput,
+.profile {
+  border: 1px solid black;
+  float: left;
+  min-height: 300px;
+  overflow-y: auto;
+  width: 50%;
+}
+
+.profile {
+  padding: 2rem;
+}
+.ouput ul {
+  float: left;
+  width: 50%;
+}
+
+.elemento {
+  list-style: none;
+}
+
+.oculto {
+  display: none;
+}
+
+.selected {
+  background-color: red;
+  color: white;
+}
+```
+
+y el código jQuery
+
+```js
+// Cuando el documento esté listo $(document).ready(function() {});
+$(function () {
+
+    $(".users").on('click', function (event) {
+        $("ul.lista_usuarios").empty();
+        $.ajax("https://jsonplaceholder.typicode.com/users", {
+            dataType: 'json',
+            success: function (data) {
+                data.forEach(function (valor) {
+                    $("ul.lista_usuarios").append("<li><span class='oculto'>" + valor.id + "</span>"
+                        + valor.name + "</li>");
+                });
+            },
+            error: function (jqXHR, texStatus, error) {
+                alert("Error:" + texStatus + " " + error);
+            }
+        });
+    });
+
+    $(".fotos").on('click', function (event) {
+        $("ul.lista_fotos").empty();
+        $.ajax("https://jsonplaceholder.typicode.com/photos", {
+            dataType: 'json',
+            success: function (data) {
+                for (i = 0; i < 3; i++) {
+                    $("ul.lista_fotos").append("<li class='elemento'><img src='" + data[i].thumbnailUrl + "' /></li>");
+                }
+            }
+
+        });
+    });
+
+    //TIENE QUE SER DELEGADO YA QUE SE AÑADEN DESPUÉS
+    $("ul.lista_usuarios").on("mouseenter", "li", function (event) {
+        let id = $(this).children("span").eq(0).text();
+        let url = "https://jsonplaceholder.typicode.com/users?id=" + id;
+
+        $(this).addClass("selected");
+
+        $.ajax(url, {
+            dataType: 'json',
+            success: function (data) {
+                let name = data[0].name;
+                let username = data[0].username;
+                let email = data[0].email;
+                let phone = data[0].phone;
+                let company = data[0].company.name;
+                let web = data[0].website;
+                let city = data[0].address.city;
+
+                $(".personal_file").html(
+                    "<p>" + name + "</p>" +
+                    "<p>" + username + "</p>" +
+                    "<p>" + email + "</p>" +
+                    "<p>" + phone + "</p>" +
+                    "<p>" + company + "</p>" +
+                    "<p>" + web + "</p>" +
+                    "<p>" + city + "</p>"
+                );
+
+            },
+            error: function (jqXHR, texStatus, error) {
+                alert("Error:" + texStatus + " " + error);
+            }
+
+        });
+
+    });
+
+    $("ul.lista_usuarios").on("mouseleave", "li", function (event) {
+        $(this).removeClass("selected");
+    });
+});
+```
+
+> [Ejemplo de uso de AJAX en JQuery con Codepen](https://codepen.io/sergio-rey-personal/pen/wvGdgEd)

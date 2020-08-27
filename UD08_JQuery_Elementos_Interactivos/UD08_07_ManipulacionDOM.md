@@ -8,8 +8,12 @@ Tabla de contenidos
     - [7.2.1. .empty(), .html() y .text()](#721-empty-html-y-text)
     - [7.2.2. .append() / .prepend() / .appendTo() / .prependTo()](#722-append--prepend--appendto--prependto)
     - [7.2.3. .wrap() / .unwrap() / .wrapAll() / .wrapInner()](#723-wrap--unwrap--wrapall--wrapinner)
-    - [7.2.4. .val()](#724-val)
-    - [7.2.5. .remove() y .detach()](#725-remove-y-detach)
+    - [7.2.4. .after() y .before()](#724-after-y-before)
+    - [7.2.5. .insertAfter() e .insertBefore()](#725-insertafter-e-insertbefore)
+    - [7.2.6. .clone()](#726-clone)
+    - [7.2.7. .val()](#727-val)
+    - [7.2.8. Borrando nodos con .remove() y .detach()](#728-borrando-nodos-con-remove-y-detach)
+    - [7.2.9. Reemplazando nodos con .replaceAll() y .replaceWidth()](#729-reemplazando-nodos-con-replaceall-y-replacewidth)
   - [7.3. Crear nuevos elementos](#73-crear-nuevos-elementos)
   - [7.4. Manipulación de atributos](#74-manipulación-de-atributos)
 
@@ -206,12 +210,113 @@ En relación a las otras dos funciones:
 
 Vamos a entenderlo mejor con las siguientes imágenes:
 
-
 ![WrapAll](img/jquery-wrapAll.png)
 
 ![WrapInner](img/jquery-wrapinner.png)
 
-### 7.2.4. .val()
+### 7.2.4. .after() y .before()
+
+Son funciones que me permiten insertar contenido (uno o varios) justo antes (before) o después (after) de los elementos seleccionados. Ambas tienen el mismo uso. Únicamente cambia el nombre.
+
+La forma más sencilla de usarlas sería la siguiente:
+
+```js
+
+    $("some_selector").after(content1,.....,contentN);
+    $("some_selector").before(content1,.....,contentN);
+```
+
+Es importante destacar que ese contenido puede ser:
+
+- HTML.
+- Texto.
+- Un objeto jQuery, lo que provoca que ese objeto se desplace por el DOM.
+- Un array de varios elementos de los anteriormente citados.
+
+También pueden usarse de otras maneras:
+
+```js
+
+    //Con función cuyo valor devuelto es lo que se añade.
+    //Tengo disponible posición y $(this)
+    $("some_selector").after(function(index) {
+        ...
+    });
+
+    //Igual pero con el HTML del elemento disponible
+    $("some_selector"”).after(function(index,html) {
+        ...
+    });
+
+```
+
+A continuación ejemplos de estas posibilidades:
+
+```js
+//Añado una fila más después de la última fila
+$("tr")
+  .last()
+  .after("<tr><td>F</td></tr>");
+
+//Muevo la primera fila al final
+$("tr")
+  .last()
+  .after($("tr").first());
+
+//Duplico las filas
+$("tr").after(function(index, html) {
+  return html;
+});
+```
+
+### 7.2.5. .insertAfter() e .insertBefore()
+
+Son funciones similares a las anteriores pero en este caso lo seleccionado es lo que se añade a lo que se selecciona después como parámetro (el objetivo) antes (before) o después (after). Al revés que antes:
+
+La síntaxis general es la siguiente:
+
+```js
+$("origin").insertAfter(target);
+```
+
+Ese _target_ puede ser:
+
+- Un selector.
+- HTML.
+- Objeto jQuery ( se desplazará).
+- Un array de los anteriores.
+
+Por ejemplo:
+
+```js
+
+    //Añado una fila más después de la última fila
+    $("<tr><td>F</td></tr>").inserAfter("tr:last");
+
+    //Muevo la primera fila al final
+    $("tr:fist").insertAfter($("tr"”).last());
+
+```
+
+Todo esto sería igual para **.insertBefore()**
+
+### 7.2.6. .clone()
+
+Crea una copia profunda(con descendientes) de los elementos seleccionados. Y le puedo pasar como parámetros si quiero conservar sus handlers y los de sus descendientes.
+
+```js
+
+    //De manera general
+    $("selector").clone(withEvents);
+    $("selector").clone(withEvents,whithDeepEvents);
+
+    //Clono la primera fila y la añado al final
+    $("tr").first().clone(false).appendTo(“table”);
+
+
+```
+
+### 7.2.7. .val()
 
 La función **.val()**  aunque no modifica el DOM si  modifica en cierta manera el contenido de la página al cambiar el valor de los elementos, normalmente de los elementos de los formularios.
 
@@ -252,13 +357,58 @@ Un ejemplo para cada uno de estos casos:
 ```
 
 
-### 7.2.5. .remove() y .detach()
+### 7.2.8. Borrando nodos con .remove() y .detach()
 
-Existen dos formas de eliminar elementos de una página: Utilizando `.remove` o `.detach`. Cuando desee eliminar de forma permanente al elemento, utilize el método `.remove`. Por otro lado, el método `.detach` también elimina el elemento, pero mantiene la información y eventos asociados al mismo, siendo útil en el caso que necesite reinsertar el elemento en el documento.
+Ls funciones o métodos _.remove() y .detach()_ tienen comportamiento similares. Ambos sirven para borrar elementos seleccionados del DOM. La diferencia entre ambos es que usando _.detach()_ puedo guardarme esos elementos (con eventos incluidos) para reponerlos luego.
+
+La síntaxis general es:
+
+```js
+//Borra del DOM los elementos seleccionados
+$("some_selector").remove();
+//Aplicando un filtro a los seleccionados
+$("some_selector").remove("filter_selector");
+
+//Guardando lo borrado
+var result = $("some_selector").detach();
+//Guardando y filtrando"
+var result = $("some_selector").detach("filter_selector");
+```
+
+Y podemos poner varios ejemplos:
+
+```js
+//Borra todas las imágenes
+$("img").remove();
+
+//Borra todas las imágenes de la clase logo
+$("img").remove(".logo");
+
+//Borra todas las imágenes y las recupera
+var imagenes = $("img").remove();
+$("body").append(imagenes);
+```
 
 > ***Nota***: El método `.detach` es muy útil cuando se esta manipulando de forma severa un elemento, ya que es posible eliminar al elemento, trabajarlo en el código y luego restaurarlo en la página nuevamente. Esta forma tiene como beneficio no tocar el DOM mientras se está modificando la información y eventos del elemento.
+> 
+### 7.2.9. Reemplazando nodos con .replaceAll() y .replaceWidth()
 
-Por otro lado, si se desea mantener al elemento pero se necesita eliminar su contenido, es posible utiliza el método `.empty`, el cual "vaciará" el contenido HTML del elemento.
+Ambas son muy similares, sirven para reemplazar elementos. La primera reemplaza el objetivo con el conjunto de los elementos seleccionados y la segunda funciona al revés.
+
+La síntaxis y un ejemplo para cada una de ellas las podemos ver en el siguiente cuadro de código:
+
+```js
+//Reemplaza el elemento objetivo con el conjunto de los seleccionado
+$("some_selector").replaceAll(target);
+
+//Se sustituyen todas las celdas td por celdas td que contienen X
+$("<td>X</td>").replaceAll("td");
+
+//Igual que el anterior pero el origen y el objetivo están al revés
+$(target).replaceWith("some_selector");
+//Se sustituyen todas las celdas td por celdas td que contienen X
+$("td").replaceWith("<td>X</td>");
+```
 
 ## 7.3. Crear nuevos elementos
 

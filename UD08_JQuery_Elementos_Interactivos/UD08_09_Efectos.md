@@ -7,11 +7,9 @@ Tabla de contenidos
     - [9.1.1. Cambiar la Duración de los Efectos](#911-cambiar-la-duración-de-los-efectos)
     - [9.1.2. Realizar una Acción Cuando un Efecto fue Ejecutado](#912-realizar-una-acción-cuando-un-efecto-fue-ejecutado)
   - [9.2. Efectos Personalizados con `.animate`](#92-efectos-personalizados-con-animate)
+    - [9.2.1. La función .animate()](#921-la-función-animate)
     - [9.2.1. Easing](#921-easing)
   - [9.3. Control de los Efectos](#93-control-de-los-efectos)
-    - [9.5.1 Mostrar Texto Oculto](#951-mostrar-texto-oculto)
-    - [9.5.2 Crear un Menú Desplegable](#952-crear-un-menú-desplegable)
-    - [9.5.3 Crear un Slideshow](#953-crear-un-slideshow)
 
 Con jQuery, agregar efectos a una página es muy fácil. Estos efectos poseen una configuración predeterminada pero también es posible proveerles parámetros personalizados. Además es posible crear animaciones particulares estableciendo valores de propiedades CSS.
 
@@ -222,6 +220,63 @@ $('div.funtimes').animate(
 
 > **Nota**: Las propiedades relacionadas al color no pueden ser animadas utilizando el método `.animate`, pero es posible hacerlo a través de la extensión [color plugin](http://plugins.jquery.com/files/jquery.color.js.txt). Más adelante veremos la utilizarción de estas extensiones.
 
+### 9.2.1. La función .animate()
+
+Como muchas de las funciones **jQuery** esta función es muy flexible y tiene muchas posibilidades. En este curso nos centraremos, como hemos venido haciendo hasta ahora, en los usos más frecuentes.
+
+```js
+    //Especificando los propiedades
+    // Valores especiales ‘show’, ‘hide’ ‘toggle’
+    // Incremento con respecto al valor actual += y -=
+    $("some_selector").animate({
+        prop1 : valor1,
+        prop2 : valor2,
+        …
+        proprN : valorN
+    });
+
+    //Especificando los propiedades y duración
+    $(“some_selector”).animate({
+        prop1 : valor1,
+        prop2 : valor2,
+        …
+        proprN : valorN
+    }, duración_milisegundos);
+
+```
+
+Podemos ilustarlo con varios ejemplos:
+
+```js
+//Animo el tamaño de las letra de los td
+//En dos segundos
+$("td").animate(
+  {
+    fontSize: "3rem"
+  },
+  2000
+);
+
+//Incremento el alto y ancho de las imágenes en 3 segundos
+$("img").animate(
+  {
+    height: "+=50px", //50 pixels más
+    width: "+=50px" //50 pixels menos
+  },
+  3000
+);
+
+//Efecto de desaparecer de las imágenes
+//Cortinilla horizontal
+$("img").animate(
+  {
+    opacity: 0,
+    width: "hide"
+  },
+  5000
+);
+```
+
 ### 9.2.1. Easing
 
 [Definición: El concepto de *Easing* describe la manera en que un efecto ocurre --- es decir, si la velocidad durante la animación es constante o no.] jQuery incluye solamente dos métodos de easing: *swing* y *linear*. Si desea transiciones más naturales en las animaciones, existen varias extensiones que lo permiten.
@@ -370,29 +425,3 @@ Con el siguiente resultado :
 > [Ejemplo de control de final de animación con JQuery (Codepen)](https://codepen.io/sergio-rey-personal/pen/MWKZdZp)
 
 
-
-### 9.5.1 Mostrar Texto Oculto
-
-Abra el archivo `/ejercicios/index.html` en el navegador. Realice el ejercicio utilizando el archivo `/ejercicios/js/blog.js`. La tarea es añadir alguna interactividad a la sección blog de la página:
-
--   Al hacer click en alguno de los titulares del *div #blog*, se debe mostrar el párrafo correspondiente con un efecto de deslizamiento;
--   Al hacer click en otro titular, se debe ocultar el párrafo mostrado con un efecto de deslizamiento y mostrar nuevamente el párrafo correspondiente también con un efecto de deslizamiento. Ayuda: No se olvide de utilizar el selector `:visible`.
-
-### 9.5.2 Crear un Menú Desplegable
-
-Abra el archivo `/ejercicios/index.html` en el navegador. Realice el ejercicio utilizando el archivo `/ejercicios/js/navigation.js`. La tarea es poder desplegar los ítems del menú superior de la página:
-
--   Al pasar el puntero del ratón por encima de un ítem del menú, se debe mostrar su submenú en caso que exista;
--   Al no estar más encima de un ítem, el submenú se debe ocultar.
-
-Para poder realizarlo, utilice el método `.hover` para añadir o remover una clase en el submenú para poder controlar si debe estar oculto o visible (El archivo `/ejercicios/css/styles.css` incluye una clase "hover" para este propósito)
-
-### 9.5.3 Crear un Slideshow
-
-Abra el archivo `/ejercicios/index.html` en el navegador. Realice el ejercicio utilizando el archivo `/ejercicios/js/slideshow.js`. La tarea es añadir un slideshow a la página con JavaScript.
-
-1.  Mover el elemento *#slideshow* a la parte superior de la página;
-2.  Escribir un código que permita mostrar los ítems de forma cíclica, mostrando un ítem por unos segundos, luego ocultándolo con un efecto *fade out* y mostrando el siguiente con un efecto *fade in*;
-3.  Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero;
-
-Para un desafío mayor, realice un área de navegación por debajo del slideshow que muestre cuantas imágenes existen y en cual se encuentra (ayuda: `.prevAll` puede resultar útil).
