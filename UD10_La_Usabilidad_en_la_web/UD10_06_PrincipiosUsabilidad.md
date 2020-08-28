@@ -6,7 +6,7 @@ Tabla de contenidos
 - [6. **Principios de desarrollo de la usabilidad web**](#6-principios-de-desarrollo-de-la-usabilidad-web)
   - [6.1. Principios de *Bruce Tognazzini*](#61-principios-de-bruce-tognazzini)
   - [6.2. 10 principios de usabilidad web de *Jakob Nielsen*](#62-10-principios-de-usabilidad-web-de-jakob-nielsen)
-  - [5.4. Aplicación de las dimensiones y los principios de usabilidad a un caso práctico: centro de pología.](#54-aplicación-de-las-dimensiones-y-los-principios-de-usabilidad-a-un-caso-práctico-centro-de-pología)
+  - [5.4. Aplicación de las dimensiones y los principios de usabilidad a un caso práctico: centro de podología.](#54-aplicación-de-las-dimensiones-y-los-principios-de-usabilidad-a-un-caso-práctico-centro-de-podología)
 
 El diseño de un página web es una tarea crítica en el procedimiento de su desarrollo. La página tendrá que ser agradable para los usuarios y cumplir los requisitos de los objetivos para los cuales está diseñada. Cuando se llama que una web tiene que ser amigable nos referimos al hecho que no tendrá que transmitir rechazo, sino que la experiencia de acceder y consultarla tendrá que ser satisfactoria, tendrá que dar ganas de volverla a visitar. Esto implicará que la usabilidad de la página diseñada tendrá que ser buena.
 
@@ -130,9 +130,9 @@ Ejemplo: Este formulario te avisa en tiempo real de los errores que cometes al r
 
 Dos de las características más importantes en la creación de sitios web son la estructura que le daremos y como será la navegación que permitiremos a través del lugar. Estas tienen que ser consistentes e intuitivas. También hará falta que ofrecemos una buena funcionalidad, que haga el que tiene que hacer en un tiempo razonable, de manera correcta y con cierta facilidad. La interactividad que ofrecemos al sitio web también será importante, teniendo como objetivo mantener informado en todo momento el usuario.
 
-## 5.4. Aplicación de las dimensiones y los principios de usabilidad a un caso práctico: centro de pología.
+## 5.4. Aplicación de las dimensiones y los principios de usabilidad a un caso práctico: centro de podología.
 
-Para familiarizaros con la aplicación práctica de estos principios se plantea el caso de una página web de un centro de podología, www.centrepodomedic.com/podologia. Este centro nos pide asesoramiento, puesto que han recibido varias indicaciones referentes a la dificultad que muestren algunos de sus pacientes para encontrar información en la web como, por ejemplo, el teléfono del centro.
+Para familiarizaros con la aplicación práctica de estos principios se plantea el caso de una página web de un centro de podología, [www.centrepodomedic.com/podologia](https://www.centrepodomedic.com/Podologia/). Este centro nos pide asesoramiento, puesto que han recibido varias indicaciones referentes a la dificultad que muestren algunos de sus pacientes para encontrar información en la web como, por ejemplo, el teléfono del centro.
 
 El centro tiene una página web principal con informaciones diversas con un menú superior donde se pueden encontrar, entre otros, opciones de los servicios que ofrecen, las mutuas con las cuales trabajan, la localización o un acceso para contactar.
 

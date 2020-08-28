@@ -8,20 +8,8 @@ Tabla de contenido
   - [8.3. Técnicas subjetivas con la participación del usuario.](#83-técnicas-subjetivas-con-la-participación-del-usuario)
   - [8.4. Aplicando téncias de testeo objetivas.](#84-aplicando-téncias-de-testeo-objetivas)
     - [8.4.1. Cuestionario de usabilidad](#841-cuestionario-de-usabilidad)
-      - [8.4.1.1. Identidad e información](#8411-identidad-e-información)
-      - [8.4.1.2. Acceso](#8412-acceso)
-      - [8.4.1.3. Lenguaje y redacción](#8413-lenguaje-y-redacción)
-      - [8.4.1.4. Rotulado](#8414-rotulado)
-      - [8.4.1.5. Navegación](#8415-navegación)
-      - [8.4.1.6. Diseño y contenidos](#8416-diseño-y-contenidos)
-      - [8.4.1.7. Recursos Multimedia](#8417-recursos-multimedia)
-      - [8.4.1.8. Búsquedas y listados](#8418-búsquedas-y-listados)
-      - [8.4.1.9. Formularios](#8419-formularios)
-      - [8.4.1.10. Ayuda](#84110-ayuda)
-      - [8.4.1.11. Gestión de errores, control y retroalimentación](#84111-gestión-de-errores-control-y-retroalimentación)
-      - [8.4.1.12. Flexibilidad y eficiencia en el uso](#84112-flexibilidad-y-eficiencia-en-el-uso)
     - [8.4.2. Métricas de usabilidad](#842-métricas-de-usabilidad)
-- [8.4.3. Informe de resultados](#843-informe-de-resultados)
+    - [8.4.3. Informe de resultados](#843-informe-de-resultados)
   - [8.5. Aplicando técnicas de testeo subjetivas.](#85-aplicando-técnicas-de-testeo-subjetivas)
     - [8.5.1. Card Sorting](#851-card-sorting)
     - [8.5.2. Tree test](#852-tree-test)
@@ -101,9 +89,9 @@ Otro ejemplo para generar mapas de calor se puede encontrar con la aplicación *
 
 Otros ejemplos de herramientas objetivas que se pueden encontrar en Internet para la ayuda indirecta en el análisis de la usabilidad de manera objetiva son:
 
-  - **Load Impact** ([loadimpact.com](https://loadimpact.com/)), que ofrece la posibilidad de hacer una maceta de *carga online y gratuito con que se puede simular los tiempos de reacción de la página web simulando el acceso simultáneo de muchos usuarios.
+  - **Load Impact** ([loadimpact.com](https://loadimpact.com/)), que ofrece la posibilidad de hacer una test de carga online y gratuito con que se puede simular los tiempos de reacción de la página web simulando el acceso simultáneo de muchos usuarios.
   - **Google Analytics**, otro ejemplo de herramienta que permite conocer muchos datos objetivos del comportamiento de los usuarios hacia una determinada página web ([www.google.com/analytics](https://marketingplatform.google.com/about/analytics/)). Permite, por ejemplo, conocer el número de abandonos de los usuarios de una determinada página web.
-  - **Five Seconds** ([fivesecondtest.com](https://fivesecondtest.com/)), que permite llevar a cabo una maceta sobre una página web indicada en el cual se contestará de manera rápida unas preguntas concretas.
+  - **Five Seconds** ([fivesecondtest.com](https://fivesecondtest.com/)), que permite llevar a cabo una test sobre una página web indicada en el cual se contestará de manera rápida unas preguntas concretas.
   - **Moby Ready** ([www.ready.mobi](https://ready.mobi/)), que ofrece el comportamiento de la web con diferentes navegadores y dispositivos.
 
 ## 8.3. Técnicas subjetivas con la participación del usuario.
@@ -133,10 +121,10 @@ Hoy en día existen muchos programas que pueden ayudar en el diseño y la ejecuc
 
 Entre las herramientas o software para analizar el comportamiento de los usuarios se pueden encontrar:
 
-  - **Navflow** ([www.navflow.com](https://usabilityhub.com/product/first-click-tests)) es una herramienta para evaluar prototipo de páginas web. Se muestra un diseño web y se hacen unas preguntas a los usuarios, que harán una maceta, y se ofrecerá un informe con los resultados.
+  - **Navflow** ([www.navflow.com](https://usabilityhub.com/product/first-click-tests)) es una herramienta para evaluar prototipo de páginas web. Se muestra un diseño web y se hacen unas preguntas a los usuarios, que harán una test, y se ofrecerá un informe con los resultados.
   - **Camstudio** ([camstudio.org](https://camstudio.org/)) es una herramienta gratuita que permite grabar todo el que sucede en una pantalla de ordenador. Nos permitirá capturar el comportamiento de un usuario ante una web para poder analizarlo posteriormente.
   - **VNC** ([www.uvnc.com/screenrecorder/index.html](https://www.uvnc.com/screenrecorder/index.html)) es otra herramienta para grabar todo el que sucede en un ordenador y evaluar, por lo tanto, el que hace el usuario al acceder en una determinada web.
-  - **Morae** ([www.techsmith.com/morae.asp](https://www.techsmith.com/tutorial-morae-current.html)) es una herramienta que permite grabar comportamientos, pero también diseñar y llevar a cabo macetas de usabilidad.
+  - **Morae** ([www.techsmith.com/morae.asp](https://www.techsmith.com/tutorial-morae-current.html)) es una herramienta que permite grabar comportamientos, pero también diseñar y llevar a cabo tests de usabilidad.
 
 Otro ejemplo de software que puede ayudar en el análisis de la usabilidad de un determinado sitio web es lo **Selenium IDE** ([www.seleniumhq.org/projects/ide](https://www.selenium.dev/selenium-ide/)), un complemento para los navegadores Firefox  y Chrome que nos permite definir guías de actuación de usuarios y simular que estos usan una determinada página web para observar su comportamiento.
 
@@ -150,13 +138,13 @@ En la siguiente imagen se puede ver un ejemplo de utilización del *SurveyMonkey
 
 ![https://es.surveymonkey.com/](img/usabilidad-survey_monkey_concept_map.jpg))
 
-Un caso práctico de como hacer una maceta subjetiva de usabilidad se muestra a continuación. Concretamente, se trata de la empresa *Aigües de Barcelona*. Este test está pensada para los usuarios que ya son clientes de la llamada Oficina en Red, que es su intranet. Esta intranet permite a los clientes de *Aigües de Barcelona* conectarse para gestionar todo aquello vinculado con el servicio que tienen contratado. La Oficina en Red ya está acabada y en funcionamiento desde hace tiempo. Por esta razón, piden a sus usuarios una evaluación de la oficina en general y de su usabilidad en particular para poder llevar a cabo mejoras en su diseño y en las funcionalidades que ofrece.
+Un caso práctico de como hacer una test subjetiva de usabilidad se muestra a continuación. Concretamente, se trata de la empresa *Aigües de Barcelona*. Este test está pensada para los usuarios que ya son clientes de la llamada Oficina en Red, que es su intranet. Esta intranet permite a los clientes de *Aigües de Barcelona* conectarse para gestionar todo aquello vinculado con el servicio que tienen contratado. La Oficina en Red ya está acabada y en funcionamiento desde hace tiempo. Por esta razón, piden a sus usuarios una evaluación de la oficina en general y de su usabilidad en particular para poder llevar a cabo mejoras en su diseño y en las funcionalidades que ofrece.
 
 ![Test aigües de Barcelona](img/usabilidad-test-aigues_1.png)
 
 También se pueden observar algunos detalles que se recomiendan para la creación óptima de encuestas y cuestionarios, como puede ser ir mostrando el porcentaje de la encuesta que se lleva hecho (en este caso se informa el encuestado que ya lleva un 50%) y, aunque no lo podamos apreciar en la figura, ir mostrando las preguntas una a una por no cansar el usuario antes de empezar.
 
-Este ejemplo pretende serviros de ejemplo para conocer como se llevan a cabo ciertas macetas de usabilidad con usuarios reales.
+Este ejemplo pretende serviros de ejemplo para conocer como se llevan a cabo ciertas tests de usabilidad con usuarios reales.
 
 ## 8.4. Aplicando téncias de testeo objetivas. 
 
