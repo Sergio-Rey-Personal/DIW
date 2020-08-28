@@ -21,7 +21,7 @@ Existen millones de personas con discapacidad que no pueden utilizar la Web. Act
 
 Pero la accesibilidad Web **beneficia** también a organizaciones y a personas *sin* discapacidad. Por ejemplo, un principio básico de la accesibilidad Web es la flexibilidad con el objetivo de satisfacer diferentes necesidades, situaciones y preferencias. Esta **flexibilidad** va a beneficiar a todas aquellas personas que utilizan la Web, incluyendo personas que *no tienen* ninguna discapacidad pero que, debido a determinadas situaciones, tienen dificultades para acceder a la Web (por ejemplo, una conexión lenta), también estaríamos hablando de aquellas personas que sufren una incapacidad transitoria (por ejemplo, un brazo roto), y de personas de edad avanzada. El documento "[Desarrollo de un Proyecto de Accesibilidad Web para su organización](http://www.w3.org/WAI/EO/Drafts/bcase/Overview)" describe los diferentes beneficios de la accesibilidad Web, incluyendo los **beneficios obtenidos por las empresas**.
 
-Para entender mejor que es la accesibilidad web, veamos el siguiente video del especialista en el tema Sergio Lújan Mora: [Ejemplos de problemas de accesibilidad](https://youtu.be/2Tm0zZhIxKU)
+> **Para entender mejor que es la accesibilidad web, veamos el siguiente video del especialista en el tema Sergio Lújan Mora:** [Ejemplos de problemas de accesibilidad](https://youtu.be/2Tm0zZhIxKU)
 
 ## 1.2. Importancia de la Accesibilidad Web
 

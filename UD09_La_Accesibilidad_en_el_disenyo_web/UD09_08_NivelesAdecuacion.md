@@ -11,9 +11,9 @@ Para que una página web cumpla con los niveles de adecuación de la WCAG 2.0 se
 
 1. **Nivel de conformidad:** Uno de los siguientes niveles de conformidad vistos anteriormente se satisface por completo.
 
-- **Nivel A:** Para lograr conformidad con el Nivel A (el mínimo), la página web satisface todos los Criterios de Conformidad del Nivel A, o proporciona una versión alternativa conforme.
-- **Nivel AA:** Para lograr conformidad con el Nivel AA, la página web satisface todos los Criterios de Conformidad de los Niveles A y AA, o se proporciona una versión alternativa conforme al Nivel AA.
-- **Nivel AAA:** Para lograr conformidad con el Nivel AAA, la página web satisface todos los Criterios de Conformidad de los Niveles A, AA y AAA, o proporciona una versión alternativa conforme al Nivel AAA.
+   - **Nivel A:** Para lograr conformidad con el Nivel A (el mínimo), la página web satisface todos los Criterios de Conformidad del Nivel A, o proporciona una versión alternativa conforme.
+   - **Nivel AA:** Para lograr conformidad con el Nivel AA, la página web satisface todos los Criterios de Conformidad de los Niveles A y AA, o se proporciona una versión alternativa conforme al Nivel AA.
+   - **Nivel AAA:** Para lograr conformidad con el Nivel AAA, la página web satisface todos los Criterios de Conformidad de los Niveles A, AA y AAA, o proporciona una versión alternativa conforme al Nivel AAA.
 
 2. **Páginas completas:** La conformidad (y el nivel de conformidad) se aplica a páginas web completas, y no se puede alcanzar si se excluye una parte de la página.
 

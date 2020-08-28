@@ -638,7 +638,7 @@ Excepto por partes del contenido que requieren un diseño bidimensional para su 
 
 - **3.1.4 Abreviaturas:** Se proporciona un [mecanismo](http://sidar.org/traducciones/wcag20/es/#mechanismdef "definición: mecanismo") para identificar la forma expandida o el significado de las [abreviaturas](http://sidar.org/traducciones/wcag20/es/#abbreviationsdef "definición: abreviaturas"). (Nivel AAA)
 
-  > [Cómo cumplir 3.1.4]ttp://www.w3.org/WAI/WCAG21/quickref/#qr-meaning-located "Cómo satisfacer el Criterio de Conformidad 3.1.4")
+  > [Cómo cumplir 3.1.4](http://www.w3.org/WAI/WCAG21/quickref/#qr-meaning-located "Cómo satisfacer el Criterio de Conformidad 3.1.4")
   
   > [Comprender 3.1.4](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html "Comprender el Criterio de Conformidad 3.1.4")
 
@@ -662,7 +662,7 @@ Excepto por partes del contenido que requieren un diseño bidimensional para su 
 
 - **3.2.1 Al recibir el foco:** Cuando cualquier componente recibe el foco, no inicia ningún [cambio en el contexto](http://sidar.org/traducciones/wcag20/es/#context-changedef "definición: cambio en el contexto"). (Nivel A)
 
-  > [Cómo cumplir 3.2.1](http://www.w3.org/WAI/20/quickref/#qr-consistent-behavior-receive-focus "Cómo satisfacer el Criterio de Conformidad 3.2.1")
+  > [Cómo cumplir 3.2.1](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=314#on-focus "Cómo satisfacer el Criterio de Conformidad 3.2.1")
   
   > [Comprender 3.2.1](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html "Comprender el Criterio de Conformidad 3.2.1")
 
