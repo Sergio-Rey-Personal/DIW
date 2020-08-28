@@ -100,7 +100,7 @@ Vamos a hacer una animación mediante **`@keyframes`** de nuestro logo, de forma
 
 Tenemos el siguiente resultado: 
 
-![Animación con Animation y Keyframes](img/animation-keyframes.gif)
+![Animación con Animation y Keyframes](img/Animation-keyframes.gif)
 
 > [Ejemplo completo en CodePen](https://codepen.io/sergio-rey-personal/pen/yLexEmR)
 
