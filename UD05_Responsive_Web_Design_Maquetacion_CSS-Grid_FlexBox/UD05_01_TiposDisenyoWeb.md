@@ -14,8 +14,69 @@ A la hora de crear una interfaz web existen **diferentes tipos de diseño**: dis
 
 ## 1.1. Diseño fijo
 
-El **diseño fijo** dispone de **medidas fijas** que no son modificadas para los distintos dispositivos. Por lo tanto, se trata de un diseño que **no cumple las normas de un diseño web responsivo o r*****esponsive web design***.
+El **diseño fijo** dispone de **medidas fijas** que no son modificadas para los distintos dispositivos. Por lo tanto, se trata de un diseño que **no cumple las normas de un diseño web responsivo o responsive web design***.
 
+Veamos un ejemplo sencillo de maquetación fija: 
+
+```html
+<div class="container">
+  <header>HEADER
+  </header>
+  <main>
+    <article> 
+      articulo 1
+    </article>
+    <article> 
+      articulo 2
+    </article>
+  </main>
+</div>
+```
+
+```css
+.container {
+  width: 600px;
+  height: 500px;
+  background-color: khaki;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+header {
+  background-color: salmon;
+  height: 50px;
+  width: 500px;
+  margin: 20px auto;
+  border: solid 1px black;
+}
+
+main {
+  margin: 0px auto;
+  width: 500px;
+}
+
+article {
+  width: 220px;
+  height: 400px;
+  background-color: coral;
+  margin: 0px auto;
+}
+
+article:nth-child(1) {
+  float: left;
+}
+
+article:nth-child(2) {
+  float: right;
+}
+```
+
+![Mauetación sencilla fija en CSS3](img/CSS3-Maquetacion-sencilla.png)
+
+> [Ejemplo sencillo de maquetación fija en CSS3. Codepen](https://codepen.io/sergio-rey-personal/pen/xxVLGRO)
+
+
+Veamos a continuación una maquetación más elaborada con la misma técnica
 
 ```css
 body {
@@ -151,6 +212,55 @@ Tal y como vimos en el apartado "[Unidades de medida en CSS](https://github.com/
 
 El «em» es una unidad de tipografía que mide exactamente el ancho de la letra «M» mayúscula de una tipografía dada y a un tamaño dado. Por tanto, un «em» no mide siempre lo mismo. Actualmente, el tamaño de fuente por defecto en todos los navegadores suele ser de 16 píxeles.
 
+Veamos el mismo ejemplo anteior de maquetación sencilla ahora utilizando esta táctica:
+
+```html
+<div class="container">
+  <header>
+    HEADER
+  </header>
+  <main>
+    <article>
+      Articulo 1
+    </article>
+    <article>
+      Articulo 1
+    </article>
+  </main>
+</div>
+```
+
+```css
+.container {
+  background-color: khaki;
+  margin: 20px auto;
+  height: 400px;
+  padding: 20px;
+  width: 60em;
+}
+
+header {
+  background-color: salmon;
+  height: 40px;
+}
+
+article {
+  background-color: coral;
+  height: 340px;
+  margin-top: 20px;
+  width: 25em;
+}
+article:nth-child(1) {
+  float: left;
+}
+
+article:nth-child(2) {
+  float: right;
+}
+```
+
+[Maquetación secilla CSS3 elástica. Codepen](https://codepen.io/sergio-rey-personal/pen/zYqdGjB)
+
 ```css
 /* styles.css */
 body {
@@ -281,6 +391,69 @@ h1 {
 ## 1.3. Diseño líquido o fluido
 
 El diseño líquido se adapta a la ventana del dispositivo, normalmente definiendo los tamaños mediante **porcentajes**. Sin embargo, este método perjudica la experiencia de usuario y no permite controlar el diseño ( el diseño varía constantemente según el tamaño del dispositivo y no se puede diseñar al píxel para todos los tamaños).
+
+Veamos los 2 ejmplos de maquetación, el secillo y el más complejo:
+
+En cuanto al sencillo:
+
+````html
+<div class="container">
+  <header>
+    HEADER
+  </header>
+  <main>
+    <article>
+      Articulo 1
+    </article>
+    <article>
+      Articulo 1
+    </article>
+  </main>
+</div>
+```
+
+```css
+.container{
+  background-color: khaki;
+  height: 500px;
+  margin: 0px auto;
+  padding: 10px;
+  width: 80%;
+}
+
+header{
+  background-color: coral;
+  height: 50px;
+  width: 90%;
+  margin: 0px auto;  
+}
+
+main{
+  border: solid 1px black;
+  height: 80%;
+  width: 90%;
+  margin: 20px auto;
+}
+
+article{
+  background-color: coral;
+  display: inline-block;
+  height: 100%;
+  width: 45%;
+}
+
+article:nth-child(1){
+  float: left;
+}
+
+article:nth-child(2){
+  float: right;
+}
+```
+> [Mauqetación sencilla fluida en CSS3. Codepen](https://codepen.io/sergio-rey-personal/pen/yLOoNom)
+
+
+y ahora el ejemplo más elaborado:
 
 ```css
 /* styles.css */
