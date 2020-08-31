@@ -10,7 +10,6 @@ Tabla de contenidos
   - [24.5. Z-index](#245-z-index)
   - [24.6. Propiedad box-sizing](#246-propiedad-box-sizing)
   - [24.7. Diferencia entre visibility: hidden y display: none](#247-diferencia-entre-visibility-hidden-y-display-none)
-- [Ejercicios propuestos](#ejercicios-propuestos)
 
 En este apartado vamos a repasar el comportamiento de los contenedores en CSS. Antes de comenzar es interesante leer el artículo sobre [elementos de ordenación](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_15_ElementosOrdenacionHTML.md).
 
@@ -82,6 +81,122 @@ Valores:
 ```
 
 [CSS3. Propiedad Display (Codepen)](https://codepen.io/sergio-rey-personal/pen/QWyGamV)
+
+veamos otros ejemplo donde vamos a utilizar las mismas propiedades para ajustar horizontalmente los elementos en nuestro layout
+
+```html
+<!-- CASOS DE CENTRADO HORIZONTAL-->
+<h1>Este texto está centrado</h1>
+
+<div class="image">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="300px" />
+</div>
+
+<div class="image">
+  Vamos a ver como queda el texto
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="300px" />
+</div>
+<div class="image">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque nemo nisi libero totam, impedit fugit iusto
+    non repudiandae molestiae blanditiis soluta sed aperiam assumenda ipsa, reprehenderit, tenetur quaerat est
+    saepe?</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="300px" />
+</div>
+
+<div class="main"></div>
+
+<div class="bloques">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<!-- CASOS DE CENTRADO VERTICAL-->
+<div class="vpadding">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="100px" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="100px" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="100px" />
+</div>
+
+<div class="vdisplay">
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, iure obcaecati odit consequuntur magni ipsum
+    repellat praesentium non assumenda autem quia amet libero eveniet numquam esse mollitia aliquid voluptatum
+    maxime!</p>
+</div>
+``
+
+```css
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img{
+  width: 100px;
+}
+
+h1,
+.image,
+.bloques {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.main {
+  background-color: blue;
+  height: 200px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.bloques {
+  background-color: red;
+  height: 400px;
+  margin: 40px auto;
+  width: 60%;
+}
+
+.bloques div {
+  background-color: chartreuse;
+  display: inline-block;
+  height: 200px;
+  margin-top: 100px;
+  width: 25%;
+}
+
+.vpadding {
+  border: 1px solid black;
+  padding: 50px;
+  text-align: center;
+}
+
+.vdisplay {
+  border: 1px solid black;
+  display: table;
+  height: 300px;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.vdisplay p {
+  display: table-cell;
+  padding: 20px;
+  vertical-align: middle;
+}
+```
+
+![Ejemplo centrado horizontal](img/CSS3-Layout-Horizontal-Centrado.png)
+
+> [Ejemplo de centrado horizontal en CSS3. Codepen](https://codepen.io/sergio-rey-personal/pen/YzqxXgL)
 
 ## 24.2. Position
 
@@ -202,6 +317,135 @@ Tal y como puedes comprobar en el siguiente ejemplo, los elementos con `position
 
 > [CSS3. Propiedad Position fixed (Codepen)](https://codepen.io/sergio-rey-personal/pen/NWxbXLL)
 
+
+**Ejemplo `position: sticky`**
+
+**sticky** es un nuevo valor de la propiedad position, añadido como parte de las Especificaciones del Módulo de Diseño o Esquema. Funciona de manera similar al posicionamiento **relativo**, pero se diferencia del mismo al hacer un scroll vertical, puesto que el elemento quedará en la parte superior del navegador (al **top** designado)
+
+```html
+<h1>Título con position relative desplazado</h1>
+<div class="sticky-menu">
+  <div class="menu-element">
+    Home
+  </div>
+  <div class="menu-element">
+    Products
+  </div>
+  <div class="menu-element">
+    Contact
+  </div>
+  <div class="menu-element">
+    About us
+  </div>
+</div>
+
+<div class="padre">
+  <div class="hijo1"></div>
+  <div class="hijo2"></div>
+</div>
+
+<div class="large"></div>
+
+<div class="footer">
+  <div class="menu-element">
+    Home
+  </div>
+  <div class="menu-element">
+    Products
+  </div>
+  <div class="menu-element">
+    Contact
+  </div>
+  <div class="menu-element">
+    About us
+  </div>
+</div>
+```
+
+```css
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+/** Ejemplo con position relative **/
+h1 {
+  left: 50px;
+  position: relative;
+  top: 10px;
+  width: 80%;
+}
+
+/** Elementos con position absolute y z-index **/
+.padre {
+  background-color: lightblue;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+  width: 60%;
+}
+
+.padre div {
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.padre div.hijo1 {
+  background-color: red;
+  left: 100px;
+  top: 50px;
+  z-index: 2;
+}
+
+.padre div.hijo2 {
+  background-color: chartreuse;
+  left: 120px;
+  top: 30px;
+}
+
+/** Elemento fixed **/
+.footer {
+  background-color: lightgrey;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.footer div,
+.sticky-menu div {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+/* Sticky Menu */
+.sticky-menu {
+  background-color: lightgrey;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+/* Elemento large  para forzar scroll */
+.large {
+  background-color: burlywood;
+  height: 1000px;
+  margin: 20px auto;
+  width: 60%;
+}
+```
+
+![Posicionamiento relativo con sticky](img/CSS3-Posicionamiento-relativo-sticky.png)
+
+> [Ejemplo de posicionamiento relativo con sticky. Codepen](https://codepen.io/sergio-rey-personal/pen/dyMzYPe)
+
+
 ## 24.3. Float
 
 El comportamiento de los elementos se puede modificar haciendo que floten. Cuando a un elemento html se le aplica un estilo con la propiedad de `float`, el **elemento sale del flujo normal y aparece posicionado a la izquierda o a la derecha de su contenedor**, donde el resto de elementos de la página se posicionarán alrededor. 
@@ -262,6 +506,61 @@ h2{
 ```
 
 > [CSS3. Contenedores con float (Codepen)](https://codepen.io/sergio-rey-personal/pen/NWxbXOL)
+
+Veamos a continuación otro ejemplo, en este caso utilizaremos elementos flotantes para realizar la maquetación de esta web:
+
+```html
+<div class="container">
+  <div class="sidebar"></div>
+  <article></article>
+  <article></article>
+  <article></article>
+  <footer></footer>
+</div>
+```
+
+```css
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightgrey;
+  margin: 20px auto;
+  padding: 20px;
+  overflow-y: auto;
+  width: 90%;
+}
+
+.sidebar {
+  background-color: lightyellow;
+  float: left;
+  width: 25%;
+  height: 600px;
+}
+
+article {
+  background-color: coral;
+  float: left;
+  height: 300px;
+  margin-left: 5%;
+  width: 20%;
+}
+
+footer {
+  background-color: aquamarine;
+  float: left;
+  height: 290px;
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 70%;
+}
+```
+
+![Ejemplo sencillo con float](img/css3-maquetacino3sencilla3float.png)
+
+> [Ejemplo de maquetación sencilla utilizando elementos flotantes. Codepen](https://codepen.io/sergio-rey-personal/pen/VwazPvd)
 
 ## 24.4. Clear
 
@@ -425,11 +724,3 @@ $('#visibilityHidden').click(function(e) {
 ```
 
 > [CSS3. display: none vs. visibility: hidden (Codepen)](https://codepen.io/sergio-rey-personal/pen/WNrodWL)
-
-# Ejercicios propuestos
-
-Partiendo del proyecto web que estás creando a lo largo del curso realiza lo siguiente:
-
--   Utiliza la propiedad "position" para fijar tu menú en la parte de arriba.
--   Incluye el icono de Whatsapp para que aparezca fijo en la parte inferior derecha del documento web.
--   Utiliza las propiedades vistas para maquetar todos los elementos de tu proyecto web.

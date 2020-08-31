@@ -6,7 +6,6 @@ Tabla de contenidos
   - [36.1. Formulario básico en CSS](#361-formulario-básico-en-css)
   - [36.2. Propiedad box-sizing](#362-propiedad-box-sizing)
   - [36.3. Propiedad resize](#363-propiedad-resize)
-- [Ejercicios propuestos](#ejercicios-propuestos)
 
 En el tema anterior vimos las [etiquetas HTML para la creación de formularios](https://github.com/Sergio-Rey-Personal/DIW/blob/master/UD03_Disenyo_y_maquetacion_web_con_HTML5_y_CSS3/UD03_04_EtiquetasParaCreacionFormulariosHTML.md). Vamos a ver ahora cómo podemos dar estilo a esas etiquetas mediante CSS.
 
@@ -108,6 +107,3 @@ resize: vertical;
 | `vertical` | El usuario puede cambiar el tamaño del elemento verticalmente |
 | `both` | El usuario puede cambiar el tamaño del elemento en horizontal y vertical |
 
-# Ejercicios propuestos
-
--   Incorpora los estilos necesarios para maquetar el formulario de tu proyecto web teniendo en cuenta todos los elementos estudiados.
