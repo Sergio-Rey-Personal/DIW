@@ -15,8 +15,8 @@ Cualquier elemento incluido en un documento HTML dispone de una estructura tipo 
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
-| `padding-top` `padding-right` `padding-bottom` `padding-left` | Tamaño del relleno superior, derecho, inferior e izquierdo | longitud | porcentaje |
-| `padding` | Tamaño del relleno | longitud | porcentaje {1,4} |
+| `padding-top` `padding-right` `padding-bottom` `padding-left` | Tamaño del relleno superior, derecho, inferior e izquierdo | longitud \| porcentaje |
+| `padding` | Tamaño del relleno | longitud \| porcentaje {1,4} |
 Tabla 13.1: Padding
 
 **Ejemplo `Padding`**
@@ -64,8 +64,8 @@ div.b { /*Propiedad corta*/
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
-| `margin-top` `margin-right` `margin-bottom` `margin-left` | Tamaño del margen superior, derecho, inferior e izquierdo | longitud | porcentaje | auto |
-| `margin` | Ancho de los margenes | longitud | porcentaje | auto {1,4} |
+| `margin-top` `margin-right` `margin-bottom` `margin-left` | Tamaño del margen superior, derecho, inferior e izquierdo | longitud \| porcentaje \| auto |
+| `margin` | Ancho de los margenes | longitud \| porcentaje \| auto {1,4} |
 Tabla 13.2: Margin
 
 ***Ejemplo `margin`***
