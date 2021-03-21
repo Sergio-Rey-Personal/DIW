@@ -114,15 +114,15 @@ div.a {
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
-| `border-top-width` `border-right-width` `border-bottom-width` `border-left-width` | Anchura del borde superior, derecho, inferior o izquierdo | thin | medium | thick | longitud |
-| `border-width` | Anchura del borde (reducida) | thin | medium | thick | longitud {1,4} |
-| `border-top-color border-right-color` `border-bottom-color` `border-left-color` | Color del borde superior, derecho, inferior e izquierdo | color | transparent |
-| `border-color` | Color del borde (reducida) | color | transparent {1,4} |
-| `border-top-style border-right-style` `border-bottom-style` `border-left-style` | Estilo del borde superior, derecho, inferior e izquierdo | none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset |
-| `border-style` | Estilo del borde (reducida) | none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset {1,4} |
-| `border-top` `border-right` `border-bottom` `border-left` | Ancho, estilo y color para el borde superior, derecho, inferior e izquierdo | border-top-width | border-top-style | border-top-color |
-| `border` | Ancho, estilo y color para los bordes (reducida) | border-width | border-style | border-color |
-| `border-radius` | Curvatura del borde | 1-4 length | % |
+| `border-top-width` `border-right-width` `border-bottom-width` `border-left-width` | Anchura del borde superior, derecho, inferior o izquierdo | thin \| medium \| thick \| longitud |
+| `border-width` | Anchura del borde (reducida) | thin \| medium \| thick \| longitud {1,4} |
+| `border-top-color border-right-color` `border-bottom-color` `border-left-color` | Color del borde superior, derecho, inferior e izquierdo | color \| transparent |
+| `border-color` | Color del borde (reducida) | color \| transparent {1,4} |
+| `border-top-style border-right-style` `border-bottom-style` `border-left-style` | Estilo del borde superior, derecho, inferior e izquierdo | none \| hidden \| dotted \| dashed \| solid \| double \| groove \| ridge \| inset \| outset |
+| `border-style` | Estilo del borde (reducida) | none \| hidden \| dotted \| dashed \| solid \| double \| groove \| ridge \| inset \| outset {1,4} |
+| `border-top` `border-right` `border-bottom` `border-left` | Ancho, estilo y color para el borde superior, derecho, inferior e izquierdo | border-top-width \| border-top-style \| border-top-color |
+| `border` | Ancho, estilo y color para los bordes (reducida) | border-width \| border-style \| border-color |
+| `border-radius` | Curvatura del borde | 1-4 \| length \| % |
 Tabla 13.3: Bordes
 
 **Ejemplo `border`**

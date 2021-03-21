@@ -16,18 +16,17 @@ En este apartado vamos a repasar el comportamiento de los contenedores en CSS. A
 
 | Propiedad | Descripción | Valores |
 | --- | --- | --- |
-| `display` | Comportamiento del contenedor | inline | block | inline-block | none |
-| `position` | Esquema de posicionamiento | static | relative | absolute | fixed |
-| `top` `right` `bottom` `left` | Desplazamiento de la caja respecto al borde superior, derecho, inferior o izquierdo | longitud | porcentaje | auto |
-| `float` | Posicionamiento flotante | left | right | none |
-| `clear` | Control de cajas adyacentes a las float | none | left | right | both |
-| `z-index` | Nivel de la capa | auto | numero entero |
-| `box-sizing` | Control de bordes y relleno en el comportamiento del contenedor | content-box | border-box |
+| `display` | Comportamiento del contenedor | inline \| block \| inline-block \| none |
+| `position` | Esquema de posicionamiento | static \| relative \| absolute | fixed |
+| `top` \| `right` \| `bottom` \| `left` | Desplazamiento de la caja respecto al borde superior, derecho, inferior o izquierdo | longitud \| porcentaje \| auto |
+| `float` | Posicionamiento flotante | left \| right \| none |
+| `clear` | Control de cajas adyacentes a las float | none \| left \| right \| both |
+| `z-index` | Nivel de la capa | auto \| numero entero |
+| `box-sizing` | Control de bordes y relleno en el comportamiento del contenedor | content-box \| border-box |
 Tabla: Posición y comportamiento de las cajas o contenedores
 
 ## 24.1. Display
 
-**Ejemplo `display`**
 
 Valores:
 
@@ -35,6 +34,8 @@ Valores:
 -   **inline:** Muestra en la misma línea (respetando el flujo) todos los elementos y no acepta las propiedades width, height ni márgenes verticales.
 -   **block:** Muestra los elementos en líneas independientes y acepta las propiedades width, height y márgenes verticales.
 -   **inline-block:** Su comportamiento es una mezcla entre los dos anteriores, los elementos se muestran en la misma línea (respetando el flujo) y acepta las propiedades width, height y márgenes verticales.
+
+**Ejemplo `display`**
 
 ```css
 .a { display: none; }
