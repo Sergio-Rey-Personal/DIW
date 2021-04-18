@@ -33,7 +33,7 @@ Los efectos CSS ya los hemos estudiado a lo largo del curso, no obstante convien
 
 ### 1.1.2. Usando formularios.
 
-A lo largo del curso, tambien hemos visto como poder deseñar formualarios tanto con HTML5 + CSS3 como utilizando Bootstrap.
+A lo largo del curso, también hemos visto como poder deseñar formularios tanto con HTML5 + CSS3 como utilizando ***Bootstrap***.
 
 ### 1.1.3. Usando lenguajes de programación.
 

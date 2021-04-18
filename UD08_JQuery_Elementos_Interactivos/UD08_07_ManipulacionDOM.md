@@ -55,17 +55,17 @@ Por ejemplo, jQuery provee los métodos `.insertAfter` y `.after`. El método `.
 
 Estas funciones las vamos a agrupar en:
 
-* .empty(), .html() y .text()
-* .append(), .prepend(), .appendTo() , .prependTo()
-* .wrap(), .unwrap() , .wrapAll() , .wrapInner()
-* .val().
-* .remove() o .detach()
+* `.empty()`, `.html()` y `.text()`
+* `.append()`, `.prepend()`, `.appendTo()`, `.prependTo()`
+* `.wrap()`, `.unwrap()`, `.wrapAll()`, `.wrapInner()`
+* `.val()`.
+* `.remove()` o `.detach()`
 
 La utilización de uno u otro método dependerá de los elementos que tenga seleccionados y el tipo de referencia que se quiera guardar con respecto al elemento que se esta moviendo.
 
-### 7.2.1. .empty(), .html() y .text()
+### 7.2.1. `.empty()`, `.html()` y `.text()`
 
-La función **.empty()** borra todos los nodos hijos(y su contenido) de los elementos seleccionados.
+La función **`.empty()`** borra todos los nodos hijos(y su contenido) de los elementos seleccionados.
 
 Un ejemplo sería el siguiente:
 
@@ -89,7 +89,7 @@ La estructura resultante sería:
 <ul></ul>
 ```
 
-La función **.html()** puede ser usada para obtener el **contenido** del **primer elemento** de los seleccionados. Esto quiere decir que obtendremos todo lo que va entre la apertura y el cierre de ese elemento.
+La función **`.html()`** puede ser usada para obtener el **contenido** del **primer elemento** de los seleccionados. Esto quiere decir que obtendremos todo lo que va entre la apertura y el cierre de ese elemento.
 
 Por ejemplo:
 
@@ -113,17 +113,17 @@ $("ul").html(function(index,oldText) {
 });
 ```
 
-El uso de la función **.text()** es totalmente análogo a .html() pero con la diferencia de que trata todo como **TEXTO** y **obvia las etiquetas** quedándose únicamente con el contenido textual de los elementos.
+El uso de la función **`.text()`** es totalmente análogo a `.html()` pero con la diferencia de que trata todo como **TEXTO** y **obvia las etiquetas** quedándose únicamente con el contenido textual de los elementos.
 
-### 7.2.2. .append() / .prepend() / .appendTo() / .prependTo()
+### 7.2.2. `.append()` / `.prepend()` / `.appendTo()` / `.prependTo()`
 
 
-las funciones **.append()** y **.prepend()** son análogas en su funcionamiento. Ambas sirven para añadir nuevos elementos HTML a nuestro DOM.
+las funciones **`.append()`** y **`.prepend()`** son análogas en su funcionamiento. Ambas sirven para añadir nuevos elementos HTML a nuestro DOM.
 
 La diferencia principal es que:
 
-* **.append("contenido")** añade ese contenido justo al principio de los elementos seleccionados.
-* **.prepend("contenido")** añade ese contenido justo al final de los elementos seleccionados.
+* **`.append("contenido")`** añade ese contenido justo al principio de los elementos seleccionados.
+* **`.prepend("contenido")`** añade ese contenido justo al final de los elementos seleccionados.
 
 Y cuando nos referimos al principio o al final nos referimos a justo después de la etiqueta de inicio de los elementos seleccionados o a justo antes de la etiqueta de cierre de los elementos seleccionados.
 
@@ -132,7 +132,7 @@ Se entiende mejor con esta imágen.
 ![Append y prepend](img/jquery-appendyprepend.png)
 
 
-Las funciones **.appendTo()** y **.prependTo()** funcionan de manera muy similar a las dos anteriores pero tenemos un par de cambios:
+Las funciones **`.appendTo()`** y **`.prependTo()`** funcionan de manera muy similar a las dos anteriores pero tenemos un par de cambios:
 
 * Donde antes estaba el contenido está el selector de los elementos en los cuales vamos añadir contenido.
 * Donde antes estaba el selector tengo el contenido.
@@ -169,16 +169,16 @@ Cuando se utiliza un método como `.appendTo`, lo que se está haciendo es mover
 
 > ***Nota***: Si se necesita copiar información y eventos relacionados al elemento, se debe pasar `true` como argumento de `.clone`.
 
-### 7.2.3. .wrap() / .unwrap() / .wrapAll() / .wrapInner()
+### 7.2.3. `.wrap()` / `.unwrap()` / `.wrapAll()` / `.wrapInner()`
 
-La función **.wrap()** añade cierta estructura HTML alrededor de todos y cada uno de los elementos seleccionados.
+La función **`.wrap()`** añade cierta estructura HTML alrededor de todos y cada uno de los elementos seleccionados.
 
 Tiene varias posibilidades:
 
 ```js
 
     //Envuelve todos los article con una estructura
-    $("article").wrap("<div class="article_outer"></div>");
+    $("article").wrap("<div class='article_outer'></div>");
 
     //O usando una función que pone a nuestra disposición la posición dentro de los elementos seleccionados
     $("article").wrap(funcion(index) {
@@ -191,7 +191,7 @@ Podemos entenderlo mejor con esta imagen:
 
 ![Wrap](img/jquery-wrap.png)
 
-La función **.unwrap()** hace justo lo contrario que .wrap().Elimina el padre y saca el hijo a la altura del árbol que estaba el padre.
+La función **`.unwrap()`** hace justo lo contrario que `.wrap()`.Elimina el padre y saca el hijo a la altura del árbol que estaba el padre.
 
 Por lo tanto:
 
@@ -205,8 +205,8 @@ Por lo tanto:
 
 En relación a las otras dos funciones:
 
-* **wrapAll()** es análogo a .wrap() pero sólo añade un elemento envolvente que cubre a todos los seleccionados. Debemos tener cuidado si hay elementos _intrusos_ o diferentes entre ellos.
-* **wrapInner()**  es análogo a .wrap() pero el elemento envolvente se añade no como padre sino al contenido de los seleccionados.
+* **`.wrapAll()`** es análogo a `.wrap()` pero sólo añade un elemento envolvente que cubre a todos los seleccionados. Debemos tener cuidado si hay elementos _intrusos_ o diferentes entre ellos.
+* **`.wrapInner()`**  es análogo a `.wrap()` pero el elemento envolvente se añade no como padre sino al contenido de los seleccionados.
 
 Vamos a entenderlo mejor con las siguientes imágenes:
 
@@ -214,14 +214,13 @@ Vamos a entenderlo mejor con las siguientes imágenes:
 
 ![WrapInner](img/jquery-wrapinner.png)
 
-### 7.2.4. .after() y .before()
+### 7.2.4. `.after()` y `.before()`
 
 Son funciones que me permiten insertar contenido (uno o varios) justo antes (before) o después (after) de los elementos seleccionados. Ambas tienen el mismo uso. Únicamente cambia el nombre.
 
 La forma más sencilla de usarlas sería la siguiente:
 
 ```js
-
     $("some_selector").after(content1,.....,contentN);
     $("some_selector").before(content1,.....,contentN);
 ```
@@ -236,7 +235,6 @@ Es importante destacar que ese contenido puede ser:
 También pueden usarse de otras maneras:
 
 ```js
-
     //Con función cuyo valor devuelto es lo que se añade.
     //Tengo disponible posición y $(this)
     $("some_selector").after(function(index) {
@@ -247,7 +245,6 @@ También pueden usarse de otras maneras:
     $("some_selector"”).after(function(index,html) {
         ...
     });
-
 ```
 
 A continuación ejemplos de estas posibilidades:
@@ -269,7 +266,7 @@ $("tr").after(function(index, html) {
 });
 ```
 
-### 7.2.5. .insertAfter() e .insertBefore()
+### 7.2.5. `.insertAfter()` e `.insertBefore()`
 
 Son funciones similares a las anteriores pero en este caso lo seleccionado es lo que se añade a lo que se selecciona después como parámetro (el objetivo) antes (before) o después (after). Al revés que antes:
 
@@ -289,36 +286,31 @@ Ese _target_ puede ser:
 Por ejemplo:
 
 ```js
-
     //Añado una fila más después de la última fila
     $("<tr><td>F</td></tr>").inserAfter("tr:last");
 
     //Muevo la primera fila al final
     $("tr:fist").insertAfter($("tr"”).last());
-
 ```
 
-Todo esto sería igual para **.insertBefore()**
+Todo esto sería igual para **`.insertBefore()`**
 
-### 7.2.6. .clone()
+### 7.2.6. `.clone()`
 
-Crea una copia profunda(con descendientes) de los elementos seleccionados. Y le puedo pasar como parámetros si quiero conservar sus handlers y los de sus descendientes.
+Crea una copia profunda(con descendientes) de los elementos seleccionados. Y le puedo pasar como parámetros si quiero conservar sus _handlers_ y los de sus descendientes.
 
 ```js
-
     //De manera general
     $("selector").clone(withEvents);
     $("selector").clone(withEvents,whithDeepEvents);
 
     //Clono la primera fila y la añado al final
     $("tr").first().clone(false).appendTo(“table”);
-
-
 ```
 
-### 7.2.7. .val()
+### 7.2.7. `.val()`
 
-La función **.val()**  aunque no modifica el DOM si  modifica en cierta manera el contenido de la página al cambiar el valor de los elementos, normalmente de los elementos de los formularios.
+La función **`.val()`**  aunque no modifica el DOM si modifica en cierta manera el contenido de la página al cambiar el valor de los elementos, normalmente de los elementos de los formularios.
 
 Usando **.val()** podremos obtener y fijar el valor de los distintos campos de los formularios.
 
@@ -352,12 +344,10 @@ Un ejemplo para cada uno de estos casos:
     $("input[type=text).val(funcion(index,valor) {
         $(this).val(valor+"->"+index);
     });
-
-
 ```
 
 
-### 7.2.8. Borrando nodos con .remove() y .detach()
+### 7.2.8. Borrando nodos con `.remove()` y `.detach()`
 
 Ls funciones o métodos _.remove() y .detach()_ tienen comportamiento similares. Ambos sirven para borrar elementos seleccionados del DOM. La diferencia entre ambos es que usando _.detach()_ puedo guardarme esos elementos (con eventos incluidos) para reponerlos luego.
 
@@ -391,7 +381,7 @@ $("body").append(imagenes);
 
 > ***Nota***: El método `.detach` es muy útil cuando se esta manipulando de forma severa un elemento, ya que es posible eliminar al elemento, trabajarlo en el código y luego restaurarlo en la página nuevamente. Esta forma tiene como beneficio no tocar el DOM mientras se está modificando la información y eventos del elemento.
 > 
-### 7.2.9. Reemplazando nodos con .replaceAll() y .replaceWidth()
+### 7.2.9. Reemplazando nodos con `.replaceAll()` y `.replaceWidth()`
 
 Ambas son muy similares, sirven para reemplazar elementos. La primera reemplaza el objetivo con el conjunto de los elementos seleccionados y la segunda funciona al revés.
 

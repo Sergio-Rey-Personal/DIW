@@ -172,7 +172,7 @@ Ahora que tenemos un control básico del contenedor de estos ítems flexibles, n
 | Propiedad | Valor | Actúa sobre |
 | --- | --- | --- |
 | `justify-content` | `flex-start` \| `flex-end` \| `center` \| `space-between` \| `space-around` | Eje principal |
-| `align-content` | `flex-start` \| `flex-end` \| `center` \| `space-between` \| `space-around` | stretch | Eje secundario |
+| `align-content` | `flex-start` \| `flex-end` \| `center` \| `space-between` \| `space-around` \| `stretch` | Eje secundario |
 | `align-items` | `flex-start` \| `flex-end` \| `center` \| `stretch` \| `baseline` | Eje secundario |
 | `align-self` | `auto` \| `flex-start` \| `flex-end` \| `center` \| `stretch` \| `baseline` | Eje secundario |
 
@@ -448,7 +448,7 @@ En el caso de que queramos utilizar una propiedad de atajo para los huecos, pode
 
 ## 6.6. Orden de los ítems
 
-Por último, y quizás una de las propiedades más interesantes, es `order`, que modificar y establece el orden de los ítems según una secuencia numérica.
+Por último, y quizás una de las propiedades más interesantes, es `order`, que modifica y establece el orden de los ítems según una secuencia numérica.
 
 Por defecto, todos los ítems flex tienen un `order: 0` implícito, aunque no se especifique. Si indicamos un `order` con un valor numérico, irá recolocando los ítems según su número, colocando antes los ítems con número más pequeño (*incluso valores negativos*) y después los ítems con números más altos.
 

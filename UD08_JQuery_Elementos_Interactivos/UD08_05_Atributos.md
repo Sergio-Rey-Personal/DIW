@@ -36,7 +36,6 @@ $(“some_selector”).removeAttr(“some_attribute”);
 //Ejemplo
 $(“input”).removeAttr(“required”);
 ```
-```
 
 ## 5.2. Ejemplo de uso de selectores, clases y atributos
 
@@ -199,7 +198,7 @@ Para poder aclarar esto de una mejor manera vamos a ver un ejemplo:
     console.log($("#ej").attr("disable"));
     //Salida -> false . No está pero es una propiedad del DOM
 
-    //Modificamos el valo del elemento del DOM
+    //Modificamos el valor del elemento del DOM
     $("#ej").val("Manuel");
 
     console.log($("#ej").attr("value"));
@@ -217,7 +216,7 @@ En conclusión y para que no tengamos problemas:
 * Usar .attr() únicamente cuando sean atributos _custom_, es decir que no van a tener propiedades asociadas.
 * Tener en cuenta que en los atributos siempre tenemos cadenas de caracteres pero que en las propiedades podemos tener otro tipo de datos.
 
-Una vez ha quedado claro vamos a ver ejemplos de uso de las funciones más comunes en jQuery para trabajar con attributos y propiedades.
+Una vez ha quedado claro vamos a ver ejemplos de uso de las funciones más comunes en jQuery para trabajar con atributos y propiedades.
 
 Así pues '.attr()' sirve para obtener o establecer el valor de uno o varios atributos.
 
@@ -279,7 +278,7 @@ Su es uso es análogo a _.attr()_ y lo podemos ver en el siguiente ejemplo:
 
 ```
 
-Miestras que '.removeProp()' sirve para eliminar propiedades de los elementos seleccionados.
+Mientras que '.removeProp()' sirve para eliminar propiedades de los elementos seleccionados.
 
 Su uso es análogo a _.removeAttr()_ y lo podemos ver en el siguiente ejemplo:
 
@@ -289,6 +288,5 @@ Su uso es análogo a _.removeAttr()_ y lo podemos ver en el siguiente ejemplo:
 
     //Ejemplo
     $("input").removeProp("required");
-
-``
+```
 

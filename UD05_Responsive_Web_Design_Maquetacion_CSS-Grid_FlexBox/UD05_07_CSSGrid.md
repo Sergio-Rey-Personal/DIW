@@ -24,11 +24,11 @@ Tabla de contenidos
   - [7.8. Ajuste automático de celdas](#78-ajuste-automático-de-celdas)
   - [7.9. Atajo: Grid](#79-atajo-grid)
 
-Uno de los procesos más problematicos y frustrantes de CSS, sobre todo para novatos o principiantes, es el proceso de colocar y distribuir los elementos a lo largo de una página. Mecanismos como posicionamiento, floats o elementos en bloque o en línea, suelen ser insuficientes (*o muy complejos*) para crear un layout o estructuras para páginas web actuales.
+Uno de los procesos más problemáticos y frustrantes de CSS, es el proceso de colocar y distribuir los elementos a lo largo de una página. Mecanismos como posicionamiento, floats o elementos en bloque o en línea, suelen ser insuficientes (*o muy complejos*) para crear un layout o estructuras para páginas web actuales.
 
 El sistema **flexbox** es una gran mejora, sin embargo, está orientado a estructuras de una sola dimensión, por lo que aún necesitamos algo más potente para estructuras web más específicas o complejas. Con el paso del tiempo, muchos frameworks y librerías utilizan un **sistema grid** donde definen una cuadrícula determinada, y modificando los nombres de las clases de los elementos HTML, podemos darle tamaño, posición o colocación.
 
-**Grid CSS** nace de esa necesidad, y recoge las ventajas de ese sistema, añadiendole numerosas mejoras y características que permiten crear rápidamente cuadrículas sencillas y potentes de forma prácticamente instantánea.
+**Grid CSS** nace de esa necesidad, y recoge las ventajas de ese sistema, añadindole numerosas mejoras y características que permiten crear rápidamente cuadrículas sencillas y potentes de forma prácticamente instantánea.
 
 ## 7.1. Conceptos
 
@@ -127,7 +127,7 @@ La expresión a utilizar sería la siguiente: `repeat([núm de veces], [valor o 
 
 Asumiendo que tuvieramos un contenedor grid con 8 ítems hijos (*o más*), el ejemplo anterior crearía una cuadrícula con **4 columnas** (*la primera de 100px de ancho, la segunda y tercera de 50px de ancho y la cuarta de 200px de ancho*). Por otro lado, tendría **2 filas** (*la primera de 50px de alto, y la segunda de 100px de alto*). En el caso de tener más ítems hijos, el patrón se seguiría repitiendo.
 
-El ejemplo anterior sería equivalente al código CSS siguiente:
+El ejemplo anterior sería equivalente al código **CSS** siguiente:
 
 ```css
 .grid {
@@ -137,7 +137,7 @@ El ejemplo anterior sería equivalente al código CSS siguiente:
 }
 ```
 
-#### ejemplo
+#### Ejemplo resumen conceptos básicos CSS Grid: 
 
 ```html
 <div class="container">
@@ -231,13 +231,13 @@ Ahora, teniendo los nombres, sólo quedaría delimitar que zonas del grid querem
 .content {
   background: orange;
   grid-column: x1 / x3;
-  grid-row: y1 / y3;
+  grid-row: y1 / y2;
 }
 
 .footer {
   background: green;
   grid-column: x0 / x3;
-  grid-row: y2;
+  grid-row: y2 / y3;
 }
 ```
 
@@ -245,8 +245,8 @@ Hemos aplicado la siguiente estructura:
 
 -   Zona `.header` desde la columna **x0** a **x3**.
 -   Zona `.sidebar` desde la fila **y1** a **y2**.
--   Zona `.content` desde la columna **x1** a **x3** y desde la fila **y1** a **y3**.
--   Zona `.footer` desde la columna **x0** a **x3** en la fila **y2**.
+-   Zona `.content` desde la columna **x1** a **x3** y desde la fila **y1** a **y2**.
+-   Zona `.footer` desde la columna **x0** a **x3** y desde la fila **y2** a **y3**.
 
 Por lo que nuestra estructura grid quedaría así:
 
@@ -405,7 +405,7 @@ Existen una serie de propiedades que se pueden utilizar para colocar los ítems 
 | `justify-items` | `start` \| `end` \| `center` \| `stretch` | Distribuye los elementos en el eje horizontal. |
 | `align-items` | `start` \| `end` \| `center` \| `stretch` | Distribuye los elementos en el eje vertical. |
 
-Estas propiedades se aplican sobre el elemento contenedor padre, pero afectan a los ítems hijos, por lo que actuan sobre la distribución de cada uno de los hijos. En el caso de que queramos que uno de los ítems hijos tengan una distribución diferente al resto, aplicamos la propiedad `justify-self` o `align-self` sobre el ítem hijo en cuestión, sobreescribiendo su distribución.
+Estas propiedades se aplican sobre el elemento contenedor padre, pero afectan a los ítems hijos, por lo que actúan sobre la distribución de cada uno de los hijos. En el caso de que queramos que uno de los ítems hijos tengan una distribución diferente al resto, aplicamos la propiedad `justify-self` o `align-self` sobre el ítem hijo en cuestión, sobreescribiendo su distribución.
 
 Estas propiedades funcionan exactamente igual que sus análogas `justify-items` o `align-items`, sólo que en lugar de indicarse en el elemento padre contenedor, se hace sobre un elemento hijo. Las propiedades sobre ítems hijos las veremos más adelante.
 
@@ -442,8 +442,8 @@ Si vamos a crear estructuras grid donde necesitamos utilizar las cuatro propieda
 
 | Propiedad | Valores | Descripción |
 | --- | --- | --- |
-| `place-items` | [*align-items*] [*justify-items*] | Propiedad de atajo para ***-items** |
-| `place-content` | [*align-content*] [*justify-content*] | Propiedad de atajo para ***-content** |
+| `place-items` | `align-items` \| `justify-items` | Propiedad de atajo para `-items` |
+| `place-content` | `align-content` \| `justify-content` | Propiedad de atajo para `-content` |
 
 Con ellas conseguiremos que nuestro código sea menos verboso.
 
@@ -662,7 +662,7 @@ En el caso de `grid-auto-flow` el comportamiento del posicionamiento es el sigui
 | Valor | Descripción |
 | --- | --- |
 | `row`| rellena la filas primero (opción por defecto) |
-| `column | rellena las columnas primero |
+| `column` | rellena las columnas primero |
 | `dense` | intenta rellenar primero los huecos si viene elemento más pequeños. Puede cambiar el orden de los elementos así que hay que tener cuidado | 
 
 Un ejemplo de como se insertarían los elementos en una cuadrícula de 2x2 utilizando `grid-auto-flow` por columnas o por filas:
@@ -729,7 +729,7 @@ Por último, existe una propiedad `grid` que sirve de atajo para la mayoría de 
 
 ```css
 .grid {
-  /* grid: <grid-template> <grid-auto-flow> <grid-auto-rows> / <grid-auto-columns> */
+  /* grid: <grid-template> <grid-auto-flow> <grid-auto-rows> <grid-auto-columns> */
 
   grid: 100px 20px;
   grid: 200px repeat(2, 100px) 300px;
@@ -739,5 +739,5 @@ Por último, existe una propiedad `grid` que sirve de atajo para la mayoría de 
   grid: row 400px / 150px;
 }
 ```
-El uso de este atajo, puede ser complejo y poco mantenible si no se recuerda comrrectamente el orden de los elmentos, por lo que no es muy aconsejado su uso.
+> El uso de este atajo, puede ser complejo y poco mantenible si no se recuerda comrrectamente el orden de los elmentos, por lo que no es muy aconsejado su uso.
 

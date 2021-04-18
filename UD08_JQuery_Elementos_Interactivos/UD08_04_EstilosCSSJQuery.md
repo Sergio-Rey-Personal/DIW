@@ -17,7 +17,7 @@ $('h1').css('fontSize'); // devuelve una cadena de caracteres como "19px"
 $('h1').css('font-size'); // también funciona
 ```
 
-> Las propiedades CSS que incluyen como separador un guión del medio, en JavaScript deben ser transformadas a su estilo CamelCase. Por ejemplo, cuando se la utiliza como propiedad de un método, el estilo CSS `font-size` deberá ser expresado como `fontSize`. Sin embargo, esta regla no es aplicada cuando se pasa el nombre de la propiedad CSS al método `$(elem).css` --- en este caso, los dos formatos (en CamelCase o con el guión del medio) funcionarán.
+> Las propiedades CSS que incluyen como separador un guión del medio, en JavaScript deben ser transformadas a su estilo ***CamelCase***. Por ejemplo, cuando se la utiliza como propiedad de un método, el estilo CSS `font-size` deberá ser expresado como `fontSize`. Sin embargo, esta regla no es aplicada cuando se pasa el nombre de la propiedad CSS al método `$(elem).css` --- en este caso, los dos formatos (en CamelCase o con el guión del medio) funcionarán.
 
 ```javascript
 // establece una propiedad individual CSS

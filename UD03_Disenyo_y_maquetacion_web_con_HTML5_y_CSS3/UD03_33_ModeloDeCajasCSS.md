@@ -56,6 +56,10 @@ div.b { /*Propiedad corta*/
 </html>
 ```
 
+<iframe height="265" style="width: 100%;" scrolling="no" title="CSS3. Propiedad padding" src="https://codepen.io/sergio-rey-personal/embed/yLeVpVR?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/sergio-rey-personal/pen/yLeVpVR'>CSS3. Propiedad padding</a> by Sergio-Rey-Personal
+  (<a href='https://codepen.io/sergio-rey-personal'>@sergio-rey-personal</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 [CSS3. Propiedad padding](https://codepen.io/sergio-rey-personal/pen/yLeVpVR)
 
 * * * * *

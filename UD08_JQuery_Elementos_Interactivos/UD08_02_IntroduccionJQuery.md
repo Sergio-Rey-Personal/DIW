@@ -8,7 +8,7 @@ Tabla de contenidos
   - [2.2. Llamadas a funciones](#22-llamadas-a-funciones)
   - [2.3. Acceder a elementos de la página](#23-acceder-a-elementos-de-la-página)
 
-JQuery es una completa librería creada en **lenguaje JavaScript** muy utilizada en la creación de páginas web al ser compatible con los navegadores web más utilizados, y permitir acceder y controlar de forma sencilla los diferentes elementos de las mismas.
+JQuery es una completa librería creada en **lenguaje JavaScript** muy utilizada en la creación de páginas web al ser compatible con los navegadores web más utilizados, que permitir acceder y controlar de forma sencilla los diferentes elementos de las mismas.
 
 ![Logo](img/jquery-logo.png)
 
@@ -77,7 +77,7 @@ Veamos a continuación un sencillo ejemplo en el que se muestra un mensaje tras 
 
 Más adelante explicaremos otros eventos disponibles.
 
-> Nota: Recordar que para Codepen, se debe seleccionar dentro de `Settings > JS` la librería JQuery
+> Nota: Recordar que para `Codepen`, se debe seleccionar dentro de `Settings > JS` la librería JQuery
 
 ![Jquery en Codepen](img/jquery-codepen.png)
 
@@ -104,7 +104,7 @@ Una de las grandes ventajes de JQuery es su capacidad para permitirnos acceder d
 
 Para ello dispone de una serie de **selectores** que nos permiten acceder a ellos a través de la clase CSS que utilizan, así como por su atributo `id` o cualquier otro tenga definido.
 
-Veamos un ejemplo en el que utilizamos los métodos text() (usado tanto para obtener como para asignar texto a un contenedor) y html() (para obtener e insertar código HTML):
+Veamos un ejemplo en el que utilizamos los métodos `text()` (usado tanto para obtener como para asignar texto a un contenedor) y `html()` (para obtener e insertar código HTML):
 
 
 ```html

@@ -10,8 +10,8 @@ Tabla de contenidos
     - [3.1.4. Selección de elementos en forma de ***selector CSS***](#314-selección-de-elementos-en-forma-de-selector-css)
     - [3.1.5. Pseudo-selectores](#315-pseudo-selectores)
     - [3.1.6. Elección de selectores](#316-elección-de-selectores)
-    - [3.2. Comprobar selecciones](#32-comprobar-selecciones)
-    - [3.3. Guardar selecciones](#33-guardar-selecciones)
+  - [3.2. Comprobar selecciones](#32-comprobar-selecciones)
+  - [3.3. Guardar selecciones](#33-guardar-selecciones)
   - [3.4. Refinamiento y filtrado de selecciones](#34-refinamiento-y-filtrado-de-selecciones)
   - [3.5. Selección de elementos de un formulario](#35-selección-de-elementos-de-un-formulario)
   - [3.6. Trabajar con selecciones](#36-trabajar-con-selecciones)
@@ -118,7 +118,7 @@ $("a[rel$='thinger']");
 
 Estos tipos de selectores pueden resultar útiles pero también ser muy lentos. Cuando sea posible, es recomendable realizar la selección utilizando IDs, nombres de clases y nombres de etiquetas.
 
-### 3.2. Comprobar selecciones
+## 3.2. Comprobar selecciones
 
 Una vez realizada la selección de los elementos, querrá conocer si dicha selección entregó algún resultado. Para ello, pueda que escriba algo así:
 
@@ -126,7 +126,7 @@ Una vez realizada la selección de los elementos, querrá conocer si dicha selec
 if ($('div.foo')) { ... }
 ```
 
-Sin embargo esta forma no funcionará. Cuando se realiza una selección utilizando `$()`, siempre es devuelto un objeto, y si se lo evalúa, éste siempre devolverá true. Incluso si la selección no contiene ningún elemento, el código dentro del bloque `if` se ejecutará.
+Sin embargo esta forma no funcionará. Cuando se realiza una selección utilizando `$()`, siempre es devuelto un objeto, y si se lo evalúa, éste siempre devolverá `true`. Incluso si la selección no contiene ningún elemento, el código dentro del bloque `if` se ejecutará.
 
 En lugar de utilizar el código mostrado, lo que se debe hacer es preguntar por la cantidad de elementos que posee la selección que se ejecutó. Esto es posible realizarlo utilizando la propiedad JavaScript `length`. Si la respuesta es `0`, la condición evaluará falso, caso contrario (más de `0` elementos), la condición será verdadera.
 
@@ -134,7 +134,7 @@ En lugar de utilizar el código mostrado, lo que se debe hacer es preguntar por 
 if ($('div.foo').length) { ... }
 ```
 
-### 3.3. Guardar selecciones
+## 3.3. Guardar selecciones
 
 Cada vez que se hace una selección, una gran cantidad de código es ejecutado. jQuery no guarda el resultado por si solo, por lo tanto, si va a realizar una selección que luego se hará de nuevo, deberá salvar la selección en una variable.
 
