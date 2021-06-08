@@ -61,11 +61,6 @@ div.b { /*Propiedad corta*/
 [CSS3. Propiedad padding](https://codepen.io/sergio-rey-personal/pen/yLeVpVR)
 
 
-<iframe
-  src="https://codepen.io/sergio-rey-personal/pen/yLeVpVR"
-  style="width:100%; height:300px;"
-></iframe>
-
 * * * * *
 
 ## 33.2. Margin

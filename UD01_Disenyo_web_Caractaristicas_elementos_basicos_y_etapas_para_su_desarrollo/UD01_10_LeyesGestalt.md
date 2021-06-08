@@ -14,7 +14,7 @@ Tabla de contenidos
 
 **¿Cómo podemos aplicarlas para conseguir simplicidad y claridad en nuestros diseños?**
 
-![GESTALT](img/10_01_gestalt.png)
+![GESTALT](img/10_01_Gestalt.png)
 
 Los diseñadores saben de la gran importancia que tienen aspectos de diseño como el uso de márgenes, la distancia entre los diferentes elementos de la página, el contraste entre las figuras y el fondo, la aplicación de diferentes patrones gráficos de diseño para diferenciar elementos, etc. Me atrevería a decir que aplican estos recursos sobre todo basándose en su experiencia, de una manera instintiva, y con el objetivo de conseguir un diseño claro. En el fondo, lo que están aplicando de una manera más o menos consciente son algunas de las Leyes Gestalt. En este *post* vamos a reflexionar sobre cómo podemos aplicar las Leyes Gestalt para conseguir un diseño claro.
 
